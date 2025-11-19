@@ -66,18 +66,41 @@ $$f(v) = [a_1 \cdots a_n] \begin{bmatrix} v_1 \\ \vdots \\ v_n \end{bmatrix}$$
 $V^{**} = (V^*)^*$를 **double dual**^[이중 쌍대 공간]이라 한다. 
 
 **Canonical embedding**^[표준 매장, Natural embedding, Evaluation map] $\Phi : V \rightarrow V^{**}$가 존재:
+
+임의의 $v \in V$와 $f \in V^*$에 대해,
 $$\Phi(v)(f) = f(v)$$
 
-유한차원에서 $\Phi$는 isomorphism^[동형사상]이다: $V \cong V^{**}$.
+$\Phi$는 항상 injective^[단사]이다. 유한차원에서 $\Phi$는 isomorphism^[동형사상]이다: $V \cong V^{**}$.
 
 ### Hilbert space와의 관계
 Hilbert space $H$에서는 [[Riesz Representation Theorem]]에 의해 $H^* \cong H$ (반선형 동형사상).
 
 이는 내적 구조가 있으면 dual space^[쌍대 공간]를 자연스럽게 식별할 수 있음을 의미한다.
 
+### Differential geometry와의 관계
+
+Manifold^[다양체] $M$의 한 점 $p$에서:
+- **Tangent space**^[접공간] $T_p M$ = 그 점에서의 벡터들
+- **Cotangent space**^[여접공간] $T_p^* M = (T_p M)^*$ = differential 1-forms^[미분 1-형식]
+
+함수 $f: M \rightarrow \mathbb{R}$에 대해:
+- **Differential**^[미분] $df \in T_p^* M$는 cotangent vector^[여접벡터] (1-form)
+- $df(v) = D_v f$ (방향도함수)
+
+**Riemannian metric**^[리만 계량] $g$가 있을 때:
+- **Musical isomorphism**^[음악적 동형사상]: flat (♭)과 sharp (♯) 연산자
+- $(df)^\sharp = \nabla f \in T_p M$ (gradient vector^[기울기 벡터])
+
+즉, gradient는 원래 1-form인 differential을 metric으로 변환한 tangent vector^[접벡터]이다.
+
+**Double dual의 역할:**
+- Canonical embedding: $T_p M \rightarrow (T_p M)^{**} = (T_p^* M)^*$
+- 유한차원에서: vector → covector → double dual ≅ 원래 vector
+- Euclidean space $\mathbb{R}^n$에서는 표준 metric으로 인해 이 구별이 자동으로 처리됨
+
 ### 무한차원의 경우
 Infinite-dimensional^[무한차원] space에서는:
 - 일반적으로 $V \not\cong V^*$
-- $V \subsetneq V^{**}$ (진부분공간)
+- $\Phi$는 injective^[단사]이지만 surjective^[전사]가 아님: $V \subsetneq V^{**}$ (진부분공간)
 - Functional analysis^[함수해석학]에서 중요한 역할
 
