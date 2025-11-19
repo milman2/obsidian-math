@@ -1,0 +1,96 @@
+# Math Notes Writing Guidelines
+
+## Language & Terminology Rules
+
+### 전문 용어 표기 규칙
+- **전문 용어는 영어를 기준**으로 하고, 한글 번역은 Obsidian footnote로 작성
+- Footnote 문법: `term^[한글 번역]`
+- 예: `linear mapping^[선형 사상]`, `vector space^[벡터 공간]`, `kernel^[핵]`
+- 마우스 커서를 올리면 한글 번역이 팝업으로 표시됨
+
+### 수식 표기 규칙
+- 내적: `\langle \cdot, \cdot \rangle` 사용
+- 체(field): `\mathbb{F}`, 실수: `\mathbb{R}`, 복소수: `\mathbb{C}` 등 blackboard bold 사용
+- 중요한 정의나 정리는 display math (`$$...$$`) 사용
+- 인라인 수식에서 sum, int 등은 `\displaystyle` 사용: `$\displaystyle\sum_{i=1}^{n}$`
+  - 이렇게 하면 위/아래 첨자가 옆이 아닌 위아래로 표시됨
+
+## Document Structure
+
+### 기본 구조
+```
+# <span class="header-prerequisite">Prerequisite</span>
+- [[관련 개념 링크]]
+
+# <span class="header-reference">Reference</span>
+- [[Reference 링크]]
+
+---
+
+# <span class="header-definition">Definition</span>
+[정의 내용]
+
+---
+
+# <span class="header-properties">Properties</span> (또는 <span class="header-proof">Proof</span>)
+[성질이나 증명]
+
+---
+
+# <span class="header-examples">Examples</span> (필요시)
+[예시]
+
+---
+
+# <span class="header-remark">Remark</span>
+[비고 및 추가 설명]
+```
+
+### 헤더 색상
+- Prerequisite / Reference: 회색
+- Definition: 초록색 🟢
+- Properties / Proof: 파란색 🔵
+- Examples: 노란색 🟡
+- Remark: 보라색 🟣
+- Theorem: 빨간색 🔴
+
+### 섹션 구분
+- 주요 섹션 사이에 `---` (수평선)으로 시각적 구분
+- 최상위 제목은 `#` 사용
+- 하위 제목은 `###` 사용 (##는 가급적 피함)
+
+## Formatting Guidelines
+
+### 가독성
+- 간결하고 명확한 문장 사용
+- 불필요한 장황한 설명 지양
+- 핵심 개념 위주로 정리
+
+### Obsidian 링크
+- 다른 노트 참조시 `[[Note Name]]` 형식 사용
+- Prerequisite 섹션에서 관련 개념 링크
+
+### 강조
+- 중요한 용어는 **볼드체** 사용
+- 수식과 텍스트 사이 적절한 간격 유지
+
+## Examples
+
+### Good ✓
+```markdown
+# <span class="header-definition">Definition</span>
+
+**Kernel^[핵]:**
+$$\ker(T) = \{v \in V : T(v) = 0\}$$
+
+$T$가 injective^[단사] $\Leftrightarrow$ $\ker(T) = \{0\}$
+```
+
+### Bad ✗
+```markdown
+**핵 (Kernel):**
+$$ker(T) = \{v \in V : T(v) = 0\}$$
+
+$T$가 단사 (injective) $\Leftrightarrow$ $ker(T) = \{0\}$
+```
+

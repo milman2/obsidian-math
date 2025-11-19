@@ -1,0 +1,107 @@
+/* Math Notes - Colored Headers */
+/* 수학 노트의 헤더에 색상을 적용합니다 */
+
+/* HTML span 태그를 사용한 컬러 헤더 */
+/* 사용법: # <span class="header-definition">Definition</span> */
+
+/* Definition - 초록색 */
+.header-definition {
+    color: #4CAF50 !important;
+}
+
+/* Properties / Proof - 파란색 */
+.header-properties,
+.header-proof {
+    color: #2196F3 !important;
+}
+
+/* Examples - 노란색 (가독성을 위해 약간 어두운 톤) */
+.header-examples {
+    color: #FFA000 !important;
+}
+
+/* Remark - 보라색 */
+.header-remark {
+    color: #9C27B0 !important;
+}
+
+/* Theorem - 빨간색 */
+.header-theorem {
+    color: #F44336 !important;
+}
+
+/* Prerequisite - 회색 */
+.header-prerequisite {
+    color: #757575 !important;
+}
+
+/* Reference - 회색 */
+.header-reference {
+    color: #757575 !important;
+}
+
+/* 간단한 색상 클래스들 (인라인 span에 사용) */
+.green { color: #4CAF50 !important; }
+.blue { color: #2196F3 !important; }
+.orange { color: #FFA000 !important; }
+.purple { color: #9C27B0 !important; }
+.red { color: #F44336 !important; }
+.gray { color: #757575 !important; }
+
+/* 헤더 스타일 개선 (선택사항) */
+.markdown-rendered h1 {
+    font-weight: 700;
+    padding-bottom: 0.3em;
+}
+
+/* 구분선 스타일 */
+.markdown-rendered hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 2em 0;
+}
+
+/* 인라인 수식을 display style로 표시 */
+/* 합, 적분, 분수 등의 sub/sup가 위아래로 표시됩니다 */
+
+/* MathJax 인라인 수식에 displaystyle 적용 */
+.markdown-rendered mjx-container[jax="CHTML"][display="false"] mjx-math {
+    /* displaystyle을 강제 적용 */
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+/* MathJax: sum, prod, int 등의 limits를 위아래로 */
+.markdown-rendered mjx-container[display="false"] mjx-munderover,
+.markdown-rendered mjx-container[display="false"] mjx-msubsup {
+    display: inline-flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* KaTeX 인라인 수식에 displaystyle 적용 */
+.markdown-rendered .katex {
+    /* displaystyle 강제 적용 */
+}
+
+.markdown-rendered .katex .mop {
+    /* sum, int 등의 operator */
+    display: inline-block !important;
+}
+
+.markdown-rendered .katex .msupsub {
+    /* limits를 위아래로 배치 */
+}
+
+/* 인라인 수식 간격 조정 */
+.markdown-rendered mjx-container[display="false"],
+.markdown-rendered .katex {
+    margin: 0 0.3em !important;
+    padding: 0.2em 0 !important;
+}
+
+/* 수직 정렬 개선 */
+.markdown-rendered mjx-container[display="false"] {
+    vertical-align: middle !important;
+}
+
