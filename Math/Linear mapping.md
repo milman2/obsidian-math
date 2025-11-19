@@ -8,7 +8,7 @@
 # <span class="header-definition">Definition</span>
 
 $V$, $W$를 field^[체] $\mathbb{F}$ 위의 vector space^[벡터 공간]이라 하자.  
-함수 $T: V \rightarrow W$가 **linear mapping^[선형 사상]**이라는 것은 다음을 만족하는 것이다:
+함수 $T: V \rightarrow W$가 **linear mapping**^[선형 사상]이라는 것은 다음을 만족하는 것이다:
 
 $$\forall u, v \in V, \, \forall \alpha, \beta \in \mathbb{F}, \quad T(\alpha u + \beta v) = \alpha T(u) + \beta T(v)$$
 
@@ -22,10 +22,10 @@ $$\forall u, v \in V, \, \forall \alpha, \beta \in \mathbb{F}, \quad T(\alpha u 
 - $T\left(\displaystyle\sum_{i=1}^n \alpha_i v_i\right) = \displaystyle\sum_{i=1}^n \alpha_i T(v_i)$ (linear combination^[선형결합] 보존)
 
 ### Important Subspaces^[중요한 부분공간]
-**Kernel^[핵]:**
+**Kernel**^[핵]:
 $$\ker(T) = \{v \in V : T(v) = 0_W\}$$
 
-**Image^[상]:**
+**Image**^[상]:
 $$\text{Im}(T) = \{w \in W : \exists v \in V \text{ s.t. } T(v) = w\}$$
 
 ### Injective & Surjective^[단사와 전사]
@@ -45,10 +45,10 @@ $$\dim(V) = \dim(\ker T) + \dim(\text{Im}(T))$$
 
 # <span class="header-examples">Examples</span>
 
-- **Identity map^[항등 사상]**: $I(v) = v$
-- **Zero map^[영 사상]**: $0(v) = 0_W$
-- **Differential operator^[미분 연산자]**: $D(f) = f'$
-- **Matrix multiplication^[행렬 곱셈]**: $T_A(x) = Ax$
+- **Identity map**^[항등 사상]: $I(v) = v$
+- **Zero map**^[영 사상]: $0(v) = 0_W$
+- **Differential operator**^[미분 연산자]: $D(f) = f'$
+- **Matrix multiplication**^[행렬 곱셈]: $T_A(x) = Ax$
 
 ---
 

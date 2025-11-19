@@ -18,9 +18,8 @@ term^[한글 번역]
 
 ### Examples
 - ✓ `linear mapping^[선형 사상]`
-- ✓ `vector space^[벡터 공간]`
-- ✓ `kernel^[핵]`
-- ✓ `injective^[단사]`
+- ✓ `**kernel**^[핵]` ← footnote는 볼드 밖에
+- ✗ `**kernel^[핵]**` ← 볼드 안에 footnote를 넣으면 렌더링 오류
 - ✗ `선형 사상 (linear mapping)`
 - ✗ `linear mapping (선형 사상)` ← 구식 방법
 

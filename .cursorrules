@@ -7,6 +7,7 @@
 - Footnote 문법: `term^[한글 번역]`
 - 예: `linear mapping^[선형 사상]`, `vector space^[벡터 공간]`, `kernel^[핵]`
 - 마우스 커서를 올리면 한글 번역이 팝업으로 표시됨
+- **중요**: 볼드체 안에 footnote를 넣지 말 것 (`**term^[번역]**` ✗ → `**term**^[번역]` ✓)
 
 ### 수식 표기 규칙
 - 내적: `\langle \cdot, \cdot \rangle` 사용
