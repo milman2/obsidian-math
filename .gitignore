@@ -1,3 +1,9 @@
+# Obsidian workspace and cache files
+Math/.obsidian/workspace.json
+Math/.obsidian/workspace-mobile.json
+Math/.obsidian/.trash/
+Math/.obsidian/cache
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
