@@ -1,6 +1,6 @@
 # Mathematics Overview
 
-수학 분야별 주제 및 핵심 개념 정리
+Math 분야별 주제 및 핵심 개념 정리
 
 ---
 
@@ -169,7 +169,161 @@
 
 ---
 
-## 📊 Other Fields
+---
+
+# Applied Mathematics 🔧
+
+## 🖥️ Computation
+
+### Computational Science
+- Numerical simulations^[수치 시뮬레이션]
+- High-performance computing^[고성능 컴퓨팅]
+- Scientific computing^[과학 계산]
+
+### Numerical Methods
+- Finite difference methods^[유한 차분법]
+- Finite element methods^[유한 요소법]
+- Spectral methods^[스펙트럼 방법]
+
+#### Continuous Optimization^[연속 최적화]
+- Gradient descent^[경사 하강법]
+- Newton's method^[뉴턴 방법]
+- Convex optimization^[볼록 최적화]
+- Linear programming^[선형 계획법]
+
+#### Numerical Solution of ODEs
+- Euler method, Runge-Kutta methods
+- Multistep methods^[다단계 방법]
+- Stiff equations^[강성 방정식]
+
+#### Numerical Solution of PDEs
+- Finite element method (FEM)
+- Finite volume method (FVM)
+- Boundary element method (BEM)
+
+### Numerical Linear Algebra and Matrix Analysis
+- Matrix decompositions^[행렬 분해]: LU, QR, SVD
+- Eigenvalue problems^[고유값 문제]
+- Iterative methods^[반복법]: Krylov subspace
+- Sparse matrices^[희소 행렬]
+
+### Data Mining and Analysis
+- Clustering^[군집화], Classification^[분류]
+- Dimension reduction^[차원 축소]: PCA, t-SNE
+- Machine learning algorithms^[기계 학습 알고리즘]
+
+### Network Analysis
+- Graph algorithms^[그래프 알고리즘]
+- Community detection^[커뮤니티 탐지]
+- Network centrality^[네트워크 중심성]
+
+---
+
+## ⚙️ Control Theory^[제어 이론]
+
+- State-space models^[상태 공간 모델]
+- Controllability^[제어 가능성], Observability^[관측 가능성]
+- Optimal control^[최적 제어]
+- Lyapunov stability^[리아푸노프 안정성]
+- Feedback control^[피드백 제어]
+
+---
+
+## 📡 Signal Processing^[신호 처리]
+
+- Digital signal processing (DSP)
+- Filtering^[필터링]: Low-pass, High-pass, Band-pass
+- Sampling theory^[표본화 이론]
+- Wavelet transform^[웨이블릿 변환]
+- Time-frequency analysis^[시간-주파수 해석]
+
+---
+
+## 📊 Information Theory^[정보 이론]
+
+- Entropy^[엔트로피], Mutual information^[상호 정보량]
+- Channel capacity^[채널 용량]
+- Source coding^[소스 코딩], Channel coding^[채널 코딩]
+- Error-correcting codes^[오류 정정 부호]
+- Shannon's theorem
+
+---
+
+## 🔍 Inverse Problems^[역문제]
+
+- Ill-posed problems^[부적절 문제]
+- Regularization^[정칙화]: Tikhonov, Total variation
+- Tomography^[단층촬영]: CT, MRI
+- Parameter identification^[매개변수 식별]
+
+---
+
+## 🌊 Mathematical Physics^[수리 물리학]
+
+### Classical Mechanics^[고전 역학]
+- Lagrangian mechanics^[라그랑주 역학]
+- Hamiltonian mechanics^[해밀턴 역학]
+- Variational principles^[변분 원리]
+
+### Continuum Mechanics^[연속체 역학]
+- Elasticity theory^[탄성 이론]
+- Plasticity^[소성]
+- Stress-strain relations^[응력-변형 관계]
+
+### Fluid Dynamics^[유체 역학]
+- Navier-Stokes equations^[나비에-스토크스 방정식]
+- Turbulence^[난류]
+- Boundary layers^[경계층]
+
+#### Magnetohydrodynamics (MHD)
+- Plasma physics^[플라즈마 물리학]
+- Magnetic fields in fluids
+- Alfvén waves^[알벤 파동]
+
+### Kinetic Theory^[운동론]
+- Boltzmann equation^[볼츠만 방정식]
+- Statistical mechanics^[통계역학]
+- Phase space^[위상 공간]
+
+### Quantum Mechanics^[양자역학]
+- Schrödinger equation^[슈뢰딩거 방정식]
+- Wave functions^[파동 함수]
+- Operators and observables^[연산자와 관측량]
+- Quantum entanglement^[양자 얽힘]
+
+### General Relativity and Cosmology^[일반 상대성이론과 우주론]
+- Einstein field equations^[아인슈타인 장 방정식]
+- Black holes^[블랙홀]
+- Gravitational waves^[중력파]
+- Cosmological models^[우주론적 모델]
+
+### Soft Matter^[소프트 물질]
+- Polymers^[고분자], Colloids^[콜로이드]
+- Liquid crystals^[액정]
+- Granular materials^[입상 물질]
+
+### Effective Medium Theories^[유효 매질 이론]
+- Homogenization^[균질화]
+- Composite materials^[복합 재료]
+
+### Earth System Dynamics^[지구 시스템 역학]
+- Climate modeling^[기후 모델링]
+- Geophysical fluid dynamics^[지구물리 유체역학]
+- Atmosphere-ocean coupling^[대기-해양 결합]
+
+---
+
+## 📈 Applied Combinatorics and Graph Theory
+
+- Network optimization^[네트워크 최적화]
+- Scheduling problems^[스케줄링 문제]
+- Graph coloring^[그래프 색칠]
+- Matching theory^[매칭 이론]
+- Flow networks^[흐름 네트워크]
+
+---
+
+## 📊 Pure Math Fields
 
 ### [[Category Theory]]
 - Categories^[범주], Functors^[함자], Natural transformations^[자연 변환]
