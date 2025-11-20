@@ -83,6 +83,8 @@ Manifold^[다양체] $M$의 한 점 $p$에서:
 - **Tangent space**^[접공간] $T_p M$ = 그 점에서의 벡터들
 - **Cotangent space**^[여접공간] $T_p^* M = (T_p M)^*$ = differential 1-forms^[미분 1-형식]
 
+관련 개념: [[Tensor]], [[Differential Forms]]
+
 함수 $f: M \rightarrow \mathbb{R}$에 대해:
 - **Differential**^[미분] $df \in T_p^* M$는 cotangent vector^[여접벡터] (1-form)
 - $df(v) = D_v f$ (방향도함수)
