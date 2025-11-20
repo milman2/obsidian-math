@@ -32,8 +32,8 @@
 - Cauchy's theorem, Residue calculus^[유수 계산]
 
 ### Functional Analysis
-- [[Riesz Representation Theorem]]
-- Banach spaces, Hilbert spaces
+- [[Hilbert Space]], [[Riesz Representation Theorem]]
+- Banach spaces^[바나흐 공간]
 - Bounded operators^[유계 연산자], Spectral theory^[스펙트럼 이론]
 - Weak topology^[약한 위상], Hahn-Banach theorem
 
@@ -222,6 +222,7 @@
 현재 작성된 노트:
 - [[Linear mapping]]
 - [[Dual Spaces]]
+- [[Hilbert Space]]
 - [[Tensor]]
 - [[Differential Forms]]
 - [[Riesz Representation Theorem]]
