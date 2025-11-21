@@ -201,6 +201,8 @@ $$\int \liminf_{n \to \infty} f_n \, d\mu \leq \liminf_{n \to \infty} \int f_n \
 - Also $\lim \int f_n$ exists (monotone sequence)
 - Fatou gives $\leq$, reverse inequality is trivial
 
+**상세한 내용**: [[Fatou's Lemma]]
+
 ## Dominated Convergence Theorem^[지배 수렴 정리]
 
 MCT의 더 일반적인 버전 (monotonicity 불필요, domination 필요).
@@ -365,6 +367,6 @@ f = lim fₙ = sup fₙ
 ---
 
 **기초 개념**: [[Measure Space]], [[Borel Sigma Algebra]]
-**관련 정리**: [[Dominated Convergence Theorem]]
+**관련 정리**: [[Dominated Convergence Theorem]], [[Fatou's Lemma]]
 **응용**: [[Expected Value]], [[Probability]], [[Hilbert Space]]
 

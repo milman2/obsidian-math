@@ -211,6 +211,8 @@ DCT는 Fatou's Lemma를 사용하여 증명됨.
 **Fatou**: Inequality (one direction)
 **DCT**: Equality (both directions with domination)
 
+**상세한 내용**: [[Fatou's Lemma]]
+
 ## Bounded Convergence Theorem
 
 DCT의 special case (finite measure + uniform bounds).
@@ -397,7 +399,7 @@ fₙ → f pointwise a.e.
 ---
 
 **기초 개념**: [[Measure Space]], [[Borel Sigma Algebra]]
-**관련 정리**: [[Monotone Convergence Theorem]]
+**관련 정리**: [[Monotone Convergence Theorem]], [[Fatou's Lemma]]
 **응용**: [[Expected Value]], [[Probability]], [[Hilbert Space]]
 **확률론**: [[Sample Spaces]], [[Random Variables]]
 

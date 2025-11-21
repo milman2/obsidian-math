@@ -207,6 +207,6 @@ Bounded operators: B(H)
 ---
 
 **기초 개념**: [[Linear mapping]], [[Dual Spaces]], [[Measure Space]]
-**관련 정리**: [[Riesz Representation Theorem]], [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]
+**관련 정리**: [[Riesz Representation Theorem]], [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Fatou's Lemma]]
 **응용**: [[Expected Value]], Quantum mechanics, Functional analysis
 

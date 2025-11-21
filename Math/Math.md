@@ -32,7 +32,7 @@ Math 분야별 주제 및 핵심 개념 정리
 - Integration theory^[적분 이론] (Riemann, Lebesgue)
 - [[Measure Space]]: 측도 공간, 가측 함수, 르베스그 적분
 - [[Subspace Measure]]: 추적 시그마 대수, 제한 측도, 조건부 확률
-- [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]: 수렴 정리
+- [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Fatou's Lemma]]: 수렴 정리
 - Complex functions^[복소함수], Holomorphic functions^[정칙함수]
 - Cauchy's theorem, Residue calculus^[유수 계산]
 

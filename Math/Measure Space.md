@@ -311,6 +311,8 @@ $$\int f \, d\mu = \lim_{n \to \infty} \int f_n \, d\mu$$
 
 $$\int \liminf_{n \to \infty} f_n \, d\mu \leq \liminf_{n \to \infty} \int f_n \, d\mu$$
 
+**상세한 내용**: [[Fatou's Lemma]]
+
 ## Expected value^[기댓값]
 
 Probability space에서 random variable $X$:
@@ -462,7 +464,7 @@ Lebesgue integral
 
 **기초 개념**: [[Borel Sigma Algebra]]
 **관련 개념**: [[Subspace Measure]]
-**수렴 정리**: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]
+**수렴 정리**: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Fatou's Lemma]]
 **응용**: [[Sample Spaces]], [[Random Variables]], [[Expected Value]], [[Hilbert Space]]
 **확률론**: [[Probability]], [[Probability Mass Function]], [[Probability Density Function]]
 
