@@ -110,6 +110,7 @@ Math 분야별 주제 및 핵심 개념 정리
 
 ### Measure theory foundation^[측도론 기초]
 - [[Borel Sigma Algebra]]
+- [[Sample Spaces]]
 - Measurable spaces^[가측 공간], Measurable functions^[가측 함수]
 - Lebesgue measure^[르베스그 측도]
 - Probability spaces^[확률 공간]
@@ -388,4 +389,5 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Riesz Representation Theorem]]
 - [[Category Theory]]
 - [[Borel Sigma Algebra]]
+- [[Sample Spaces]]
 
