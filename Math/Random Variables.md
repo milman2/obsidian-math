@@ -50,6 +50,8 @@ $$p_X(x) = P(X = x)$$
 Properties:
 - $p_X(x) \geq 0$ for all $x$
 - $\displaystyle\sum_{x} p_X(x) = 1$
+
+**상세한 내용**: [[Probability Mass Function]]
 - $P(X \in B) = \displaystyle\sum_{x \in B} p_X(x)$
 
 ### Continuous random variable^[연속 확률 변수]
@@ -62,6 +64,8 @@ $$F_X(x) = \int_{-\infty}^x f_X(t) \, dt$$
 Properties:
 - $f_X(x) \geq 0$ for all $x$
 - $\displaystyle\int_{-\infty}^\infty f_X(x) \, dx = 1$
+
+**상세한 내용**: [[Probability Density Function]]
 - $P(a \leq X \leq b) = \displaystyle\int_a^b f_X(x) \, dx$
 - $P(X = x) = 0$ for any single point $x$
 
@@ -402,4 +406,5 @@ Expected value E[X] = ∫ x f_X(x) dx
 
 **확률론 개관**: [[Probability]]
 **기초 개념**: [[Sample Spaces]], [[Borel Sigma Algebra]]
-**관련 주제**: [[Expected Value]], [[Conditional Probability]]
+**분포 함수**: [[Probability Mass Function]], [[Probability Density Function]]
+**관련 주제**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Conditional Probability]], [[Expected Value]]

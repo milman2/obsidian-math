@@ -112,7 +112,9 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Probability]]: 확률론의 개관, 해석, 역사
 - [[Sample Spaces]]: 표본 공간, 사건, 확률 측도의 공리
 - [[Borel Sigma Algebra]]: 측도론적 배경
-- [[Random Variables]]: 확률 변수, 분포, CDF/PDF
+- [[Random Variables]]: 확률 변수, 분포, CDF
+- [[Probability Mass Function]]: 이산 확률 변수의 PMF
+- [[Probability Density Function]]: 연속 확률 변수의 PDF
 - [[Expected Value]]: 기댓값, 분산, 적률
 
 ### Conditional probability and inference^[조건부 확률과 추론]

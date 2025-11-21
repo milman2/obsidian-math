@@ -387,6 +387,7 @@ $Y$에 대한 평균을 취하는 것.
 ---
 
 **기본 개념**: [[Sample Spaces]], [[Random Variables]]
-**관련 정리**: [[Law of Total Probability]], [[Conditional Probability]]
+**분포 함수**: [[Probability Mass Function]], [[Probability Density Function]]
+**관련 정리**: [[Joint Probabilities]], [[Law of Total Probability]], [[Conditional Probability]]
 **응용**: [[Expected Value]], [[Bayes' Rule]]
 

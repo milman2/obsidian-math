@@ -467,6 +467,7 @@ Applications: Statistics, ML, Finance, Physics
 ---
 
 **기본 개념**: [[Sample Spaces]], [[Random Variables]]
+**분포 함수**: [[Probability Mass Function]], [[Probability Density Function]]
 **관련 주제**: [[Marginal Probabilities]], [[Conditional Probability]]
 **응용**: [[Expected Value]], [[Bayes' Rule]]
 
