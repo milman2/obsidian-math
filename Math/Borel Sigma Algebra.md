@@ -131,6 +131,8 @@ $$\mathcal{B}(X) = \{\emptyset, X\}$$
 
 Borel sigma algebra는 measure를 정의하는 자연스러운 domain^[정의역]을 제공한다.
 
+**상세한 내용**: [[Measure Space]]
+
 ## Probability theory^[확률론]와의 관계
 
 **Probability space**^[확률 공간] $(\Omega, \mathcal{F}, P)$:

@@ -181,6 +181,8 @@ Probability theory는 **measure theory with total measure 1**이다:
 | Measurable function | Random variable |
 | Integration $\int f \, d\mu$ | Expectation $E[X] = \int X \, dP$ (see [[Expected Value]]) |
 
+**상세한 내용**: [[Measure Space]]
+
 ## Finite vs Infinite sample spaces
 
 ### Finite $\Omega$
@@ -255,4 +257,5 @@ Statistics, inference (통계, 추론)
 ---
 
 **확률론 개관**: [[Probability]]
+**기초 개념**: [[Borel Sigma Algebra]], [[Measure Space]]
 **관련 개념**: [[Random Variables]], [[Joint Probabilities]], [[Marginal Probabilities]], [[Conditional Probability]]

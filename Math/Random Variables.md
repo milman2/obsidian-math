@@ -405,6 +405,6 @@ Expected value E[X] = ∫ x f_X(x) dx
 ---
 
 **확률론 개관**: [[Probability]]
-**기초 개념**: [[Sample Spaces]], [[Borel Sigma Algebra]]
+**기초 개념**: [[Sample Spaces]], [[Borel Sigma Algebra]], [[Measure Space]]
 **분포 함수**: [[Probability Mass Function]], [[Probability Density Function]]
 **관련 주제**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Conditional Probability]], [[Expected Value]]
