@@ -485,6 +485,7 @@ $$T_p M \cong \{\text{Derivations at } p\}$$
 ---
 
 **기초 개념**: [[Vector Field]], [[Linear mapping]], [[Dual Spaces]]
+**핵심 개념**: [[Derivation]]
 **관련 개념**: [[Differential Forms]], [[Tensor]]
 **응용**: Differential geometry, Lie theory, Physics (Hamiltonian mechanics)
 **역사**: Chevalley, Koszul, Cartan

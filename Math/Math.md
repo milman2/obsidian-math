@@ -401,6 +401,7 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Dual Spaces]]
 - [[Hilbert Space]]
 - [[Tensor]]
+- [[Derivation]]
 - [[Vector Field]]
 - [[Vector Fileds as Derivation]]
 - [[Differential Forms]]

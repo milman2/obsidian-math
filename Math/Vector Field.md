@@ -533,7 +533,7 @@ $$\nabla \cdot (\nabla \times \mathbf{F}) = 0$$
 ---
 
 **기초 개념**: [[Linear mapping]], [[Dual Spaces]]
-**핵심 개념**: [[Vector Fileds as Derivation]]
+**핵심 개념**: [[Derivation]], [[Vector Fileds as Derivation]]
 **관련 개념**: [[Differential Forms]], [[Tensor]]
 **응용**: Physics (electromagnetism, fluid dynamics), Dynamical systems, Control theory
 **고급 주제**: Lie groups, Symplectic geometry, Riemannian geometry
