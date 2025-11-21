@@ -138,6 +138,8 @@ $$P(A | B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0$$
 
 $$P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}$$
 
+**더 자세한 내용**: [[Conditional Probability]] 참조
+
 ## Independence^[독립]
 
 Events $A$, $B$가 **independent^[독립]**이다 $\Leftrightarrow$
