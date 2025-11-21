@@ -112,6 +112,8 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Borel Sigma Algebra]]
 - [[Sample Spaces]]
 - [[Conditional Probability]]
+- [[Law of Total Probability]]
+- [[Bayes' Rule]]
 - Measurable spaces^[가측 공간], Measurable functions^[가측 함수]
 - Lebesgue measure^[르베스그 측도]
 - Probability spaces^[확률 공간]
@@ -392,4 +394,5 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Borel Sigma Algebra]]
 - [[Sample Spaces]]
 - [[Conditional Probability]]
+- [[Bayes' Rule]]
 

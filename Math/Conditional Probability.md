@@ -56,6 +56,8 @@ $B_1, B_2, \ldots$ 가 partition^[분할]이면 (disjoint하고 $\displaystyle\b
 
 $$P(A) = \displaystyle\sum_{i} P(A | B_i) \cdot P(B_i)$$
 
+**상세한 증명 및 응용**: [[Law of Total Probability]] 참조
+
 ### Continuous version^[연속 버전]
 
 Random variable^[확률 변수] $X$에 대해:
@@ -76,6 +78,8 @@ $$P(B_i | A) = \frac{P(A | B_i) \cdot P(B_i)}{\displaystyle\sum_{j=1}^n P(A | B_
 - $P(B_i)$: **Prior probability^[사전 확률]**
 - $P(A | B_i)$: **Likelihood^[가능도]**
 - $P(B_i | A)$: **Posterior probability^[사후 확률]**
+
+**베이지안 추론 및 응용**: [[Bayes' Rule]] 참조
 
 ---
 
