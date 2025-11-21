@@ -121,7 +121,106 @@ $$E = 2$$
 
 **Answer**: 평균 2번.
 
-## 2. Coupon collector problem^[쿠폰 수집 문제]
+## 2. Coin flips until HH^[연속 두 앞면까지 동전 던지기]
+
+**Question**: Fair coin을 연속으로 두 번 앞면(HH)이 나올 때까지 던질 때, 기댓값은?
+
+### State-based recursive approach
+
+**States^[상태]**:
+- State 0: 시작 상태 (또는 방금 T가 나옴)
+- State H: H 하나가 나온 상태
+- State HH: HH 달성 (종료)
+
+**Define quantities**:
+- $E_0$ = State 0에서 HH까지의 기댓값
+- $E_H$ = State H에서 HH까지의 기댓값
+
+### Recursive equations
+
+**From State 0**:
+$$E_0 = 1 + \frac{1}{2} \cdot E_H + \frac{1}{2} \cdot E_0$$
+
+- 1번 던짐
+- H가 나오면 (확률 1/2): State H로 이동
+- T가 나오면 (확률 1/2): State 0에 머무름
+
+**From State H**:
+$$E_H = 1 + \frac{1}{2} \cdot 0 + \frac{1}{2} \cdot E_0$$
+
+- 1번 던짐
+- H가 나오면 (확률 1/2): HH 달성! (0번 더 필요)
+- T가 나오면 (확률 1/2): State 0으로 돌아감
+
+### Solving the system
+
+From the second equation:
+$$E_H = 1 + \frac{1}{2} E_0$$
+
+Substitute into the first equation:
+$$E_0 = 1 + \frac{1}{2}\left(1 + \frac{1}{2} E_0\right) + \frac{1}{2} E_0$$
+
+$$E_0 = 1 + \frac{1}{2} + \frac{1}{4} E_0 + \frac{1}{2} E_0$$
+
+$$E_0 = \frac{3}{2} + \frac{3}{4} E_0$$
+
+$$\frac{1}{4} E_0 = \frac{3}{2}$$
+
+$$E_0 = 6$$
+
+**Answer**: 평균 **6번**.
+
+### Key insight
+
+HH가 나오는 것이 H가 한 번 나오는 것보다 **3배** 더 오래 걸림 (2번이 아님!).
+
+이유: H 다음에 T가 나오면 완전히 처음부터 다시 시작해야 하기 때문.
+
+### Comparison: HT vs HH
+
+**HT (Head then Tail)**를 얻으려면?
+
+**States**:
+- State 0: 시작
+- State H: H 하나
+- State HT: 완료
+
+**Equations**:
+$$E_0 = 1 + \frac{1}{2} E_H + \frac{1}{2} E_0$$
+$$E_H = 1 + \frac{1}{2} \cdot 0 + \frac{1}{2} E_H$$
+
+From second: $E_H = 2$
+
+From first: $E_0 = 1 + \frac{1}{2} \cdot 2 + \frac{1}{2} E_0 \Rightarrow E_0 = 4$
+
+**Answer**: HT는 평균 **4번**!
+
+### General pattern^[일반 패턴]
+
+$n$개 동전 던져서 특정 패턴을 얻는 기댓값은:
+- 패턴의 **overlapping structure**^[중첩 구조]에 따라 다름
+- HH: 자기 자신과 겹침 → 오래 걸림 (6번)
+- HT: 겹침 없음 → 짧게 걸림 (4번)
+- H: 매우 간단 (2번)
+
+**일반 공식**은 pattern의 autocorrelation^[자기상관]에 의존.
+
+### Extension: HTH pattern
+
+**Question**: HTH가 나올 때까지?
+
+**States**: 0, H, HT, HTH
+
+**Recursive equations**:
+$$E_0 = 1 + \frac{1}{2} E_H + \frac{1}{2} E_0$$
+$$E_H = 1 + \frac{1}{2} E_H + \frac{1}{2} E_{HT}$$
+$$E_{HT} = 1 + \frac{1}{2} \cdot 0 + \frac{1}{2} E_0$$
+
+**Solution**: $E_0 = 10$
+
+연속 3개 패턴은 훨씬 더 오래 걸림!
+
+## 3. Coupon collector problem^[쿠폰 수집 문제]
 
 **Question**: $n$종류의 쿠폰이 있고, 각 쿠폰이 균등하게 나올 때, 모든 종류를 수집할 때까지 기댓값은?
 
@@ -140,7 +239,7 @@ $$E = E_0 + E_1 + \cdots + E_{n-1} = \displaystyle\sum_{k=0}^{n-1} \frac{n}{n-k}
 
 **Asymptotic**: $E \approx n \ln n$
 
-## 3. Two-envelope problem^[두 봉투 문제] (Modified)
+## 4. Two-envelope problem^[두 봉투 문제] (Modified)
 
 **Setup**: 봉투 A에 $x$, 봉투 B에 $2x$ (각각 확률 1/2로 어느 것이 어느 것인지 모름).
 A를 선택했는데 $y$가 들어있음. B로 바꿀까?
@@ -157,7 +256,7 @@ $E_A$ = A의 기댓값, $E_B$ = B의 기댓값.
 
 이는 재귀적 사고의 한계를 보여주는 예시 (paradox).
 
-## 4. Expected value of maximum^[최댓값의 기댓값]
+## 5. Expected value of maximum^[최댓값의 기댓값]
 
 **Question**: $n$번의 i.i.d. trials에서 최댓값의 기댓값?
 
@@ -176,7 +275,7 @@ $$E[M_n] = \frac{n}{n+1}$$
 
 (Order statistics 이론 사용)
 
-## 5. Secretary problem^[비서 문제]
+## 6. Secretary problem^[비서 문제]
 
 **Question**: $n$명의 후보를 순차적으로 면접, 즉시 결정 (나중에 되돌릴 수 없음). 최고의 후보를 선택할 확률 최대화 전략?
 
@@ -357,6 +456,62 @@ Base cases 식별:
 - **Closed-form solution**: 특성 방정식 등
 - **Numerical solution**: Iteration, dynamic programming
 - **Approximation**: Asymptotic analysis
+
+---
+
+## Example walkthrough: HH problem^[HH 문제 완전 풀이]
+
+**Problem**: 연속 두 앞면(HH)까지 동전 던지기 횟수의 기댓값?
+
+### Step 1: State space
+
+**States**:
+- State 0: 시작 또는 T 방금 나옴
+- State H: H 하나 나옴
+- State HH: 목표 달성 (종료)
+
+### Step 2: Quantity of interest
+
+- $E_0$ = State 0에서 HH까지의 기댓값
+- $E_H$ = State H에서 HH까지의 기댓값
+
+### Step 3: First-step analysis
+
+**From State 0**:
+- H 나옴 (prob 1/2) → State H로 이동
+- T 나옴 (prob 1/2) → State 0에 머무름
+
+**From State H**:
+- H 나옴 (prob 1/2) → State HH 도달 (완료!)
+- T 나옴 (prob 1/2) → State 0으로 돌아감
+
+### Step 4: Recurrence relations
+
+$$E_0 = 1 + \frac{1}{2} E_H + \frac{1}{2} E_0$$
+
+$$E_H = 1 + \frac{1}{2} \cdot 0 + \frac{1}{2} E_0$$
+
+### Step 5: Boundary conditions
+
+State HH에서: 0 (이미 완료)
+
+### Step 6: Solve
+
+From equation 2:
+$$E_H = 1 + \frac{1}{2} E_0$$
+
+Substitute into equation 1:
+$$E_0 = 1 + \frac{1}{2}(1 + \frac{1}{2} E_0) + \frac{1}{2} E_0$$
+
+$$E_0 = \frac{3}{2} + \frac{3}{4} E_0$$
+
+$$\frac{1}{4} E_0 = \frac{3}{2}$$
+
+$$E_0 = 6$$
+
+**Answer**: 6번 ✓
+
+이 체계적인 접근을 통해 복잡한 문제도 명확하게 해결할 수 있음!
 
 ---
 
