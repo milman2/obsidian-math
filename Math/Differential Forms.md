@@ -169,6 +169,8 @@ $\mathbb{R}^3$에서:
 
 Differential forms는 이러한 연산들을 좌표계에 무관하게 일반화한다.
 
+**상세한 내용**: [[Vector Field]]
+
 ### Hodge star operator^[호지 스타 연산자]
 
 Riemannian manifold에서 $k$-form을 $(n-k)$-form으로 변환:
@@ -181,4 +183,10 @@ $$\star: \Lambda^k(M) \rightarrow \Lambda^{n-k}(M)$$
 - **Physics**: Maxwell equations은 differential forms로 간결하게 표현됨
 - **Topology**: De Rham cohomology는 manifold의 topological invariants^[위상 불변량]
 - **Complex geometry**: Kähler forms, Dolbeault cohomology
+
+---
+
+**기초 개념**: [[Linear mapping]], [[Dual Spaces]], [[Tensor]]
+**관련 개념**: [[Vector Field]]
+**응용**: Physics (electromagnetism), Topology (De Rham cohomology), Complex geometry
 
