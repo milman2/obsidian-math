@@ -479,7 +479,7 @@ $$\text{Der}(A) = \{\text{Derivations on } A\}$$
 ---
 
 **기초 개념**: [[Linear mapping]]
-**관련 개념**: [[Vector Field]], [[Vector Fileds as Derivation]], [[Differential Forms]]
+**관련 개념**: [[Directional Derivative]], [[Gradient]], [[Vector Field]], [[Vector Fileds as Derivation]], [[Differential Forms]]
 **응용**: Differential geometry, Lie theory, Algebraic geometry
 **핵심 정리**: Derivation ⟺ Tangent vector
 

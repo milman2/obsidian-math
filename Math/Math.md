@@ -403,6 +403,8 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Hilbert Space]]
 - [[Tensor]]
 - [[Derivation]]
+- [[Directional Derivative]]
+- [[Gradient]]
 - [[Vector Field]]
 - [[Vector Fileds as Derivation]]
 - [[Differential Forms]]
