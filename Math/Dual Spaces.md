@@ -106,3 +106,6 @@ Infinite-dimensional^[무한차원] space에서는:
 - $\Phi$는 injective^[단사]이지만 surjective^[전사]가 아님: $V \subsetneq V^{**}$ (진부분공간)
 - Functional analysis^[함수해석학]에서 중요한 역할
 
+---
+
+**관련 개념**: [[Linear mapping]], [[Dual of a Linear Map]], [[Tensor]], [[Differential Forms]]

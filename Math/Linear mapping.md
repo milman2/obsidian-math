@@ -58,3 +58,6 @@ $$\dim(V) = \dim(\ker T) + \dim(\text{Im}(T))$$
 - Finite-dimensional^[유한차원]에서는 matrix^[행렬]로 완전히 표현됨
 - Functional analysis^[함수해석학]에서 bounded linear operator, compact operator 등으로 일반화
 
+---
+
+**관련 개념**: [[Dual Spaces]], [[Dual of a Linear Map]]
