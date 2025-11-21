@@ -243,4 +243,4 @@ Iterative learning
 
 **확률론 개관**: [[Probability]]
 **기본 정의**: [[Sample Spaces]]
-**관련 주제**: [[Law of Total Probability]], [[Bayes' Rule]], [[Expected Value]]
+**관련 주제**: [[Marginal Probabilities]], [[Law of Total Probability]], [[Bayes' Rule]], [[Expected Value]]

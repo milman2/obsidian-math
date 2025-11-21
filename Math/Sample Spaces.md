@@ -255,4 +255,4 @@ Statistics, inference (통계, 추론)
 ---
 
 **확률론 개관**: [[Probability]]
-**관련 개념**: [[Random Variables]], [[Conditional Probability]]
+**관련 개념**: [[Random Variables]], [[Conditional Probability]], [[Marginal Probabilities]]

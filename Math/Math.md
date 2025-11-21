@@ -117,6 +117,7 @@ Math 분야별 주제 및 핵심 개념 정리
 
 ### Conditional probability and inference^[조건부 확률과 추론]
 - [[Conditional Probability]]: 조건부 확률, 독립
+- [[Marginal Probabilities]]: 주변 확률, 결합 분포
 - [[Law of Total Probability]]: 전확률 공식
 - [[Bayes' Rule]]: 베이지안 추론
 

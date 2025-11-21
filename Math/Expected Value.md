@@ -367,5 +367,5 @@ Monte Carlo method^[몬테카를로 방법]: $E[X] \approx \frac{1}{n} \displays
 **확률론 개관**: [[Probability]]
 **기본 정의**: [[Sample Spaces]], [[Random Variables]]
 **조건부 기댓값**: [[Conditional Probability]]
-**전기댓값 공식**: [[Law of Total Probability]]
+**전기댓값 공식**: [[Law of Total Probability]], [[Marginal Probabilities]]
 

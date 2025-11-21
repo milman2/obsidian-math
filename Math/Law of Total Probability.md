@@ -205,6 +205,8 @@ $$P(A) = \displaystyle\sum_b P(A, B = b) = \displaystyle\sum_b P(A | B = b) \cdo
 
 이는 Law of total probability와 동일한 원리.
 
+**상세한 내용**: [[Marginal Probabilities]]
+
 Continuous case:
 $$f_X(x) = \int f_{X,Y}(x, y) \, dy = \int f_{X|Y}(x|y) \cdot f_Y(y) \, dy$$
 

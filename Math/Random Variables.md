@@ -291,6 +291,8 @@ $$\int_{\mathbb{R}^n} f_{X_1,\ldots,X_n}(x_1, \ldots, x_n) \, dx_1 \cdots dx_n =
 
 $$f_X(x) = \int_{\mathbb{R}^{n-1}} f_{X,Y_1,\ldots,Y_{n-1}}(x, y_1, \ldots, y_{n-1}) \, dy_1 \cdots dy_{n-1}$$
 
+**상세한 내용**: [[Marginal Probabilities]]
+
 ## Conditional distributions^[조건부 분포]
 
 Given $Y = y$:
