@@ -399,6 +399,7 @@ Math 분야별 주제 및 핵심 개념 정리
 현재 작성된 노트:
 - [[Linear mapping]]
 - [[Dual Spaces]]
+- [[Inner Product]]
 - [[Hilbert Space]]
 - [[Tensor]]
 - [[Derivation]]

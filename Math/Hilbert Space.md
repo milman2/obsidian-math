@@ -1,7 +1,7 @@
 # <span class="header-prerequisite">Prerequisite</span>
 - [[Linear mapping]]
 - [[Dual Spaces]]
-- Inner product spaces (내적 공간)
+- [[Inner Product]]
 - Metric spaces (거리 공간)
 
 # <span class="header-reference">Reference</span>
@@ -206,7 +206,7 @@ Bounded operators: B(H)
 
 ---
 
-**기초 개념**: [[Linear mapping]], [[Dual Spaces]], [[Measure Space]]
+**기초 개념**: [[Linear mapping]], [[Dual Spaces]], [[Inner Product]], [[Measure Space]]
 **관련 정리**: [[Riesz Representation Theorem]], [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]], [[Fatou's Lemma]]
 **응용**: [[Expected Value]], Quantum mechanics, Functional analysis
 
