@@ -212,3 +212,9 @@ Lebesgue integration (르베스그 적분)
 - Measure: 크기, 확률
 - Integration: 함수의 평균, 기댓값
 
+---
+
+**기초 개념**: Set theory, Topology
+**관련 개념**: [[Measure Space]], [[Subspace Measure]]
+**응용**: [[Sample Spaces]], [[Probability]]
+

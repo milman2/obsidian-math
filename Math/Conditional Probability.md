@@ -23,6 +23,10 @@ $B$가 주어지면, $P(\cdot | B)$는 새로운 probability measure^[확률 측
 - $P(A | B) \geq 0$
 - Countable additivity^[가산 가법성] 만족
 
+**Measure-theoretic interpretation**^[측도론적 해석]: Conditioning은 normalized subspace measure^[정규화된 부분공간 측도]이다.
+
+**상세한 내용**: [[Subspace Measure]]
+
 ---
 
 # <span class="header-properties">Properties</span>
@@ -243,5 +247,6 @@ Iterative learning
 
 **확률론 개관**: [[Probability]]
 **기본 정의**: [[Sample Spaces]]
+**측도론적 관점**: [[Measure Space]], [[Subspace Measure]]
 **관련 주제**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Law of Total Probability]], [[Bayes' Rule]], [[Expected Value]]
 **재귀적 응용**: [[Recursive Thinking]]

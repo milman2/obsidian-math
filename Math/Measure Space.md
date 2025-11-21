@@ -457,6 +457,7 @@ Lebesgue integral
 ---
 
 **기초 개념**: [[Borel Sigma Algebra]]
+**관련 개념**: [[Subspace Measure]]
 **응용**: [[Sample Spaces]], [[Random Variables]], [[Expected Value]], [[Hilbert Space]]
 **확률론**: [[Probability]], [[Probability Mass Function]], [[Probability Density Function]]
 

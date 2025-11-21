@@ -95,6 +95,10 @@ Event $B$가 주어졌을 때:
 
 $$E[X | B] = \int_\Omega X \, dP(\cdot | B)$$
 
+**Measure-theoretic interpretation**^[측도론적 해석]: Normalized subspace measure에서의 적분.
+
+**상세한 내용**: [[Subspace Measure]]
+
 Discrete case:
 $$E[X | B] = \displaystyle\sum_{x} x \cdot P(X = x | B)$$
 
@@ -366,6 +370,7 @@ Monte Carlo method^[몬테카를로 방법]: $E[X] \approx \frac{1}{n} \displays
 
 **확률론 개관**: [[Probability]]
 **기본 정의**: [[Sample Spaces]], [[Random Variables]], [[Measure Space]]
+**측도론적 관점**: [[Subspace Measure]]
 **분포 함수**: [[Probability Mass Function]], [[Probability Density Function]]
 **관련 분포**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Conditional Probability]]
 **전기댓값 공식**: [[Law of Total Probability]]

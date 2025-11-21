@@ -257,5 +257,5 @@ Statistics, inference (통계, 추론)
 ---
 
 **확률론 개관**: [[Probability]]
-**기초 개념**: [[Borel Sigma Algebra]], [[Measure Space]]
+**기초 개념**: [[Borel Sigma Algebra]], [[Measure Space]], [[Subspace Measure]]
 **관련 개념**: [[Random Variables]], [[Joint Probabilities]], [[Marginal Probabilities]], [[Conditional Probability]]

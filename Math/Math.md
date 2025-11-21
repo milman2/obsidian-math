@@ -31,6 +31,7 @@ Math 분야별 주제 및 핵심 개념 정리
 - Limits^[극한], Continuity^[연속성], Differentiation^[미분]
 - Integration theory^[적분 이론] (Riemann, Lebesgue)
 - [[Measure Space]]: 측도 공간, 가측 함수, 르베스그 적분
+- [[Subspace Measure]]: 추적 시그마 대수, 제한 측도, 조건부 확률
 - Complex functions^[복소함수], Holomorphic functions^[정칙함수]
 - Cauchy's theorem, Residue calculus^[유수 계산]
 
