@@ -69,6 +69,13 @@ $P$는 다음을 만족:
 $\Omega$가 countable^[가산]이면:
 $$P(E) = \displaystyle\sum_{\omega \in E} P(\{\omega\})$$
 
+특히 equally likely^[동등하게 가능한] outcomes일 때:
+$$P(E) = \frac{|E|}{|\Omega|}$$
+
+이 경우 확률 계산은 counting problem^[계수 문제]로 귀결됨.
+
+**계수 기법**: [[Permutations and Combinations]]
+
 ### Continuous^[연속]
 $\Omega \subseteq \mathbb{R}^n$이고 probability density function^[확률 밀도 함수] $f$가 있으면:
 $$P(E) = \int_E f(x) \, dx$$

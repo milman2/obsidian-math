@@ -400,4 +400,4 @@ Statistical Inference (데이터로부터 학습)
 **수학적 정의**: [[Sample Spaces]], [[Random Variables]]
 **핵심 정리**: [[Conditional Probability]], [[Law of Total Probability]], [[Bayes' Rule]]
 **주요 개념**: [[Expected Value]]
-
+**계수 기법**: [[Permutations and Combinations]]

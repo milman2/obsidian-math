@@ -142,6 +142,7 @@ Math 분야별 주제 및 핵심 개념 정리
 ## 🧮 Combinatorics
 
 ### Enumerative and Algebraic Combinatorics
+- [[Permutations and Combinations]]: 순열, 조합, 이항 정리
 - Counting techniques^[계수 기법]
 - Generating functions^[생성함수]
 - Partition theory^[분할 이론]
