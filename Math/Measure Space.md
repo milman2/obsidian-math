@@ -297,11 +297,15 @@ $0 \leq f_1 \leq f_2 \leq \cdots$ and $f_n \to f$ pointwise:
 
 $$\int f \, d\mu = \lim_{n \to \infty} \int f_n \, d\mu$$
 
+**상세한 내용**: [[Monotone Convergence Theorem]]
+
 ### Dominated Convergence Theorem (DCT)
 
 $f_n \to f$ pointwise, $|f_n| \leq g$ where $\int g \, d\mu < \infty$:
 
 $$\int f \, d\mu = \lim_{n \to \infty} \int f_n \, d\mu$$
+
+**상세한 내용**: [[Dominated Convergence Theorem]]
 
 ### Fatou's Lemma
 
@@ -375,7 +379,7 @@ Uniquely determined!
 
 - Riemann integral → Lebesgue integral
 - More general, more powerful
-- Convergence theorems (MCT, DCT)
+- Convergence theorems: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]
 
 ## Functional analysis^[함수해석학]
 
@@ -458,6 +462,7 @@ Lebesgue integral
 
 **기초 개념**: [[Borel Sigma Algebra]]
 **관련 개념**: [[Subspace Measure]]
+**수렴 정리**: [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]
 **응용**: [[Sample Spaces]], [[Random Variables]], [[Expected Value]], [[Hilbert Space]]
 **확률론**: [[Probability]], [[Probability Mass Function]], [[Probability Density Function]]
 

@@ -204,3 +204,9 @@ Bounded operators: B(H)
 
 모든 separable infinite-dimensional Hilbert spaces는 $\ell^2$와 isomorphic^[동형]이다!
 
+---
+
+**기초 개념**: [[Linear mapping]], [[Dual Spaces]], [[Measure Space]]
+**관련 정리**: [[Riesz Representation Theorem]], [[Monotone Convergence Theorem]], [[Dominated Convergence Theorem]]
+**응용**: [[Expected Value]], Quantum mechanics, Functional analysis
+
