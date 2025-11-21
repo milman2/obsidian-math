@@ -241,5 +241,6 @@ Iterative learning
 
 ---
 
-**참고**: Conditional probability의 기본 정의는 [[Sample Spaces]] 노트를 참조하세요.
-
+**확률론 개관**: [[Probability]]
+**기본 정의**: [[Sample Spaces]]
+**관련 주제**: [[Law of Total Probability]], [[Bayes' Rule]], [[Expected Value]]

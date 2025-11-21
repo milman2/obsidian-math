@@ -108,16 +108,17 @@ Math 분야별 주제 및 핵심 개념 정리
 
 ## 🎲 Probability Theory
 
-### Measure theory foundation^[측도론 기초]
-- [[Borel Sigma Algebra]]
-- [[Sample Spaces]]
-- [[Conditional Probability]]
-- [[Law of Total Probability]]
-- [[Bayes' Rule]]
-- [[Expected Value]]
-- Measurable spaces^[가측 공간], Measurable functions^[가측 함수]
-- Lebesgue measure^[르베스그 측도]
-- Probability spaces^[확률 공간]
+### Foundations and core concepts^[기초 및 핵심 개념]
+- [[Probability]]: 확률론의 개관, 해석, 역사
+- [[Sample Spaces]]: 표본 공간, 사건, 확률 측도의 공리
+- [[Borel Sigma Algebra]]: 측도론적 배경
+- [[Random Variables]]: 확률 변수, 분포, CDF/PDF
+- [[Expected Value]]: 기댓값, 분산, 적률
+
+### Conditional probability and inference^[조건부 확률과 추론]
+- [[Conditional Probability]]: 조건부 확률, 독립
+- [[Law of Total Probability]]: 전확률 공식
+- [[Bayes' Rule]]: 베이지안 추론
 
 ### Stochastic Processes
 - Random walks^[랜덤 워크], Markov chains^[마르코프 연쇄]

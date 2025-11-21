@@ -396,5 +396,6 @@ Expected value E[X] = ∫ x f_X(x) dx
 
 ---
 
-**참고**: Random variable의 기초는 [[Sample Spaces]]와 [[Borel Sigma Algebra]]를 참조하세요.
-
+**확률론 개관**: [[Probability]]
+**기초 개념**: [[Sample Spaces]], [[Borel Sigma Algebra]]
+**관련 주제**: [[Expected Value]], [[Conditional Probability]]

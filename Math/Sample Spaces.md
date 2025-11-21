@@ -245,3 +245,7 @@ Statistics, inference (통계, 추론)
 - **Probability**: 불확실성 정량화
 - **Statistics**: 데이터로부터 추론
 
+---
+
+**확률론 개관**: [[Probability]]
+**관련 개념**: [[Random Variables]], [[Conditional Probability]]

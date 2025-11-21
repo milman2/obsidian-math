@@ -274,6 +274,6 @@ $P(A) = \displaystyle\sum_i P(B_i) \cdot P(A | B_i)$ (각 경로의 확률 합)
 
 ---
 
-**기본 정의 및 관련 정리**: [[Conditional Probability]] 참조
-**베이지안 응용**: [[Bayes' Rule]] 참조
-
+**확률론 개관**: [[Probability]]
+**기본 정의**: [[Sample Spaces]], [[Conditional Probability]]
+**관련 주제**: [[Bayes' Rule]], [[Expected Value]]

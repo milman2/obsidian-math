@@ -302,5 +302,6 @@ Continuous learning
 
 ---
 
-**더 자세한 수학적 유도와 성질**: [[Conditional Probability]] 참조
-
+**확률론 개관**: [[Probability]]
+**기본 정의**: [[Conditional Probability]], [[Law of Total Probability]]
+**관련 개념**: [[Sample Spaces]], [[Expected Value]]
