@@ -19,6 +19,7 @@ Math 분야별 주제 및 핵심 개념 정리
 ### Linear Algebra
 - [[Linear mapping]], Vector spaces^[벡터 공간], [[Dual Spaces]]
 - [[Dual of a Linear Map]]: 쌍대 사상, 전치
+- [[Double dual]]: 이중 쌍대, 자연 매장, 반사 공간
 - Eigenvalues^[고유값], Eigenvectors^[고유벡터]
 - Inner product spaces^[내적 공간], Orthogonality^[직교성]
 

@@ -60,4 +60,4 @@ $$\dim(V) = \dim(\ker T) + \dim(\text{Im}(T))$$
 
 ---
 
-**관련 개념**: [[Dual Spaces]], [[Dual of a Linear Map]]
+**관련 개념**: [[Dual Spaces]], [[Dual of a Linear Map]], [[Double dual]]

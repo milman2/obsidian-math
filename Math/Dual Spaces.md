@@ -72,6 +72,8 @@ $$\Phi(v)(f) = f(v)$$
 
 $\Phi$는 항상 injective^[단사]이다. 유한차원에서 $\Phi$는 isomorphism^[동형사상]이다: $V \cong V^{**}$.
 
+**상세한 내용**: [[Double dual]]
+
 ### Hilbert space와의 관계
 Hilbert space $H$에서는 [[Riesz Representation Theorem]]에 의해 $H^* \cong H$ (반선형 동형사상).
 
@@ -108,4 +110,4 @@ Infinite-dimensional^[무한차원] space에서는:
 
 ---
 
-**관련 개념**: [[Linear mapping]], [[Dual of a Linear Map]], [[Tensor]], [[Differential Forms]]
+**관련 개념**: [[Linear mapping]], [[Dual of a Linear Map]], [[Double dual]], [[Tensor]], [[Differential Forms]]

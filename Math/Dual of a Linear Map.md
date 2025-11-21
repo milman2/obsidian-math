@@ -243,7 +243,7 @@ V** ---> W**
 
 이는 $\Phi$가 **natural transformation**^[자연 변환]임을 의미.
 
-**상세한 내용**: [[Dual Spaces]] (Double dual 섹션)
+**상세한 내용**: [[Double dual]]
 
 ## Adjoint in inner product spaces^[내적 공간에서의 수반]
 
@@ -398,6 +398,6 @@ Space $V$가 **reflexive**^[반사]이다 $\Leftrightarrow$ $\Phi_V: V \rightarr
 ---
 
 **기초 개념**: [[Linear mapping]], [[Dual Spaces]]
-**관련 주제**: [[Category Theory]], [[Tensor]], [[Differential Forms]]
+**관련 주제**: [[Double dual]], [[Category Theory]], [[Tensor]], [[Differential Forms]]
 **응용**: [[Riesz Representation Theorem]], [[Hilbert Space]]
 
