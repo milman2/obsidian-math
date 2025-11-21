@@ -278,4 +278,4 @@ $P(A) = \displaystyle\sum_i P(B_i) \cdot P(A | B_i)$ (각 경로의 확률 합)
 
 **확률론 개관**: [[Probability]]
 **기본 정의**: [[Sample Spaces]], [[Conditional Probability]]
-**관련 주제**: [[Bayes' Rule]], [[Expected Value]]
+**관련 주제**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Bayes' Rule]], [[Expected Value]]

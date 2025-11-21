@@ -15,6 +15,8 @@
 
 직관적으로, 관심 없는 변수들을 **marginalize out**^[주변화]하여 관심 변수만의 확률 분포를 얻는 것.
 
+**Joint distribution 상세**: [[Joint Probabilities]]
+
 ### Origin of the term^[용어의 유래]
 
 전통적으로 joint probability table^[결합 확률 표]의 **margin**^[여백]에 합을 적어서 marginal probability를 계산했기 때문에 이런 이름이 붙음.
@@ -357,6 +359,8 @@ $$P(X) = \displaystyle\sum_y P(X | Y = y) \cdot P(Y = y)$$
 
 Joint $\rightarrow$ Marginal (가능)
 Marginal $\rightarrow$ Joint (일반적으로 불가능, 독립일 때만 가능)
+
+**상세한 내용**: [[Joint Probabilities]]
 
 ## Connection to expectation^[기댓값과의 연결]
 

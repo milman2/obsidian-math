@@ -304,4 +304,4 @@ Continuous learning
 
 **확률론 개관**: [[Probability]]
 **기본 정의**: [[Conditional Probability]], [[Law of Total Probability]]
-**관련 개념**: [[Sample Spaces]], [[Marginal Probabilities]], [[Expected Value]]
+**관련 개념**: [[Sample Spaces]], [[Joint Probabilities]], [[Marginal Probabilities]], [[Expected Value]]

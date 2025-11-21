@@ -116,8 +116,9 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Expected Value]]: 기댓값, 분산, 적률
 
 ### Conditional probability and inference^[조건부 확률과 추론]
+- [[Joint Probabilities]]: 결합 확률, 결합 분포
+- [[Marginal Probabilities]]: 주변 확률, 주변화
 - [[Conditional Probability]]: 조건부 확률, 독립
-- [[Marginal Probabilities]]: 주변 확률, 결합 분포
 - [[Law of Total Probability]]: 전확률 공식
 - [[Bayes' Rule]]: 베이지안 추론
 
