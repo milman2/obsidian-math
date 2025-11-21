@@ -26,14 +26,39 @@ $$(T^*(g))(v) = g(T(v))$$
 ```
     T
 V -----> W
+
+    T*
+W* <---- V*
+```
+
+**핵심**: Dual map $T^*$는 방향이 **반대**로 뒤집힌다!
+- $T: V \rightarrow W$ (원래 방향 →)
+- $T^*: W^* \rightarrow V^*$ (반대 방향 ←)
+
+이것이 **contravariant functor**^[반변 함자]의 특징.
+
+### Double dual map^[이중 쌍대 사상]
+
+$T^*$의 dual을 취하면 $T^{**}: V^{**} \rightarrow W^{**}$를 얻는다:
+
+```
+    T
+V -----> W
 |        |
-Φ_V      Φ_W
+Φ_V      Φ_W (canonical embedding)
 ↓        ↓
-V** <--- W**
+V** ---> W**
     T**
 ```
 
-여기서 horizontal arrows는 원래 방향과 **반대 방향**으로 간다는 것이 핵심!
+**중요한 성질**:
+- $T^{**}$는 다시 **원래 방향**으로! (covariant^[공변])
+- Natural embedding $\Phi_V: V \rightarrow V^{**}$와 compatible:
+  $$\Phi_W \circ T = T^{**} \circ \Phi_V$$
+  
+**유한차원에서**: $\Phi_V$가 isomorphism이므로, $T^{**}$는 본질적으로 $T$와 같다.
+
+**무한차원에서**: $\Phi_V$는 일반적으로 injection일 뿐이므로, $T^{**}$는 $T$의 "extension"으로 볼 수 있다.
 
 ### Alternative notation^[대체 표기법]
 
@@ -213,6 +238,8 @@ V -----> W
 V** ---> W**
     T**
 ```
+
+즉, $\Phi_W \circ T = T^{**} \circ \Phi_V$ (경로가 같음).
 
 이는 $\Phi$가 **natural transformation**^[자연 변환]임을 의미.
 
