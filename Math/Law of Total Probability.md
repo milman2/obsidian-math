@@ -158,6 +158,8 @@ $$E[X] = \int E[X | Y = y] \cdot f_Y(y) \, dy$$
 
 이는 **Tower property^[탑 성질]** $E[X] = E[E[X | Y]]$의 특수 경우.
 
+**상세한 내용**: [[Expected Value]] 참조
+
 ---
 
 # <span class="header-remark">Remark</span>

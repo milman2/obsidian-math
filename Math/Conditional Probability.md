@@ -160,6 +160,8 @@ $$E[X | B] = \int_\Omega X \, dP(\cdot | B) = \frac{\int_B X \, dP}{P(B)}$$
 Discrete case:
 $$E[X | B] = \displaystyle\sum_{x} x \cdot P(X = x | B)$$
 
+**기본 정의 및 성질**: [[Expected Value]] 참조
+
 ### Tower property^[탑 성질]
 
 $$E[E[X | Y]] = E[X]$$

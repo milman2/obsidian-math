@@ -16,7 +16,7 @@ $\Omega$의 각 원소 $\omega \in \Omega$를 **outcome^[결과]** 또는 **samp
 
 ## Event^[사건]
 
-**Event**^[사건]는 sample space의 부분집합이다.
+**Event**^[사건]는 sample space의 부분집합이다. (a set of outcomes, not one outcome)
 
 Formally, event는 sigma algebra^[시그마 대수] $\mathcal{F}$의 원소이다:
 $$E \in \mathcal{F} \subseteq \mathcal{P}(\Omega)$$
@@ -172,7 +172,7 @@ Probability theory는 **measure theory with total measure 1**이다:
 | Measure $\mu$ | Probability measure $P$ |
 | $\mu(X) < \infty$ | $P(\Omega) = 1$ |
 | Measurable function | Random variable |
-| Integration $\int f \, d\mu$ | Expectation $E[X] = \int X \, dP$ |
+| Integration $\int f \, d\mu$ | Expectation $E[X] = \int X \, dP$ (see [[Expected Value]]) |
 
 ## Finite vs Infinite sample spaces
 
