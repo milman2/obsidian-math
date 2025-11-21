@@ -66,6 +66,8 @@ $$(Xf)(p) = X_p(f) = \sum_{i=1}^n X^i(p) \frac{\partial f}{\partial x^i}(p)$$
 
 **역으로**: 이 두 성질을 만족하는 모든 연산자는 vector field로부터 온다!
 
+**상세한 내용**: [[Vector Fileds as Derivation]]
+
 ## Lie bracket^[리 브래킷]
 
 두 vector fields $X, Y$의 **Lie bracket**^[리 브래킷] $[X, Y]$는 새로운 vector field:
@@ -531,6 +533,7 @@ $$\nabla \cdot (\nabla \times \mathbf{F}) = 0$$
 ---
 
 **기초 개념**: [[Linear mapping]], [[Dual Spaces]]
+**핵심 개념**: [[Vector Fileds as Derivation]]
 **관련 개념**: [[Differential Forms]], [[Tensor]]
 **응용**: Physics (electromagnetism, fluid dynamics), Dynamical systems, Control theory
 **고급 주제**: Lie groups, Symplectic geometry, Riemannian geometry
