@@ -400,5 +400,5 @@ Statistical Inference (데이터로부터 학습)
 **수학적 정의**: [[Sample Spaces]], [[Random Variables]]
 **분포 함수**: [[Probability Mass Function]], [[Probability Density Function]]
 **핵심 정리**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Conditional Probability]], [[Law of Total Probability]], [[Bayes' Rule]]
-**주요 개념**: [[Expected Value]]
+**주요 개념**: [[Expected Value]], [[Recursive Thinking]]
 **계수 기법**: [[Permutations and Combinations]]

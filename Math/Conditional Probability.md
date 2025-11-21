@@ -244,3 +244,4 @@ Iterative learning
 **확률론 개관**: [[Probability]]
 **기본 정의**: [[Sample Spaces]]
 **관련 주제**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Law of Total Probability]], [[Bayes' Rule]], [[Expected Value]]
+**재귀적 응용**: [[Recursive Thinking]]

@@ -123,6 +123,7 @@ Math 분야별 주제 및 핵심 개념 정리
 - [[Conditional Probability]]: 조건부 확률, 독립
 - [[Law of Total Probability]]: 전확률 공식
 - [[Bayes' Rule]]: 베이지안 추론
+- [[Recursive Thinking]]: 재귀적 사고, 동적 계획법
 
 ### Stochastic Processes
 - Random walks^[랜덤 워크], Markov chains^[마르코프 연쇄]

@@ -369,4 +369,5 @@ Monte Carlo method^[몬테카를로 방법]: $E[X] \approx \frac{1}{n} \displays
 **분포 함수**: [[Probability Mass Function]], [[Probability Density Function]]
 **관련 분포**: [[Joint Probabilities]], [[Marginal Probabilities]], [[Conditional Probability]]
 **전기댓값 공식**: [[Law of Total Probability]]
+**재귀적 응용**: [[Recursive Thinking]]
 
