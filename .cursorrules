@@ -16,6 +16,19 @@
 - 인라인 수식에서 sum, int 등은 `\displaystyle` 사용: `$\displaystyle\sum_{i=1}^{n}$`
   - 이렇게 하면 위/아래 첨자가 옆이 아닌 위아래로 표시됨
 
+### Obsidian 파싱 주의사항
+**중요**: 다음과 같은 경우 Obsidian 파서가 오류를 일으키므로 반드시 피할 것:
+
+1. **수식 내 한글/Footnote 금지**: Display math (`$$...$$`) 안에서 `\text{}`와 함께 한글이나 footnote `^[...]` 사용 금지
+   - ✗ 나쁜 예: `$$F \text{는 } G\text{로 rigid motion^[강체 운동]으로 변환 가능}$$`
+   - ✓ 좋은 예: `$$F \text{ is congruent to } G$$` (영어만 사용)
+     - 한글 설명은 수식 밖에: "즉, $F$가 $G$로 rigid motion^[강체 운동]..."
+
+2. **헤더의 span 태그 내 한글/Footnote 금지**: `<span>` 태그 안에서는 영어만 사용
+   - ✗ 나쁜 예: `# <span class="header-definition">Composition^[합성]`
+   - ✓ 좋은 예: `# <span class="header-definition">Composition</span>`
+   - 한글 번역은 서브헤더(`##`)나 본문에서 사용: `## Definition^[정의]`
+
 ## Document Structure
 
 ### 기본 구조
