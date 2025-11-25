@@ -21,7 +21,7 @@ Group $G$가 **$p$-group**^[$p$-군]이다 $\Leftrightarrow$
 
 $$|G| = p^n \text{ for some prime } p \text{ and } n \geq 0$$
 
-**의미**: Order가 prime의 거듭제곱
+**의미**: Order^[위수]가 prime의 거듭제곱
 
 **성질**: 모든 $p$-group은 nilpotent^[멱영]
 
