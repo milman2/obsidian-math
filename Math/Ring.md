@@ -35,6 +35,14 @@ $(R, +)$는 abelian group^[아벨군]:
 
 **주의**: 곱셈의 항등원(multiplicative identity)은 필수가 아님!
 
+**중요**: 환의 정의를 보면 알 수 있듯이 곱셈에 대한 항등원이나 역원이 존재할 필요가 없다. 항등원이 존재한다고 해도 역원이 존재할 필요 또한 없다.
+
+### 표기법
+
+군에서는 연산에 대한 항등원을 $e$라고 표현한다. 환에서는 연산이 2개이므로 어느 연산에 대한 항등원인지 구별하기 위해 다른 기호를 사용한다:
+- **덧셈의 항등원**: $0$ (identity^[항등원])
+- **곱셈의 항등원**: $1$ (unity^[단위원])
+
 ## Ring with Identity^[단위원을 갖는 환]
 
 Ring $R$이 **ring with identity^[단위원을 갖는 환]** (또는 **unital ring^[단위환]**)이다 $\Leftrightarrow$
@@ -226,6 +234,38 @@ $$2\mathbb{Z} = \{\text{even integers}\}$$
 ### 3. $(-a)(-b) = ab$
 
 **증명**: $(-a)(-b) = -(a(-b)) = -(-(ab)) = ab$
+
+### 4. Distributivity with Subtraction^[뺄셈에 대한 분배법칙]
+
+$$a(b-c) = ab - ac \quad \text{and} \quad (b-c)a = ba - ca$$
+
+**증명**: $a(b-c) = a(b + (-c)) = ab + a(-c) = ab + (-(ac)) = ab - ac$
+
+### 5. Properties with Unity^[단위원이 있을 때]
+
+Ring $R$이 단위원 $1$을 가지면:
+
+**(a)** $(-1)a = -a$
+
+**증명**: $a + (-1)a = 1 \cdot a + (-1)a = (1 + (-1))a = 0 \cdot a = 0$
+
+따라서 $(-1)a = -a$
+
+**(b)** $(-1)(-1) = 1$
+
+**증명**: $(-1)(-1) = -((-1) \cdot 1) = -(-1) = 1$
+
+### 6. Cancellation Law^[소거법칙] (주의!)
+
+**중요**: 환에서는 곱셈에 대한 역원이 존재할 필요가 없으므로, 군에서와 같이 함부로 소거할 수 없다.
+
+**예시**:
+- $ab = ac$라고 해서 $b = c$를 결론낼 수 없음 ($a$의 역원이 없을 수 있음)
+- $a^2 = a$라고 해서 $a = 0$ 또는 $a = 1$을 결론낼 수 없음
+
+**주의**: Integral domain^[정역]에서는 소거법칙이 성립 (zero divisor가 없으므로)
+
+$$ab = ac \text{ and } a \neq 0 \Rightarrow b = c \quad (\text{in integral domain})$$
 
 ## Characteristic^[표수]
 
