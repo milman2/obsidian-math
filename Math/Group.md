@@ -107,6 +107,69 @@ $$\text{im}(\phi) = \{\phi(g) : g \in G\} = \phi(G)$$
 
 **성질**: $\text{im}(\phi) \leq H$ (subgroup)
 
+## Torsion Element and Torsion Subgroup^[비틀림 원소와 비틀림 부분군]
+
+**주의**: 이 개념은 주로 abelian groups에서 사용 (additive notation)
+
+### Torsion Element^[비틀림 원소]
+
+Abelian group $(G, +)$의 원소 $g \in G$가 **torsion element^[비틀림 원소]**이다 $\Leftrightarrow$
+
+$$\exists n \in \mathbb{N}, n > 0 : ng = 0$$
+
+즉, finite order^[유한 위수]를 가짐
+
+**Multiplicative notation**: $g^n = e$ for some $n > 0$
+
+### Torsion Subgroup^[비틀림 부분군]
+
+Abelian group $G$의 **torsion subgroup^[비틀림 부분군]**:
+
+$$T(G) = \{g \in G : g \text{ has finite order}\}$$
+
+모든 torsion elements의 집합
+
+**성질**: $T(G) \leq G$ (abelian group의 subgroup)
+
+**증명**: 
+- $0 \in T(G)$ (identity)
+- $g, h \in T(G)$이고 $ng = 0$, $mh = 0$이면 $nm(g-h) = 0$ (abelian이므로)
+
+### Torsion-free Group^[비틀림 없는 군]
+
+Abelian group $G$가 **torsion-free^[비틀림 없는]**이다 $\Leftrightarrow$
+
+$$T(G) = \{0\}$$
+
+Identity를 제외한 모든 원소가 infinite order
+
+### Examples
+
+**Torsion groups** (모든 원소가 torsion):
+- $\mathbb{Z}/n\mathbb{Z}$ (finite abelian groups는 모두 torsion)
+- $\mathbb{Q}/\mathbb{Z}$ (rational numbers mod integers)
+
+**Torsion-free groups**:
+- $\mathbb{Z}$ (0 외의 모든 원소가 infinite order)
+- $\mathbb{Q}$ (rational numbers)
+- $\mathbb{R}$ (real numbers)
+
+**Mixed** (torsion + torsion-free):
+- $\mathbb{Z} \times \mathbb{Z}/n\mathbb{Z}$
+- $T(G) = \{0\} \times \mathbb{Z}/n\mathbb{Z}$
+
+### Structure Theorem for Finitely Generated Abelian Groups
+
+Finitely generated abelian group $G$에 대해:
+
+$$G \cong \mathbb{Z}^r \times T(G)$$
+
+where:
+- $r = \text{rank}(G)$ (torsion-free part의 rank)
+- $T(G)$ is finite (torsion part)
+
+**분해**: Free part $\oplus$ Torsion part
+
 ---
 
 # <span class="header-examples">Examples</span>
@@ -342,6 +405,25 @@ Abelian group에서 주로 사용:
 
 - [[Quotient Group]]: Normal subgroup으로 나눈 몫
 - [[Equivalence Relation and Partitions]]: Coset과 분할
+
+## Torsion의 직관
+
+**Torsion element**: "반복하면 원점으로 돌아오는" 원소
+
+**기하학적 해석**:
+- **Torsion**: 원 위의 회전 (유한번 반복하면 원점)
+- **Torsion-free**: 직선 위의 이동 (영원히 원점으로 안 돌아옴)
+
+**예시**:
+- $\mathbb{Z}/12\mathbb{Z}$: 시계의 숫자들 (12시간 후 원점)
+- $\mathbb{Z}$: 수직선 (끝없이 계속)
+
+**이름의 유래**: "Torsion" = 비틀림, 뒤틀림 (topology에서 유래)
+
+**중요성**:
+- Finitely generated abelian groups: Free part $\oplus$ Torsion part
+- Algebraic topology: Torsion in homology groups
+- Number theory: Class groups의 torsion
 
 ## Common Pitfall^[흔한 실수]
 

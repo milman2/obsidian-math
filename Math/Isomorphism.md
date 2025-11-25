@@ -401,7 +401,7 @@ $$\phi: G \to S_G, \quad \phi(g)(x) = gx$$
 
 **증명**: ~15,000 페이지 (multiple papers, 1955-2004)
 
-## Fundamental Theorem of Finite Abelian Groups
+## Fundamental Theorem of Finite Abelian Groups^[유한 생성 아벨군의 기본 정리]
 
 모든 finite abelian group은 cyclic groups의 direct product와 isomorphic
 
@@ -420,6 +420,39 @@ $$G \cong C_{p_1^{a_1}} \times C_{p_2^{a_2}} \times \cdots \times C_{p_r^{a_r}}$
 where $p_i$는 소수 (중복 가능)
 
 **유일성**: 각 형태에서 표현은 순서를 제외하고 유일
+
+## Structure Theorem for Finitely Generated Abelian Groups^[유한 생성 아벨군의 구조 정리]
+
+**더 일반적인 정리**: Finitely generated abelian group $G$에 대해:
+
+$$G \cong \mathbb{Z}^r \times T(G)$$
+
+where:
+- $r = \text{rank}(G) \geq 0$ (free part의 rank)
+- $T(G)$ is the torsion subgroup^[비틀림 부분군] (finite)
+
+### Components
+
+**Free part^[자유 부분]**: $\mathbb{Z}^r$ (torsion-free)
+- $r$개의 independent generators
+- Rank $r$는 invariant (well-defined)
+
+**Torsion part^[비틀림 부분]**: $T(G)$ (finite abelian group)
+- Fundamental Theorem으로 분해:
+$$T(G) \cong C_{p_1^{a_1}} \times C_{p_2^{a_2}} \times \cdots \times C_{p_k^{a_k}}$$
+
+### Examples
+
+1. $\mathbb{Z}^2$: rank 2, no torsion
+2. $\mathbb{Z}/12\mathbb{Z}$: rank 0, pure torsion
+3. $\mathbb{Z} \times \mathbb{Z}/6\mathbb{Z}$: rank 1, torsion $\mathbb{Z}/6\mathbb{Z}$
+4. $\mathbb{Z}^3 \times C_2 \times C_4$: rank 3, torsion $C_2 \times C_4$
+
+**특수한 경우**:
+- Finite abelian groups: $r = 0$ (pure torsion)
+- Free abelian groups: $T(G) = \{0\}$ (torsion-free)
+
+자세한 내용은 [[Group]] 참조
 
 ## Recognizing Isomorphisms^[동형 인식]
 
@@ -529,7 +562,7 @@ $K$를 고정하는 $\mathbb{F}$의 automorphisms
 
 ✓ Bijection + Homomorphism
 
-### 3. Vector spaces
+### 3. VecTorsion spaces
 
 ✓ Same dimension $\Rightarrow$ Isomorphic (finite-dimensional)
 
