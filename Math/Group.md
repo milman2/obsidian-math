@@ -263,16 +263,24 @@ $$G \cong \text{subgroup of } S_{|G|}$$
 
 ## Fundamental Theorem of Finite Abelian Groups^[유한 아벨군의 기본 정리]
 
-모든 finite abelian group은 cyclic group들의 direct product^[직접곱]
+모든 finite abelian group은 cyclic group들의 direct product^[직접곱]와 isomorphic
+
+### Invariant Factor Form^[불변 인자 형태]
 
 $$G \cong C_{n_1} \times C_{n_2} \times \cdots \times C_{n_k}$$
 
-where $n_i \mid n_{i+1}$
+where $n_i \mid n_{i+1}$ (즉, $n_i$가 $n_{i+1}$을 나눔)
 
-**예**: $G$ with $|G| = 12$
+### Primary Decomposition Form^[소인수 분해 형태]
+
+$$G \cong C_{p_1^{a_1}} \times C_{p_2^{a_2}} \times \cdots \times C_{p_r^{a_r}}$$
+
+where $p_i$는 소수 (중복 가능)
+
+**예**: $|G| = 12$
 - $C_{12}$
-- $C_2 \times C_6$
-- $C_2 \times C_2 \times C_3$
+- $C_2 \times C_6$ (invariant factor form: $2 \mid 6$)
+- $C_2 \times C_2 \times C_3$ (primary form: $C_2^2 \times C_3$)
 
 ---
 
