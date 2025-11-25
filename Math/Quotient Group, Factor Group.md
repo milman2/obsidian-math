@@ -12,13 +12,13 @@
 
 ## Normal Subgroup^[정규 부분군]
 
-Group^[군] $G$와 subgroup^[부분군] $H \leq G$에 대해, $H$가 **normal subgroup^[정규 부분군]**이다 (기호: $H \triangleleft G$ 또는 $H \trianglelefteq G$) $\Leftrightarrow$ 다음 중 하나를 만족:
+Group^[군] $G$와 subgroup^[부분군] $H \leq G$에 대해, $H$가 **normal subgroup**^[정규 부분군]이다 (기호: $H \triangleleft G$ 또는 $H \trianglelefteq G$) $\Leftrightarrow$ 다음 중 하나를 만족:
 
 ### 동등한 정의들
 
-1. **Conjugation^[켤레] 불변**: $\forall g \in G, \; gHg^{-1} = H$
+1. **Conjugation**^[켤레] **불변**: $\forall g \in G, \; gHg^{-1} = H$
 2. **왼쪽과 오른쪽 coset이 같음**: $\forall g \in G, \; gH = Hg$
-3. **Conjugation이 $H$를 보존**: $\forall g \in G, \forall h \in H, \; ghg^{-1} \in H$
+3. **Conjugation**이 $H$를 **보존**: $\forall g \in G, \forall h \in H, \; ghg^{-1} \in H$
 
 여기서 $gHg^{-1} = \{ghg^{-1} : h \in H\}$
 
@@ -40,7 +40,7 @@ $$Hg = \{hg : h \in H\}$$
 
 ## Quotient Group^[몫군]
 
-$G$가 group이고 $N \triangleleft G$ (normal subgroup)일 때, **quotient group^[몫군]** $G/N$은:
+$G$가 group이고 $N \triangleleft G$ (normal subgroup)일 때, **quotient group**^[몫군] 또는 **factor group**^[인수군] $G/N$은:
 
 ### 집합으로서
 
@@ -84,9 +84,9 @@ $N$이 normal이므로 $g_2^{-1}n_1g_2 \in N$, 따라서 $(g_2^{-1}n_1g_2)n_2 \i
 
 $G/N$은 다음을 만족:
 
-1. **Associativity^[결합법칙]**: $((g_1N)(g_2N))(g_3N) = (g_1N)((g_2N)(g_3N))$
-2. **Identity^[항등원]**: $eN = N$ (where $e$ is identity of $G$)
-3. **Inverse^[역원]**: $(gN)^{-1} = g^{-1}N$
+1. **Associativity**^[결합법칙]: $((g_1N)(g_2N))(g_3N) = (g_1N)((g_2N)(g_3N))$
+2. **Identity**^[항등원]: $eN = N$ (where $e$ is identity of $G$)
+3. **Inverse**^[역원]: $(gN)^{-1} = g^{-1}N$
 
 따라서 $G/N$은 group
 
@@ -98,11 +98,11 @@ $$|G/N| = \frac{|G|}{|N|} = [G : N]$$
 
 여기서 $[G : N]$은 index^[지표] (coset의 개수)
 
-**Lagrange's Theorem^[라그랑주 정리]**의 일반화
+**Lagrange's Theorem**^[라그랑주 정리]의 일반화
 
 ## Kernel과 Normal Subgroup
 
-Group homomorphism $\phi: G \to H$의 **kernel^[핵]**:
+Group homomorphism $\phi: G \to H$의 **kernel**^[핵]:
 
 $$\ker(\phi) = \{g \in G : \phi(g) = e_H\}$$
 
@@ -193,7 +193,7 @@ Group homomorphism $\phi: G \to H$에 대해:
 
 $$G/\ker(\phi) \cong \text{im}(\phi)$$
 
-**자연스러운 isomorphism^[동형사상]**:
+**자연스러운 isomorphism**^[동형사상]:
 
 $$\bar{\phi}: G/\ker(\phi) \to \text{im}(\phi), \quad \bar{\phi}(g\ker(\phi)) = \phi(g)$$
 
@@ -292,7 +292,7 @@ $$V/W = \{v + W : v \in V\}$$
 
 ## 위상수학과의 관계
 
-**Quotient topology^[몫 위상]**: $X/\sim$ with quotient topology
+**Quotient topology**^[몫 위상]: $X/\sim$ with quotient topology
 
 Canonical projection $\pi: X \to X/\sim$이 continuous가 되는 finest topology
 
