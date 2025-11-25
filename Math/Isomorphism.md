@@ -47,6 +47,21 @@ $$\exists \text{ isomorphism } \phi: G \to H$$
 
 **주의**: $G \cong H$는 equivalence relation^[동치 관계]
 
+### Related Notation^[관련 표기법]
+
+수학에서 사용되는 유사한 기호들:
+
+| LaTeX | 기호 | 이름 | 의미 |
+|-------|------|------|------|
+| `\cong` | $\cong$ | Isomorphic^[동형] | 구조가 완전히 같음 (가장 강함) |
+| `\simeq` | $\simeq$ | Homotopy equivalent^[호모토피 동치] | 위상적으로 본질적으로 같음 (Topology) |
+| `\sim` | $\sim$ | Equivalent/Similar^[동치/닮음] | 어떤 관계로 동치 (일반적) |
+| `\approx` | $\approx$ | Approximately equal^[근사 같음] | 수치적으로 가까움 |
+
+**강도 순서**: $\cong$ (강함) > $\simeq$ (중간) > $\sim$ (약함) > $\approx$ (근사)
+
+**Group Theory에서**: 주로 $\cong$ 사용
+
 ## Group Isomorphism^[군 동형사상]
 
 Bijective group homomorphism
