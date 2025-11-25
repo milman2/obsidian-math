@@ -55,8 +55,12 @@ $$\exists \text{ isomorphism } \phi: G \to H$$
 |-------|------|------|------|
 | `\cong` | $\cong$ | Isomorphic^[동형] | 구조가 완전히 같음 (가장 강함) |
 | `\simeq` | $\simeq$ | Homotopy equivalent^[호모토피 동치] | 위상적으로 본질적으로 같음 (Topology) |
+| `\equiv` | $\equiv$ | Congruent (modulo)^[합동] | 모듈로 연산에서 같음 |
 | `\sim` | $\sim$ | Equivalent/Similar^[동치/닮음] | 어떤 관계로 동치 (일반적) |
 | `\approx` | $\approx$ | Approximately equal^[근사 같음] | 수치적으로 가까움 |
+| `\asymp` | $\asymp$ | Asymptotically equivalent^[점근적 동치] | 점근적으로 같음 (해석학, 복잡도 이론) |
+| `:=` | $:=$ | Defined as^[정의] | 좌변을 우변으로 정의 |
+| `\doteq` | $\doteq$ | Equal by definition^[정의에 의한 같음] | 정의에 의해 같음 |
 
 **강도 순서**: $\cong$ (강함) > $\simeq$ (중간) > $\sim$ (약함) > $\approx$ (근사)
 
