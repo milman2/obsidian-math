@@ -275,7 +275,7 @@ $$[a] + [b] = [a + b]$$
 
 $$v_1 \sim v_2 \Leftrightarrow v_1 - v_2 \in W$$
 
-**Equivalence classes**: Cosets^[코셋] $v + W = \{v + w : w \in W\}$
+**Equivalence classes**: Cosets^[잉여류] $v + W = \{v + w : w \in W\}$
 
 **차원**: $\dim(V/W) = \dim(V) - \dim(W)$
 

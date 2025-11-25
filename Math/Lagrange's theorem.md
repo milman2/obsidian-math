@@ -28,15 +28,15 @@ $$[G : H] = \frac{|G|}{|H|}$$
 
 **Lagrange's theorem**: $|G| = |H| \cdot [G : H]$
 
-## Coset^[코셋]
+## Coset^[잉여류]
 
 Subgroup $H \leq G$, 원소 $g \in G$에 대해:
 
-### Left Coset^[왼쪽 코셋]
+### Left Coset^[왼쪽 잉여류]
 
 $$gH = \{gh : h \in H\}$$
 
-### Right Coset^[오른쪽 코셋]
+### Right Coset^[오른쪽 잉여류]
 
 $$Hg = \{hg : h \in H\}$$
 

@@ -94,15 +94,15 @@ $$\forall g \in G, \; gNg^{-1} = N$$
 
 자세한 내용은 [[Quotient Group]] 참조
 
-## Coset^[코셋]
+## Coset^[잉여류]
 
 Subgroup $H \leq G$와 원소 $g \in G$에 대해:
 
-### Left Coset^[왼쪽 코셋]
+### Left Coset^[왼쪽 잉여류]
 
 $$gH = \{gh : h \in H\}$$
 
-### Right Coset^[오른쪽 코셋]
+### Right Coset^[오른쪽 잉여류]
 
 $$Hg = \{hg : h \in H\}$$
 
