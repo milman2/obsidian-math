@@ -98,11 +98,11 @@ $$\forall g \in G, \; gNg^{-1} = N$$
 
 Subgroup $H \leq G$와 원소 $g \in G$에 대해:
 
-### Left Coset^[왼쪽 잉여류]
+### Left Coset^[좌잉여류]
 
 $$gH = \{gh : h \in H\}$$
 
-### Right Coset^[오른쪽 잉여류]
+### Right Coset^[우잉여류]
 
 $$Hg = \{hg : h \in H\}$$
 

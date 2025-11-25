@@ -28,11 +28,11 @@ Group^[군] $G$와 subgroup^[부분군] $H \leq G$에 대해, $H$가 **normal su
 
 Group $G$와 subgroup $H \leq G$, 원소 $g \in G$에 대해:
 
-### Left Coset^[왼쪽 잉여류]
+### Left Coset^[좌잉여류]
 
 $$gH = \{gh : h \in H\}$$
 
-### Right Coset^[오른쪽 잉여류]
+### Right Coset^[우잉여류]
 
 $$Hg = \{hg : h \in H\}$$
 
@@ -257,7 +257,7 @@ Normal subgroup $N$의 원소들을 "0으로 취급" (또는 identity로)
 **왜 Normal이어야 하나?**
 
 연산이 well-defined되려면:
-- 왼쪽 잉여류와 오른쪽 잉여류가 일치해야
+- 좌잉여류와 우잉여류가 일치해야
 - Conjugation으로 닫혀있어야
 
 **반례**: $S_3$의 subgroup $H = \{e, (12)\}$는 normal이 아님

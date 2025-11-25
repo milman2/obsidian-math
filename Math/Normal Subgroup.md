@@ -46,7 +46,7 @@ $$\forall g \in G, \quad gNg^{-1} \subseteq N$$
 
 양쪽 모두 성립하므로 $gNg^{-1} = N$
 
-### 3. Left Coset = Right Coset^[왼쪽 잉여류 = 오른쪽 잉여류]
+### 3. Left Coset = Right Coset^[좌잉여류 = 우잉여류]
 
 $$\forall g \in G, \quad gN = Ng$$
 
