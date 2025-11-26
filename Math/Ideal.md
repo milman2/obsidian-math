@@ -15,10 +15,10 @@
 
 ## Two-sided Ideal
 
-Ring $R$의 부분집합 $I$가 **ideal^[아이디얼]** (or **two-sided ideal^[양측 아이디얼]**)이다 $\Leftrightarrow$
+Ring $R$의 부분집합 $I$가 **ideal**^[아이디얼] (or **two-sided ideal**^[양측 아이디얼])이다 $\Leftrightarrow$
 
-1. $(I, +)$가 $(R, +)$의 **subgroup^[부분군]**
-2. **Absorption property^[흡수 성질]**: $\forall r \in R, \forall a \in I$:
+1. $(I, +)$가 $(R, +)$의 **subgroup**^[부분군]
+2. **Absorption property**^[흡수 성질]: $\forall r \in R, \forall a \in I$:
 
 $$ra \in I \quad \text{and} \quad ar \in I$$
 
@@ -34,7 +34,7 @@ $$\forall a, b \in I, \forall r \in R: \quad a - b \in I, \quad ra \in I, \quad 
 
 ## Left Ideal
 
-$I \subseteq R$가 **left ideal^[왼쪽 아이디얼]**이다 $\Leftrightarrow$
+$I \subseteq R$가 **left ideal**^[왼쪽 아이디얼]이다 $\Leftrightarrow$
 
 1. $(I, +)$가 subgroup
 2. $\forall r \in R, \forall a \in I: \quad ra \in I$
@@ -45,7 +45,7 @@ $I \subseteq R$가 **left ideal^[왼쪽 아이디얼]**이다 $\Leftrightarrow$
 
 ## Right Ideal
 
-$I \subseteq R$가 **right ideal^[오른쪽 아이디얼]**이다 $\Leftrightarrow$
+$I \subseteq R$가 **right ideal**^[오른쪽 아이디얼]이다 $\Leftrightarrow$
 
 1. $(I, +)$가 subgroup
 2. $\forall r \in R, \forall a \in I: \quad ar \in I$
@@ -64,7 +64,7 @@ $$\text{left ideal} = \text{right ideal} = \text{two-sided ideal}$$
 
 ## Proper Ideal
 
-Ideal $I$가 **proper ideal^[진 아이디얼]**이다 $\Leftrightarrow$
+Ideal $I$가 **proper ideal**^[진 아이디얼]이다 $\Leftrightarrow$
 
 $$I \neq R$$
 
@@ -89,7 +89,7 @@ $$I \neq R$$
 
 ## Principal Ideal
 
-**정의**: 하나의 원소로 **generated^[생성]**된 ideal
+**정의**: 하나의 원소로 **generated**^[생성]된 ideal
 
 **Left principal ideal**:
 
@@ -115,23 +115,23 @@ $$\langle n \rangle = n\mathbb{Z} = \{\ldots, -2n, -n, 0, n, 2n, \ldots\}$$
 
 ## Maximal Ideal
 
-Proper ideal $M$이 **maximal ideal^[극대 아이디얼]**이다 $\Leftrightarrow$
+Proper ideal $M$이 **maximal ideal**^[극대 아이디얼]이다 $\Leftrightarrow$
 
 $$M \subsetneq I \triangleleft R \quad \Rightarrow \quad I = R$$
 
 **의미**: $M$보다 큰 proper ideal이 존재하지 않음
 
-**동치 조건**: $M \triangleleft R$이 maximal $\Leftrightarrow$ $R/M$이 **field^[체]**
+**동치 조건**: $M \triangleleft R$이 maximal $\Leftrightarrow$ $R/M$이 **field**^[체]
 
 자세한 내용은 [[Maximal Ideal]] 참조
 
 ## Prime Ideal
 
-Proper ideal $P$가 **prime ideal^[소 아이디얼]**이다 $\Leftrightarrow$
+Proper ideal $P$가 **prime ideal**^[소 아이디얼]이다 $\Leftrightarrow$
 
 $$ab \in P \quad \Rightarrow \quad a \in P \text{ or } b \in P$$
 
-**동치 조건**: $P \triangleleft R$이 prime $\Leftrightarrow$ $R/P$가 **integral domain^[정역]**
+**동치 조건**: $P \triangleleft R$이 prime $\Leftrightarrow$ $R/P$가 **integral domain**^[정역]
 
 **관계**: Maximal ideal $\Rightarrow$ Prime ideal (역은 일반적으로 거짓)
 
@@ -139,7 +139,7 @@ $$ab \in P \quad \Rightarrow \quad a \in P \text{ or } b \in P$$
 
 ## Radical Ideal
 
-Ideal $I$가 **radical ideal^[근기 아이디얼]**이다 $\Leftrightarrow$
+Ideal $I$가 **radical ideal**^[근기 아이디얼]이다 $\Leftrightarrow$
 
 $$a^n \in I \text{ for some } n \geq 1 \quad \Rightarrow \quad a \in I$$
 
@@ -155,7 +155,7 @@ $$\sqrt{I} = \{a \in R : a^n \in I \text{ for some } n \geq 1\}$$
 
 ## Nilradical
 
-Ring $R$의 **nilradical^[멱영근기]**:
+Ring $R$의 **nilradical**^[멱영근기]:
 
 $$\text{Nil}(R) = \{a \in R : a^n = 0 \text{ for some } n \geq 1\}$$
 
@@ -167,7 +167,7 @@ $$\text{Nil}(R) = \{a \in R : a^n = 0 \text{ for some } n \geq 1\}$$
 
 ## Jacobson Radical
 
-Ring $R$의 **Jacobson radical^[제이콥슨 근기]**:
+Ring $R$의 **Jacobson radical**^[제이콥슨 근기]:
 
 $$J(R) = \bigcap_{M \text{ maximal}} M$$
 
@@ -217,7 +217,7 @@ $$I : J = \{r \in R : rJ \subseteq I\}$$
 
 ## Lattice Structure
 
-Ring $R$의 모든 ideals는 **lattice^[격자]** 구조 형성:
+Ring $R$의 모든 ideals는 **lattice**^[격자] 구조 형성:
 
 **Join**: $I \vee J = I + J$ (sum)
 
@@ -234,7 +234,7 @@ Ring $R$의 모든 ideals는 **lattice^[격자]** 구조 형성:
 
 **정리**: $I \triangleleft R$이면 quotient ring $R/I$ 정의 가능
 
-**Cosets^[잉여류]**:
+**Cosets**^[잉여류]:
 
 $$R/I = \{r + I : r \in R\}$$
 
