@@ -16,7 +16,7 @@
 
 ## Maximal Ideal^[극대 아이디얼]
 
-Commutative ring $R$의 proper ideal^[진 아이디얼] $M$이 **maximal ideal^[극대 아이디얼]**이다 $\Leftrightarrow$
+Commutative ring $R$의 proper ideal^[진 아이디얼] $M$이 **maximal ideal**^[극대 아이디얼]이다 $\Leftrightarrow$
 
 $$M \subsetneq I \triangleleft R \quad \Rightarrow \quad I = R$$
 
@@ -32,7 +32,7 @@ $$M \subsetneq I \triangleleft R \quad \Rightarrow \quad I = R$$
 
 **1. Definition**: $M \subsetneq I \triangleleft R \Rightarrow I = R$
 
-**2. Quotient ring**: $R/M$이 **field^[체]**
+**2. Quotient ring**: $R/M$이 **field**^[체]
 
 **3. Maximality**: $M$이 proper ideals의 부분순서에서 maximal element
 
@@ -56,7 +56,7 @@ $$M \subsetneq I \triangleleft R \quad \Rightarrow \quad I = R$$
 
 ## Maximal Spectrum
 
-Ring $R$의 **maximal spectrum^[극대 스펙트럼]**:
+Ring $R$의 **maximal spectrum**^[극대 스펙트럼]:
 
 $$\text{MaxSpec}(R) = \{\text{all maximal ideals of } R\}$$
 
@@ -121,7 +121,7 @@ $$\text{MaxSpec}(R) = \{\text{all maximal ideals of } R\}$$
 
 ### 5. Jacobson Radical
 
-**정의**: Ring $R$의 **Jacobson radical^[제이콥슨 근기]**
+**정의**: Ring $R$의 **Jacobson radical**^[제이콥슨 근기]
 
 $$J(R) = \bigcap_{M \text{ maximal}} M$$
 
@@ -236,7 +236,7 @@ $$M + I = M \quad \text{or} \quad M + I = R$$
 
 ### Coprime Ideals
 
-**정의**: Ideals $I, J$가 **coprime^[서로소]**이다 $\Leftrightarrow$ $I + J = R$
+**정의**: Ideals $I, J$가 **coprime**^[서로소]이다 $\Leftrightarrow$ $I + J = R$
 
 **정리**: $I, J$ coprime to $M$ (maximal) $\Rightarrow$ $IJ$ coprime to $M$
 
