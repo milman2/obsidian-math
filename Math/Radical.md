@@ -527,3 +527,4 @@ Same here! But in general different.
 - [[Primary Decomposition]]: Generalization
 - [[Reduced Ring]]: Trivial nilradical
 
+
