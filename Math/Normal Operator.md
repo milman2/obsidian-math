@@ -19,11 +19,19 @@
 
 $V$를 inner product space^[내적 공간]이라고 하고, $T: V \to V$를 linear operator^[선형 연산자]라고 하자.
 
-**Adjoint operator**^[수반 연산자] $T^*: V \to V$는 다음을 만족하는 unique operator:
+**Adjoint operator**^[수반 연산자] $T^*: V \to V$는 다음을 만족하는 operator:
 
 $$\langle T(v), w \rangle = \langle v, T^*(w) \rangle \quad \forall v, w \in V$$
 
-**존재성**: Finite-dimensional inner product space에서 항상 존재
+### 존재성과 유일성
+
+**존재성**: 
+- Finite-dimensional inner product space에서 모든 linear operator $T$는 adjoint를 가짐
+- Infinite-dimensional: Hilbert space에서 bounded operator만 adjoint 존재
+
+**유일성**: 
+- 위 조건을 만족하는 $T^*$는 **unique** (유일)
+- 증명: $\langle v, S_1(w) - S_2(w) \rangle = 0$ for all $v, w$ $\Rightarrow$ $S_1 = S_2$
 
 **Matrix representation**: $[T^*] = [T]^*$ (conjugate transpose^[켤레 전치])
 
