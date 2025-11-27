@@ -221,6 +221,29 @@ $\lambda \neq \mu \Rightarrow \lambda \neq \overline{\mu}$ (실수 eigenvalue인
 
 $$(p(T))^* p(T) = p(T^*) p(T) = p(T) p(T^*) = p(T) (p(T))^*$$ ✓
 
+**중요한 특수 케이스: Scalar Shift**
+
+**정리**: $T$ normal, $c \in \mathbb{F}$ (scalar), $I$ identity
+
+$$\Rightarrow T - cI \text{ is normal}$$
+
+**증명**:
+
+$$(T - cI)^* = T^* - \overline{c}I$$
+
+$$(T - cI)^*(T - cI) = (T^* - \overline{c}I)(T - cI)$$
+$$= T^*T - cT^* - \overline{c}T + |c|^2I$$
+
+$$(T - cI)(T - cI)^* = (T - cI)(T^* - \overline{c}I)$$
+$$= TT^* - \overline{c}T - cT^* + |c|^2I$$
+
+$T$ normal이므로 $T^*T = TT^*$, 따라서 두 식이 같음 ✓
+
+**응용**:
+- Eigenvalue equation: $(T - \lambda I)v = 0$
+- Spectral shift: $T - cI$의 spectrum은 $T$의 spectrum을 $c$만큼 이동
+- Normality preservation under translation
+
 ### 5. Product and Sum
 
 **정리**:
