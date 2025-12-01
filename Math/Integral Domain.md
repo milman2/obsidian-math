@@ -49,12 +49,10 @@ $$ba = ca, \; a \neq 0 \Rightarrow b = c$$
 - $ab - ac = 0$
 - $a(b - c) = 0$
 - No zero divisors: $a \neq 0$ $\Rightarrow$ $b - c = 0$
-- 따라서 $b = c$ ✓
-
+- 따라서 $b = c$ 
 ($\Leftarrow$) $ab = 0$이고 $a \neq 0$이면
 - $ab = a \cdot 0$
-- Cancellation: $b = 0$ ✓
-
+- Cancellation: $b = 0$ 
 ---
 
 # <span class="header-properties">Properties</span>
@@ -75,8 +73,7 @@ $\text{char}(R) = n > 0$이라 가정. $n = mk$로 분해하면 ($1 < m, k < n$)
 - 그런데 $m \cdot 1 \neq 0$, $k \cdot 1 \neq 0$ (minimality of $n$)
 - Zero divisor 발생! ✗
 
-따라서 $n$은 prime이어야 함 ✓
-
+따라서 $n$은 prime이어야 함 
 ## Multiplicative Cancellation
 
 Integral domain에서 곱셈은 **injective**^[단사]:
@@ -94,8 +91,7 @@ Integral domain $R$에서:
 
 $$\text{Nil}(R) = \{a : \exists n, a^n = 0\} = \{0\}$$
 
-**증명**: $a^n = 0$이면 $a \cdot a^{n-1} = 0$. No zero divisors $\Rightarrow$ $a = 0$ ✓
-
+**증명**: $a^n = 0$이면 $a \cdot a^{n-1} = 0$. No zero divisors $\Rightarrow$ $a = 0$ 
 ## Polynomial Rings
 
 Integral domain $R$에 대해:
@@ -105,8 +101,7 @@ $$R \text{ is integral domain} \quad \Rightarrow \quad R[x] \text{ is integral d
 **증명**: $f, g \in R[x]$ nonzero이면
 - Leading coefficient: $a_n, b_m \neq 0$
 - $(fg)$의 leading coefficient = $a_n b_m \neq 0$ (no zero divisors in $R$)
-- 따라서 $fg \neq 0$ ✓
-
+- 따라서 $fg \neq 0$ 
 **귀납적으로**: $R[x_1, \ldots, x_n]$도 integral domain
 
 ---
@@ -121,8 +116,7 @@ $$R \text{ is integral domain} \quad \Rightarrow \quad R[x] \text{ is integral d
 
 **증명**: $ab = 0$이고 $a \neq 0$이면
 - $a^{-1}$ exists (field)
-- $b = a^{-1}(ab) = a^{-1} \cdot 0 = 0$ ✓
-
+- $b = a^{-1}(ab) = a^{-1} \cdot 0 = 0$ 
 **예**:
 - $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$ (fields)
 - $\mathbb{Z}/p\mathbb{Z}$ ($p$ prime)
@@ -131,10 +125,7 @@ $$R \text{ is integral domain} \quad \Rightarrow \quad R[x] \text{ is integral d
 ### 2. Integers
 
 $\mathbb{Z}$ is an integral domain:
-- Commutative ✓
-- Identity: $1$ ✓
-- No zero divisors ✓
-
+- Commutative - Identity: $1$ - No zero divisors 
 ### 3. Gaussian Integers
 
 $$\mathbb{Z}[i] = \{a + bi : a, b \in \mathbb{Z}\}$$

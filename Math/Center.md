@@ -45,10 +45,7 @@ $$C_G(g) = \{h \in G : hg = gh\}$$
 **정리**: $Z(G) \leq G$
 
 **증명**:
-- **Identity**: $e \in Z(G)$ (모든 것과 교환) ✓
-- **Closure**: $z_1, z_2 \in Z(G)$ $\Rightarrow$ $(z_1z_2)g = z_1(z_2g) = z_1(gz_2) = (z_1g)z_2 = (gz_1)z_2 = g(z_1z_2)$ ✓
-- **Inverse**: $z \in Z(G)$ $\Rightarrow$ $z^{-1}g = z^{-1}gzz^{-1} = z^{-1}zgz^{-1} = gz^{-1}$ ✓
-
+- **Identity**: $e \in Z(G)$ (모든 것과 교환) - **Closure**: $z_1, z_2 \in Z(G)$ $\Rightarrow$ $(z_1z_2)g = z_1(z_2g) = z_1(gz_2) = (z_1g)z_2 = (gz_1)z_2 = g(z_1z_2)$ - **Inverse**: $z \in Z(G)$ $\Rightarrow$ $z^{-1}g = z^{-1}gzz^{-1} = z^{-1}zgz^{-1} = gz^{-1}$ 
 ## Normal Subgroup
 
 **정리**: $Z(G) \triangleleft G$ (characteristic subgroup)
@@ -66,9 +63,7 @@ $$C_G(g) = \{h \in G : hg = gh\}$$
 **정리**: $G$ abelian $\Leftrightarrow Z(G) = G$
 
 **증명**:
-- ($\Rightarrow$): Abelian이면 모든 원소가 교환 $\Rightarrow$ $Z(G) = G$ ✓
-- ($\Leftarrow$): $Z(G) = G$ $\Rightarrow$ 모든 원소 쌍이 교환 $\Rightarrow$ abelian ✓
-
+- ($\Rightarrow$): Abelian이면 모든 원소가 교환 $\Rightarrow$ $Z(G) = G$ - ($\Leftarrow$): $Z(G) = G$ $\Rightarrow$ 모든 원소 쌍이 교환 $\Rightarrow$ abelian 
 자세한 내용은 [[Abelian Group]] 참조
 
 ## Quotient by Center
@@ -87,8 +82,7 @@ $\Rightarrow$ 모든 원소가 $gZ(G)$의 거듭제곱 형태
 
 $\Rightarrow$ Central elements와 $g$의 powers로 표현
 
-$\Rightarrow$ 교환 ✓
-
+$\Rightarrow$ 교환 
 ## $p$-groups Have Non-trivial Center
 
 **정리**: $|G| = p^n$ ($p$ prime), $n > 0$ $\Rightarrow Z(G) \neq \{e\}$
@@ -99,8 +93,7 @@ $$|G| = |Z(G)| + \sum_{i} [G : C_G(x_i)]$$
 
 $p \mid |G|$, $p \mid [G : C_G(x_i)]$ $\Rightarrow$ $p \mid |Z(G)|$
 
-$\Rightarrow |Z(G)| \geq p > 1$ ✓
-
+$\Rightarrow |Z(G)| \geq p > 1$ 
 자세한 내용은 [[p-Group]] 참조
 
 ---

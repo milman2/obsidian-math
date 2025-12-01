@@ -459,14 +459,12 @@ $$(\sigma \tau)(x) = \tau(\sigma(x))$$
 
 ✗ $(12)(23) = (123)$?
 
-Depends on convention! (Right-to-left: Yes)
+✓ Depends on convention! (Right-to-left: Yes)
 
-**Check**: $1 \xrightarrow{(23)} 1 \xrightarrow{(12)} 2$ ✓
-
+**Check**: $1 \xrightarrow{(23)} 1 \xrightarrow{(12)} 2$ 
 ### 2. Disjoint cycles commute
 
-✓ $(12)(34) = (34)(12)$ ✓
-
+ $(12)(34) = (34)(12)$ 
 ✗ $(12)(23) \neq (23)(12)$ (NOT disjoint)
 
 ### 3. Cycle length vs order
@@ -475,7 +473,7 @@ Depends on convention! (Right-to-left: Yes)
 
 ✗ Not 2! It's $\text{lcm}(2,2) = 2$ (happens to be same)
 
-✓ Order of $(123)(45)$ = $\text{lcm}(3,2) = 6$
+ Order of $(123)(45)$ = $\text{lcm}(3,2) = 6$
 
 ### 4. Sign of cycle
 

@@ -96,8 +96,7 @@ For $(n, e)$ and $(n', h)$:
 
 $$(n', h)(n, e)(n', h)^{-1} = (n' \phi(h)(n) \phi(h)(n'^{-1}), e) \in N$$
 
-따라서 $N$ normal ✓
-
+따라서 $N$ normal 
 ## $H$ NOT Normal (Generally)
 
 **주의**: $H \cong \{e\} \times H \leq G$ usually **not** normal!
@@ -118,8 +117,7 @@ $$h n h^{-1} = \phi(h)(n)$$
 
 **의미**: Conjugation by $h$ = action $\phi(h)$
 
-**증명**: $(e, h)(n, e)(e, h)^{-1} = (\phi(h)(n), e)$ ✓
-
+**증명**: $(e, h)(n, e)(e, h)^{-1} = (\phi(h)(n), e)$ 
 ## Uniqueness (NOT!)
 
 **주의**: $G = N \rtimes_{\phi} H$ depends on $\phi$!
@@ -263,8 +261,7 @@ $$\text{GL}_n(\mathbb{F}) = \text{SL}_n(\mathbb{F}) \rtimes \mathbb{F}^{\times}$
 
 **증명**: Define $\phi: H \to \text{Aut}(N)$ by $\phi(h)(n) = hnh^{-1}$
 
-Then $G \cong N \rtimes_{\phi} H$ ✓
-
+Then $G \cong N \rtimes_{\phi} H$ 
 ## Split Extension
 
 **정리**: Exact sequence

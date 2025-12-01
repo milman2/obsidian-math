@@ -53,11 +53,7 @@ $$(\mathbb{Z}/n\mathbb{Z})^\times = \{[a] : \gcd(a, n) = 1\}$$
 **연산**: 곱셈 modulo $n$
 
 **Group 확인**:
-- **Closure**: $\gcd(a,n) = \gcd(b,n) = 1 \Rightarrow \gcd(ab,n) = 1$ ✓
-- **Associativity**: 곱셈은 associative ✓
-- **Identity**: $[1]$ ✓
-- **Inverse**: Bézout's identity로 존재 ✓
-
+- **Closure**: $\gcd(a,n) = \gcd(b,n) = 1 \Rightarrow \gcd(ab,n) = 1$ - **Associativity**: 곱셈은 associative - **Identity**: $[1]$ - **Inverse**: Bézout's identity로 존재 
 **Order**: $|(\mathbb{Z}/n\mathbb{Z})^\times| = \phi(n)$
 
 ### Lagrange's Theorem 적용
@@ -74,8 +70,7 @@ $$[a]^{\phi(n)} = [1]$$
 
 즉:
 
-$$a^{\phi(n)} \equiv 1 \pmod{n}$$ ✓
-
+$$a^{\phi(n)} \equiv 1 \pmod{n}$$ 
 자세한 내용은 [[Lagrange's theorem]] 참조
 
 ## Direct Proof (Elementary)
@@ -87,9 +82,7 @@ Let $S = \{r_1, r_2, \ldots, r_{\phi(n)}\}$ = 모든 $n$과 서로소인 residue
 **주장**: $\{ar_1, ar_2, \ldots, ar_{\phi(n)}\}$ (mod $n$) = $S$의 permutation
 
 **증명**:
-1. $\gcd(ar_i, n) = 1$ (since $\gcd(a,n) = \gcd(r_i,n) = 1$) ✓
-2. $ar_i \equiv ar_j \pmod{n} \Rightarrow r_i \equiv r_j \pmod{n}$ (cancel $a$) ✓
-
+1. $\gcd(ar_i, n) = 1$ (since $\gcd(a,n) = \gcd(r_i,n) = 1$) 2. $ar_i \equiv ar_j \pmod{n} \Rightarrow r_i \equiv r_j \pmod{n}$ (cancel $a$) 
 따라서:
 
 $$(ar_1)(ar_2)\cdots(ar_{\phi(n)}) \equiv r_1 r_2 \cdots r_{\phi(n)} \pmod{n}$$
@@ -98,8 +91,7 @@ $$a^{\phi(n)} (r_1 r_2 \cdots r_{\phi(n)}) \equiv r_1 r_2 \cdots r_{\phi(n)} \pm
 
 $\gcd(r_1 r_2 \cdots r_{\phi(n)}, n) = 1$이므로 cancel:
 
-$$a^{\phi(n)} \equiv 1 \pmod{n}$$ ✓
-
+$$a^{\phi(n)} \equiv 1 \pmod{n}$$ 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -111,10 +103,7 @@ $$\phi(10) = |\{1, 3, 7, 9\}| = 4$$
 **Euler's theorem**: $\gcd(a, 10) = 1 \Rightarrow a^4 \equiv 1 \pmod{10}$
 
 **확인**:
-- $3^4 = 81 \equiv 1 \pmod{10}$ ✓
-- $7^4 = 2401 \equiv 1 \pmod{10}$ ✓
-- $9^4 = 6561 \equiv 1 \pmod{10}$ ✓
-
+- $3^4 = 81 \equiv 1 \pmod{10}$ - $7^4 = 2401 \equiv 1 \pmod{10}$ - $9^4 = 6561 \equiv 1 \pmod{10}$ 
 ## Example 2: Fermat's Little Theorem ($n = 7$)
 
 $$\phi(7) = 6$$
@@ -122,8 +111,7 @@ $$\phi(7) = 6$$
 **Euler's theorem**: $\gcd(a, 7) = 1 \Rightarrow a^6 \equiv 1 \pmod{7}$
 
 **확인** ($a = 2$):
-$$2^6 = 64 = 9 \cdot 7 + 1 \equiv 1 \pmod{7}$$ ✓
-
+$$2^6 = 64 = 9 \cdot 7 + 1 \equiv 1 \pmod{7}$$ 
 ## Example 3: $n = 15$
 
 $$\phi(15) = \phi(3 \cdot 5) = \phi(3) \cdot \phi(5) = 2 \cdot 4 = 8$$
@@ -131,15 +119,13 @@ $$\phi(15) = \phi(3 \cdot 5) = \phi(3) \cdot \phi(5) = 2 \cdot 4 = 8$$
 **Euler's theorem**: $\gcd(a, 15) = 1 \Rightarrow a^8 \equiv 1 \pmod{15}$
 
 **확인** ($a = 2$):
-$$2^8 = 256 = 17 \cdot 15 + 1 \equiv 1 \pmod{15}$$ ✓
-
+$$2^8 = 256 = 17 \cdot 15 + 1 \equiv 1 \pmod{15}$$ 
 ## Example 4: Computing Large Powers
 
 **문제**: $7^{222} \pmod{10}$ 계산
 
 **풀이**:
-- $\gcd(7, 10) = 1$ ✓
-- $\phi(10) = 4$
+- $\gcd(7, 10) = 1$ - $\phi(10) = 4$
 - $222 = 55 \cdot 4 + 2$
 
 $$7^{222} = (7^4)^{55} \cdot 7^2 \equiv 1^{55} \cdot 49 \equiv 9 \pmod{10}$$
@@ -182,8 +168,7 @@ $$\phi(p^k) = p^k - p^{k-1} = p^{k-1}(p-1)$$
 
 $p, 2p, 3p, \ldots, p^{k-1}p$ = $p^{k-1}$개
 
-따라서 $\phi(p^k) = p^k - p^{k-1}$ ✓
-
+따라서 $\phi(p^k) = p^k - p^{k-1}$ 
 ### 3. Formula from Prime Factorization
 
 $$n = p_1^{a_1} p_2^{a_2} \cdots p_k^{a_k}$$
@@ -200,8 +185,7 @@ $$\sum_{d \mid n} \phi(d) = n$$
 
 **예**: $n = 6$, divisors: $1, 2, 3, 6$
 
-$$\phi(1) + \phi(2) + \phi(3) + \phi(6) = 1 + 1 + 2 + 2 = 6$$ ✓
-
+$$\phi(1) + \phi(2) + \phi(3) + \phi(6) = 1 + 1 + 2 + 2 = 6$$ 
 ### 5. Values
 
 | $n$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 12 | 15 | 16 |
@@ -254,8 +238,7 @@ $$\mathbb{Z}/mn\mathbb{Z} \cong \mathbb{Z}/m\mathbb{Z} \times \mathbb{Z}/n\mathb
 
 $$(\mathbb{Z}/mn\mathbb{Z})^\times \cong (\mathbb{Z}/m\mathbb{Z})^\times \times (\mathbb{Z}/n\mathbb{Z})^\times$$
 
-**따라서**: $\phi(mn) = \phi(m) \phi(n)$ ✓
-
+**따라서**: $\phi(mn) = \phi(m) \phi(n)$ 
 ## Wilson's Theorem
 
 $$p \text{ prime} \Rightarrow (p-1)! \equiv -1 \pmod{p}$$
@@ -369,8 +352,7 @@ $$\phi(100) = 100 \left(1 - \frac{1}{2}\right)\left(1 - \frac{1}{5}\right) = 100
 $$c = 123^{17} \bmod 3233 = 855$$
 
 **Decryption**: 
-$$m = 855^{2753} \bmod 3233 = 123$$ ✓
-
+$$m = 855^{2753} \bmod 3233 = 123$$ 
 **Why it works**: Euler's theorem!
 
 ## 역사적 배경

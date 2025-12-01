@@ -46,8 +46,7 @@ where $s_i \in S$, $\epsilon_i = \pm 1$
 **Reduced word**^[기약 단어]: $s_i^{\epsilon_i}(s_i)^{-\epsilon_i}$ 형태 없음
 
 **예**:
-- $aba^{-1}b^{-1}$ reduced ✓
-- $aba^{-1}a$ not reduced (= $ab$) ✗
+- $aba^{-1}b^{-1}$ reduced - $aba^{-1}a$ not reduced (= $ab$) ✗
 
 ## Free Group on $n$ Generators
 
@@ -111,8 +110,7 @@ for some $S$ and normal subgroup $N$
 
 **Word problem**: Is $w = e$ in $F(S)$?
 
-**Answer for Free Groups**: EASY! ✓
-
+**Answer for Free Groups**: EASY! 
 $w = e \Leftrightarrow w$ reduces to empty word
 
 **대조**: For general groups, word problem can be undecidable!
@@ -195,9 +193,7 @@ $$F_2 = \langle a, b \rangle$$
 ## Example 3: Words in $F_2$
 
 **Example words**:
-- $aba^{-1}b^{-1}$ (commutator $[a,b]$) reduced ✓
-- $abab$ reduced ✓
-- $aba^{-1}a$ not reduced = $ab$ ✗
+- $aba^{-1}b^{-1}$ (commutator $[a,b]$) reduced - $abab$ reduced - $aba^{-1}a$ not reduced = $ab$ ✗
 - $aa^{-1}$ not reduced = $e$ ✗
 
 ## Example 4: Homomorphisms
@@ -228,8 +224,7 @@ $$\pi_1(S^1 \vee S^1) \cong F_2$$
 
 $$H = \langle a^2, b^2, ab \rangle \leq F_2$$
 
-**Is $H$ free?** Yes! (Nielsen-Schreier) ✓
-
+**Is $H$ free?** Yes! (Nielsen-Schreier) 
 **Rank?** Compute using index formula
 
 ---
@@ -298,8 +293,7 @@ $$\text{rank}(H) - 1 = m(n-1)$$
 
 $$g^k = e, \; g \neq e \Rightarrow k = 0$$
 
-**증명**: Reduced word $w$ → $w^k$ has length $k|w|$ if $k \neq 0$ ✓
-
+**증명**: Reduced word $w$ → $w^k$ has length $k|w|$ if $k \neq 0$ 
 ## Hopfian Property
 
 **정리**: $F_n$ is Hopfian

@@ -419,23 +419,20 @@ $f(x)$ irreducible in $K[x]$
 
 $\Rightarrow$ $\langle f(x) \rangle$ is maximal ideal (in PID $K[x]$)
 
-$\Rightarrow$ $F = K[x]/(f(x))$ is field ✓
-
+$\Rightarrow$ $F = K[x]/(f(x))$ is field 
 ### Step 2: $K$ embeds in $F$
 
 Canonical map: $\phi: K \to F$, $\phi(a) = a + (f(x))$
 
 **Injective**: $\ker(\phi) = K \cap (f(x)) = \{0\}$ (since $\deg(f) \geq 1$)
 
-따라서 $K \cong \phi(K) \subseteq F$ ✓
-
+따라서 $K \cong \phi(K) \subseteq F$ 
 ### Step 3: Root Exists
 
 $\alpha = x + (f(x)) \in F$
 
 **Verification**:
-$$f(\alpha) = f(x) + (f(x)) = 0 + (f(x)) = 0 \in F$$ ✓
-
+$$f(\alpha) = f(x) + (f(x)) = 0 + (f(x)) = 0 \in F$$ 
 ### Step 4: Degree
 
 **Basis**: $\{1, \alpha, \alpha^2, \ldots, \alpha^{n-1}\}$ where $n = \deg(f)$
@@ -443,12 +440,10 @@ $$f(\alpha) = f(x) + (f(x)) = 0 + (f(x)) = 0 \in F$$ ✓
 **Independence**: Suppose $\sum_{i=0}^{n-1} a_i \alpha^i = 0$
 - Then $g(x) = \sum a_i x^i \in (f(x))$
 - But $\deg(g) < \deg(f)$
-- 따라서 $g = 0$, 즉 $a_i = 0$ for all $i$ ✓
-
+- 따라서 $g = 0$, 즉 $a_i = 0$ for all $i$ 
 **Spanning**: $\alpha^n$을 $f(\alpha) = 0$로 환원 가능
 
-따라서 $[F : K] = n$ ✓
-
+따라서 $[F : K] = n$ 
 ---
 
 # <span class="header-proof">Proof Sketch (Number Theory)</span>
@@ -485,8 +480,7 @@ for all $m \in \mathbb{Z}$, some $(k_1, \ldots, k_n) \neq (0, \ldots, 0)$
 
 **Contradiction**: $k_1\theta_1 + \cdots + k_n\theta_n \in \mathbb{Z}$ (linear dependence!) ✗
 
-따라서 $\overline{H} = \mathbb{R}^n/\mathbb{Z}^n$ ✓
-
+따라서 $\overline{H} = \mathbb{R}^n/\mathbb{Z}^n$ 
 ---
 
 # <span class="header-examples">Applications</span>

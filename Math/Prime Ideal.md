@@ -45,21 +45,17 @@ $$a, b \notin P \quad \Rightarrow \quad ab \notin P$$
 - $ab \in P$
 - $\Rightarrow$ $a \in P$ or $b \in P$
 - $\Rightarrow$ $a + P = 0$ or $b + P = 0$
-- 따라서 $R/P$는 integral domain ✓
-
+- 따라서 $R/P$는 integral domain 
 ($\Leftarrow$) $R/P$ integral domain이면, $ab \in P$일 때
 - $(a + P)(b + P) = 0 + P$
 - $\Rightarrow$ $a + P = 0$ or $b + P = 0$
-- $\Rightarrow$ $a \in P$ or $b \in P$ ✓
-
-**(1 $\Leftrightarrow$ 3)**: Contrapositive ✓
-
+- $\Rightarrow$ $a \in P$ or $b \in P$ 
+**(1 $\Leftrightarrow$ 3)**: Contrapositive 
 **(1 $\Rightarrow$ 4)**: $IJ \subseteq P$이고 $I \not\subseteq P$이면
 - $\exists a \in I \setminus P$
 - 모든 $b \in J$에 대해 $ab \in IJ \subseteq P$
 - Prime property: $ab \in P$ and $a \notin P$ $\Rightarrow$ $b \in P$
-- 따라서 $J \subseteq P$ ✓
-
+- 따라서 $J \subseteq P$ 
 ## Prime Element
 
 Ring $R$의 원소 $p$가 **prime element^[소원]**이다 $\Leftrightarrow$
@@ -105,10 +101,8 @@ $$\text{Ass}(I) = \{P \text{ prime} : P = \text{ann}(r + I) \text{ for some } r 
 
 **증명**: $P = R$이면 $1 \in P$
 - 모든 $a \in R$에 대해 $a = a \cdot 1 \in P$
-- 따라서 $P = R$ ✓
-
-하지만 정의상 prime ideal은 proper ✓
-
+- 따라서 $P = R$ 
+하지만 정의상 prime ideal은 proper 
 ### 2. Contains a Product
 
 **정리**: $a_1 \cdots a_n \in P$ (prime ideal)이면
@@ -116,17 +110,14 @@ $$\text{Ass}(I) = \{P \text{ prime} : P = \text{ann}(r + I) \text{ for some } r 
 $$\exists i: \quad a_i \in P$$
 
 **증명**: Induction on $n$
-- $n = 2$: definition ✓
-- $n > 2$: $(a_1 \cdots a_{n-1}) a_n \in P$
+- $n = 2$: definition - $n > 2$: $(a_1 \cdots a_{n-1}) a_n \in P$
   - $\Rightarrow$ $a_1 \cdots a_{n-1} \in P$ or $a_n \in P$
-  - If first: induction hypothesis ✓
-
+  - If first: induction hypothesis 
 ### 3. Prime vs Maximal
 
 **정리**: Every maximal ideal is prime
 
-**증명**: $M$ maximal $\Rightarrow$ $R/M$ is field $\Rightarrow$ $R/M$ is integral domain $\Rightarrow$ $M$ is prime ✓
-
+**증명**: $M$ maximal $\Rightarrow$ $R/M$ is field $\Rightarrow$ $R/M$ is integral domain $\Rightarrow$ $M$ is prime 
 **역 거짓**: Prime ideal이 maximal은 아님!
 
 예: $\langle x \rangle \triangleleft \mathbb{Z}[x]$ is prime but not maximal
@@ -142,8 +133,7 @@ $$\exists i: \quad a_i \in P$$
 - $p$ prime $\Rightarrow$ $p | a$ or $p | b$
 - If $p | a$: $I = R$
 - If $p | b$: $I = P$
-- 따라서 $P$ maximal ✓
-
+- 따라서 $P$ maximal 
 자세한 내용은 [[Principal Ideal Domain]] 참조
 
 ### 5. Union of Prime Ideals
@@ -215,8 +205,7 @@ $\phi: R \to S$ ring homomorphism일 때:
 
 **Contraction**: $Q \triangleleft S$ $\mapsto$ $Q^c = \phi^{-1}(Q)$
 
-**정리**: $P$ prime $\Rightarrow$ $P^c$ prime ✓
-
+**정리**: $P$ prime $\Rightarrow$ $P^c$ prime 
 하지만: $P$ prime $\not\Rightarrow$ $P^e$ prime (일반적으로)
 
 ### Intersection
@@ -235,9 +224,8 @@ $\langle 6 \rangle$은 prime 아님 ($2 \cdot 3 \in \langle 6 \rangle$ but $2, 3
 
 **Prime ideals**: $\langle p \rangle$ where $p$ is prime (또는 $\langle 0 \rangle$)
 
-- $\langle 0 \rangle$: Zero ideal ✓ ($\mathbb{Z}$ is integral domain)
-- $\langle 2 \rangle$: $ab \in \langle 2 \rangle \Rightarrow 2 | ab \Rightarrow 2 | a$ or $2 | b$ ✓
-- $\langle 3 \rangle$, $\langle 5 \rangle$, $\langle 7 \rangle$, ... (all primes)
+- $\langle 0 \rangle$: Zero ideal  ($\mathbb{Z}$ is integral domain)
+- $\langle 2 \rangle$: $ab \in \langle 2 \rangle \Rightarrow 2 | ab \Rightarrow 2 | a$ or $2 | b$ - $\langle 3 \rangle$, $\langle 5 \rangle$, $\langle 7 \rangle$, ... (all primes)
 
 **NOT prime**: $\langle 4 \rangle$
 - $2 \cdot 2 \in \langle 4 \rangle$ but $2 \notin \langle 4 \rangle$ ✗
@@ -252,24 +240,20 @@ $\langle 6 \rangle$은 prime 아님 ($2 \cdot 3 \in \langle 6 \rangle$ but $2, 3
 
 **Check $\langle \overline{2} \rangle$**:
 
-$$\mathbb{Z}/12\mathbb{Z} / \langle \overline{2} \rangle \cong \mathbb{Z}/2\mathbb{Z}$$ (field!) ✓
-
+$$\mathbb{Z}/12\mathbb{Z} / \langle \overline{2} \rangle \cong \mathbb{Z}/2\mathbb{Z}$$ (field!) 
 **Check $\langle \overline{3} \rangle$**:
 
-$$\mathbb{Z}/12\mathbb{Z} / \langle \overline{3} \rangle \cong \mathbb{Z}/3\mathbb{Z}$$ (field!) ✓
-
+$$\mathbb{Z}/12\mathbb{Z} / \langle \overline{3} \rangle \cong \mathbb{Z}/3\mathbb{Z}$$ (field!) 
 **둘 다 maximal이기도 함!**
 
 ## Example 3: $k[x]$ (Polynomial Ring)
 
 **Prime ideals** (field $k$):
-- $\langle 0 \rangle$: Zero ideal ✓ ($k[x]$ is integral domain)
+- $\langle 0 \rangle$: Zero ideal  ($k[x]$ is integral domain)
 - $\langle f(x) \rangle$ where $f$ is irreducible polynomial
 
 **예**:
-- $\langle x \rangle$ in $\mathbb{R}[x]$ ✓
-- $\langle x^2 + 1 \rangle$ in $\mathbb{R}[x]$ ✓
-- $\langle x - a \rangle$ in $k[x]$ ✓ (linear polynomials)
+- $\langle x \rangle$ in $\mathbb{R}[x]$ - $\langle x^2 + 1 \rangle$ in $\mathbb{R}[x]$ - $\langle x - a \rangle$ in $k[x]$  (linear polynomials)
 
 **NOT prime**: $\langle x^2 - 1 \rangle$ in $\mathbb{R}[x]$
 - $x^2 - 1 = (x-1)(x+1)$ (reducible) ✗
@@ -279,16 +263,9 @@ $$\mathbb{Z}/12\mathbb{Z} / \langle \overline{3} \rangle \cong \mathbb{Z}/3\math
 ## Example 4: $\mathbb{Z}[x]$
 
 **Prime ideals**:
-- $\langle 0 \rangle$: Zero ideal ✓
-- $\langle p \rangle$: $p$ prime number ✓
-- $\langle f(x) \rangle$: $f$ irreducible in $\mathbb{Z}[x]$ ✓
-- $\langle p, f(x) \rangle$: $p$ prime, $f$ irreducible mod $p$ ✓
-
+- $\langle 0 \rangle$: Zero ideal - $\langle p \rangle$: $p$ prime number - $\langle f(x) \rangle$: $f$ irreducible in $\mathbb{Z}[x]$ - $\langle p, f(x) \rangle$: $p$ prime, $f$ irreducible mod $p$ 
 **예**:
-- $\langle 2 \rangle$ is prime ✓
-- $\langle x \rangle$ is prime ✓
-- $\langle 2, x \rangle$ is prime AND maximal ✓
-
+- $\langle 2 \rangle$ is prime - $\langle x \rangle$ is prime - $\langle 2, x \rangle$ is prime AND maximal 
 **Hierarchy**:
 
 $$\langle 0 \rangle \subsetneq \langle 2 \rangle \subsetneq \langle 2, x \rangle$$
@@ -301,15 +278,12 @@ $$\langle 0 \rangle \subsetneq \langle 2 \rangle \subsetneq \langle 2, x \rangle
 ## Example 5: $k[x, y]$ (Two Variables)
 
 **Prime ideals**:
-- $\langle 0 \rangle$ ✓
-- $\langle f(x, y) \rangle$: $f$ irreducible ✓
-- $\langle f, g \rangle$: (sometimes) ✓
-
+- $\langle 0 \rangle$ - $\langle f(x, y) \rangle$: $f$ irreducible - $\langle f, g \rangle$: (sometimes) 
 **예**:
-- $\langle x \rangle$ ✓ (prime, not maximal)
-- $\langle y \rangle$ ✓ (prime, not maximal)
-- $\langle x - a, y - b \rangle$ ✓ (maximal!)
-- $\langle x^2 + y^2 - 1 \rangle$ ✓ (circle!)
+- $\langle x \rangle$  (prime, not maximal)
+- $\langle y \rangle$  (prime, not maximal)
+- $\langle x - a, y - b \rangle$  (maximal!)
+- $\langle x^2 + y^2 - 1 \rangle$  (circle!)
 
 **Geometric interpretation**:
 - $\langle 0 \rangle$: Whole space $k^2$
@@ -321,8 +295,7 @@ $$\langle 0 \rangle \subsetneq \langle 2 \rangle \subsetneq \langle 2, x \rangle
 ## Example 6: $\mathbb{Z}[i]$ (Gaussian Integers)
 
 **Prime ideals**:
-- $\langle 0 \rangle$ ✓
-- $\langle \pi \rangle$: $\pi$ Gaussian prime
+- $\langle 0 \rangle$ - $\langle \pi \rangle$: $\pi$ Gaussian prime
 
 **Gaussian primes**:
 - $1 + i$ (since $N(1+i) = 2$, prime in $\mathbb{Z}[i]$)
@@ -353,9 +326,7 @@ Prime ideal 정의가 **작동하지 않음**!
 - $R_1 \times P_2$ where $P_2$ prime in $R_2$
 
 **예**: $\mathbb{Z} \times \mathbb{Z}$
-- $2\mathbb{Z} \times \mathbb{Z}$ ✓
-- $\mathbb{Z} \times 3\mathbb{Z}$ ✓
-
+- $2\mathbb{Z} \times \mathbb{Z}$ - $\mathbb{Z} \times 3\mathbb{Z}$ 
 **Check**: 
 
 $$(R_1 \times R_2) / (P_1 \times R_2) \cong R_1/P_1 \times R_2/R_2 \cong R_1/P_1 \times \{0\}$$
@@ -393,8 +364,7 @@ for each $x \in [0,1]$
 
 **Check**: $fg \in M_x$ (즉 $f(x)g(x) = 0$)
 - $\Rightarrow$ $f(x) = 0$ or $g(x) = 0$ (실수의 성질)
-- $\Rightarrow$ $f \in M_x$ or $g \in M_x$ ✓
-
+- $\Rightarrow$ $f \in M_x$ or $g \in M_x$ 
 **모든 prime ideals는 이 형태** (Gelfand-Naimark)
 
 **모두 maximal이기도 함!**
@@ -409,8 +379,7 @@ for each $x \in [0,1]$
 
 **증명**: Zorn's Lemma
 - Proper ideals의 collection에서 maximal element 선택
-- Maximal ideal은 prime ✓
-
+- Maximal ideal은 prime 
 ## Prime Ideal Principle
 
 **정리**: Ideal $I$가 multiplicatively closed set $S$와 disjoint이면
@@ -600,8 +569,7 @@ $\langle x \rangle \triangleleft \mathbb{Z}[x]$ is prime but NOT maximal!
 
 $\langle 0 \rangle$이 prime인지 확인!
 
-**답**: $R$이 integral domain이면 prime ✓
-
+**답**: $R$이 integral domain이면 prime 
 ### 3. Intersection of Primes
 
 Prime ideals의 교집합이 prime? **NO!**
@@ -612,8 +580,7 @@ Prime ideals의 교집합이 prime? **NO!**
 
 $P$ prime in $R$, $\phi: R \to S$ homomorphism
 
-**Contraction**: $\phi^{-1}(Q)$ always prime if $Q$ prime ✓
-
+**Contraction**: $\phi^{-1}(Q)$ always prime if $Q$ prime 
 **Extension**: $\phi(P)$ generally NOT prime! ✗
 
 ### 5. Prime in Non-commutative

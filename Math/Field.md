@@ -132,8 +132,7 @@ $$[\mathbb{F} : K] < \infty \Rightarrow \mathbb{F}/K \text{ is algebraic}$$
 **증명**: $\ker(\phi)$는 ideal of $\mathbb{F}$
 - Field의 ideal은 $(0)$ 또는 $\mathbb{F}$뿐
 - $\phi(1) = 1 \neq 0$이므로 $\ker(\phi) \neq \mathbb{F}$
-- 따라서 $\ker(\phi) = (0)$ ✓
-
+- 따라서 $\ker(\phi) = (0)$ 
 **결과**: Field homomorphism은 injective 또는 trivial (zero map은 homomorphism 아님)
 
 ---
@@ -242,8 +241,7 @@ Field $\mathbb{F}$의 ideal은 $(0)$과 $\mathbb{F}$뿐
 - $a^{-1} \in \mathbb{F}$
 - $1 = a \cdot a^{-1} \in I$ (ideal 성질)
 - $\forall b \in \mathbb{F}, \; b = b \cdot 1 \in I$
-- 따라서 $I = \mathbb{F}$ ✓
-
+- 따라서 $I = \mathbb{F}$ 
 ### 4. Field Homomorphisms are Injective
 
 앞서 정의 섹션에서 증명

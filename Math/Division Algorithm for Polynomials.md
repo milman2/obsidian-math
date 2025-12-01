@@ -72,8 +72,7 @@ $$f(x) = q(x)g(x) + r(x), \quad \deg(r) < \deg(g)$$
 **Induction on $\deg(f)$**
 
 **Base case**: $\deg(f) < \deg(g)$
-- $q(x) = 0$, $r(x) = f(x)$ ✓
-- $f(x) = 0 \cdot g(x) + f(x)$
+- $q(x) = 0$, $r(x) = f(x)$ - $f(x) = 0 \cdot g(x) + f(x)$
 
 **Inductive step**: $\deg(f) \geq \deg(g)$
 
@@ -96,8 +95,7 @@ $$f(x) = f_1(x) + \frac{a_n}{b_m} x^{n-m} \cdot g(x) = q_1(x) g(x) + r(x) + \fra
 
 $$= \left( q_1(x) + \frac{a_n}{b_m} x^{n-m} \right) g(x) + r(x)$$
 
-Let $q(x) = q_1(x) + \frac{a_n}{b_m} x^{n-m}$ ✓
-
+Let $q(x) = q_1(x) + \frac{a_n}{b_m} x^{n-m}$ 
 ## Uniqueness Proof^[유일성 증명]
 
 **가정**: $f(x) = q_1(x) g(x) + r_1(x) = q_2(x) g(x) + r_2(x)$
@@ -116,8 +114,7 @@ $$\Rightarrow \quad (q_1 - q_2) g = r_2 - r_1$$
 
 **RHS**: $\deg(r_2 - r_1) < \deg(g)$ (since both $< \deg(g)$)
 
-**모순!** Therefore $q_1 = q_2$ and $r_1 = r_2$ ✓
-
+**모순!** Therefore $q_1 = q_2$ and $r_1 = r_2$ 
 ---
 
 # <span class="header-properties">Properties</span>
@@ -198,8 +195,7 @@ $x = a$ 대입:
 
 $$f(a) = q(a) \cdot 0 + r = r$$
 
-따라서 $r = f(a)$ ✓
-
+따라서 $r = f(a)$ 
 자세한 내용은 [[Remainder Theorem]] 참조
 
 ## Factor Theorem
@@ -208,10 +204,8 @@ $$f(a) = q(a) \cdot 0 + r = r$$
 
 **증명**:
 
-($\Rightarrow$) $(x - a) | f(x)$ $\Rightarrow$ $r = 0$ $\Rightarrow$ $f(a) = 0$ ✓
-
-($\Leftarrow$) $f(a) = 0$ $\Rightarrow$ $r = f(a) = 0$ $\Rightarrow$ $(x - a) | f(x)$ ✓
-
+($\Rightarrow$) $(x - a) | f(x)$ $\Rightarrow$ $r = 0$ $\Rightarrow$ $f(a) = 0$ 
+($\Leftarrow$) $f(a) = 0$ $\Rightarrow$ $r = f(a) = 0$ $\Rightarrow$ $(x - a) | f(x)$ 
 자세한 내용은 [[Factor Theorem]] 참조
 
 ---
@@ -246,8 +240,7 @@ $$f(x) = (x^2 + 3x + 2)(x - 1) + 5$$
 - $q(x) = x^2 + 3x + 2$
 - $r(x) = 5$
 
-**검증**: Remainder Theorem: $f(1) = 1 + 2 - 1 + 3 = 5$ ✓
-
+**검증**: Remainder Theorem: $f(1) = 1 + 2 - 1 + 3 = 5$ 
 ## Example 2: Exact Division
 
 **Problem**: Divide $f(x) = x^3 - 1$ by $g(x) = x - 1$ in $\mathbb{R}[x]$
@@ -276,8 +269,7 @@ $$x^3 - 1 = (x^2 + x + 1)(x - 1) + 0$$
 - $q(x) = x^2 + x + 1$
 - $r(x) = 0$ (exact division!)
 
-**Factorization**: $x^3 - 1 = (x - 1)(x^2 + x + 1)$ ✓
-
+**Factorization**: $x^3 - 1 = (x - 1)(x^2 + x + 1)$ 
 ## Example 3: Higher Degree Divisor
 
 **Problem**: Divide $f(x) = x^4 + 3x^3 - x + 1$ by $g(x) = x^2 + 1$ in $\mathbb{R}[x]$
@@ -305,8 +297,7 @@ $$f(x) = (x^2 + 3x - 1)(x^2 + 1) + (-4x + 2)$$
 
 - $q(x) = x^2 + 3x - 1$
 - $r(x) = -4x + 2$
-- $\deg(r) = 1 < 2 = \deg(g)$ ✓
-
+- $\deg(r) = 1 < 2 = \deg(g)$ 
 ## Example 4: Synthetic Division
 
 **Problem**: Divide $f(x) = 2x^3 - 3x^2 + x - 5$ by $g(x) = x - 2$ in $\mathbb{Q}[x]$
@@ -327,8 +318,7 @@ $$f(x) = (2x^2 + x + 3)(x - 2) + 1$$
 - $q(x) = 2x^2 + x + 3$
 - $r = 1$
 
-**검증**: $f(2) = 16 - 12 + 2 - 5 = 1$ ✓
-
+**검증**: $f(2) = 16 - 12 + 2 - 5 = 1$ 
 ## Example 5: Over $\mathbb{F}_p$
 
 **Problem**: Divide $f(x) = x^3 + x + 1$ by $g(x) = x + 1$ in $\mathbb{F}_2[x]$
@@ -354,8 +344,7 @@ $$f(x) = (x^2 + x)(x + 1) + 1$$
 - $q(x) = x^2 + x$
 - $r(x) = 1$
 
-**검증**: $f(1) = 1 + 1 + 1 = 1$ in $\mathbb{F}_2$ ✓
-
+**검증**: $f(1) = 1 + 1 + 1 = 1$ in $\mathbb{F}_2$ 
 ## Example 6: Non-Example (Non-Field)
 
 **Problem**: Divide $f(x) = x^2$ by $g(x) = 2x$ in $\mathbb{Z}[x]$
@@ -384,8 +373,7 @@ Step 2:
 
 $$x^2 - 1 = (x + 1)(x - 1) + 0$$
 
-**결과**: $\gcd(x^3 - 1, x^2 - 1) = x - 1$ ✓
-
+**결과**: $\gcd(x^3 - 1, x^2 - 1) = x - 1$ 
 **검증**: 
 - $x^3 - 1 = (x - 1)(x^2 + x + 1)$
 - $x^2 - 1 = (x - 1)(x + 1)$
@@ -440,8 +428,7 @@ $$x^{100} = q(x)(x^2 - 1) + 1$$
 
 $$x^3 + 1 = (x^2 + ix - 1)(x - i) + (1 - i)$$
 
-**검증**: $f(i) = i^3 + 1 = -i + 1 = 1 - i$ ✓
-
+**검증**: $f(i) = i^3 + 1 = -i + 1 = 1 - i$ 
 ---
 
 # <span class="header-theorem">Theorem</span>
@@ -476,8 +463,7 @@ where $f = qg + r$
 
 **종료**: $\deg(r)$이 strictly decreasing
 
-**결과**: $\gcd$ 존재하고 계산 가능 ✓
-
+**결과**: $\gcd$ 존재하고 계산 가능 
 자세한 내용은 [[Euclidean Algorithm for Polynomials]] 참조
 
 ## Bézout's Identity
@@ -486,8 +472,7 @@ where $f = qg + r$
 
 $$\exists u, v \in F[x]: \quad d = uf + vg$$
 
-**증명**: Extended Euclidean Algorithm ✓
-
+**증명**: Extended Euclidean Algorithm 
 ## Chinese Remainder Theorem
 
 **정리**: $f_1, \ldots, f_k$ pairwise coprime이면
@@ -514,8 +499,7 @@ $f$는 at most $n$ roots in $F$ (counting multiplicity)
 
 **증명**: Induction using Factor Theorem
 - If $f(a) = 0$: $f(x) = (x - a)g(x)$, $\deg(g) = n - 1$
-- Apply induction to $g$ ✓
-
+- Apply induction to $g$ 
 ---
 
 # <span class="header-remark">Remark</span>
@@ -542,8 +526,7 @@ $f$는 at most $n$ roots in $F$ (counting multiplicity)
 
 첫 번째 step에서 $\frac{a_n}{b_m}$ 계산 필요
 
-**Field**: $b_m^{-1}$ 존재 ✓
-
+**Field**: $b_m^{-1}$ 존재 
 **Non-field** ($\mathbb{Z}$): $b_m^{-1}$ 없을 수 있음 ✗
 
 ### Remainder의 의미

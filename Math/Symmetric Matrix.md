@@ -55,9 +55,7 @@ $$A_{ii} = \overline{A_{ii}} \Rightarrow A_{ii} \in \mathbb{R}$$
 
 $A, B$ symmetric, $c \in \mathbb{R}$:
 
-- $A + B$ symmetric: $(A + B)^T = A^T + B^T = A + B$ ✓
-- $cA$ symmetric: $(cA)^T = cA^T = cA$ ✓
-
+- $A + B$ symmetric: $(A + B)^T = A^T + B^T = A + B$ - $cA$ symmetric: $(cA)^T = cA^T = cA$ 
 **Vector space**: Symmetric matrices form a vector space
 
 **Dimension**: $\dim = \frac{n(n+1)}{2}$
@@ -74,8 +72,7 @@ $$(AB)^T = B^T A^T = BA \neq AB$$ (일반적으로)
 
 $A$ symmetric and invertible $\Rightarrow$ $A^{-1}$ symmetric
 
-$$(A^{-1})^T = (A^T)^{-1} = A^{-1}$$ ✓
-
+$$(A^{-1})^T = (A^T)^{-1} = A^{-1}$$ 
 ## Spectral Properties
 
 ### Theorem: Real Eigenvalues
@@ -90,8 +87,7 @@ Also:
 
 $$\mathbf{v}^* A \mathbf{v} = (A\mathbf{v})^* \mathbf{v} = (\lambda \mathbf{v})^* \mathbf{v} = \overline{\lambda} \|\mathbf{v}\|^2$$
 
-따라서 $\lambda = \overline{\lambda}$ $\Rightarrow$ $\lambda \in \mathbb{R}$ ✓
-
+따라서 $\lambda = \overline{\lambda}$ $\Rightarrow$ $\lambda \in \mathbb{R}$ 
 ### Theorem: Orthogonal Eigenvectors
 
 **정리**: 서로 다른 eigenvalue의 eigenvector는 **orthogonal^[직교]**
@@ -102,8 +98,7 @@ $$\lambda_1 \langle \mathbf{v}_1, \mathbf{v}_2 \rangle = \langle A\mathbf{v}_1, 
 
 $$(\lambda_1 - \lambda_2)\langle \mathbf{v}_1, \mathbf{v}_2 \rangle = 0$$
 
-$\lambda_1 \neq \lambda_2$ $\Rightarrow$ $\langle \mathbf{v}_1, \mathbf{v}_2 \rangle = 0$ ✓
-
+$\lambda_1 \neq \lambda_2$ $\Rightarrow$ $\langle \mathbf{v}_1, \mathbf{v}_2 \rangle = 0$ 
 ### Spectral Theorem
 
 **정리** (**Spectral Theorem for Symmetric Matrices**):
@@ -127,20 +122,18 @@ $$A = Q \Lambda Q^T$$
 
 $$A = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix}$$
 
-**Check**: $A^T = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix} = A$ ✓
-
+**Check**: $A^T = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix} = A$ 
 **Eigenvalues**: 
 
 $$\det(A - \lambda I) = (1-\lambda)^2 - 4 = \lambda^2 - 2\lambda - 3 = 0$$
 
-$$\lambda_1 = 3, \quad \lambda_2 = -1$$ (real! ✓)
+$$\lambda_1 = 3, \quad \lambda_2 = -1$$ (real! )
 
 **Eigenvectors**:
 
 $$\mathbf{v}_1 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ 1 \end{pmatrix}, \quad \mathbf{v}_2 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ -1 \end{pmatrix}$$
 
-**Orthogonal**: $\mathbf{v}_1 \cdot \mathbf{v}_2 = 0$ ✓
-
+**Orthogonal**: $\mathbf{v}_1 \cdot \mathbf{v}_2 = 0$ 
 **Diagonalization**:
 
 $$A = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} 3 & 0 \\ 0 & -1 \end{pmatrix} \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
@@ -149,22 +142,20 @@ $$A = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} \begin{pma
 
 $$D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
 
-모든 diagonal matrix는 symmetric ✓
-
+모든 diagonal matrix는 symmetric 
 **Eigenvalues**: $2, -1, 3$ (대각 원소)
 
 ## Example 3: Identity Matrix
 
 $$I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
 
-Symmetric ✓, eigenvalues all $= 1$
+Symmetric , eigenvalues all $= 1$
 
 ## Example 4: Projection Matrix
 
 $$P = \begin{pmatrix} 1/2 & 1/2 \\ 1/2 & 1/2 \end{pmatrix}$$
 
-**Check**: $P^T = P$ ✓
-
+**Check**: $P^T = P$ 
 **Property**: $P^2 = P$ (idempotent)
 
 **Eigenvalues**: $1, 0$
@@ -266,8 +257,7 @@ Eigenvalues = measurement outcomes (real!)
 
 Symmetric matrix는 **normal operator**:
 
-$$A^T A = A \cdot A = A^2 = A \cdot A = A A^T$$ ✓
-
+$$A^T A = A \cdot A = A^2 = A \cdot A = A A^T$$ 
 자세한 내용은 [[Normal Operator]] 참조
 
 ## 관련 개념

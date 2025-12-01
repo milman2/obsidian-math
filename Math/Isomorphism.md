@@ -211,7 +211,7 @@ where $n_i \mid n_{i+1}$ (즉, $n_i$가 $n_{i+1}$을 나눔)
 
 **예**: $|G| = 12$
 - $C_{12}$ (12 = 12)
-- $C_2 \times C_6$ (2 | 6 ✓)
+- $C_2 \times C_6$ (2 | 6 )
 
 ### Primary Decomposition Form^[소인수 분해 형태]
 
@@ -573,17 +573,17 @@ $K$를 고정하는 $\mathbb{F}$의 automorphisms
 
 ✗ Finite groups: $|G| = |H|$ doesn't imply $G \cong H$
 
-✓ Infinite cyclic groups: All $\cong \mathbb{Z}$
+ Infinite cyclic groups: All $\cong \mathbb{Z}$
 
 ### 2. Isomorphism = Bijection?
 
 ✗ Bijection만으로는 부족
 
-✓ Bijection + Homomorphism
+ Bijection + Homomorphism
 
 ### 3. VecTorsion spaces
 
-✓ Same dimension $\Rightarrow$ Isomorphic (finite-dimensional)
+ Same dimension $\Rightarrow$ Isomorphic (finite-dimensional)
 
 But: 명시적 isomorphism은 basis 선택 필요
 

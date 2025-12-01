@@ -87,14 +87,12 @@ $(\Rightarrow)$ Prime $\Rightarrow$ Irreducible:
 - $p \mid ab$이므로 (자명) $p \mid a$ 또는 $p \mid b$
 - WLOG $p \mid a$라 하면 $a = pc$
 - 따라서 $p = pcb$, 즉 $1 = cb$ (cancellation)
-- 따라서 $b$ is unit ✓
-
+- 따라서 $b$ is unit 
 $(\Leftarrow)$ Irreducible $\Rightarrow$ Prime (UFD에서):
 - $p \mid ab$라 하자, 즉 $ab = pc$
 - UFD이므로 양변을 irreducibles로 인수분해
 - 유일성에 의해 $p$는 $a$ 또는 $b$의 인수분해에 나타남 (associate 포함)
-- 따라서 $p \mid a$ 또는 $p \mid b$ ✓
-
+- 따라서 $p \mid a$ 또는 $p \mid b$ 
 **중요성**: UFD에서는 irreducible = prime (일반 integral domain에서는 다름!)
 
 ## PID ⇒ UFD
@@ -170,8 +168,7 @@ $$\gcd(a, b) = p_1^{\min(e_1, f_1)} \cdots p_k^{\min(e_k, f_k)}$$
 
 ## Example 1: $\mathbb{Z}$ (Integers)
 
-**UFD**: Yes ✓
-
+**UFD**: Yes 
 **인수분해**:
 $$12 = 2^2 \cdot 3$$
 $$-30 = -1 \cdot 2 \cdot 3 \cdot 5$$
@@ -188,8 +185,7 @@ $$-30 = -1 \cdot 2 \cdot 3 \cdot 5$$
 
 Field $k$에 대해 $k[x]$:
 
-**UFD**: Yes ✓
-
+**UFD**: Yes 
 **Irreducibles**: 
 - Over $\mathbb{C}$: Linear polynomials $(x - a)$
 - Over $\mathbb{R}$: Linear and quadratic with no real roots
@@ -205,8 +201,7 @@ $$x^4 - 1 = (x-1)(x+1)(x-i)(x+i)$$ over $\mathbb{C}$
 
 $$\mathbb{Z}[i] = \{a + bi : a, b \in \mathbb{Z}\}$$
 
-**UFD**: Yes ✓
-
+**UFD**: Yes 
 **Norm**: $N(a + bi) = a^2 + b^2$
 
 **Units**: $\{\pm 1, \pm i\}$ (with $N = 1$)
@@ -222,7 +217,7 @@ $$2 = -i(1 + i)^2$$
 
 ## Example 4: $\mathbb{Z}[x]$ (Integer Polynomials)
 
-**UFD**: Yes ✓ (by Gauss's Lemma)
+**UFD**: Yes  (by Gauss's Lemma)
 
 **Not PID**: Ideal $\langle 2, x \rangle$ is not principal
 
@@ -238,7 +233,7 @@ Irreducible over $\mathbb{Z}[x]$:
 
 Field $k$에 대해:
 
-**UFD**: Yes ✓ (by repeated application of Gauss)
+**UFD**: Yes  (by repeated application of Gauss)
 
 **Not PID**: $\langle x, y \rangle$ is not principal
 
@@ -270,7 +265,7 @@ $$6 = 2 \cdot 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$$
 
 $$\mathbb{Z}[\sqrt{2}] = \{a + b\sqrt{2} : a, b \in \mathbb{Z}\}$$
 
-**UFD**: Yes ✓ (Euclidean domain)
+**UFD**: Yes  (Euclidean domain)
 
 **Units**: $\{\pm 1, \pm (1 + \sqrt{2})^n : n \in \mathbb{Z}\}$ (infinite!)
 
@@ -386,8 +381,7 @@ $$12 = 2 \cdot 2 \cdot 3 = 3 \cdot 2 \cdot 2 = (-2) \cdot (-2) \cdot 3$$
 - Irreducible $\not\Rightarrow$ Prime (일반적으로)
 
 **UFD**:
-- Prime $\Leftrightarrow$ Irreducible ✓
-
+- Prime $\Leftrightarrow$ Irreducible 
 **예** (Not UFD): $\mathbb{Z}[\sqrt{-5}]$
 - $3$ is irreducible
 - $3 \mid (1 + \sqrt{-5})(1 - \sqrt{-5}) = 6$
@@ -499,7 +493,7 @@ $$R \subseteq \text{Frac}(R), \quad \alpha \text{ integral over } R \Rightarrow 
 
 ✗ 모든 integral domain에서 irreducible = prime?
 
-✓ UFD에서만!
+ UFD에서만!
 
 **반례**: $\mathbb{Z}[\sqrt{-5}]$에서 $3$ is irreducible but not prime
 

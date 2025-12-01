@@ -538,7 +538,7 @@ Iteration의 장기 행동 연구
 
 ✗ $\{1, 2, 3\} = \{3, 2, 1\}$ (as sets)
 
-✓ $(1, 2, 3) \neq (3, 2, 1)$ (as sequences)
+ $(1, 2, 3) \neq (3, 2, 1)$ (as sequences)
 
 순서가 중요!
 
@@ -546,7 +546,7 @@ Iteration의 장기 행동 연구
 
 ✗ Bounded이면 수렴한다?
 
-**반례**: $a_n = (-1)^n$ (bounded but divergent)
+✓ **반례**: $a_n = (-1)^n$ (bounded but divergent)
 
 **맞는 명제**: Monotone + Bounded $\Rightarrow$ Convergent
 
@@ -560,7 +560,7 @@ Eventually positive: $\exists N$ such that $a_n > 0$ for $n \geq N$
 
 ✗ 일부 subsequence가 수렴하면 원래 수열도 수렴?
 
-**반례**: $a_n = (-1)^n$
+✓ **반례**: $a_n = (-1)^n$
 - $(a_{2n}) = (1, 1, 1, \ldots) \to 1$
 - $(a_{2n-1}) = (-1, -1, -1, \ldots) \to -1$
 - 하지만 $(a_n)$ 자체는 발산
@@ -573,7 +573,7 @@ Eventually positive: $\exists N$ such that $a_n > 0$ for $n \geq N$
 
 ✗ $a_n = 2a_{n-1}$만으로는 부족
 
-✓ $a_1 = 1$, $a_n = 2a_{n-1}$ for $n \geq 2$
+ $a_1 = 1$, $a_n = 2a_{n-1}$ for $n \geq 2$
 
 ## 관련 개념
 

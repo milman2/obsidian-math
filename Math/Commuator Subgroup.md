@@ -60,8 +60,7 @@ $$G^{(n)} = [G^{(n-1)}, G^{(n-1)}]$$
 
 모든 commutator의 conjugate도 commutator
 
-따라서 $gG'g^{-1} = G'$ ✓
-
+따라서 $gG'g^{-1} = G'$ 
 자세한 내용은 [[Normal Subgroup]] 참조
 
 ## Abelianization^[아벨화]
@@ -72,8 +71,7 @@ $$G^{\text{ab}} = G/G'$$
 
 **증명**: $(aG')(bG') = abG' = baG' = (bG')(aG')$
 
-(since $a^{-1}b^{-1}ab \in G'$) ✓
-
+(since $a^{-1}b^{-1}ab \in G'$) 
 **의미**: $G$의 "가장 큰" abelian quotient
 
 자세한 내용은 [[Abelian Group]] 참조
@@ -93,8 +91,7 @@ G --φ--> A
   G/G'
 ```
 
-**증명**: $G' \subseteq \ker(\phi)$ (commutators map to identity in abelian group) ✓
-
+**증명**: $G' \subseteq \ker(\phi)$ (commutators map to identity in abelian group) 
 ## Characteristic Subgroup
 
 **정리**: $G' \text{ char } G$ (characteristic)
@@ -103,8 +100,7 @@ G --φ--> A
 
 $$\phi([a,b]) = [\phi(a), \phi(b)] \in G'$$
 
-따라서 $\phi(G') = G'$ ✓
-
+따라서 $\phi(G') = G'$ 
 **더 강함**: Normal보다 characteristic이 stronger
 
 ## Solvability
@@ -123,10 +119,8 @@ $$G^{(n)} = \{e\} \text{ for some } n$$
 
 $G$ abelian $\Rightarrow G' = \{e\}$
 
-**증명**: $[a,b] = aba^{-1}b^{-1} = abb^{-1}a^{-1} = e$ ✓
-
-**역**: $G' = \{e\} \Rightarrow G$ abelian ✓
-
+**증명**: $[a,b] = aba^{-1}b^{-1} = abb^{-1}a^{-1} = e$ 
+**역**: $G' = \{e\} \Rightarrow G$ abelian 
 ## Example 2: $S_3$
 
 $$S_3' = A_3 = \{e, (123), (132)\}$$
@@ -135,8 +129,7 @@ $$S_3' = A_3 = \{e, (123), (132)\}$$
 - $S_3$ non-abelian $\Rightarrow S_3' \neq \{e\}$
 - $S_3/A_3 \cong \mathbb{Z}/2\mathbb{Z}$ (abelian)
 - $A_3$ smallest normal subgroup with abelian quotient
-- Therefore $S_3' = A_3$ ✓
-
+- Therefore $S_3' = A_3$ 
 **확인**: $[(12), (13)] = (123) \in A_3$
 
 자세한 내용은 [[Symmetric Group]] 참조
@@ -149,8 +142,7 @@ $$S_n' = A_n$$
 
 $S_n/A_n \cong \mathbb{Z}/2\mathbb{Z}$ (abelian)
 
-$A_n$ is smallest normal with abelian quotient ✓
-
+$A_n$ is smallest normal with abelian quotient 
 자세한 내용은 [[Alternating Group]] 참조
 
 ## Example 4: Dihedral Group $D_n$
@@ -175,8 +167,7 @@ $$A_n' = A_n$$
 
 **증명**: $A_n$ is perfect (simple)
 
-$A_n = [A_n, A_n]$ ✓
-
+$A_n = [A_n, A_n]$ 
 **의미**: Cannot make more abelian by taking quotient
 
 자세한 내용은 [[Simple Group]] 참조

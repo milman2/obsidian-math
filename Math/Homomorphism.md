@@ -70,8 +70,7 @@ Ring homomorphism $\phi: R \to S$에 대해:
 **증명**: $\ker(\phi)$는 ideal of $\mathbb{F}$
 - Field의 ideal은 $(0)$ 또는 $\mathbb{F}$뿐
 - $\phi(1) = 1 \neq 0$이므로 $\ker(\phi) \neq \mathbb{F}$
-- 따라서 $\ker(\phi) = (0)$ ✓
-
+- 따라서 $\ker(\phi) = (0)$ 
 **결과**: Non-trivial field homomorphism은 항상 injective
 
 ## Vector Space Homomorphism^[벡터 공간 준동형사상]
@@ -534,13 +533,13 @@ G/N
 
 ✗ Homomorphism이면 자동으로 $\phi(e) = e$
 
-✓ 증명 필요 (but easy)
+ 증명 필요 (but easy)
 
 ### 2. Ring homomorphism에서 곱셈만 확인
 
 ✗ 곱셈만 보존하면 ring homomorphism
 
-✓ 덧셈 + 곱셈 모두 보존해야
+ 덧셈 + 곱셈 모두 보존해야
 
 ### 3. $\phi(G)$ notation
 
@@ -550,13 +549,13 @@ G/N
 
 ✗ $H \triangleleft G \Rightarrow \phi(H) \triangleleft \phi(G)$?
 
-**반례**: Non-surjective homomorphism
+✓ **반례**: Non-surjective homomorphism
 
-✓ Surjective이면 성립
+ Surjective이면 성립
 
 ### 5. Kernel은 항상 normal?
 
-✓ Group homomorphism의 kernel은 항상 normal subgroup
+ Group homomorphism의 kernel은 항상 normal subgroup
 
 증명: $g \in \ker(\phi) \Rightarrow \phi(hgh^{-1}) = \phi(h)\phi(g)\phi(h)^{-1} = e$
 

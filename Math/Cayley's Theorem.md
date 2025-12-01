@@ -48,8 +48,7 @@ $$\lambda(g)(h) = gh \quad \forall g, h \in G$$
 2. **Injective**: $\ker(\lambda) = \{e\}$
 3. **Image**: $\lambda(G) \leq \text{Sym}(G)$
 
-**결론**: $G \cong \lambda(G)$ ✓
-
+**결론**: $G \cong \lambda(G)$ 
 ## Right Regular Representation^[오른쪽 정칙 표현]
 
 **정의**: $\rho: G \to \text{Sym}(G)$
@@ -73,19 +72,15 @@ $$\rho(g)(h) = hg^{-1} \quad \forall g, h \in G$$
 $g \in G$에 대해 $\lambda(g): G \to G$
 
 **Bijection 확인**:
-- **Injective**: $\lambda(g)(h_1) = \lambda(g)(h_2) \Rightarrow gh_1 = gh_2 \Rightarrow h_1 = h_2$ ✓
-- **Surjective**: $\forall h \in G, \; \lambda(g)(g^{-1}h) = h$ ✓
-
-따라서 $\lambda(g) \in \text{Sym}(G)$ ✓
-
+- **Injective**: $\lambda(g)(h_1) = \lambda(g)(h_2) \Rightarrow gh_1 = gh_2 \Rightarrow h_1 = h_2$ - **Surjective**: $\forall h \in G, \; \lambda(g)(g^{-1}h) = h$ 
+따라서 $\lambda(g) \in \text{Sym}(G)$ 
 ### Step 2: $\lambda$는 homomorphism
 
 $$\lambda(g_1 g_2)(h) = (g_1 g_2)h = g_1(g_2 h) = \lambda(g_1)(g_2 h) = \lambda(g_1)(\lambda(g_2)(h))$$
 
 $$= (\lambda(g_1) \circ \lambda(g_2))(h)$$
 
-따라서 $\lambda(g_1 g_2) = \lambda(g_1) \circ \lambda(g_2)$ ✓
-
+따라서 $\lambda(g_1 g_2) = \lambda(g_1) \circ \lambda(g_2)$ 
 ### Step 3: $\lambda$는 injective
 
 $$\ker(\lambda) = \{g \in G : \lambda(g) = \text{id}_G\}$$
@@ -94,14 +89,12 @@ $$= \{g \in G : gh = h \; \forall h \in G\}$$
 
 $$= \{g \in G : g = e\} = \{e\}$$
 
-따라서 $\lambda$ injective ✓
-
+따라서 $\lambda$ injective 
 ### Step 4: First Isomorphism Theorem
 
 $$G / \ker(\lambda) \cong \text{im}(\lambda)$$
 
-$\ker(\lambda) = \{e\} \Rightarrow G \cong \lambda(G) \leq \text{Sym}(G)$ ✓
-
+$\ker(\lambda) = \{e\} \Rightarrow G \cong \lambda(G) \leq \text{Sym}(G)$ 
 자세한 내용은 [[Isomorphism]] 참조
 
 ---
@@ -122,8 +115,7 @@ $$\lambda([2]) = \begin{pmatrix} [0] & [1] & [2] \\ [2] & [0] & [1] \end{pmatrix
 
 **Image**: $\lambda(\mathbb{Z}/3\mathbb{Z}) = \langle (012) \rangle \leq S_3$
 
-**확인**: $\mathbb{Z}/3\mathbb{Z} \cong \langle (012) \rangle$ ✓
-
+**확인**: $\mathbb{Z}/3\mathbb{Z} \cong \langle (012) \rangle$ 
 자세한 내용은 [[Cyclic Group]] 참조
 
 ## Example 2: Klein Four-Group $V_4$
@@ -187,8 +179,7 @@ $$\lambda(n)(m) = n + m$$
 **성질**:
 - Free action (no fixed points except $n=0$)
 - Transitive (one orbit)
-- $\mathbb{Z} \cong \lambda(\mathbb{Z})$ ✓
-
+- $\mathbb{Z} \cong \lambda(\mathbb{Z})$ 
 **주의**: $\text{Sym}(\mathbb{Z})$는 infinite!
 
 ## Example 6: Quaternion Group $Q_8$
@@ -249,8 +240,7 @@ $$G \hookrightarrow S_n \quad (|G| = n)$$
 
 $$\rho(g) = \lambda(g^{-1})$$
 
-**증명**: $\rho(g)(h) = hg^{-1} = \lambda(g^{-1})(h)$ ✓
-
+**증명**: $\rho(g)(h) = hg^{-1} = \lambda(g^{-1})(h)$ 
 ### Images
 
 $$\lambda(G) \cap \rho(G) = ?$$

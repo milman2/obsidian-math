@@ -65,8 +65,7 @@ Normal operator는 다음을 모두 포함하는 일반화:
 - **Hermitian operator**^[에르미트 연산자] (complex)
 - **Symmetric operator**^[대칭 연산자] (real)
 
-**확인**: $T^* T = T \cdot T = T^2 = T \cdot T = T T^*$ ✓
-
+**확인**: $T^* T = T \cdot T = T^2 = T \cdot T = T T^*$ 
 **예시**: 
 - Real symmetric matrix
 - Observable in quantum mechanics
@@ -79,8 +78,7 @@ Normal operator는 다음을 모두 포함하는 일반화:
 
 $$\langle T(v), T(w) \rangle = \langle v, w \rangle$$
 
-**확인**: $T^* T = I = T T^*$ ✓
-
+**확인**: $T^* T = I = T T^*$ 
 **예시**:
 - Rotation, reflection
 - Fourier transform
@@ -92,8 +90,7 @@ $$\langle T(v), T(w) \rangle = \langle v, w \rangle$$
 
 **다른 이름**: **Anti-Hermitian operator**^[반에르미트 연산자]
 
-**확인**: $T^* T = (-T) T = -T^2$, $T T^* = T(-T) = -T^2$ ✓
-
+**확인**: $T^* T = (-T) T = -T^2$, $T T^* = T(-T) = -T^2$ 
 **예시**:
 - Imaginary part of Hermitian
 - Infinitesimal generators
@@ -143,8 +140,7 @@ $T$ normal이므로 $T^* T = T T^*$:
 
 $$= \langle v, T T^*(v) \rangle = \langle T^*(v), T^*(v) \rangle = \|T^*(v)\|^2$$
 
-따라서 $\|T(v)\| = \|T^*(v)\|$ ✓
-
+따라서 $\|T(v)\| = \|T^*(v)\|$ 
 **의미**: $T$와 $T^*$가 "같은 크기로" 작용
 
 ### 2. Kernel Equality
@@ -157,8 +153,7 @@ $v \in \ker(T) \Leftrightarrow T(v) = 0 \Leftrightarrow \|T(v)\| = 0$
 
 Property 1에 의해:
 
-$$\Leftrightarrow \|T^*(v)\| = 0 \Leftrightarrow T^*(v) = 0 \Leftrightarrow v \in \ker(T^*)$$ ✓
-
+$$\Leftrightarrow \|T^*(v)\| = 0 \Leftrightarrow T^*(v) = 0 \Leftrightarrow v \in \ker(T^*)$$ 
 **Corollary**: $\text{Im}(T) = \text{Im}(T^*)^\perp$ (orthogonal complement)
 
 ### 3. Eigenspace Orthogonality
@@ -189,8 +184,7 @@ $$\langle T(w), w \rangle = \langle \mu w, w \rangle = \mu \|w\|^2$$
 
 $$\langle w, T^*(w) \rangle = \overline{\langle T^*(w), w \rangle} = \overline{\langle T(w), w \rangle} = \overline{\mu} \|w\|^2$$
 
-따라서 $T^*(w) = \overline{\mu} w$ ✓
-
+따라서 $T^*(w) = \overline{\mu} w$ 
 **Back to main proof**:
 
 $$\langle v, T^*(w) \rangle = \langle v, \overline{\mu} w \rangle = \mu \langle v, w \rangle$$
@@ -209,8 +203,7 @@ $$(\lambda - \overline{\mu}) \langle v, w \rangle = 0$$
 
 $\lambda \neq \mu \Rightarrow \lambda \neq \overline{\mu}$ (실수 eigenvalue인 경우나, complex case에서)
 
-따라서 $\langle v, w \rangle = 0$ ✓
-
+따라서 $\langle v, w \rangle = 0$ 
 **의미**: Normal operator의 eigenvectors는 **orthogonal basis**를 형성!
 
 ### 4. Polynomial Commutativity
@@ -219,8 +212,7 @@ $\lambda \neq \mu \Rightarrow \lambda \neq \overline{\mu}$ (실수 eigenvalue인
 
 **증명**: $T^* T = T T^*$이면
 
-$$(p(T))^* p(T) = p(T^*) p(T) = p(T) p(T^*) = p(T) (p(T))^*$$ ✓
-
+$$(p(T))^* p(T) = p(T^*) p(T) = p(T) p(T^*) = p(T) (p(T))^*$$ 
 **중요한 특수 케이스: Scalar Shift**
 
 **정리**: $T$ normal, $c \in \mathbb{F}$ (scalar), $I$ identity
@@ -237,8 +229,7 @@ $$= T^*T - cT^* - \overline{c}T + |c|^2I$$
 $$(T - cI)(T - cI)^* = (T - cI)(T^* - \overline{c}I)$$
 $$= TT^* - \overline{c}T - cT^* + |c|^2I$$
 
-$T$ normal이므로 $T^*T = TT^*$, 따라서 두 식이 같음 ✓
-
+$T$ normal이므로 $T^*T = TT^*$, 따라서 두 식이 같음 
 **응용**:
 - Eigenvalue equation: $(T - \lambda I)v = 0$
 - Spectral shift: $T - cI$의 spectrum은 $T$의 spectrum을 $c$만큼 이동
@@ -260,10 +251,8 @@ $$(ST)^* (ST) = T^* S^* S T = T^* T S^* S = T T^* S^* S = T S^* T^* S$$
 
 Need: $= ST T^* S^* = (ST)(ST)^*$
 
-Requires $ST = TS$ and both normal ✓
-
-**(b)** Similar computation ✓
-
+Requires $ST = TS$ and both normal 
+**(b)** Similar computation 
 **주의**: Commute 조건 없으면 성립 안 함!
 
 ### 6. Invertibility
@@ -276,8 +265,7 @@ $$T^* T = T T^* \quad \Rightarrow \quad T^{-1} T^* T (T^{-1})^* = T^{-1} T T^* (
 
 $$\Rightarrow \quad T^* (T^{-1})^* = (T^{-1})^* T^*$$
 
-$$\Rightarrow \quad (T^{-1})^* (T^{-1}) = (T^{-1}) (T^{-1})^*$$ ✓
-
+$$\Rightarrow \quad (T^{-1})^* (T^{-1}) = (T^{-1}) (T^{-1})^*$$ 
 ## Spectral Properties
 
 ### 7. Eigenvalue Reality (Self-Adjoint)
@@ -294,8 +282,7 @@ Also:
 
 $$\langle T(v), v \rangle = \langle v, T^*(v) \rangle = \langle v, T(v) \rangle = \langle v, \lambda v \rangle = \overline{\lambda} \|v\|^2$$
 
-따라서 $\lambda = \overline{\lambda}$ $\Rightarrow$ $\lambda \in \mathbb{R}$ ✓
-
+따라서 $\lambda = \overline{\lambda}$ $\Rightarrow$ $\lambda \in \mathbb{R}$ 
 ### 8. Unit Eigenvalue (Unitary)
 
 **정리**: $T$ unitary $\Rightarrow$ all eigenvalues have $|\lambda| = 1$
@@ -306,8 +293,7 @@ $T(v) = \lambda v$, $v \neq 0$이면
 
 $$\|v\|^2 = \|T(v)\|^2 = \|\lambda v\|^2 = |\lambda|^2 \|v\|^2$$
 
-따라서 $|\lambda|^2 = 1$ $\Rightarrow$ $|\lambda| = 1$ ✓
-
+따라서 $|\lambda|^2 = 1$ $\Rightarrow$ $|\lambda| = 1$ 
 **의미**: Unitary operator의 eigenvalues는 unit circle^[단위원] 위에!
 
 ### 9. Imaginary Eigenvalue (Skew-Adjoint)
@@ -326,8 +312,7 @@ But also:
 
 $$\langle T(v), v \rangle = \overline{\langle v, T^*(v) \rangle} = -\lambda \|v\|^2$$
 
-따라서 $\lambda = -\overline{\lambda}$ $\Rightarrow$ $\lambda = i \cdot (\text{real})$ ✓
-
+따라서 $\lambda = -\overline{\lambda}$ $\Rightarrow$ $\lambda = i \cdot (\text{real})$ 
 ## Diagonalization
 
 ### 10. Spectral Theorem (Finite-Dimensional)
@@ -351,21 +336,18 @@ $$\langle T(v), v \rangle = \overline{\langle v, T^*(v) \rangle} = -\lambda \|v\
 - Step: $T$는 eigenvalue $\lambda$ 가짐 (fundamental theorem of algebra)
 - Eigenspace $E_\lambda$와 orthogonal complement $E_\lambda^\perp$ 고려
 - $T$ leaves $E_\lambda^\perp$ invariant (by normality!)
-- Induction hypothesis 적용 ✓
-
+- Induction hypothesis 적용 
 **(b) $\Rightarrow$ (c)**: Orthonormal eigenvectors $\{u_1, \ldots, u_n\}$이면
 - $U = [u_1 | \cdots | u_n]$ is unitary
 - $T u_i = \lambda_i u_i$
-- $U^* T U = D$ where $D = \text{diag}(\lambda_1, \ldots, \lambda_n)$ ✓
-
+- $U^* T U = D$ where $D = \text{diag}(\lambda_1, \ldots, \lambda_n)$ 
 **(c) $\Rightarrow$ (a)**: 
 $$T^* T = (U D U^*)^* (U D U^*) = U D^* U^* U D U^* = U D^* D U^*$$
 $$T T^* = (U D U^*)(U D U^*)^* = U D U^* U D^* U^* = U D D^* U^*$$
 
 Diagonal matrices commute: $D^* D = D D^*$
 
-따라서 $T^* T = T T^*$ ✓
-
+따라서 $T^* T = T T^*$ 
 ### Real Spectral Theorem
 
 **정리**: $V$ finite-dimensional **real** inner product space, $T: V \to V$ **self-adjoint**
@@ -392,8 +374,7 @@ $$A^* = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix} = A$$
 
 **Check normality**:
 
-$$A^* A = \begin{pmatrix} 4 & 0 \\ 0 & 9 \end{pmatrix} = A A^*$$ ✓
-
+$$A^* A = \begin{pmatrix} 4 & 0 \\ 0 & 9 \end{pmatrix} = A A^*$$ 
 **Type**: Self-adjoint (hence normal)
 
 **Eigenvalues**: $\lambda_1 = 2$, $\lambda_2 = 3$ (real)
@@ -410,8 +391,7 @@ $$R_\theta^* = \begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\the
 
 **Check normality**:
 
-$$R_\theta^* R_\theta = I = R_\theta R_\theta^*$$ ✓
-
+$$R_\theta^* R_\theta = I = R_\theta R_\theta^*$$ 
 **Type**: Unitary (hence normal)
 
 **Eigenvalues**: $\lambda = e^{i\theta}$, $\overline{\lambda} = e^{-i\theta}$ (unit modulus)
@@ -430,8 +410,7 @@ $$A^* = \begin{pmatrix} 1 & 2 \\ 2 & 1 \end{pmatrix} = A$$
 
 **Check normality**:
 
-$$A^* A = \begin{pmatrix} 5 & 4 \\ 4 & 5 \end{pmatrix} = A A^*$$ ✓
-
+$$A^* A = \begin{pmatrix} 5 & 4 \\ 4 & 5 \end{pmatrix} = A A^*$$ 
 **Type**: Self-adjoint (symmetric, hence normal)
 
 **Eigenvalues**:
@@ -444,8 +423,7 @@ $$\lambda_1 = 3, \quad \lambda_2 = -1$$ (real)
 
 $$v_1 = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ 1 \end{pmatrix}, \quad v_2 = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ -1 \end{pmatrix}$$
 
-**Orthonormal**: $\langle v_1, v_2 \rangle = 0$ ✓
-
+**Orthonormal**: $\langle v_1, v_2 \rangle = 0$ 
 **Diagonalization**:
 
 $$A = Q D Q^T = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} 3 & 0 \\ 0 & -1 \end{pmatrix} \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
@@ -460,8 +438,7 @@ $$A^* = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = -A$$
 
 **Check normality**:
 
-$$A^* A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = A A^*$$ ✓
-
+$$A^* A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = A A^*$$ 
 **Type**: Skew-adjoint (hence normal)
 
 **Eigenvalues**: $\lambda = \pm i$ (purely imaginary)
@@ -478,8 +455,7 @@ $$A^* = \begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$$
 
 **Check normality**:
 
-$$A^* A = \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix} = A A^*$$ ✓
-
+$$A^* A = \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix} = A A^*$$ 
 **Type**: Normal but neither self-adjoint nor unitary
 
 **Eigenvalues**: $\lambda = 1 \pm i$
@@ -522,8 +498,7 @@ $$\mathcal{F}^* = \mathcal{F}^{-1}$$
 
 **Unitary**: $\mathcal{F}^* \mathcal{F} = I$
 
-**Normal**: $\mathcal{F}^* \mathcal{F} = \mathcal{F} \mathcal{F}^*$ ✓
-
+**Normal**: $\mathcal{F}^* \mathcal{F} = \mathcal{F} \mathcal{F}^*$ 
 **Eigenvalues**: $\pm 1, \pm i$ (discrete!)
 
 **Eigenfunctions**: Hermite functions
@@ -540,8 +515,7 @@ $$\hat{p}^* = -i\hbar \frac{d}{dx} = \hat{p}$$
 
 **Self-adjoint**: $\hat{p}^* = \hat{p}$
 
-**Normal**: ✓
-
+**Normal**: 
 **Eigenvalues**: All real numbers (continuous spectrum!)
 
 **Eigenfunctions**: $e^{ikx}$ (not in $L^2$ but in distributional sense)
@@ -648,8 +622,7 @@ where $U$ unitary, $T$ upper triangular
 
 $A$ normal $\Rightarrow$ $U T U^*$ normal $\Rightarrow$ $T$ normal
 
-Upper triangular + normal $\Rightarrow$ diagonal ✓
-
+Upper triangular + normal $\Rightarrow$ diagonal 
 ## Fuglede's Theorem
 
 **정리** (**Fuglede-Putnam Theorem**^[푸글레드-퍼트남 정리]):
@@ -680,8 +653,7 @@ $ST = TS \Rightarrow S$ leaves each $E_{\lambda_i}$ invariant
 
 $S$를 각 $E_{\lambda_i}$에서 diagonalize
 
-Combine bases ✓
-
+Combine bases 
 **응용**: Quantum mechanics (commuting observables)
 
 ---
@@ -1042,8 +1014,7 @@ Normal but NOT self-adjoint!
 
 **실제**: $A + A^*$ is **always self-adjoint**!
 
-$$(A + A^*)^* = A^* + (A^*)^* = A^* + A = A + A^*$$ ✓
-
+$$(A + A^*)^* = A^* + (A^*)^* = A^* + A = A + A^*$$ 
 **But**: $A$ itself may not be normal!
 
 ## Historical Note

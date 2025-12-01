@@ -77,8 +77,7 @@ $$\text{If } G = \langle S, g \rangle \text{ then } G = \langle S \rangle$$
 
 $$F(G) \triangleleft G \quad \text{and} \quad F(G) \text{ is nilpotent}$$
 
-**증명**: Join of normal nilpotent subgroups is nilpotent ✓
-
+**증명**: Join of normal nilpotent subgroups is nilpotent 
 ### 2. Characteristic
 
 $$F(G) \text{ is characteristic in } G$$
@@ -89,8 +88,7 @@ $$F(G) \text{ is characteristic in } G$$
 
 $$Z(G) \subseteq F(G)$$
 
-**증명**: $Z(G)$ abelian $\Rightarrow$ nilpotent $\Rightarrow$ $Z(G) \subseteq F(G)$ ✓
-
+**증명**: $Z(G)$ abelian $\Rightarrow$ nilpotent $\Rightarrow$ $Z(G) \subseteq F(G)$ 
 자세한 내용은 [[Center]] 참조
 
 ### 4. Solvable Groups
@@ -119,8 +117,7 @@ $$F(G) = \text{direct product of all Sylow } p\text{-subgroups of } Z(G)$$
 
 $$\Phi(G) \triangleleft G \quad \text{and} \quad \Phi(G) \text{ is characteristic}$$
 
-**증명**: Intersection of all maximal (normal) subgroups ✓
-
+**증명**: Intersection of all maximal (normal) subgroups 
 ### 2. Nilpotent (Finite Groups)
 
 **정리**: If $G$ finite, then $\Phi(G)$ is nilpotent
@@ -277,8 +274,7 @@ $$F(G) = G$$
 
 **의미**: Finite nilpotent groups are their own Fitting subgroup
 
-**역**: $F(G) = G$ $\Rightarrow$ $G$ nilpotent ✓
-
+**역**: $F(G) = G$ $\Rightarrow$ $G$ nilpotent 
 ## Frattini Argument
 
 **정리**: Let $G$ be finite, $H \triangleleft G$, $P \in \text{Syl}_p(H)$
@@ -291,8 +287,7 @@ For any $g \in G$, $gPg^{-1} \in \text{Syl}_p(H)$ (conjugate of Sylow)
 
 By Sylow's theorem, $\exists h \in H$ : $gPg^{-1} = hPh^{-1}$
 
-$\Rightarrow$ $h^{-1}g \in N_G(P)$ $\Rightarrow$ $g \in H \cdot N_G(P)$ ✓
-
+$\Rightarrow$ $h^{-1}g \in N_G(P)$ $\Rightarrow$ $g \in H \cdot N_G(P)$ 
 자세한 내용은 [[Sylow Theorem]] 참조
 
 ## Characterization via Non-generators
@@ -305,12 +300,10 @@ $(\Rightarrow)$ If $g \in \Phi(G)$ and $G = \langle S, g \rangle$,
 
 then $\langle S \rangle$ not contained in any maximal subgroup
 
-$\Rightarrow$ $\langle S \rangle = G$ ✓
-
+$\Rightarrow$ $\langle S \rangle = G$ 
 $(\Leftarrow)$ If $g \notin \Phi(G)$, $\exists$ maximal $M$ with $g \notin M$
 
-Then $G = \langle M, g \rangle$ but $G \neq \langle M \rangle$ (contradiction) ✓
-
+Then $G = \langle M, g \rangle$ but $G \neq \langle M \rangle$ (contradiction) 
 ## Frattini for p-Groups
 
 **정리**: For finite $p$-group $G$,
@@ -444,8 +437,7 @@ $$F_0(G) = \{e\}, \quad F_{i+1}(G)/F_i(G) = F(G/F_i(G))$$
 
 **Infinite groups**: $\Phi(G)$ may not be nilpotent
 
-**Finite**: Always nilpotent ✓
-
+**Finite**: Always nilpotent 
 ### 3. Maximal subgroups
 
 모든 maximal subgroup이 normal인 것 아님!
@@ -462,8 +454,7 @@ $$F_0(G) = \{e\}, \quad F_{i+1}(G)/F_i(G) = F(G/F_i(G))$$
 
 $\mathbb{Z}$는 maximal subgroups 많음 ($p\mathbb{Z}$ for each prime $p$)
 
-Intersection = $\{0\}$ ✓
-
+Intersection = $\{0\}$ 
 ## 관련 개념
 
 - [[Nilpotent Group]]: Fitting의 핵심

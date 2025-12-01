@@ -232,10 +232,8 @@ $$\mathbb{Z}^2 = \langle (1,0), (0,1) \rangle$$
 **Standard generators**: $(1,0)$, $(0,1)$
 
 **Other generating sets**:
-- $\{(1,0), (1,1)\}$ ✓
-- $\{(2,0), (0,2)\}$ ✗ (generates $2\mathbb{Z}^2 \subsetneq \mathbb{Z}^2$)
-- $\{(1,1), (1,-1)\}$ ✓
-
+- $\{(1,0), (1,1)\}$ - $\{(2,0), (0,2)\}$ ✗ (generates $2\mathbb{Z}^2 \subsetneq \mathbb{Z}^2$)
+- $\{(1,1), (1,-1)\}$ 
 **Rank**: 2 (최소 generators 개수)
 
 ## Example 8: $\mathbb{R}$ over $\mathbb{Q}$
@@ -529,7 +527,7 @@ $$G = \langle S \mid R \rangle$$
 
 ✗ Cyclic group이 항상 finite은 아님!
 
-✓ $\mathbb{Z}$는 infinite cyclic group
+ $\mathbb{Z}$는 infinite cyclic group
 
 ### 2. Abelian = Cyclic?
 
@@ -554,7 +552,7 @@ $$\langle a, b \rangle = \{a^{e_1}b^{e_2}a^{e_3}b^{e_4} \cdots : e_i \in \mathbb
 
 ✗ 일반적으로 multiple generators 존재
 
-✓ Finite cyclic group: $\phi(n)$개 generators
+ Finite cyclic group: $\phi(n)$개 generators
 
 ## 응용
 

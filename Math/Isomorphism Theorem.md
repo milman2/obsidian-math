@@ -48,23 +48,24 @@ $g_1\ker(\phi) = g_2\ker(\phi)$이면:
 
 $$g_2^{-1}g_1 \in \ker(\phi) \Rightarrow \phi(g_2^{-1}g_1) = e$$
 
-$$\Rightarrow \phi(g_2)^{-1}\phi(g_1) = e \Rightarrow \phi(g_1) = \phi(g_2)$$ ✓
+$$\Rightarrow \phi(g_2)^{-1}\phi(g_1) = e \Rightarrow \phi(g_1) = \phi(g_2)$$
 
 ### Homomorphism
 
 $$\bar{\phi}(g_1\ker(\phi) \cdot g_2\ker(\phi)) = \bar{\phi}(g_1g_2\ker(\phi)) = \phi(g_1g_2)$$
 
-$$= \phi(g_1)\phi(g_2) = \bar{\phi}(g_1\ker(\phi))\bar{\phi}(g_2\ker(\phi))$$ ✓
+$$= \phi(g_1)\phi(g_2) = \bar{\phi}(g_1\ker(\phi))\bar{\phi}(g_2\ker(\phi))$$
 
 ### Injective
 
 $$\bar{\phi}(g\ker(\phi)) = e \Rightarrow \phi(g) = e \Rightarrow g \in \ker(\phi)$$
 
-$$\Rightarrow g\ker(\phi) = \ker(\phi)$$ (identity in $G/\ker(\phi)$) ✓
+$$\Rightarrow g\ker(\phi) = \ker(\phi)$$ 
+(identity in $G/\ker(\phi))$
 
 ### Surjective
 
-By construction: image of $\bar{\phi}$ is $\text{im}(\phi)$ ✓
+By construction: image of $\bar{\phi}$ is $\text{im}(\phi)$
 
 ## Interpretation^[해석]
 
@@ -79,7 +80,12 @@ By construction: image of $\bar{\phi}$ is $\text{im}(\phi)$ ✓
 ### 1. Homomorphism 분석
 
 모든 homomorphism은:
-$$G \xrightarrow{\text{surjection}} G/\ker(\phi) \xrightarrow{\text{isomorphism}} \text{im}(\phi) \xrightarrow{\text{inclusion}} H$$
+
+$$G \to G/\ker(\phi) \cong \text{im}(\phi) \hookrightarrow H$$
+
+- $G \to G/\ker(\phi)$: Canonical projection^[표준 사영] (surjective)
+- $G/\ker(\phi) \cong \text{im}(\phi)$: Isomorphism
+- $\text{im}(\phi) \hookrightarrow H$: Inclusion^[포함] (injective)
 
 ### 2. Image 계산
 
@@ -130,7 +136,7 @@ $$\ker(\phi) = \{h \in H : hN = N\} = \{h \in H : h \in N\} = H \cap N$$
 
 **Image**: $\text{im}(\phi) = HN/N$
 
-**First Isomorphism Theorem 적용**: $H/(H \cap N) \cong HN/N$ ✓
+**First Isomorphism Theorem 적용**: $H/(H \cap N) \cong HN/N$
 
 ## Applications
 
@@ -168,11 +174,11 @@ $$\frac{G/K}{N/K} = \frac{G}{N}$$
 
 $$\phi: G/K \to G/N, \quad \phi(gK) = gN$$
 
-**Well-defined**: $K \subseteq N$이므로 $gK = g'K \Rightarrow gN = g'N$ ✓
+**Well-defined**: $K \subseteq N$이므로 $gK = g'K \Rightarrow gN = g'N$
 
 **Kernel**: $\ker(\phi) = \{gK : gN = N\} = N/K$
 
-**First Isomorphism Theorem**: $(G/K)/(N/K) \cong G/N$ ✓
+**First Isomorphism Theorem**: $(G/K)/(N/K) \cong G/N$
 
 ## Applications
 
@@ -264,7 +270,7 @@ $$\phi(\sigma) = \text{sign}(\sigma)$$
 
 $$S_n/A_n \cong \mathbb{Z}/2\mathbb{Z}$$
 
-따라서 $|S_n/A_n| = 2$, 즉 $|A_n| = |S_n|/2 = n!/2$ ✓
+따라서 $|S_n/A_n| = 2$, 즉 $|A_n| = |S_n|/2 = n!/2$
 
 ## Example 2: Second Isomorphism Theorem
 
@@ -294,7 +300,7 @@ $$(\mathbb{Z}/6\mathbb{Z})/(3\mathbb{Z}/6\mathbb{Z}) \cong \mathbb{Z}/3\mathbb{Z
 확인: 
 - $|\mathbb{Z}/6\mathbb{Z}| = 6$
 - $|3\mathbb{Z}/6\mathbb{Z}| = 2$ (원소: $\{0+6\mathbb{Z}, 3+6\mathbb{Z}\}$)
-- $|(\mathbb{Z}/6\mathbb{Z})/(3\mathbb{Z}/6\mathbb{Z})| = 6/2 = 3 = |\mathbb{Z}/3\mathbb{Z}|$ ✓
+- $|(\mathbb{Z}/6\mathbb{Z})/(3\mathbb{Z}/6\mathbb{Z})| = 6/2 = 3 = |\mathbb{Z}/3\mathbb{Z}|$
 
 ## Example 4: Fourth Isomorphism Theorem
 
@@ -311,7 +317,7 @@ $G = \mathbb{Z}$, $N = 12\mathbb{Z}$
 - $\langle 4 \rangle \leftrightarrow 4\mathbb{Z}$
 - $\langle 6 \rangle \leftrightarrow 6\mathbb{Z}$
 
-모두 $12\mathbb{Z}$를 포함 ✓
+모두 $12\mathbb{Z}$를 포함
 
 ---
 

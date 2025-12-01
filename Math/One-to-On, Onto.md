@@ -104,24 +104,23 @@ $$f|_A: A \to Y \text{ is surjective}$$
 
 $$f(n) = n$$
 
-- **Injective**: ✓ (서로 다른 자연수는 서로 다른 정수)
+- **Injective**:  (서로 다른 자연수는 서로 다른 정수)
 - **Surjective**: ✗ (음수는 image에 없음)
 
 ### Example 2: $f: \mathbb{R} \to \mathbb{R}$
 
 $$f(x) = e^x$$
 
-- **Injective**: ✓ (지수함수는 strictly increasing)
+- **Injective**:  (지수함수는 strictly increasing)
 - **Surjective**: ✗ (음수나 0은 image에 없음, $f(\mathbb{R}) = (0, \infty)$)
 
 ### Example 3: $f: \mathbb{R} \to \mathbb{R}$
 
 $$f(x) = x^3 + x$$
 
-- **Injective**: ✓ ($f'(x) = 3x^2 + 1 > 0$이므로 strictly increasing)
-- **Surjective**: ✓ ($\lim_{x \to -\infty} f(x) = -\infty$, $\lim_{x \to \infty} f(x) = \infty$)
-- **Bijective**: ✓
-
+- **Injective**:  ($f'(x) = 3x^2 + 1 > 0$이므로 strictly increasing)
+- **Surjective**:  ($\lim_{x \to -\infty} f(x) = -\infty$, $\lim_{x \to \infty} f(x) = \infty$)
+- **Bijective**: 
 ## Surjective but Not Injective
 
 ### Example 1: $f: \mathbb{R} \to \mathbb{R}$
@@ -136,7 +135,7 @@ $f: \mathbb{R} \to \mathbb{R}$:
 
 $f: \mathbb{R} \to [0, \infty)$:
 - **Injective**: ✗ (여전히 $f(-1) = f(1)$)
-- **Surjective**: ✓ (모든 비음수는 제곱근을 가짐)
+- **Surjective**:  (모든 비음수는 제곱근을 가짐)
 
 ### Example 2: $f: \mathbb{R} \to \mathbb{R}$
 
@@ -147,14 +146,13 @@ $$f(x) = \sin(x)$$
 
 $f: \mathbb{R} \to [-1, 1]$:
 - **Injective**: ✗ (주기함수)
-- **Surjective**: ✓
-
+- **Surjective**: 
 ### Example 3: Projection Map
 
 $\pi_1: \mathbb{R}^2 \to \mathbb{R}$, $\pi_1(x, y) = x$
 
 - **Injective**: ✗ ($\pi_1(1, 0) = \pi_1(1, 1) = 1$)
-- **Surjective**: ✓ (모든 $x \in \mathbb{R}$에 대해 $(x, 0)$이 존재)
+- **Surjective**:  (모든 $x \in \mathbb{R}$에 대해 $(x, 0)$이 존재)
 
 ## Bijective
 
@@ -176,10 +174,9 @@ $$f(x) = 2x + 3$$
 
 $$f(x) = x^3$$
 
-- **Injective**: ✓ (strictly increasing)
-- **Surjective**: ✓ (모든 실수는 세제곱근을 가짐)
-- **Bijective**: ✓
-
+- **Injective**:  (strictly increasing)
+- **Surjective**:  (모든 실수는 세제곱근을 가짐)
+- **Bijective**: 
 역함수: $f^{-1}(y) = \sqrt[3]{y}$
 
 ### Example 4: $f: (0, 1) \to \mathbb{R}$
@@ -192,8 +189,7 @@ $$f(x) = \tan\left(\pi\left(x - \frac{1}{2}\right)\right)$$
 
 $f: \mathbb{R} \to (0, \infty)$, $f(x) = e^x$
 
-- **Bijective**: ✓
-
+- **Bijective**: 
 역함수: $f^{-1}(y) = \ln(y)$
 
 ## Neither Injective nor Surjective

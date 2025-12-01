@@ -53,9 +53,7 @@ $G$ acts on itself by conjugation: $g \cdot a = gag^{-1}$
 $$\phi: G \times G \to G, \quad (g, a) \mapsto gag^{-1}$$
 
 **확인**:
-1. Identity: $e \cdot a = eae^{-1} = a$ ✓
-2. Compatibility: $(g_1g_2) \cdot a = g_1g_2 \cdot a \cdot (g_1g_2)^{-1} = g_1 \cdot (g_2 \cdot a)$ ✓
-
+1. Identity: $e \cdot a = eae^{-1} = a$ 2. Compatibility: $(g_1g_2) \cdot a = g_1g_2 \cdot a \cdot (g_1g_2)^{-1} = g_1 \cdot (g_2 \cdot a)$ 
 자세한 내용은 [[Group Action]] 참조
 
 ---
@@ -154,10 +152,7 @@ $$Z(G) = \{z \in G : gz = zg \; \forall g \in G\}$$
 $$a \sim b \Leftrightarrow \exists g : b = gag^{-1}$$
 
 **확인**:
-1. **Reflexivity^[반사성]**: $a = eae^{-1}$ ✓
-2. **Symmetry^[대칭성]**: $b = gag^{-1} \Rightarrow a = g^{-1}bg$ ✓
-3. **Transitivity^[추이성]**: $b = g_1ag_1^{-1}$, $c = g_2bg_2^{-1} \Rightarrow c = (g_2g_1)a(g_2g_1)^{-1}$ ✓
-
+1. **Reflexivity^[반사성]**: $a = eae^{-1}$ 2. **Symmetry^[대칭성]**: $b = gag^{-1} \Rightarrow a = g^{-1}bg$ 3. **Transitivity^[추이성]**: $b = g_1ag_1^{-1}$, $c = g_2bg_2^{-1} \Rightarrow c = (g_2g_1)a(g_2g_1)^{-1}$ 
 **Equivalence classes**: Conjugacy classes
 
 자세한 내용은 [[Equivalence Relation and Partitions]] 참조
@@ -241,8 +236,7 @@ $$gag^{-1} = agg^{-1} = a$$
 2. $\text{cl}((12)) = \{(12), (13), (23)\}$ (모든 transpositions)
 3. $\text{cl}((123)) = \{(123), (132)\}$ (모든 3-cycles)
 
-**크기**: $1 + 3 + 2 = 6 = |S_3|$ ✓
-
+**크기**: $1 + 3 + 2 = 6 = |S_3|$ 
 **Centralizers**:
 - $C_{S_3}(e) = S_3$
 - $C_{S_3}((12)) = \{e, (12)\}$ (order 2)

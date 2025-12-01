@@ -64,8 +64,7 @@ $$[a, b] = 0 \Leftrightarrow ab = ba$$
 
 $$[a, b] = -[b, a]$$
 
-**증명**: $[b, a] = ba - ab = -(ab - ba) = -[a, b]$ ✓
-
+**증명**: $[b, a] = ba - ab = -(ab - ba) = -[a, b]$ 
 ### 2. Bilinearity^[쌍선형성]
 
 $$[a + b, c] = [a, c] + [b, c]$$
@@ -73,14 +72,12 @@ $$[a + b, c] = [a, c] + [b, c]$$
 $$[a, b + c] = [a, b] + [a, c]$$
 
 **증명**: 
-$[a+b, c] = (a+b)c - c(a+b) = ac + bc - ca - cb = [a,c] + [b,c]$ ✓
-
+$[a+b, c] = (a+b)c - c(a+b) = ac + bc - ca - cb = [a,c] + [b,c]$ 
 ### 3. Self-commutator is Zero^[자기 자신과의 교환자는 0]
 
 $$[a, a] = 0$$
 
-**증명**: $[a, a] = aa - aa = 0$ ✓
-
+**증명**: $[a, a] = aa - aa = 0$ 
 ### 4. Jacobi Identity^[야코비 항등식]
 
 $$[a, [b, c]] + [b, [c, a]] + [c, [a, b]] = 0$$
@@ -97,8 +94,7 @@ $$[a, bc] = [a, b]c + b[a, c]$$
 
 **증명**: 
 $$[a, bc] = a(bc) - (bc)a = abc - bca + bca - bca$$
-$$= abc - bca = (ab - ba)c + b(ac - ca) = [a,b]c + b[a,c]$$ ✓
-
+$$= abc - bca = (ab - ba)c + b(ac - ca) = [a,b]c + b[a,c]$$ 
 **의미**: Commutator with $a$는 derivation처럼 작동
 
 ## Center and Commutators^[중심과 교환자]
@@ -106,8 +102,7 @@ $$= abc - bca = (ab - ba)c + b(ac - ca) = [a,b]c + b[a,c]$$ ✓
 **정리**: $a \in Z(R)$ (center) $\Leftrightarrow$ $[a, b] = 0$ for all $b \in R$
 
 **증명**: 
-$$a \in Z(R) \Leftrightarrow ab = ba \text{ for all } b \Leftrightarrow [a,b] = 0 \text{ for all } b$$ ✓
-
+$$a \in Z(R) \Leftrightarrow ab = ba \text{ for all } b \Leftrightarrow [a,b] = 0 \text{ for all } b$$ 
 자세한 내용은 [[Center]] 참조
 
 ## Commutator Ideal^[교환자 아이디얼]
@@ -212,8 +207,7 @@ is a **derivation**^[미분]:
 
 $$\text{ad}_a(bc) = \text{ad}_a(b) \cdot c + b \cdot \text{ad}_a(c)$$
 
-**증명**: Leibniz rule 참조 ✓
-
+**증명**: Leibniz rule 참조 
 ## Universal Enveloping Algebra
 
 **정리**: Every Lie algebra embeds into associative algebra
@@ -370,8 +364,7 @@ $[a,b]$ can be non-central even if $a,b$ central-ish
 
 Must verify explicitly for non-associative algebras!
 
-Automatic for associative rings ✓
-
+Automatic for associative rings 
 ### 4. Anticommutator is different
 
 $\{a,b\} \neq [a,b]$

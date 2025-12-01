@@ -77,14 +77,10 @@ $$\text{Out}(G) = \text{Aut}(G) / \text{Inn}(G)$$
 
 ## $\text{Aut}(G)$ is a Group
 
-**Associativity**: Composition associative ✓
-
-**Identity**: $\text{id}_G \in \text{Aut}(G)$ ✓
-
-**Inverse**: $\phi^{-1} \in \text{Aut}(G)$ if $\phi \in \text{Aut}(G)$ ✓
-
-**Closure**: $\phi, \psi \in \text{Aut}(G)$ $\Rightarrow$ $\phi \circ \psi \in \text{Aut}(G)$ ✓
-
+**Associativity**: Composition associative 
+**Identity**: $\text{id}_G \in \text{Aut}(G)$ 
+**Inverse**: $\phi^{-1} \in \text{Aut}(G)$ if $\phi \in \text{Aut}(G)$ 
+**Closure**: $\phi, \psi \in \text{Aut}(G)$ $\Rightarrow$ $\phi \circ \psi \in \text{Aut}(G)$ 
 ## $\text{Inn}(G) \cong G/Z(G)$
 
 **정리**: Inner automorphism group은
@@ -95,8 +91,7 @@ $$\text{Inn}(G) \cong G / Z(G)$$
 
 - $\phi$ surjective (정의에 의해)
 - $\ker(\phi) = Z(G)$ (center!)
-- By First Isomorphism Theorem: $G/Z(G) \cong \text{Inn}(G)$ ✓
-
+- By First Isomorphism Theorem: $G/Z(G) \cong \text{Inn}(G)$ 
 자세한 내용은 [[Center]], [[Isomorphism Theorem]] 참조
 
 ## $\text{Inn}(G) \triangleleft \text{Aut}(G)$
@@ -107,8 +102,7 @@ $$\text{Inn}(G) \cong G / Z(G)$$
 
 $$\phi \circ \phi_g \circ \phi^{-1} = \phi_{\phi(g)} \in \text{Inn}(G)$$
 
-따라서 $\phi \text{Inn}(G) \phi^{-1} = \text{Inn}(G)$ ✓
-
+따라서 $\phi \text{Inn}(G) \phi^{-1} = \text{Inn}(G)$ 
 ## Characteristic Subgroups
 
 **정의**: $H$ is **characteristic**^[특성적]in $G$ if
@@ -118,10 +112,7 @@ $$\phi(H) = H \quad \text{for all } \phi \in \text{Aut}(G)$$
 **정리**: Characteristic $\Rightarrow$ Normal
 
 **예**:
-- $Z(G)$ characteristic ✓
-- $[G,G]$ characteristic ✓
-- $G^p = \{g^p : g \in G\}$ characteristic ✓
-
+- $Z(G)$ characteristic - $[G,G]$ characteristic - $G^p = \{g^p : g \in G\}$ characteristic 
 자세한 내용은 [[Center]], [[Commutator Subgroup]] 참조
 
 ## Automorphisms Preserve Structure
@@ -238,8 +229,7 @@ $$\text{Inn}(G) \cong G / Z(G)$$
 
 $$\ker(\phi) = \{g : \phi_g = \text{id}\} = \{g : ghg^{-1} = h \text{ for all } h\} = Z(G)$$
 
-By First Isomorphism Theorem ✓
-
+By First Isomorphism Theorem 
 자세한 내용은 [[Isomorphism Theorem]] 참조
 
 ## Abelian Groups
@@ -250,8 +240,7 @@ $$\text{Inn}(G) = \{e\}$$
 
 $$\text{Out}(G) = \text{Aut}(G)$$
 
-**증명**: $Z(G) = G$ $\Rightarrow$ $\text{Inn}(G) \cong G/G = \{e\}$ ✓
-
+**증명**: $Z(G) = G$ $\Rightarrow$ $\text{Inn}(G) \cong G/G = \{e\}$ 
 자세한 내용은 [[Abelian Group]] 참조
 
 ## Simple Groups
@@ -272,8 +261,7 @@ $$\Rightarrow H \triangleleft G$$
 
 **증명**: For $g \in G$, conjugation $\phi_g$ is automorphism of $K$
 
-$\Rightarrow$ $\phi_g(H) = H$ $\Rightarrow$ $gHg^{-1} = H$ ✓
-
+$\Rightarrow$ $\phi_g(H) = H$ $\Rightarrow$ $gHg^{-1} = H$ 
 ## Holomorph
 
 **정의**: **Holomorph**^[완전]of $G$:
@@ -420,8 +408,7 @@ $\text{Inn}(G) = \{e\}$ $\Leftrightarrow$ $G$ abelian
 
 ### 3. Characteristic ≠ Normal
 
-Characteristic $\Rightarrow$ Normal ✓
-
+Characteristic $\Rightarrow$ Normal 
 하지만 역은 아님!
 
 **예**: In some groups, normal subgroups not preserved by all automorphisms

@@ -513,7 +513,7 @@ Constructible numbers^[작도 가능 수]: $\mathbb{Q}$에서 시작하여 $+, -
 
 ### 2. $|\text{Gal}(\mathbb{F}/K)| \leq [\mathbb{F} : K]$?
 
-✓ 항상 성립! 
+ 항상 성립! 
 
 등호 $\Leftrightarrow$ Galois extension
 
@@ -525,7 +525,7 @@ Constructible numbers^[작도 가능 수]: $\mathbb{Q}$에서 시작하여 $+, -
 
 ### 4. Splitting field = Normal extension?
 
-✓ Splitting field는 **항상 normal** (definition by)
+ Splitting field는 **항상 normal** (definition by)
 
 ### 5. All subfields correspond to subgroups?
 

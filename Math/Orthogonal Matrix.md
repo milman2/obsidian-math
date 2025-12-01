@@ -45,8 +45,7 @@ $$\det(Q) = \pm 1$$
 
 $$1 = \det(I) = \det(Q^T Q) = \det(Q^T) \det(Q) = \det(Q)^2$$
 
-따라서 $\det(Q) = \pm 1$ ✓
-
+따라서 $\det(Q) = \pm 1$ 
 ### 3. Eigenvalues
 
 Complex eigenvalues have $|\lambda| = 1$ (unit modulus)
@@ -57,8 +56,7 @@ Real eigenvalues: $\lambda = \pm 1$
 
 $Q_1, Q_2$ orthogonal $\Rightarrow$ $Q_1 Q_2$ orthogonal
 
-$$(Q_1 Q_2)^T (Q_1 Q_2) = Q_2^T Q_1^T Q_1 Q_2 = Q_2^T Q_2 = I$$ ✓
-
+$$(Q_1 Q_2)^T (Q_1 Q_2) = Q_2^T Q_1^T Q_1 Q_2 = Q_2^T Q_2 = I$$ 
 **Group**: Orthogonal matrices form a **group** $O(n)$
 
 ## Geometric Properties
@@ -69,14 +67,12 @@ $$\langle Q\mathbf{x}, Q\mathbf{y} \rangle = \langle \mathbf{x}, \mathbf{y} \ran
 
 **증명**:
 
-$$\langle Q\mathbf{x}, Q\mathbf{y} \rangle = (Q\mathbf{x})^T (Q\mathbf{y}) = \mathbf{x}^T Q^T Q \mathbf{y} = \mathbf{x}^T \mathbf{y} = \langle \mathbf{x}, \mathbf{y} \rangle$$ ✓
-
+$$\langle Q\mathbf{x}, Q\mathbf{y} \rangle = (Q\mathbf{x})^T (Q\mathbf{y}) = \mathbf{x}^T Q^T Q \mathbf{y} = \mathbf{x}^T \mathbf{y} = \langle \mathbf{x}, \mathbf{y} \rangle$$ 
 ### Length Preservation (Isometry)
 
 $$\|Q\mathbf{x}\| = \|\mathbf{x}\|$$
 
-**증명**: $\|Q\mathbf{x}\|^2 = \langle Q\mathbf{x}, Q\mathbf{x} \rangle = \langle \mathbf{x}, \mathbf{x} \rangle = \|\mathbf{x}\|^2$ ✓
-
+**증명**: $\|Q\mathbf{x}\|^2 = \langle Q\mathbf{x}, Q\mathbf{x} \rangle = \langle \mathbf{x}, \mathbf{x} \rangle = \|\mathbf{x}\|^2$ 
 **의미**: Orthogonal transformation은 **거리를 보존**
 
 ### Angle Preservation
@@ -119,8 +115,7 @@ Trivially orthogonal
 
 $$R = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
 
-**Check**: $R^T R = I$ ✓
-
+**Check**: $R^T R = I$ 
 **Geometric**: Reflection about $x$-axis
 
 **Determinant**: $\det(R) = -1$
@@ -131,8 +126,7 @@ $$R_\theta = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta
 
 **Check**: 
 
-$$R_\theta^T R_\theta = \begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix} \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix} = I$$ ✓
-
+$$R_\theta^T R_\theta = \begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix} \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix} = I$$ 
 **Geometric**: Rotation by angle $\theta$
 
 **Determinant**: $\det(R_\theta) = 1$
@@ -153,8 +147,7 @@ where $\|\mathbf{v}\| = 1$
 
 **Check**:
 
-$$H^T H = (I - 2\mathbf{v}\mathbf{v}^T)^2 = I - 4\mathbf{v}\mathbf{v}^T + 4\mathbf{v}\mathbf{v}^T\mathbf{v}\mathbf{v}^T = I$$ ✓
-
+$$H^T H = (I - 2\mathbf{v}\mathbf{v}^T)^2 = I - 4\mathbf{v}\mathbf{v}^T + 4\mathbf{v}\mathbf{v}^T\mathbf{v}\mathbf{v}^T = I$$ 
 **Geometric**: Reflection about hyperplane $\perp \mathbf{v}$
 
 ---
@@ -226,8 +219,7 @@ where $Q$ orthogonal, $S$ symmetric positive definite
 
 Orthogonal matrix는 **normal**:
 
-$$Q^T Q = I = Q Q^T$$ ✓
-
+$$Q^T Q = I = Q Q^T$$ 
 자세한 내용은 [[Normal Operator]] 참조
 
 ---

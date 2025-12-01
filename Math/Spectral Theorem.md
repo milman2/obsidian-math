@@ -189,8 +189,7 @@ $$\|(T - \lambda I)(v)\| = \|(T - \lambda I)^*(v)\|$$
 
 $$0 = \|T^*(v) - \overline{\lambda} v\|$$
 
-따라서 $T^*(v) = \overline{\lambda} v$ ✓
-
+따라서 $T^*(v) = \overline{\lambda} v$ 
 ### Step 3: Invariant Subspace
 
 Eigenspace $E_\lambda = \ker(T - \lambda I)$
@@ -203,8 +202,7 @@ Orthogonal complement $E_\lambda^\perp$
 
 $$\langle T(w), v \rangle = \langle w, T^*(v) \rangle = \langle w, \overline{\lambda} v \rangle = \overline{\lambda} \langle w, v \rangle = 0$$
 
-따라서 $T(w) \in E_\lambda^\perp$ ✓
-
+따라서 $T(w) \in E_\lambda^\perp$ 
 ### Step 4: Induction
 
 - **Base**: $\dim(V) = 1$ → trivial
@@ -212,12 +210,10 @@ $$\langle T(w), v \rangle = \langle w, T^*(v) \rangle = \langle w, \overline{\la
 - By induction hypothesis, $E_\lambda^\perp$ has orthonormal eigenbasis
 - Combine with orthonormal basis of $E_\lambda$
 
-$$V = E_\lambda \oplus E_\lambda^\perp$$ ✓
-
+$$V = E_\lambda \oplus E_\lambda^\perp$$ 
 ### Step 5: Conclusion
 
-By induction, orthonormal eigenbasis exists for all of $V$ ✓
-
+By induction, orthonormal eigenbasis exists for all of $V$ 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -244,8 +240,7 @@ where:
 
 $$P_1 = \frac{1}{2}\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}, \quad P_2 = \frac{1}{2}\begin{pmatrix} 1 & -1 \\ -1 & 1 \end{pmatrix}$$
 
-**Verification**: $P_1 + P_2 = I$, $P_1 P_2 = 0$ ✓
-
+**Verification**: $P_1 + P_2 = I$, $P_1 P_2 = 0$ 
 ## Example 2: Rotation Matrix
 
 $$R_\theta = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$$
@@ -256,8 +251,7 @@ $$R_\theta = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta
 
 $$\mathbf{v}_1 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ i \end{pmatrix}, \quad \mathbf{v}_2 = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ -i \end{pmatrix}$$
 
-**Normal**: $R^T R = I = R R^T$ (orthogonal, hence normal) ✓
-
+**Normal**: $R^T R = I = R R^T$ (orthogonal, hence normal) 
 ## Example 3: Diagonal Matrix
 
 $$D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
@@ -481,8 +475,7 @@ $$A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 0 & 
 
 **예**: Rotation in $\mathbb{R}^2$ 
 - Not diagonalizable over $\mathbb{R}$
-- But diagonalizable over $\mathbb{C}$ ✓
-
+- But diagonalizable over $\mathbb{C}$ 
 ## 역사적 배경
 
 **David Hilbert** (1862-1943):

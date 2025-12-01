@@ -55,28 +55,24 @@ $gG_x = hG_x$일 때 $g \cdot x = h \cdot x$인가?
 
 $$gG_x = hG_x \Leftrightarrow h^{-1}g \in G_x \Leftrightarrow h^{-1}g \cdot x = x$$
 
-$$\Leftrightarrow g \cdot x = h \cdot x$$ ✓
-
+$$\Leftrightarrow g \cdot x = h \cdot x$$ 
 ### Step 3: Injective
 
 $$\phi(gG_x) = \phi(hG_x) \Rightarrow g \cdot x = h \cdot x$$
 
 $$\Rightarrow h^{-1}g \cdot x = x \Rightarrow h^{-1}g \in G_x$$
 
-$$\Rightarrow gG_x = hG_x$$ ✓
-
+$$\Rightarrow gG_x = hG_x$$ 
 ### Step 4: Surjective
 
 $y \in \mathcal{O}_x$ $\Rightarrow$ $y = g \cdot x$ for some $g \in G$
 
-$$\Rightarrow \phi(gG_x) = g \cdot x = y$$ ✓
-
+$$\Rightarrow \phi(gG_x) = g \cdot x = y$$ 
 **결론**: $\phi$는 bijection
 
 $$\Rightarrow |G/G_x| = |\mathcal{O}_x|$$
 
-$$\Rightarrow [G : G_x] = |\mathcal{O}_x|$$ ✓
-
+$$\Rightarrow [G : G_x] = |\mathcal{O}_x|$$ 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -93,8 +89,7 @@ $G = S_n$ acts on $X = \{1, \ldots, n\}$
 
 **Check**:
 
-$$|\mathcal{O}_1| = n, \quad [S_n : S_{n-1}] = \frac{n!}{(n-1)!} = n$$ ✓
-
+$$|\mathcal{O}_1| = n, \quad [S_n : S_{n-1}] = \frac{n!}{(n-1)!} = n$$ 
 자세한 내용은 [[Symmetric Group]] 참조
 
 ## Example 2: Dihedral Group on Vertices
@@ -109,8 +104,7 @@ $D_n$ acts on vertices of regular $n$-gon
 
 **Check**:
 
-$$|\mathcal{O}_{v_1}| = n, \quad [D_n : G_{v_1}] = \frac{2n}{2} = n$$ ✓
-
+$$|\mathcal{O}_{v_1}| = n, \quad [D_n : G_{v_1}] = \frac{2n}{2} = n$$ 
 자세한 내용은 [[Dihedral Group]] 참조
 
 ## Example 3: Conjugation Action
@@ -143,8 +137,7 @@ $G$ acts on left cosets $G/H$ by $g \cdot (xH) = (gx)H$
 
 **Check**:
 
-$$|G/H| = [G : H] = \frac{|G|}{|H|}$$ ✓
-
+$$|G/H| = [G : H] = \frac{|G|}{|H|}$$ 
 자세한 내용은 [[Coset]] 참조
 
 ## Example 5: Rotation Group on Sphere
@@ -171,8 +164,7 @@ Finite $G$:
 
 $$|\mathcal{O}_x| \mid |G|$$
 
-**증명**: $|\mathcal{O}_x| = |G|/|G_x|$, $|G_x| \mid |G|$ (Lagrange) ✓
-
+**증명**: $|\mathcal{O}_x| = |G|/|G_x|$, $|G_x| \mid |G|$ (Lagrange) 
 자세한 내용은 [[Lagrange's theorem]] 참조
 
 ### 2. Fixed Points and Divisibility
@@ -231,8 +223,7 @@ where $P \in \text{Syl}_p(G)$, $N_G(P)$ = normalizer
 
 Stabilizer of $P$ = $N_G(P)$
 
-Orbit-stabilizer: $n_p = [G : N_G(P)]$ ✓
-
+Orbit-stabilizer: $n_p = [G : N_G(P)]$ 
 자세한 내용은 [[Sylow Theorem]] 참조
 
 ## Cauchy's Theorem
@@ -243,8 +234,7 @@ Orbit-stabilizer: $n_p = [G : N_G(P)]$ ✓
 
 $G$ acts on $X = G \times \cdots \times G$ ($p$ copies) by cyclic permutation
 
-Orbit-stabilizer analysis → element of order $p$ ✓
-
+Orbit-stabilizer analysis → element of order $p$ 
 ---
 
 # <span class="header-remark">Remark</span>
@@ -326,7 +316,7 @@ $S_4$ acts on $\binom{4}{2} = 6$ unordered pairs
 
 **Stabilizer of $\{1,2\}$**: $\cong S_2 \times S_2$ (order 4)
 
-**Orbit size**: $24/4 = 6$ ✓ (전체 pairs)
+**Orbit size**: $24/4 = 6$  (전체 pairs)
 
 ### Rotations of Cube
 
@@ -335,8 +325,7 @@ Rotation group acts on:
 - **Edges** (12): Stabilizer order $2$
 - **Faces** (6): Stabilizer order $4$
 
-Check: $8 \cdot 3 = 12 \cdot 2 = 6 \cdot 4 = 24$ ✓
-
+Check: $8 \cdot 3 = 12 \cdot 2 = 6 \cdot 4 = 24$ 
 ## 표기법
 
 | 표기 | 의미 |

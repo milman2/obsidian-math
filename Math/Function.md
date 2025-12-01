@@ -191,10 +191,7 @@ $$f: \mathbb{R} \to \mathbb{R}, \quad f(x) = |x|$$
 
 $$f: \mathbb{R} \to (0, \infty), \quad f(x) = e^x$$
 
-- Injective: ✓
-- Surjective: ✓
-- Bijective: ✓
-- Inverse: $f^{-1}(y) = \ln(y)$
+- Injective: - Surjective: - Bijective: - Inverse: $f^{-1}(y) = \ln(y)$
 
 ## Example 4: 상수 함수
 
@@ -263,8 +260,7 @@ $$f^{-1}(y) = x \Leftrightarrow f(x) = y$$
 예: $f(x) = \frac{1}{x}$는 $x = 0$에서 정의되지 않음
 
 엄밀한 정의에서 함수는 전체 domain에서 정의되어야 하므로:
-- $f: \mathbb{R} \setminus \{0\} \to \mathbb{R}$ ✓
-- $f: \mathbb{R} \to \mathbb{R}$ ✗ (not well-defined at $x=0$)
+- $f: \mathbb{R} \setminus \{0\} \to \mathbb{R}$ - $f: \mathbb{R} \to \mathbb{R}$ ✗ (not well-defined at $x=0$)
 
 ## Multivalued Function^[다가 함수]
 

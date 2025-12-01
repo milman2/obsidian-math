@@ -240,8 +240,7 @@ $$[a] + [b] = [a + b]$$
 
 **Well-defined 확인**: $a \equiv a'$이고 $b \equiv b'$이면 $a + b \equiv a' + b'$인가?
 - $n \mid (a - a')$이고 $n \mid (b - b')$
-- $\Rightarrow n \mid ((a+b) - (a'+b'))$ ✓
-
+- $\Rightarrow n \mid ((a+b) - (a'+b'))$ 
 ---
 
 # <span class="header-remark">Remark</span>
@@ -348,8 +347,7 @@ $\mathbb{R}$에서 $x \sim y \Leftrightarrow x < y$
 
 - Reflexivity: ✗ ($x \not< x$)
 - Symmetry: ✗ ($x < y \not\Rightarrow y < x$)
-- Transitivity: ✓
-
+- Transitivity: 
 $\Rightarrow$ Equivalence relation이 **아님** (이것은 order relation^[순서 관계])
 
 **Tip**: 세 가지 조건을 **모두** 확인해야 함!

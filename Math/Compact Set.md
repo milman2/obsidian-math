@@ -152,8 +152,7 @@ $$\bigcap_{\alpha \in I} F_\alpha \neq \emptyset$$
 
 $$K = [a, b] \subseteq \mathbb{R}$$
 
-**Compact**: Yes ✓
-- Closed: Yes (complement is union of open intervals)
+**Compact**: Yes - Closed: Yes (complement is union of open intervals)
 - Bounded: Yes ($|x| \leq \max\{|a|, |b|\}$)
 - Heine-Borel: Closed + Bounded $\Rightarrow$ Compact
 
@@ -178,8 +177,7 @@ $$K = [0, \infty) \subseteq \mathbb{R}$$
 
 $$K = \{x_1, x_2, \ldots, x_n\}$$
 
-**Compact**: Always Yes ✓
-- 모든 topology에서 finite set은 compact
+**Compact**: Always Yes - 모든 topology에서 finite set은 compact
 - Open cover의 각 점마다 하나씩 선택하면 유한 subcover
 
 ## Example 5: Unit Ball^[단위 공]
@@ -188,7 +186,7 @@ $$K = \{x_1, x_2, \ldots, x_n\}$$
 
 $$K = \{x \in \mathbb{R}^n : \|x\| \leq 1\}$$
 
-**Compact**: Yes ✓ (closed and bounded)
+**Compact**: Yes  (closed and bounded)
 
 ### Open Unit Ball
 
@@ -208,8 +206,7 @@ $$K = \mathbb{N}$$ with discrete topology^[이산 위상]
 
 $$K = \text{Cantor set} \subseteq [0, 1]$$
 
-**Compact**: Yes ✓
-- Closed subset of compact set $[0, 1]$
+**Compact**: Yes - Closed subset of compact set $[0, 1]$
 - 따라서 compact
 
 **성질**:
@@ -229,14 +226,13 @@ $$K = \mathbb{Q} \cap [0, 1]$$
 
 $$K = \left\{(x_n) \in \ell^2 : |x_n| \leq \frac{1}{n}\right\}$$
 
-**Compact**: Yes ✓ (Tychonoff's theorem)
+**Compact**: Yes  (Tychonoff's theorem)
 
 ## Example 10: Sphere^[구]
 
 $$S^{n-1} = \{x \in \mathbb{R}^n : \|x\| = 1\}$$
 
-**Compact**: Yes ✓
-- Closed: Preimage of $\{1\}$ under continuous map $x \mapsto \|x\|$
+**Compact**: Yes - Closed: Preimage of $\{1\}$ under continuous map $x \mapsto \|x\|$
 - Bounded: $\|x\| = 1$
 
 ---
@@ -260,10 +256,8 @@ Metric space에서: Compact $\Leftrightarrow$ Complete + Totally bounded
 모든 점 $x \in X$가 compact neighborhood^[컴팩트 근방]를 가짐
 
 **예**:
-- $\mathbb{R}^n$: Locally compact ✓
-- Hilbert space $\ell^2$: Not locally compact ✗
-- Discrete space: Locally compact ✓
-
+- $\mathbb{R}^n$: Locally compact - Hilbert space $\ell^2$: Not locally compact ✗
+- Discrete space: Locally compact 
 ## Compactification^[컴팩트화]
 
 비컴팩트 공간을 컴팩트 공간에 매장하는 방법:
@@ -329,8 +323,8 @@ Compact이지만 non-Hausdorff:
 
 | | Compact | Closed | Bounded |
 |---|---------|--------|---------|
-| **$\mathbb{R}^n$** | Closed + Bounded | ✓ | ✓ |
-| **General metric** | Complete + Totally bounded | ✓ | ? |
+| **$\mathbb{R}^n$** | Closed + Bounded |  |  |
+| **General metric** | Complete + Totally bounded |  | ? |
 | **General topology** | Finite subcover | ? | N/A |
 
 **주의**: 

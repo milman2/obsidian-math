@@ -78,8 +78,7 @@ $$\sum_{x \in X} |G_x| = \sum_{i=1}^{k} |G| = k \cdot |G|$$
 
 $$\sum_{g \in G} |X^g| = k \cdot |G|$$
 
-$$\therefore \; k = \frac{1}{|G|} \sum_{g \in G} |X^g|$$ ✓
-
+$$\therefore \; k = \frac{1}{|G|} \sum_{g \in G} |X^g|$$ 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -118,8 +117,7 @@ $$|\text{Orbits}| = \frac{1}{3}(8 + 2 + 2) = \frac{12}{3} = 4$$
 **확인**: 직접 세면
 - 3개 같은 색: $(0,0,0)$, $(1,1,1)$ → 2개 orbit
 - 2개 같은 색: $(0,0,1)$, $(0,1,1)$ → 각각 1개 orbit
-- 총 4개 ✓
-
+- 총 4개 
 ## Example 2: Square Colorings
 
 **문제**: 정사각형의 4개 꼭짓점을 2가지 색으로 칠할 때, 회전과 반사를 고려한 구별되는 색칠은?
@@ -250,8 +248,7 @@ $$|X^g| = |X| \text{ for all } g$$
 
 $$|\text{Orbits}| = \frac{1}{|G|} \sum_{g \in G} |X| = \frac{|G| \cdot |X|}{|G|} = |X|$$
 
-각 점이 자기 자신의 orbit ✓
-
+각 점이 자기 자신의 orbit 
 ### Free Action^[자유 작용]
 
 $g \cdot x \neq x$ for all $g \neq e, x \in X$
@@ -260,8 +257,7 @@ $$|X^g| = 0 \text{ for } g \neq e, \quad |X^e| = |X|$$
 
 $$|\text{Orbits}| = \frac{1}{|G|}|X|$$
 
-즉, $|X| = |G| \cdot |\text{Orbits}|$ ✓
-
+즉, $|X| = |G| \cdot |\text{Orbits}|$ 
 ### Transitive Action^[추이적 작용]
 
 $|\text{Orbits}| = 1$
@@ -420,7 +416,7 @@ $$\text{기여도} = |G_x| \times \frac{1}{|G|} = \frac{|G_x|}{|G|}$$
 ### 1. Wrong averaging
 
 ✗ 잘못: $X$ 원소들에 대해 평균
-✓ 올바름: $G$ 원소들에 대해 평균
+ 올바름: $G$ 원소들에 대해 평균
 
 ### 2. Forgetting identity
 

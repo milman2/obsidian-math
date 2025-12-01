@@ -123,8 +123,7 @@ Prime $p \in R$에 대해 다음 조건을 만족하면 $f(x)$는 $\text{Frac}(R
 - $2 \mid 2$, $2 \mid 2$ (coefficients of $x^0, x^1$)
 - $2 \nmid 1$ (leading coefficient)
 - $2^2 = 4 \nmid 2$ (constant term)
-- 따라서 $f(x)$ is irreducible over $\mathbb{Q}$ ✓
-
+- 따라서 $f(x)$ is irreducible over $\mathbb{Q}$ 
 자세한 내용은 [[Eisenstein Criterion]] 참조
 
 ### 3. Reduction Modulo $p$
@@ -145,14 +144,12 @@ $$f(x) \text{ is irreducible over } \mathbb{Q}$$
   - $\bar{f}(0) = 1 \neq 0$
   - $\bar{f}(1) = 1 + 1 + 1 = 1 \neq 0$
 - No roots in $\mathbb{F}_2$, degree 2 → irreducible
-- 따라서 $f(x)$ irreducible over $\mathbb{Q}$ ✓
-
+- 따라서 $f(x)$ irreducible over $\mathbb{Q}$ 
 ### 4. Rational Root Test (Contrapositive)
 
 **활용**: $f(x) \in \mathbb{Z}[x]$가 rational roots를 갖지 않으면
 
-**Degree $\leq 3$**: Irreducible over $\mathbb{Q}$ ✓
-
+**Degree $\leq 3$**: Irreducible over $\mathbb{Q}$ 
 **Degree $\geq 4$**: 추가 테스트 필요
 
 자세한 내용은 [[Rational Root Theorem]] 참조
@@ -166,8 +163,7 @@ $$f(x) \text{ irreducible over } F \quad \Rightarrow \quad f(x) \text{ irreducib
 **역은 성립하지 않음**!
 
 **예시**: $x^2 - 2$
-- Irreducible over $\mathbb{Q}$ ✓
-- Reducible over $\mathbb{R}$: $x^2 - 2 = (x - \sqrt{2})(x + \sqrt{2})$ ✗
+- Irreducible over $\mathbb{Q}$ - Reducible over $\mathbb{R}$: $x^2 - 2 = (x - \sqrt{2})(x + \sqrt{2})$ ✗
 
 **일반 원칙**: 더 큰 field에서는 더 많이 분해 가능
 
@@ -194,13 +190,13 @@ where:
 
 $$f(x) = 3x + 5$$
 
-**Irreducible** ✓ (degree 1)
+**Irreducible**  (degree 1)
 
 ### Over $\mathbb{R}$
 
 $$f(x) = -2x + 7$$
 
-**Irreducible** ✓ (degree 1)
+**Irreducible**  (degree 1)
 
 **일반 규칙**: Degree 1은 항상 irreducible
 
@@ -214,8 +210,7 @@ $$f(x) = -2x + 7$$
 
 $$f(1) = -1, \quad f(-1) = -1, \quad f(2) = 2, \quad f(-2) = 2$$
 
-No rational roots → **Irreducible over $\mathbb{Q}$** ✓
-
+No rational roots → **Irreducible over $\mathbb{Q}$** 
 **(b)** $f(x) = x^2 - 4$
 
 $$f(x) = (x - 2)(x + 2)$$
@@ -226,8 +221,7 @@ $$f(x) = (x - 2)(x + 2)$$
 
 **(a)** $f(x) = x^2 + 1$
 
-No real roots → **Irreducible over $\mathbb{R}$** ✓
-
+No real roots → **Irreducible over $\mathbb{R}$** 
 **(b)** $f(x) = x^2 - 2$
 
 $$f(x) = (x - \sqrt{2})(x + \sqrt{2})$$
@@ -253,8 +247,7 @@ $$f(x) = (x - i)(x + i)$$
 - $5 \nmid 1$ (leading coefficient)
 - $5^2 = 25 \nmid 5$ (constant term)
 
-**Irreducible over $\mathbb{Q}$** ✓
-
+**Irreducible over $\mathbb{Q}$** 
 ### (b) Cyclotomic Polynomial $\Phi_p(x) = 1 + x + x^2 + \cdots + x^{p-1}$
 
 $$\Phi_p(x) = \frac{x^p - 1}{x - 1}$$
@@ -268,8 +261,7 @@ $$\Phi_p(x + 1) = \frac{(x+1)^p - 1}{x} = x^{p-1} + \binom{p}{1}x^{p-2} + \cdots
 - $p \nmid 1$ (leading)
 - $p^2 \nmid p$ (constant)
 
-**$\Phi_p(x+1)$ irreducible** → **$\Phi_p(x)$ irreducible** ✓
-
+**$\Phi_p(x+1)$ irreducible** → **$\Phi_p(x)$ irreducible** 
 자세한 내용은 [[Cyclotomic Polynomial]] 참조
 
 ## Example 4: Reduction Modulo $p$
@@ -286,8 +278,7 @@ $$\bar{f}(x) = x^4 + x + 1 \in \mathbb{F}_2[x]$$
 - $\bar{f}(0) = 1 \neq 0$
 - $\bar{f}(1) = 1 + 1 + 1 = 1 \neq 0$
 
-No linear factors ✓
-
+No linear factors 
 **Quadratic factors**: $\mathbb{F}_2[x]$의 irreducible quadratic는 $x^2 + x + 1$만
 
 $$(x^2 + x + 1)^2 = x^4 + x^2 + 1 \neq x^4 + x + 1$$
@@ -296,8 +287,7 @@ $$(x^2 + x + 1) \cdot (\text{other deg 2}) = ?$$
 
 계산하면 $x^4 + x + 1$로 분해 안됨
 
-**$\bar{f}(x)$ irreducible over $\mathbb{F}_2$** → **$f(x)$ irreducible over $\mathbb{Q}$** ✓
-
+**$\bar{f}(x)$ irreducible over $\mathbb{F}_2$** → **$f(x)$ irreducible over $\mathbb{Q}$** 
 ## Example 5: Degree 4 with No Roots but Reducible
 
 ### Over $\mathbb{Q}$
@@ -344,16 +334,14 @@ $p$ prime, $a \in \mathbb{Z}$ square-free
 - $p \mid (-a)$ but $p^2 \nmid a$ (square-free 조건)
 - $p \nmid 1$
 
-**Irreducible over $\mathbb{Q}$** ✓
-
+**Irreducible over $\mathbb{Q}$** 
 **예시**: $x^5 - 2$, $x^7 - 3$ all irreducible over $\mathbb{Q}$
 
 ## Example 8: Splitting Field Construction
 
 ### $f(x) = x^2 + 1$ over $\mathbb{R}$
 
-**Irreducible over $\mathbb{R}$** ✓
-
+**Irreducible over $\mathbb{R}$** 
 **Root**: $i \in \mathbb{C}$ where $i^2 = -1$
 
 **Splitting field**: $\mathbb{R}(i) = \mathbb{C}$
@@ -436,8 +424,7 @@ $$\Rightarrow \quad f(x) \text{ is reducible}$$
 
 **예시**: $f(x) = x^4 + 2x^2 + 1 = (x^2)^2 + 2(x^2) + 1 = (x^2 + 1)^2$
 
-Composite → Reducible ✓
-
+Composite → Reducible 
 ## Associates
 
 **정의**: $f, g \in k[x]$ are **associates^[동반]** $\Leftrightarrow$
@@ -512,8 +499,7 @@ for some $c \in k^\times$ (nonzero constant)
 
 **순서대로 시도**:
 
-1. **Degree 1**: Always irreducible ✓
-
+1. **Degree 1**: Always irreducible 
 2. **Degree 2, 3**: 
    - Check for roots (Rational Root Theorem for $\mathbb{Q}$)
    - No roots → irreducible

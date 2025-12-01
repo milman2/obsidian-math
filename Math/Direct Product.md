@@ -104,8 +104,7 @@ $$V_4 = \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$$
 | $(1,1)$ | $(1,1)$ | $(0,1)$ | $(1,0)$ | $(0,0)$ |
 
 **Properties**:
-- Abelian ✓
-- Every non-identity element has order 2
+- Abelian - Every non-identity element has order 2
 - **NOT cyclic** ($\mathbb{Z}/4\mathbb{Z}$와 다름)
 
 ## Example 3: $\mathbb{R}^n$
@@ -194,8 +193,7 @@ $$\pi_i: G_1 \times \cdots \times G_n \to G_i$$
 $$\pi_i(g_1, \ldots, g_n) = g_i$$
 
 **Properties**:
-- Surjective homomorphism ✓
-- $\ker(\pi_i) = G_1 \times \cdots \times \{e_i\} \times \cdots \times G_n$
+- Surjective homomorphism - $\ker(\pi_i) = G_1 \times \cdots \times \{e_i\} \times \cdots \times G_n$
 
 ## Injection Maps^[포함 사상]
 
@@ -204,8 +202,7 @@ $$\iota_i: G_i \to G_1 \times \cdots \times G_n$$
 $$\iota_i(g_i) = (e_1, \ldots, e_{i-1}, g_i, e_{i+1}, \ldots, e_n)$$
 
 **Properties**:
-- Injective homomorphism ✓
-- $\text{im}(\iota_i) = \{e_1\} \times \cdots \times G_i \times \cdots \times \{e_n\}$
+- Injective homomorphism - $\text{im}(\iota_i) = \{e_1\} \times \cdots \times G_i \times \cdots \times \{e_n\}$
 
 ## Normal Subgroups
 
@@ -229,8 +226,7 @@ $\Leftrightarrow (g_1, g_2)(h_1, h_2) = (h_1, h_2)(g_1, g_2)$ for all $(h_1, h_2
 
 $\Leftrightarrow g_1h_1 = h_1g_1$ and $g_2h_2 = h_2g_2$ for all $h_1, h_2$
 
-$\Leftrightarrow g_1 \in Z(G_1)$ and $g_2 \in Z(G_2)$ ✓
-
+$\Leftrightarrow g_1 \in Z(G_1)$ and $g_2 \in Z(G_2)$ 
 ## Commutativity
 
 **정리**: $G_1, G_2$ abelian $\Rightarrow$ $G_1 \times G_2$ abelian
@@ -239,10 +235,8 @@ $\Leftrightarrow g_1 \in Z(G_1)$ and $g_2 \in Z(G_2)$ ✓
 
 Wait, 실제로는:
 
-$G_1 \times G_2$ abelian $\Rightarrow$ $G_1, G_2$ abelian ✓
-
-**증명**: Projections are surjective homomorphisms, abelian property preserved ✓
-
+$G_1 \times G_2$ abelian $\Rightarrow$ $G_1, G_2$ abelian 
+**증명**: Projections are surjective homomorphisms, abelian property preserved 
 자세한 내용은 [[Abelian Group]] 참조
 
 ## Cyclic Groups
@@ -251,11 +245,9 @@ $G_1 \times G_2$ abelian $\Rightarrow$ $G_1, G_2$ abelian ✓
 
 **증명**:
 - ($\Rightarrow$): If cyclic, then abelian, so components cyclic
-- ($\Leftarrow$): Chinese Remainder Theorem ✓
-
+- ($\Leftarrow$): Chinese Remainder Theorem 
 **예**:
-- $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z} \cong \mathbb{Z}/6\mathbb{Z}$ (cyclic) ✓
-- $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ (NOT cyclic) ✗
+- $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z} \cong \mathbb{Z}/6\mathbb{Z}$ (cyclic) - $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ (NOT cyclic) ✗
 
 자세한 내용은 [[Cyclic Group]] 참조
 
@@ -271,8 +263,7 @@ $\Leftrightarrow g_1^n = e_1$ and $g_2^n = e_2$
 
 $\Leftrightarrow |g_1| \mid n$ and $|g_2| \mid n$
 
-$\Leftrightarrow \text{lcm}(|g_1|, |g_2|) \mid n$ ✓
-
+$\Leftrightarrow \text{lcm}(|g_1|, |g_2|) \mid n$ 
 **예**: $|([1], [1])| = \text{lcm}(2, 3) = 6$ in $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z}$
 
 ---
@@ -509,14 +500,12 @@ Infinite case: $\bigoplus \subsetneq \prod$
 
 ### 4. Commutativity
 
-$G_1 \times G_2$ abelian $\Leftrightarrow$ $G_1, G_2$ abelian ✓
-
+$G_1 \times G_2$ abelian $\Leftrightarrow$ $G_1, G_2$ abelian 
 (Both directions!)
 
 ### 5. Normal subgroups
 
-$H_i \triangleleft G_i$ $\Rightarrow$ $H_1 \times H_2 \triangleleft G_1 \times G_2$ ✓
-
+$H_i \triangleleft G_i$ $\Rightarrow$ $H_1 \times H_2 \triangleleft G_1 \times G_2$ 
 Component-wise normality
 
 ## 관련 개념

@@ -145,11 +145,7 @@ $G = \mathbb{Z}$, $N = 6\mathbb{Z}$
 ```
 
 **대응 확인**:
-- $\mathbb{Z} \leftrightarrow \mathbb{Z}/6\mathbb{Z}$ ✓
-- $2\mathbb{Z} \leftrightarrow \langle [2] \rangle$ ✓
-- $3\mathbb{Z} \leftrightarrow \langle [3] \rangle$ ✓
-- $6\mathbb{Z} \leftrightarrow \{[0]\}$ ✓
-
+- $\mathbb{Z} \leftrightarrow \mathbb{Z}/6\mathbb{Z}$ - $2\mathbb{Z} \leftrightarrow \langle [2] \rangle$ - $3\mathbb{Z} \leftrightarrow \langle [3] \rangle$ - $6\mathbb{Z} \leftrightarrow \{[0]\}$ 
 **Normality 보존**: 모든 subgroup이 normal (abelian group이므로)
 
 ## Example 2: $S_3/A_3$
@@ -178,9 +174,7 @@ $$S_3 \longleftrightarrow S_3/A_3$$
 $$A_3 \longleftrightarrow \{A_3\}$$
 
 **Normality**: 
-- $A_3 \triangleleft S_3$ ✓
-- $\{A_3\} \triangleleft S_3/A_3$ ✓
-
+- $A_3 \triangleleft S_3$ - $\{A_3\} \triangleleft S_3/A_3$ 
 ## Example 3: $\mathbb{Z}/12\mathbb{Z}$ from $\mathbb{Z}/4\mathbb{Z}$
 
 $G = \mathbb{Z}$, $N = 4\mathbb{Z}$
@@ -195,9 +189,7 @@ $N = 4\mathbb{Z} \subseteq H = 2\mathbb{Z} \subseteq G = \mathbb{Z}$
 
 **확인**:
 - $[2\mathbb{Z} : 4\mathbb{Z}] = 2$
-- $|\{[0], [2]\}| = 2$ ✓
-- $[\mathbb{Z}/4\mathbb{Z} : \{[0], [2]\}] = 4/2 = 2$ ✓
-
+- $|\{[0], [2]\}| = 2$ - $[\mathbb{Z}/4\mathbb{Z} : \{[0], [2]\}] = 4/2 = 2$ 
 ## Example 4: Direct Product
 
 $G = H \times K$, $N = H \times \{e\}$
@@ -243,10 +235,7 @@ $N \subseteq H \subseteq G \Rightarrow H/N \leq G/N$?
 **증명**:
 1. $H/N \subseteq G/N$ (obvious)
 2. $H/N$은 subgroup:
-   - Identity: $N = eN \in H/N$ ✓
-   - Closure: $(h_1N)(h_2N) = (h_1h_2)N \in H/N$ ✓
-   - Inverse: $(hN)^{-1} = h^{-1}N \in H/N$ ✓
-
+   - Identity: $N = eN \in H/N$    - Closure: $(h_1N)(h_2N) = (h_1h_2)N \in H/N$    - Inverse: $(hN)^{-1} = h^{-1}N \in H/N$ 
 ### Injective^[단사]
 
 $H_1/N = H_2/N \Rightarrow H_1 = H_2$?
@@ -256,8 +245,7 @@ $H_1/N = H_2/N \Rightarrow H_1 = H_2$?
 - $\Rightarrow h = h_2n$ for some $n \in N \subseteq H_2$
 - $\Rightarrow h \in H_2$ (since $h_2, n \in H_2$)
 - Similarly $H_2 \subseteq H_1$
-- Therefore $H_1 = H_2$ ✓
-
+- Therefore $H_1 = H_2$ 
 ### Surjective^[전사]
 
 $\bar{H} \leq G/N \Rightarrow \exists H$ with $\phi(H) = \bar{H}$?
@@ -266,13 +254,9 @@ $\bar{H} \leq G/N \Rightarrow \exists H$ with $\phi(H) = \bar{H}$?
 
 **확인**:
 1. $H$는 subgroup (homomorphism의 preimage)
-2. $N \subseteq H$: $n \in N \Rightarrow \pi(n) = nN = N = e_{G/N} \in \bar{H}$ ✓
-3. $H/N = \bar{H}$:
-   - $hN \in H/N \Rightarrow \pi(h) \in \bar{H} \Rightarrow hN \in \bar{H}$ ✓
-   - $\bar{h} \in \bar{H} \Rightarrow \bar{h} = gN$ for some $g \in H \Rightarrow \bar{h} \in H/N$ ✓
-
-따라서 $\phi$는 bijection ✓
-
+2. $N \subseteq H$: $n \in N \Rightarrow \pi(n) = nN = N = e_{G/N} \in \bar{H}$ 3. $H/N = \bar{H}$:
+   - $hN \in H/N \Rightarrow \pi(h) \in \bar{H} \Rightarrow hN \in \bar{H}$    - $\bar{h} \in \bar{H} \Rightarrow \bar{h} = gN$ for some $g \in H \Rightarrow \bar{h} \in H/N$ 
+따라서 $\phi$는 bijection 
 ## Normality 보존 증명
 
 $H \triangleleft G \Leftrightarrow H/N \triangleleft G/N$
@@ -283,8 +267,7 @@ Assume $H \triangleleft G$
 
 $(gN)(hN)(gN)^{-1} = ghg^{-1}N$
 
-$H \triangleleft G \Rightarrow ghg^{-1} \in H \Rightarrow ghg^{-1}N \in H/N$ ✓
-
+$H \triangleleft G \Rightarrow ghg^{-1} \in H \Rightarrow ghg^{-1}N \in H/N$ 
 ### ($\Leftarrow$)
 
 Assume $H/N \triangleleft G/N$
@@ -293,8 +276,7 @@ $ghg^{-1} \in H$?
 
 $(gN)(hN)(gN)^{-1} \in H/N \Rightarrow ghg^{-1}N \in H/N$
 
-$\Rightarrow ghg^{-1} \in H$ (by definition of $H/N$) ✓
-
+$\Rightarrow ghg^{-1} \in H$ (by definition of $H/N$) 
 ---
 
 # <span class="header-theorem">Theorem</span>
@@ -333,8 +315,7 @@ $M$ maximal normal $\Leftrightarrow$ $\{M, G\}$만이 $M$을 포함하는 normal
 
 $\Leftrightarrow$ $G/M$이 nontrivial proper normal subgroup이 없음
 
-$\Leftrightarrow$ $G/M$ simple ✓
-
+$\Leftrightarrow$ $G/M$ simple 
 ## Composition Series^[합성 열]
 
 $$\{e\} = G_0 \triangleleft G_1 \triangleleft \cdots \triangleleft G_n = G$$

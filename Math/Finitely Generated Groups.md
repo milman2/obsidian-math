@@ -49,8 +49,7 @@ $$r(G) = \min\{|S| : G = \langle S \rangle\}$$
 
 $$G \cong \mathbb{Z} \text{ or } \mathbb{Z}/n\mathbb{Z} \Rightarrow r(G) = 1$$
 
-**증명**: $G = \langle g \rangle$ for some $g$ ✓
-
+**증명**: $G = \langle g \rangle$ for some $g$ 
 자세한 내용은 [[Cyclic Group]] 참조
 
 ## Quotients
@@ -59,8 +58,7 @@ $$G \cong \mathbb{Z} \text{ or } \mathbb{Z}/n\mathbb{Z} \Rightarrow r(G) = 1$$
 
 $$\Rightarrow G/N \text{ finitely generated}$$
 
-**증명**: $G = \langle S \rangle$ $\Rightarrow$ $G/N = \langle \{\bar{s} : s \in S\} \rangle$ ✓
-
+**증명**: $G = \langle S \rangle$ $\Rightarrow$ $G/N = \langle \{\bar{s} : s \in S\} \rangle$ 
 ## Subgroups (Not Always!)
 
 **주의**: Finitely generated의 subgroup이 finitely generated인 것은 **아님**!
@@ -91,8 +89,7 @@ $$\mathbb{Z} = \langle 1 \rangle$$
 
 **Rank**: $r(\mathbb{Z}) = 1$
 
-**Finitely generated**: Yes ✓
-
+**Finitely generated**: Yes 
 ## Example 2: $\mathbb{Z}^n$
 
 $$\mathbb{Z}^n = \mathbb{Z} \times \cdots \times \mathbb{Z} \quad (n \text{ times})$$
@@ -101,14 +98,12 @@ $$= \langle (1,0,\ldots,0), (0,1,0,\ldots,0), \ldots, (0,\ldots,0,1) \rangle$$
 
 **Rank**: $r(\mathbb{Z}^n) = n$
 
-**Finitely generated**: Yes ✓
-
+**Finitely generated**: Yes 
 ## Example 3: Finite Groups
 
 **정리**: 모든 finite group은 finitely generated
 
-**증명**: $G = \langle G \rangle$ (자기 자신으로) ✓
-
+**증명**: $G = \langle G \rangle$ (자기 자신으로) 
 하지만 더 작은 generating set 존재 가능
 
 **예**: $S_n = \langle (12), (123\cdots n) \rangle$ (2 generators)
@@ -268,10 +263,7 @@ where $|g|$ = word length with respect to fixed generating set
 **일반적으로**: $H \leq G$ finitely generated $\not\Rightarrow$ $H$ finitely generated
 
 **예외**:
-- **Abelian groups**: Subgroups finitely generated ✓
-- **Free groups**: Subgroups free (Nielsen-Schreier) ✓
-- **Finite index**: $[G : H] < \infty$ $\Rightarrow$ $H$ finitely generated ✓
-
+- **Abelian groups**: Subgroups finitely generated - **Free groups**: Subgroups free (Nielsen-Schreier) - **Finite index**: $[G : H] < \infty$ $\Rightarrow$ $H$ finitely generated 
 ## 응용 분야
 
 **Geometric Group Theory**:
@@ -310,8 +302,7 @@ Finitely generated $\not\Rightarrow$ subgroups finitely generated
 
 ### 2. Quotients
 
-Quotients는 항상 finitely generated ✓
-
+Quotients는 항상 finitely generated 
 ### 3. $\mathbb{Q}$ not finitely generated
 
 유리수는 infinitely generated!

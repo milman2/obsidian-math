@@ -55,9 +55,8 @@ $$\langle a, b \rangle = \{ra + sb : r, s \in R\}$$
 ### Example
 
 $\mathbb{Z}$에서:
-- $\langle 6, 9 \rangle = \langle 3 \rangle$ ✓ (principal!)
-- $\langle 4, 6 \rangle = \langle 2 \rangle$ ✓
-
+- $\langle 6, 9 \rangle = \langle 3 \rangle$  (principal!)
+- $\langle 4, 6 \rangle = \langle 2 \rangle$ 
 하지만 $\mathbb{Z}[x]$에서:
 - $\langle 2, x \rangle$ is NOT principal ✗
 
@@ -90,11 +89,9 @@ $$\forall I \triangleleft R: \quad \exists a \in R, \quad I = \langle a \rangle$
 **정리**: $\langle a \rangle$는 $a$를 포함하는 가장 작은 ideal
 
 **증명**: 
-- $a = 1 \cdot a \in \langle a \rangle$ ✓
-- $I \supseteq \{a\}$이고 $I$ ideal이면:
+- $a = 1 \cdot a \in \langle a \rangle$ - $I \supseteq \{a\}$이고 $I$ ideal이면:
   - 모든 $r \in R$에 대해 $ra \in I$ (ideal property)
-  - 따라서 $\langle a \rangle \subseteq I$ ✓
-
+  - 따라서 $\langle a \rangle \subseteq I$ 
 ### 2. Generator는 유일하지 않음
 
 **정리**: $\langle a \rangle = \langle b \rangle$ $\Leftrightarrow$ $a = ub$ where $u$ is unit
@@ -106,13 +103,11 @@ $$\forall I \triangleleft R: \quad \exists a \in R, \quad I = \langle a \rangle$
 - $b \in \langle a \rangle \Rightarrow b = sa$
 - $\Rightarrow$ $a = r(sa) = (rs)a$
 - $\Rightarrow$ $rs = 1$ (if $a \neq 0$)
-- 따라서 $r, s$ are units ✓
-
+- 따라서 $r, s$ are units 
 ($\Leftarrow$) $a = ub$ (unit $u$)이면
 - $\langle a \rangle \subseteq \langle b \rangle$: $a = ub \in \langle b \rangle$
 - $\langle b \rangle \subseteq \langle a \rangle$: $b = u^{-1}a \in \langle a \rangle$
-- 따라서 $\langle a \rangle = \langle b \rangle$ ✓
-
+- 따라서 $\langle a \rangle = \langle b \rangle$ 
 **예**: $\mathbb{Z}$에서 $\langle 5 \rangle = \langle -5 \rangle$
 
 ### 3. Operations
@@ -128,8 +123,7 @@ $$\langle a \rangle + \langle b \rangle = \langle a, b \rangle$$
 $$\langle a \rangle \cdot \langle b \rangle = \langle ab \rangle$$
 
 **증명**: 
-- $\langle a \rangle \cdot \langle b \rangle = \{\sum r_i a \cdot s_j b\} = \{\sum t_{ij} ab\} = \langle ab \rangle$ ✓
-
+- $\langle a \rangle \cdot \langle b \rangle = \{\sum r_i a \cdot s_j b\} = \{\sum t_{ij} ab\} = \langle ab \rangle$ 
 **Intersection** (in PID):
 
 $$\langle a \rangle \cap \langle b \rangle = \langle \text{lcm}(a, b) \rangle$$
@@ -140,10 +134,8 @@ $$\langle a \rangle \cap \langle b \rangle = \langle \text{lcm}(a, b) \rangle$$
 
 **증명**:
 
-($\Rightarrow$) $a \in \langle b \rangle \Rightarrow a = rb \Rightarrow b | a$ ✓
-
-($\Leftarrow$) $b | a \Rightarrow a = rb \Rightarrow \langle a \rangle \subseteq \langle b \rangle$ ✓
-
+($\Rightarrow$) $a \in \langle b \rangle \Rightarrow a = rb \Rightarrow b | a$ 
+($\Leftarrow$) $b | a \Rightarrow a = rb \Rightarrow \langle a \rangle \subseteq \langle b \rangle$ 
 **예**: $\langle 6 \rangle \subseteq \langle 2 \rangle$ in $\mathbb{Z}$ (since $2 | 6$)
 
 ### 5. Principal Ideal in Quotient
@@ -179,8 +171,7 @@ $$\pi(\langle a \rangle) = \langle \pi(a) \rangle$$
 - $a$ prime $\Rightarrow$ $a | b$ or $a | c$
 - If $a | b$: $\langle b \rangle = R$
 - If $a | c$: $\langle b \rangle = \langle a \rangle$
-- 따라서 maximal ✓
-
+- 따라서 maximal 
 자세한 내용은 [[Maximal Ideal]] 참조
 
 ## GCD and LCM in PIDs
@@ -208,10 +199,7 @@ $$I = n\mathbb{Z} = \langle n \rangle$$
 - $\langle 1 \rangle = \mathbb{Z}$ (whole ring)
 
 **Operations**:
-- $\langle 2 \rangle + \langle 3 \rangle = \langle 1 \rangle = \mathbb{Z}$ ✓
-- $\langle 2 \rangle \cdot \langle 3 \rangle = \langle 6 \rangle$ ✓
-- $\langle 4 \rangle \cap \langle 6 \rangle = \langle 12 \rangle$ (lcm!) ✓
-
+- $\langle 2 \rangle + \langle 3 \rangle = \langle 1 \rangle = \mathbb{Z}$ - $\langle 2 \rangle \cdot \langle 3 \rangle = \langle 6 \rangle$ - $\langle 4 \rangle \cap \langle 6 \rangle = \langle 12 \rangle$ (lcm!) 
 ## Example 2: $k[x]$ (Polynomial Ring)
 
 **Field $k$에서**: 모든 ideal은 principal! (PID)
@@ -246,10 +234,7 @@ $$I = \langle f(x) \rangle$$
 **NOT all ideals are principal!** (NOT PID)
 
 **Principal ideals**:
-- $\langle 2 \rangle = \{2p(x) : p(x) \in \mathbb{Z}[x]\}$ ✓
-- $\langle x \rangle = \{xp(x) : p(x) \in \mathbb{Z}[x]\}$ ✓
-- $\langle x^2 + 1 \rangle$ ✓
-
+- $\langle 2 \rangle = \{2p(x) : p(x) \in \mathbb{Z}[x]\}$ - $\langle x \rangle = \{xp(x) : p(x) \in \mathbb{Z}[x]\}$ - $\langle x^2 + 1 \rangle$ 
 **NOT principal**:
 - $\langle 2, x \rangle = \{2p(x) + xq(x) : p, q \in \mathbb{Z}[x]\}$ ✗
 
@@ -261,23 +246,17 @@ $$I = \langle f(x) \rangle$$
 - $\Rightarrow$ $f = \pm 1$ or $f = \pm 2$
 - If $f = \pm 1$: $\langle f \rangle = \mathbb{Z}[x]$ ✗
 - If $f = \pm 2$: $x \notin \langle 2 \rangle$ ✗
-- Contradiction! ✓
-
+- Contradiction! 
 ## Example 5: $k[x, y]$ (Two Variables)
 
 **NOT PID** (multiple variables)
 
 **Principal ideals**:
-- $\langle x \rangle$ ✓
-- $\langle y \rangle$ ✓
-- $\langle x^2 + y^2 \rangle$ ✓
-- $\langle xy \rangle$ ✓
-
+- $\langle x \rangle$ - $\langle y \rangle$ - $\langle x^2 + y^2 \rangle$ - $\langle xy \rangle$ 
 **NOT principal**:
 - $\langle x, y \rangle$ ✗ (no common divisor except units)
 
-**하지만 UFD**: Unique factorization ✓
-
+**하지만 UFD**: Unique factorization 
 ## Example 6: $\mathbb{Z}/n\mathbb{Z}$
 
 **모든 ideal은 principal**! (PIR, not PID if $n$ composite)
@@ -305,8 +284,7 @@ $$\langle 1 \rangle \supseteq \langle 2 \rangle, \langle 3 \rangle \supseteq \la
 - If $I = \langle f \rangle$, then $f | x^2$, $f | xy$, $f | y^2$
 - In $\mathbb{Q}[x, y]$ (UFD), this forces $f \in \mathbb{Q}$ or $f | x$ and $f | y$
 - But $x \notin I$ and $y \notin I$
-- Contradiction! ✓
-
+- Contradiction! 
 ## Example 8: Matrix Ring (Non-commutative)
 
 **$M_2(\mathbb{R})$**: Matrix ring
@@ -342,7 +320,7 @@ where $e = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$
 
 **모든 ideal은 principal**: $I = \langle x^n \rangle$ for some $n$
 
-**PID**: ✓ (actually, DVR = discrete valuation ring)
+**PID**:  (actually, DVR = discrete valuation ring)
 
 자세한 내용은 [[Discrete Valuation Ring]] 참조
 
@@ -377,8 +355,7 @@ where $d_1 | d_2 | \cdots | d_n$
 
 **정리**: Every Euclidean domain is a PID
 
-**증명**: Division algorithm으로 generator 찾기 ✓
-
+**증명**: Division algorithm으로 generator 찾기 
 자세한 내용은 [[Euclidean Domain]] 참조
 
 ## Dedekind Domain Characterization
@@ -532,8 +509,7 @@ $$\text{Every ideal is principal}$$
 **Question**: $I = \langle a \rangle$ for some $a$?
 
 **Method**:
-1. If $I = \{0\}$: $I = \langle 0 \rangle$ ✓
-2. Find "smallest" nonzero element (Euclidean algorithm in ED)
+1. If $I = \{0\}$: $I = \langle 0 \rangle$ 2. Find "smallest" nonzero element (Euclidean algorithm in ED)
 3. Check if it generates $I$
 
 **In PID**: Always principal!
@@ -546,7 +522,7 @@ $$\text{Every ideal is principal}$$
 - In PID: $= \langle \gcd(a, b) \rangle$
 - In general: $= \langle a, b \rangle$ (may not be principal)
 
-**Product**: $\langle a \rangle \cdot \langle b \rangle = \langle ab \rangle$ ✓ (always)
+**Product**: $\langle a \rangle \cdot \langle b \rangle = \langle ab \rangle$  (always)
 
 **Intersection**: $\langle a \rangle \cap \langle b \rangle$
 - In PID: $= \langle \text{lcm}(a, b) \rangle$
@@ -571,8 +547,7 @@ $\langle 5 \rangle = \langle -5 \rangle$ in $\mathbb{Z}$
 
 ### 3. Sum of Principals
 
-$\langle 2 \rangle + \langle 3 \rangle = \langle 1 \rangle = \mathbb{Z}$ ✓
-
+$\langle 2 \rangle + \langle 3 \rangle = \langle 1 \rangle = \mathbb{Z}$ 
 **실수**: $\langle 2 + 3 \rangle = \langle 5 \rangle$이라고 생각 ✗
 
 **사실**: Sum $\neq$ $\langle a + b \rangle$

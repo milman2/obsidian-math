@@ -93,8 +93,7 @@ $$r^i s^j \quad \text{where } 0 \leq i < n, \; j \in \{0, 1\}$$
 - **Rotations**: $e, r, r^2$ ($0°, 120°, 240°$)
 - **Reflections**: $s, sr, sr^2$ (3 axes)
 
-**Isomorphism**: $D_3 \cong S_3$ ✓
-
+**Isomorphism**: $D_3 \cong S_3$ 
 정삼각형의 꼭짓점을 permute하는 것과 같음!
 
 ### Cayley Table
@@ -433,7 +432,7 @@ Different $n$ $\Rightarrow$ non-isomorphic groups (except $D_3 \cong S_3$)
 
 ✗ Two different reflections?
 
-Depends! May be rotation or another reflection
+✓ Depends! May be rotation or another reflection
 
 ### 5. $D_3 = S_3$?
 

@@ -106,8 +106,7 @@ $$\dim(\mathcal{L}(V, W)) = \dim(V) \cdot \dim(W)$$
 
 **증명**:
 
-$$T(0_V) = T(0 \cdot 0_V) = 0 \cdot T(0_V) = 0_W$$ ✓
-
+$$T(0_V) = T(0 \cdot 0_V) = 0 \cdot T(0_V) = 0_W$$ 
 **의미**: Linear mapping은 항상 원점을 원점으로 보냄
 
 **Contrapositive**: $T(0) \neq 0 \Rightarrow T$ is NOT linear!
@@ -118,8 +117,7 @@ $$T(0_V) = T(0 \cdot 0_V) = 0 \cdot T(0_V) = 0_W$$ ✓
 
 **증명**:
 
-$$T(-v) = T((-1) \cdot v) = (-1) \cdot T(v) = -T(v)$$ ✓
-
+$$T(-v) = T((-1) \cdot v) = (-1) \cdot T(v) = -T(v)$$ 
 ### 3. Linear Combination Preservation
 
 **정리**: 
@@ -128,16 +126,14 @@ $$T\left(\sum_{i=1}^n \alpha_i v_i\right) = \sum_{i=1}^n \alpha_i T(v_i)$$
 
 **증명** (Induction):
 
-**Base**: $n = 1$: $T(\alpha_1 v_1) = \alpha_1 T(v_1)$ ✓
-
+**Base**: $n = 1$: $T(\alpha_1 v_1) = \alpha_1 T(v_1)$ 
 **Step**: Assume for $n$, prove for $n+1$:
 
 $$T\left(\sum_{i=1}^{n+1} \alpha_i v_i\right) = T\left(\sum_{i=1}^n \alpha_i v_i + \alpha_{n+1} v_{n+1}\right)$$
 
 $$= T\left(\sum_{i=1}^n \alpha_i v_i\right) + T(\alpha_{n+1} v_{n+1})$$
 
-$$= \sum_{i=1}^n \alpha_i T(v_i) + \alpha_{n+1} T(v_{n+1}) = \sum_{i=1}^{n+1} \alpha_i T(v_i)$$ ✓
-
+$$= \sum_{i=1}^n \alpha_i T(v_i) + \alpha_{n+1} T(v_{n+1}) = \sum_{i=1}^{n+1} \alpha_i T(v_i)$$ 
 **의미**: Linear mapping은 **선형 결합을 보존**
 
 ### 4. Subspace Preservation
@@ -146,16 +142,12 @@ $$= \sum_{i=1}^n \alpha_i T(v_i) + \alpha_{n+1} T(v_{n+1}) = \sum_{i=1}^{n+1} \a
 
 **증명**:
 
-**(a)** $0_W = T(0_V) \in T(U)$ ✓
-
+**(a)** $0_W = T(0_V) \in T(U)$ 
 **(b)** $w_1, w_2 \in T(U) \Rightarrow w_1 = T(u_1)$, $w_2 = T(u_2)$
 
-$$w_1 + w_2 = T(u_1) + T(u_2) = T(u_1 + u_2) \in T(U)$$ ✓
-
-**(c)** $\alpha w_1 = \alpha T(u_1) = T(\alpha u_1) \in T(U)$ ✓
-
-따라서 $T(U)$는 subspace ✓
-
+$$w_1 + w_2 = T(u_1) + T(u_2) = T(u_1 + u_2) \in T(U)$$ 
+**(c)** $\alpha w_1 = \alpha T(u_1) = T(\alpha u_1) \in T(U)$ 
+따라서 $T(U)$는 subspace 
 ### 5. Composition Preserves Linearity
 
 **정리**: $T: U \to V$, $S: V \to W$ linear이면 $S \circ T: U \to W$ linear
@@ -166,8 +158,7 @@ $$(S \circ T)(\alpha u_1 + \beta u_2) = S(T(\alpha u_1 + \beta u_2))$$
 
 $$= S(\alpha T(u_1) + \beta T(u_2)) = \alpha S(T(u_1)) + \beta S(T(u_2))$$
 
-$$= \alpha (S \circ T)(u_1) + \beta (S \circ T)(u_2)$$ ✓
-
+$$= \alpha (S \circ T)(u_1) + \beta (S \circ T)(u_2)$$ 
 **의미**: Linear mappings의 composition은 linear
 
 ## Important Subspaces
@@ -186,20 +177,17 @@ $$\ker(T) = \{v \in V : T(v) = 0_W\}$$
 
 **증명**:
 
-**(a)** $T(0_V) = 0_W \Rightarrow 0_V \in \ker(T)$ ✓
-
+**(a)** $T(0_V) = 0_W \Rightarrow 0_V \in \ker(T)$ 
 **(b)** $v_1, v_2 \in \ker(T)$이면
 
 $$T(v_1 + v_2) = T(v_1) + T(v_2) = 0_W + 0_W = 0_W$$
 
-따라서 $v_1 + v_2 \in \ker(T)$ ✓
-
+따라서 $v_1 + v_2 \in \ker(T)$ 
 **(c)** $v \in \ker(T)$, $\alpha \in \mathbb{F}$이면
 
 $$T(\alpha v) = \alpha T(v) = \alpha \cdot 0_W = 0_W$$
 
-따라서 $\alpha v \in \ker(T)$ ✓
-
+따라서 $\alpha v \in \ker(T)$ 
 ### Image (Range)
 
 **정의**:
@@ -214,8 +202,7 @@ $$= \{T(v) : v \in V\}$$
 
 **정리**: $\text{Im}(T)$는 $W$의 subspace
 
-**증명**: Property 4 사용 ($\text{Im}(T) = T(V)$, $V$는 subspace) ✓
-
+**증명**: Property 4 사용 ($\text{Im}(T) = T(V)$, $V$는 subspace) 
 ### Relationship with Basis
 
 **정리**: $\{v_1, \ldots, v_n\}$이 $V$의 basis이면
@@ -228,8 +215,7 @@ $$\text{Im}(T) = \text{span}\{T(v_1), \ldots, T(v_n)\}$$
 
 $$T(v) = T\left(\sum_{i=1}^n \alpha_i v_i\right) = \sum_{i=1}^n \alpha_i T(v_i)$$
 
-따라서 $\text{Im}(T) = \text{span}\{T(v_1), \ldots, T(v_n)\}$ ✓
-
+따라서 $\text{Im}(T) = \text{span}\{T(v_1), \ldots, T(v_n)\}$ 
 **의미**: Image를 구하려면 basis의 image만 확인하면 됨!
 
 ## Injectivity and Surjectivity
@@ -252,14 +238,12 @@ $$T(v_1) = T(v_2) \quad \Rightarrow \quad v_1 = v_2$$
 
 **($\Rightarrow$)**: $v \in \ker(T) \Rightarrow T(v) = 0_W = T(0_V)$
 
-Injective이므로 $v = 0_V$ ✓
-
+Injective이므로 $v = 0_V$ 
 **($\Leftarrow$)**: $T(v_1) = T(v_2) \Rightarrow T(v_1 - v_2) = 0_W$
 
 따라서 $v_1 - v_2 \in \ker(T) = \{0_V\}$
 
-즉, $v_1 - v_2 = 0_V \Rightarrow v_1 = v_2$ ✓
-
+즉, $v_1 - v_2 = 0_V \Rightarrow v_1 = v_2$ 
 ### Surjective (Onto)
 
 **정의**: $T$가 **surjective**^[전사]라는 것은
@@ -326,8 +310,7 @@ $$v = \sum_{i=1}^k \alpha_i u_i + \sum_{j=1}^m \beta_j v_j$$
 
 $$T(v) = \sum_{i=1}^k \alpha_i T(u_i) + \sum_{j=1}^m \beta_j T(v_j) = 0 + \sum_{j=1}^m \beta_j T(v_j)$$
 
-따라서 $\text{Im}(T) = \text{span}\{T(v_1), \ldots, T(v_m)\}$ ✓
-
+따라서 $\text{Im}(T) = \text{span}\{T(v_1), \ldots, T(v_m)\}$ 
 **(b) Linear independence**: Suppose
 
 $$\sum_{j=1}^m \beta_j T(v_j) = 0$$
@@ -344,10 +327,8 @@ $$\sum_{j=1}^m \beta_j v_j - \sum_{i=1}^k \alpha_i u_i = 0$$
 
 $\{u_1, \ldots, u_k, v_1, \ldots, v_m\}$이 linearly independent이므로
 
-$$\beta_1 = \cdots = \beta_m = 0$$ ✓
-
-따라서 $\dim(\text{Im}(T)) = m = \dim(V) - k = \dim(V) - \dim(\ker(T))$ ✓
-
+$$\beta_1 = \cdots = \beta_m = 0$$ 
+따라서 $\dim(\text{Im}(T)) = m = \dim(V) - k = \dim(V) - \dim(\ker(T))$ 
 **의미**:
 - $\dim(V)$ = "입력 차원"
 - $\dim(\ker(T))$ = "잃어버린 차원" (정보 손실)
@@ -373,14 +354,11 @@ Rank-Nullity: $n = \text{nullity}(T) + \text{rank}(T)$
 
 따라서 $\text{rank}(T) = n = \dim(W)$
 
-즉, $\text{Im}(T) = W$ (surjective) ✓
-
+즉, $\text{Im}(T) = W$ (surjective) 
 **(b) $\Rightarrow$ (c)**: Surjective $\Rightarrow \text{rank}(T) = n$
 
-따라서 $\text{nullity}(T) = 0 \Rightarrow \ker(T) = \{0\}$ (injective) ✓
-
-**(c) $\Rightarrow$ (a)**: Obvious ✓
-
+따라서 $\text{nullity}(T) = 0 \Rightarrow \ker(T) = \{0\}$ (injective) 
+**(c) $\Rightarrow$ (a)**: Obvious 
 ## Matrix Representation
 
 ### Coordinate Vectors
@@ -449,8 +427,7 @@ $$[T]_{\mathcal{B}'} = P^{-1} [T]_{\mathcal{B}} P$$
 
 $$I: V \to V, \quad I(v) = v$$
 
-**확인**: $I(\alpha u + \beta v) = \alpha u + \beta v = \alpha I(u) + \beta I(v)$ ✓
-
+**확인**: $I(\alpha u + \beta v) = \alpha u + \beta v = \alpha I(u) + \beta I(v)$ 
 **성질**:
 - $\ker(I) = \{0\}$ (injective)
 - $\text{Im}(I) = V$ (surjective)
@@ -462,8 +439,7 @@ $$I: V \to V, \quad I(v) = v$$
 
 $$0: V \to W, \quad 0(v) = 0_W$$
 
-**확인**: $0(\alpha u + \beta v) = 0_W = \alpha \cdot 0_W + \beta \cdot 0_W$ ✓
-
+**확인**: $0(\alpha u + \beta v) = 0_W = \alpha \cdot 0_W + \beta \cdot 0_W$ 
 **성질**:
 - $\ker(0) = V$
 - $\text{Im}(0) = \{0_W\}$
@@ -479,14 +455,12 @@ $$D(p) = p'$$
 
 **확인**:
 
-$$D(\alpha p + \beta q) = (\alpha p + \beta q)' = \alpha p' + \beta q' = \alpha D(p) + \beta D(q)$$ ✓
-
+$$D(\alpha p + \beta q) = (\alpha p + \beta q)' = \alpha p' + \beta q' = \alpha D(p) + \beta D(q)$$ 
 **성질**:
 - $\ker(D) = \{c : c \in \mathbb{R}\}$ (constant polynomials)
 - $\text{Im}(D) = \mathcal{P}_{n-1}(\mathbb{R})$ (surjective)
 - $\text{nullity}(D) = 1$, $\text{rank}(D) = n$
-- Rank-Nullity: $1 + n = n + 1 = \dim(\mathcal{P}_n)$ ✓
-
+- Rank-Nullity: $1 + n = n + 1 = \dim(\mathcal{P}_n)$ 
 **Matrix** (basis $\{1, x, x^2, \ldots, x^n\}$):
 
 $$[D] = \begin{pmatrix} 0 & 1 & 0 & 0 & \cdots & 0 \\ 0 & 0 & 2 & 0 & \cdots & 0 \\ 0 & 0 & 0 & 3 & \cdots & 0 \\ \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & 0 & 0 & \cdots & n \end{pmatrix}$$
@@ -499,8 +473,7 @@ $$I(f) = \int_0^1 f(x) \, dx$$
 
 **확인**:
 
-$$I(\alpha f + \beta g) = \int_0^1 (\alpha f + \beta g) = \alpha \int_0^1 f + \beta \int_0^1 g = \alpha I(f) + \beta I(g)$$ ✓
-
+$$I(\alpha f + \beta g) = \int_0^1 (\alpha f + \beta g) = \alpha \int_0^1 f + \beta \int_0^1 g = \alpha I(f) + \beta I(g)$$ 
 **성질**:
 - Linear functional! (scalar-valued)
 - $\ker(I) = \left\{f : \int_0^1 f = 0\right\}$ (infinite-dimensional)
@@ -514,8 +487,7 @@ where $A$ is $m \times n$ matrix
 
 **확인**:
 
-$$T_A(\alpha x + \beta y) = A(\alpha x + \beta y) = \alpha Ax + \beta Ay = \alpha T_A(x) + \beta T_A(y)$$ ✓
-
+$$T_A(\alpha x + \beta y) = A(\alpha x + \beta y) = \alpha Ax + \beta Ay = \alpha T_A(x) + \beta T_A(y)$$ 
 **성질**:
 - $\ker(T_A) = \{x : Ax = 0\}$ (null space of $A$)
 - $\text{Im}(T_A) = \{Ax : x \in \mathbb{R}^n\}$ (column space of $A$)
@@ -529,8 +501,7 @@ $$R_\theta: \mathbb{R}^2 \to \mathbb{R}^2$$
 
 $$R_\theta\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix}$$
 
-**확인**: Matrix multiplication은 linear ✓
-
+**확인**: Matrix multiplication은 linear 
 **성질**:
 - $\ker(R_\theta) = \{0\}$ (injective)
 - $\text{Im}(R_\theta) = \mathbb{R}^2$ (surjective)
@@ -543,8 +514,7 @@ $W \subseteq V$ subspace, $V = W \oplus W^\perp$ (orthogonal decomposition)
 
 $$P: V \to V, \quad P(w + w^\perp) = w$$
 
-**확인**: Linearity from uniqueness of decomposition ✓
-
+**확인**: Linearity from uniqueness of decomposition 
 **성질**:
 - $\ker(P) = W^\perp$
 - $\text{Im}(P) = W$
@@ -568,8 +538,7 @@ $$\text{ev}_a(p) = p(a)$$
 
 **확인**:
 
-$$\text{ev}_a(\alpha p + \beta q) = (\alpha p + \beta q)(a) = \alpha p(a) + \beta q(a) = \alpha \text{ev}_a(p) + \beta \text{ev}_a(q)$$ ✓
-
+$$\text{ev}_a(\alpha p + \beta q) = (\alpha p + \beta q)(a) = \alpha p(a) + \beta q(a) = \alpha \text{ev}_a(p) + \beta \text{ev}_a(q)$$ 
 **성질**:
 - Linear functional!
 - $\ker(\text{ev}_a) = \{p : p(a) = 0\}$ = polynomials with root at $a$
@@ -584,8 +553,7 @@ $$\text{tr}(A) = \sum_{i=1}^n a_{ii}$$
 
 **확인**:
 
-$$\text{tr}(\alpha A + \beta B) = \sum_i (\alpha a_{ii} + \beta b_{ii}) = \alpha \text{tr}(A) + \beta \text{tr}(B)$$ ✓
-
+$$\text{tr}(\alpha A + \beta B) = \sum_i (\alpha a_{ii} + \beta b_{ii}) = \alpha \text{tr}(A) + \beta \text{tr}(B)$$ 
 **성질**:
 - Linear functional on matrix space!
 - $\ker(\text{tr}) = \{A : \text{tr}(A) = 0\}$ (traceless matrices)
@@ -600,8 +568,7 @@ $$T(A) = A^T$$
 
 **확인**:
 
-$$(A + B)^T = A^T + B^T, \quad (cA)^T = cA^T$$ ✓
-
+$$(A + B)^T = A^T + B^T, \quad (cA)^T = cA^T$$ 
 **성질**:
 - $\ker(T) = \{0\}$ (injective)
 - $\text{Im}(T) = M_{n \times m}$ (surjective)
@@ -628,7 +595,7 @@ $$N: \mathbb{R}^n \to \mathbb{R}, \quad N(x) = \|x\|$$
 
 **Check**:
 
-$$N(2x) = \|2x\| = 2\|x\| = 2N(x)$$ ✓ (homogeneous)
+$$N(2x) = \|2x\| = 2\|x\| = 2N(x)$$  (homogeneous)
 
 But:
 
@@ -674,14 +641,12 @@ Linearity 확인:
 
 $$T\left(\sum_i \alpha_i v_i + \sum_i \beta_i v_i\right) = T\left(\sum_i (\alpha_i + \beta_i) v_i\right)$$
 
-$$= \sum_i (\alpha_i + \beta_i) w_i = \sum_i \alpha_i w_i + \sum_i \beta_i w_i = T(v) + T(v')$$ ✓
-
+$$= \sum_i (\alpha_i + \beta_i) w_i = \sum_i \alpha_i w_i + \sum_i \beta_i w_i = T(v) + T(v')$$ 
 **Uniqueness**: $S(v_i) = w_i = T(v_i)$인 다른 linear mapping $S$ 존재하면
 
 $$S(v) = S\left(\sum_i \alpha_i v_i\right) = \sum_i \alpha_i S(v_i) = \sum_i \alpha_i w_i = T(v)$$
 
-따라서 $S = T$ ✓
-
+따라서 $S = T$ 
 **의미**: Linear mapping은 **basis의 image로 완전히 결정!**
 
 ## Dimension Theorem for Isomorphism
@@ -698,8 +663,7 @@ Basis $\{v_1, \ldots, v_n\}$ of $V$에 대해
 
 $\{T(v_1), \ldots, T(v_n)\}$은 $W$의 basis
 
-따라서 $\dim(W) = n = \dim(V)$ ✓
-
+따라서 $\dim(W) = n = \dim(V)$ 
 **($\Leftarrow$)**: $\dim(V) = \dim(W) = n$
 
 Bases: $\{v_1, \ldots, v_n\}$ for $V$, $\{w_1, \ldots, w_n\}$ for $W$
@@ -708,8 +672,7 @@ Existence theorem으로 $T(v_i) = w_i$ 정의
 
 $T$ is bijection (basis to basis)
 
-따라서 isomorphism ✓
-
+따라서 isomorphism 
 **Corollary**: Finite-dimensional spaces는 차원으로 완전히 분류!
 
 $$\mathbb{F}^n \cong V \text{ for any } n\text{-dimensional space } V$$
@@ -728,18 +691,13 @@ $$\bar{T}(v + \ker(T)) = T(v)$$
 
 **Well-defined**: $v + \ker(T) = v' + \ker(T) \Rightarrow v - v' \in \ker(T)$
 
-$$\Rightarrow T(v - v') = 0 \Rightarrow T(v) = T(v')$$ ✓
-
-**Linear**: Quotient structure preserves linearity ✓
-
+$$\Rightarrow T(v - v') = 0 \Rightarrow T(v) = T(v')$$ 
+**Linear**: Quotient structure preserves linearity 
 **Injective**: $\bar{T}(v + \ker(T)) = 0 \Rightarrow T(v) = 0 \Rightarrow v \in \ker(T)$
 
-$$\Rightarrow v + \ker(T) = \ker(T)$$ (zero of quotient) ✓
-
-**Surjective**: By definition of $\text{Im}(T)$ ✓
-
-따라서 isomorphism ✓
-
+$$\Rightarrow v + \ker(T) = \ker(T)$$ (zero of quotient) 
+**Surjective**: By definition of $\text{Im}(T)$ 
+따라서 isomorphism 
 **의미**: $T$는 quotient space $V/\ker(T)$를 image로 "동형"하게 보냄
 
 ## Dual Space Dimension
@@ -750,8 +708,7 @@ $$\dim(V^*) = \dim(V)$$
 
 where $V^* = \mathcal{L}(V, \mathbb{F})$ (dual space)
 
-**증명**: $\dim(\mathcal{L}(V, \mathbb{F})) = \dim(V) \cdot \dim(\mathbb{F}) = n \cdot 1 = n$ ✓
-
+**증명**: $\dim(\mathcal{L}(V, \mathbb{F})) = \dim(V) \cdot \dim(\mathbb{F}) = n \cdot 1 = n$ 
 **의미**: $V \cong V^*$ (but NOT naturally!)
 
 자세한 내용은 [[Dual Spaces]] 참조
@@ -768,8 +725,7 @@ where $V^* = \mathcal{L}(V, \mathbb{F})$ (dual space)
 
 **(d)** $(S \circ T)^{-1} = T^{-1} \circ S^{-1}$
 
-**증명**: Straightforward verification ✓
-
+**증명**: Straightforward verification 
 ---
 
 # <span class="header-remark">Remark</span>
@@ -952,8 +908,7 @@ $$D(f) = f'$$
 
 **Linearity 확인**:
 
-$$D(\alpha f + \beta g) = (\alpha f + \beta g)' = \alpha f' + \beta g' = \alpha D(f) + \beta D(g)$$ ✓
-
+$$D(\alpha f + \beta g) = (\alpha f + \beta g)' = \alpha f' + \beta g' = \alpha D(f) + \beta D(g)$$ 
 **구체적 예**:
 
 $$D(\sin x) = \cos x$$
@@ -992,8 +947,7 @@ $$I(f)(x) = \int_0^x f(t) \, dt$$
 
 $$I(\alpha f + \beta g)(x) = \int_0^x (\alpha f(t) + \beta g(t)) \, dt = \alpha \int_0^x f(t) \, dt + \beta \int_0^x g(t) \, dt$$
 
-$$= \alpha I(f)(x) + \beta I(g)(x)$$ ✓
-
+$$= \alpha I(f)(x) + \beta I(g)(x)$$ 
 **구체적 예**:
 
 $$I(1)(x) = \int_0^x 1 \, dt = x$$
@@ -1016,8 +970,7 @@ $$M_x: \mathcal{P}(\mathbb{R}) \to \mathcal{P}(\mathbb{R})$$
 
 $$M_x(p)(t) = t \cdot p(t)$$
 
-**Linearity**: Obvious from distributivity ✓
-
+**Linearity**: Obvious from distributivity 
 **구체적 예**:
 
 $$M_x(1) = x$$
@@ -1042,8 +995,7 @@ $$S: \ell^2 \to \ell^2$$
 
 $$(x_1, x_2, x_3, \ldots) \mapsto (0, x_1, x_2, x_3, \ldots)$$
 
-**Linearity**: Component-wise ✓
-
+**Linearity**: Component-wise 
 **"Infinite matrix"**:
 
 $$[S] = \begin{pmatrix} 0 & 0 & 0 & 0 & \cdots \\ 1 & 0 & 0 & 0 & \cdots \\ 0 & 1 & 0 & 0 & \cdots \\ 0 & 0 & 1 & 0 & \cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{pmatrix}$$

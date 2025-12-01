@@ -73,23 +73,19 @@ $$J(R) = \bigcap_{M \text{ maximal}} M$$
 
 **증명**:
 
-**(a) $0 \in \sqrt{I}$**: $0^1 = 0 \in I$ ✓
-
+**(a) $0 \in \sqrt{I}$**: $0^1 = 0 \in I$ 
 **(b) Closed under subtraction**: $a, b \in \sqrt{I}$이면
 - $a^n, b^m \in I$ for some $n, m$
 - $(a - b)^{n+m} = \displaystyle\sum_{k=0}^{n+m} \binom{n+m}{k} a^k (-b)^{n+m-k}$
 - 각 항이 $a^n$ 또는 $b^m$을 포함 (by pigeonhole)
-- 따라서 $(a-b)^{n+m} \in I$ ✓
-
+- 따라서 $(a-b)^{n+m} \in I$ 
 **(c) Closed under multiplication by $R$**: $a \in \sqrt{I}$, $r \in R$이면
 - $a^n \in I$ for some $n$
 - $(ra)^n = r^n a^n \in I$ (ideal property)
-- 따라서 $ra \in \sqrt{I}$ ✓
-
+- 따라서 $ra \in \sqrt{I}$ 
 ### 2. $I \subseteq \sqrt{I}$
 
-**증명**: $a \in I$이면 $a^1 = a \in I$, 따라서 $a \in \sqrt{I}$ ✓
-
+**증명**: $a \in I$이면 $a^1 = a \in I$, 따라서 $a \in \sqrt{I}$ 
 ### 3. $\sqrt{\sqrt{I}} = \sqrt{I}$
 
 **정리**: Radical은 **idempotent**^[멱등]:
@@ -102,16 +98,14 @@ $$\sqrt{\sqrt{I}} = \sqrt{I}$$
   - $a^n \in \sqrt{I}$ for some $n$
   - $(a^n)^m \in I$ for some $m$
   - $a^{nm} \in I$
-  - 따라서 $a \in \sqrt{I}$ ✓
-
+  - 따라서 $a \in \sqrt{I}$ 
 **의미**: $\sqrt{I}$는 이미 radical ideal!
 
 ### 4. Monotonicity
 
 **정리**: $I \subseteq J$ $\Rightarrow$ $\sqrt{I} \subseteq \sqrt{J}$
 
-**증명**: $a \in \sqrt{I}$이면 $a^n \in I \subseteq J$, 따라서 $a \in \sqrt{J}$ ✓
-
+**증명**: $a \in \sqrt{I}$이면 $a^n \in I \subseteq J$, 따라서 $a \in \sqrt{J}$ 
 ### 5. Radical of Product
 
 **정리**: $\sqrt{IJ} = \sqrt{I \cap J} = \sqrt{I} \cap \sqrt{J}$
@@ -136,15 +130,13 @@ $$\sqrt{I} = \bigcap_{P \supseteq I, \; P \text{ prime}} P$$
 - Prime ideal $P \supseteq I$에 대해
 - $a^n = a \cdot a \cdots a \in P$
 - Prime property: $a \in P$
-- 따라서 $a \in \bigcap P$ ✓
-
+- 따라서 $a \in \bigcap P$ 
 ($\supseteq$) $a \notin \sqrt{I}$이면
 - $S = \{a^n : n \geq 1\}$ (multiplicative set)
 - $S \cap I = \emptyset$ (by assumption)
 - Zorn's Lemma: prime $P \supseteq I$ with $P \cap S = \emptyset$ exists
 - $a \notin P$ (since $a^1 \in S$)
-- 따라서 $a \notin \bigcap P$ ✓
-
+- 따라서 $a \notin \bigcap P$ 
 **계**: $\sqrt{I}$는 smallest radical ideal containing $I$
 
 ## Radical and Quotients
@@ -178,8 +170,7 @@ $$\sqrt{\langle 12 \rangle} = \sqrt{\langle 2^2 \cdot 3 \rangle} = \langle 6 \ra
 Actually: $n \in \sqrt{\langle m \rangle}$ $\Leftrightarrow$ every prime factor of $n$ divides $m$
 
 **Correct**: $\sqrt{\langle 12 \rangle} = \langle 6 \rangle$
-- $6^2 = 36 = 3 \cdot 12 \in \langle 12 \rangle$ ✓
-- $2 \in \sqrt{\langle 12 \rangle}$: $2^2 = 4$, but $12 = 4 \cdot 3$... Actually $2^3 = 8$, $2^4 = 16$... Hmm.
+- $6^2 = 36 = 3 \cdot 12 \in \langle 12 \rangle$ - $2 \in \sqrt{\langle 12 \rangle}$: $2^2 = 4$, but $12 = 4 \cdot 3$... Actually $2^3 = 8$, $2^4 = 16$... Hmm.
 
 Let me reconsider: In $\mathbb{Z}$,
 
@@ -189,8 +180,7 @@ where $\text{rad}(n)$ = product of distinct prime factors
 
 So $\text{rad}(12) = \text{rad}(2^2 \cdot 3) = 2 \cdot 3 = 6$
 
-Therefore $\sqrt{\langle 12 \rangle} = \langle 6 \rangle$ ✓
-
+Therefore $\sqrt{\langle 12 \rangle} = \langle 6 \rangle$ 
 ### (b) $\sqrt{\langle 0 \rangle}$
 
 $$\sqrt{\langle 0 \rangle} = \text{Nil}(\mathbb{Z}) = \{0\}$$
@@ -211,8 +201,7 @@ Actually no: $\langle 4 \rangle$ is NOT radical ($2 \notin \langle 4 \rangle$ bu
 
 $$\sqrt{\langle x^2 \rangle} = \langle x \rangle$$
 
-**확인**: $(x)^2 = x^2 \in \langle x^2 \rangle$ ✓
-
+**확인**: $(x)^2 = x^2 \in \langle x^2 \rangle$ 
 ### (b) $\sqrt{\langle x^2(x-1)^3 \rangle}$
 
 $$\sqrt{\langle x^2(x-1)^3 \rangle} = \langle x(x-1) \rangle$$
@@ -231,14 +220,12 @@ $$\sqrt{\langle 0 \rangle} = \{0\}$$
 
 $$\text{Nil}(\mathbb{Z}/12\mathbb{Z}) = \langle \overline{6} \rangle = \{\overline{0}, \overline{6}\}$$
 
-**확인**: $\overline{6}^2 = \overline{36} = \overline{0}$ ✓
-
+**확인**: $\overline{6}^2 = \overline{36} = \overline{0}$ 
 ### (a) $\sqrt{\langle \overline{4} \rangle}$
 
 $$\sqrt{\langle \overline{4} \rangle} = \langle \overline{2} \rangle$$
 
-**이유**: $\overline{2}^2 = \overline{4}$ ✓
-
+**이유**: $\overline{2}^2 = \overline{4}$ 
 ### (b) $\sqrt{\langle \overline{0} \rangle}$
 
 $$\sqrt{\langle \overline{0} \rangle} = \langle \overline{6} \rangle$$
@@ -252,11 +239,9 @@ Nilradical!
 $$\sqrt{\langle x^2, xy \rangle} = \langle x \rangle$$
 
 **증명**: 
-- $x^2 \in I$ $\Rightarrow$ $x \in \sqrt{I}$ ✓
-- Conversely: $\langle x \rangle \supseteq \langle x^2, xy \rangle$
+- $x^2 \in I$ $\Rightarrow$ $x \in \sqrt{I}$ - Conversely: $\langle x \rangle \supseteq \langle x^2, xy \rangle$
 - $\sqrt{\langle x \rangle} = \langle x \rangle$ (radical)
-- By minimality: $\sqrt{I} = \langle x \rangle$ ✓
-
+- By minimality: $\sqrt{I} = \langle x \rangle$ 
 ### (b) $\sqrt{\langle x^2, y^2 \rangle}$
 
 $$\sqrt{\langle x^2, y^2 \rangle} = \langle x, y \rangle$$
@@ -285,12 +270,9 @@ So $a^n = 2k$ and $b^n = 0$.
 
 Therefore $b = 0$ and $2 | a^n$, so $2 | a$ (in $\mathbb{Z}$, since square-free).
 
-Actually more carefully: $b^n = 0$ $\Rightarrow$ $b = 0$ ✓
-
-$a^n \in 2\mathbb{Z}$ $\Rightarrow$ $a \in \sqrt{2\mathbb{Z}} = 2\mathbb{Z}$ ✓
-
-Therefore $\sqrt{I} = 2\mathbb{Z} \times \{0\}$ ✓
-
+Actually more carefully: $b^n = 0$ $\Rightarrow$ $b = 0$ 
+$a^n \in 2\mathbb{Z}$ $\Rightarrow$ $a \in \sqrt{2\mathbb{Z}} = 2\mathbb{Z}$ 
+Therefore $\sqrt{I} = 2\mathbb{Z} \times \{0\}$ 
 ---
 
 # <span class="header-properties">Special Cases and Characterizations</span>
@@ -303,29 +285,22 @@ Every prime ideal is radical
 
 **증명**: $P$ prime이고 $a^n \in P$이면
 - $a \cdot a \cdots a \in P$ ($n$ times)
-- Prime property (repeatedly): $a \in P$ ✓
-
+- Prime property (repeatedly): $a \in P$ 
 ### 정리: Intersection of Primes is Radical
 
 $$\sqrt{I} = \bigcap_{P \supseteq I, \; P \text{ prime}} P$$
 
-따라서 $\sqrt{I}$는 radical ideal ✓
-
+따라서 $\sqrt{I}$는 radical ideal 
 ### Examples of Radical Ideals
 
 **In $\mathbb{Z}$**:
-- $\langle p \rangle$ (prime): radical ✓
-- $\langle p^2 \rangle$: NOT radical ✗
-- $\langle pq \rangle$ (distinct primes): radical ✓
-
+- $\langle p \rangle$ (prime): radical - $\langle p^2 \rangle$: NOT radical ✗
+- $\langle pq \rangle$ (distinct primes): radical 
 **In $k[x]$**:
-- $\langle x \rangle$: radical ✓
-- $\langle x^2 \rangle$: NOT radical ✗
-- $\langle (x-1)(x-2) \rangle$: radical ✓
-
+- $\langle x \rangle$: radical - $\langle x^2 \rangle$: NOT radical ✗
+- $\langle (x-1)(x-2) \rangle$: radical 
 **In $k[x, y]$**:
-- $\langle x, y \rangle$: radical ✓
-- $\langle x^2, y \rangle$: NOT radical ✗
+- $\langle x, y \rangle$: radical - $\langle x^2, y \rangle$: NOT radical ✗
 
 ## Nilradical Characterization
 
@@ -335,8 +310,7 @@ $$\text{Nil}(R) = \sqrt{\{0\}} = \bigcap_{P \text{ prime}} P$$
 
 **의미**: Nilradical = intersection of ALL prime ideals
 
-**증명**: Apply general theorem with $I = \{0\}$ ✓
-
+**증명**: Apply general theorem with $I = \{0\}$ 
 ### 정리: Nilradical in Quotient
 
 $$\text{Nil}(R/I) = \sqrt{I}/I$$
@@ -356,10 +330,7 @@ Ring $R$이 **reduced**^[기약]이다 $\Leftrightarrow$ $\text{Nil}(R) = \{0\}$
 ### Examples
 
 **Reduced**:
-- $\mathbb{Z}$ ✓
-- $k[x]$ (integral domain) ✓
-- $\mathbb{Z} \times \mathbb{Z}$ ✓
-
+- $\mathbb{Z}$ - $k[x]$ (integral domain) - $\mathbb{Z} \times \mathbb{Z}$ 
 **NOT Reduced**:
 - $\mathbb{Z}/4\mathbb{Z}$ ✗ ($\overline{2}^2 = \overline{0}$)
 - $k[x]/\langle x^2 \rangle$ ✗ ($\overline{x}^2 = 0$)
@@ -399,8 +370,7 @@ $I = \langle x^2, xy \rangle \triangleleft \mathbb{C}[x, y]$
 
 - $V(I) = \{(0, b) : b \in \mathbb{C}\}$ (y-axis)
 - $\sqrt{I} = \langle x \rangle$
-- $V(\sqrt{I}) = V(I)$ ✓
-
+- $V(\sqrt{I}) = V(I)$ 
 **의미**: $x^2 = 0$과 $x = 0$은 같은 locus!
 
 ## Commutative Algebra
@@ -485,15 +455,12 @@ For polynomial rings, use Gröbner basis algorithms
 **Counter-example**: $\mathbb{Z}$에서
 - $I = \langle 2 \rangle$, $J = \langle 3 \rangle$
 - $\sqrt{I} + \sqrt{J} = \langle 2 \rangle + \langle 3 \rangle = \langle 1 \rangle = \mathbb{Z}$
-- $\sqrt{I + J} = \sqrt{\langle 1 \rangle} = \mathbb{Z}$ ✓
-
+- $\sqrt{I + J} = \sqrt{\langle 1 \rangle} = \mathbb{Z}$ 
 Actually this works! But in general:
 
 $k[x, y]$에서:
 - $I = \langle x^2 \rangle$, $J = \langle y^2 \rangle$
-- $\sqrt{I} + \sqrt{J} = \langle x \rangle + \langle y \rangle = \langle x, y \rangle$ ✓
-- $\sqrt{I + J} = \sqrt{\langle x^2, y^2 \rangle} = \langle x, y \rangle$ ✓
-
+- $\sqrt{I} + \sqrt{J} = \langle x \rangle + \langle y \rangle = \langle x, y \rangle$ - $\sqrt{I + J} = \sqrt{\langle x^2, y^2 \rangle} = \langle x, y \rangle$ 
 Hmm, seems to work... Actually:
 
 $$\sqrt{I + J} = \sqrt{\sqrt{I} + \sqrt{J}}$$

@@ -461,7 +461,7 @@ Category에 따라:
 
 ✗ 항상 성립하는 것은 아님!
 
-✓ $\gcd(m, n) = 1$일 때만
+ $\gcd(m, n) = 1$일 때만
 
 **반례**: $C_2 \times C_2 \not\cong C_4$
 
@@ -472,8 +472,7 @@ Category에 따라:
 ✓ 추가 조건 필요: $W_1 \cap W_2 = \{0\}$
 
 **반례**: $\mathbb{R}^2 = \text{span}\{(1,0)\} + \text{span}\{(1,1)\}$
-- $\text{span}\{(1,0)\} \cap \text{span}\{(1,1)\} = \{0\}$ ✓
-- 하지만 두 번째 조건에서: $(0,1) \notin$ span!
+- $\text{span}\{(1,0)\} \cap \text{span}\{(1,1)\} = \{0\}$ - 하지만 두 번째 조건에서: $(0,1) \notin$ span!
 
 ### 3. Subgroups of direct sums
 
@@ -491,7 +490,7 @@ Category에 따라:
 
 ✗ Infinite case에서 다름!
 
-✓ Finite case에서만 같음
+ Finite case에서만 같음
 
 ## 응용
 

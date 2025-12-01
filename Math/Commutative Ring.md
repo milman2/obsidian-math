@@ -53,8 +53,7 @@ $$\exists 1 \in R: \quad \forall a \in R, \quad 1 \cdot a = a \cdot 1 = a$$
 
 $$\text{left ideal} = \text{right ideal} = \text{two-sided ideal}$$
 
-**증명**: $ra \in I$이면 $ar = ra \in I$ (commutativity) ✓
-
+**증명**: $ra \in I$이면 $ar = ra \in I$ (commutativity) 
 **의미**: "Ideal"만 고려하면 충분 (left/right 구분 불필요)
 
 자세한 내용은 [[Ideal]] 참조
@@ -144,8 +143,7 @@ $$U(R) = \{u \in R : \exists v \in R, uv = 1\}$$
 
 **Group structure**: $(U(R), \cdot)$는 **abelian group^[아벨군]**
 
-**증명**: $uv = vu = 1$ (commutativity) ✓
-
+**증명**: $uv = vu = 1$ (commutativity) 
 자세한 내용은 [[Units]] 참조
 
 ### Zero Divisors^[영인자]
@@ -288,14 +286,7 @@ $$\exists ! M \triangleleft R \text{ maximal}$$
 ## Example 1: $\mathbb{Z}$ (Integers)
 
 **Properties**:
-- Commutative ✓
-- Integral domain ✓
-- PID ✓
-- UFD ✓
-- Euclidean domain ✓
-- Noetherian ✓
-- Dedekind domain ✓
-
+- Commutative - Integral domain - PID - UFD - Euclidean domain - Noetherian - Dedekind domain 
 **Units**: $U(\mathbb{Z}) = \{1, -1\}$
 
 **Prime elements**: $\pm p$ (ordinary primes)
@@ -303,20 +294,15 @@ $$\exists ! M \triangleleft R \text{ maximal}$$
 ## Example 2: $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$ (Fields)
 
 **Properties**:
-- Commutative ✓
-- Field ✓
-- Every nonzero element is unit
+- Commutative - Field - Every nonzero element is unit
 
 **Ideals**: Only $\{0\}$ and $R$ (trivial)
 
 ## Example 3: $\mathbb{Z}/n\mathbb{Z}$
 
 **Properties**:
-- Commutative ✓
-- Finite ring
-- Artinian ✓
-- Noetherian ✓
-
+- Commutative - Finite ring
+- Artinian - Noetherian 
 **Field?**: $\mathbb{Z}/n\mathbb{Z}$ is field $\Leftrightarrow$ $n$ is prime
 
 **Units**: $U(\mathbb{Z}/n\mathbb{Z}) = \{k : \gcd(k, n) = 1\}$
@@ -326,13 +312,7 @@ $$\exists ! M \triangleleft R \text{ maximal}$$
 ## Example 4: Polynomial Ring $k[x]$
 
 **Properties** (for field $k$):
-- Commutative ✓
-- Integral domain ✓
-- PID ✓
-- UFD ✓
-- Euclidean domain ✓
-- Noetherian ✓
-
+- Commutative - Integral domain - PID - UFD - Euclidean domain - Noetherian 
 **Units**: $U(k[x]) = k^* = k \setminus \{0\}$ (constant polynomials)
 
 **Irreducibles**: Irreducible polynomials
@@ -340,11 +320,7 @@ $$\exists ! M \triangleleft R \text{ maximal}$$
 ## Example 5: Multivariable Polynomial Ring $k[x, y]$
 
 **Properties**:
-- Commutative ✓
-- Integral domain ✓
-- UFD ✓
-- Noetherian ✓
-
+- Commutative - Integral domain - UFD - Noetherian 
 **NOT PID**: $\langle x, y \rangle$ is not principal
 
 **Ideals**: Correspond to algebraic varieties
@@ -354,12 +330,7 @@ $$\exists ! M \triangleleft R \text{ maximal}$$
 $$\mathbb{Z}[i] = \{a + bi : a, b \in \mathbb{Z}\}$$
 
 **Properties**:
-- Commutative ✓
-- Integral domain ✓
-- UFD ✓
-- PID ✓
-- Euclidean domain ✓
-
+- Commutative - Integral domain - UFD - PID - Euclidean domain 
 **Norm**: $N(a + bi) = a^2 + b^2$
 
 **Units**: $U(\mathbb{Z}[i]) = \{1, -1, i, -i\}$
@@ -371,9 +342,7 @@ $$\mathbb{Z}[i] = \{a + bi : a, b \in \mathbb{Z}\}$$
 $$\mathbb{Z}[\sqrt{-5}] = \{a + b\sqrt{-5} : a, b \in \mathbb{Z}\}$$
 
 **Properties**:
-- Commutative ✓
-- Integral domain ✓
-- **NOT UFD** ✗
+- Commutative - Integral domain - **NOT UFD** ✗
 
 **Failure of unique factorization**:
 
@@ -386,10 +355,8 @@ $$6 = 2 \cdot 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$$
 $$\mathbb{Z}_{(p)} = \left\{ \frac{a}{b} : a, b \in \mathbb{Z}, p \nmid b \right\}$$
 
 **Properties**:
-- Commutative ✓
-- Local ring ✓ (unique maximal ideal $p\mathbb{Z}_{(p)}$)
-- Noetherian ✓
-
+- Commutative - Local ring  (unique maximal ideal $p\mathbb{Z}_{(p)}$)
+- Noetherian 
 **Units**: $\frac{a}{b}$ where $p \nmid a$
 
 ## Example 9: Formal Power Series $k[[x]]$
@@ -397,11 +364,9 @@ $$\mathbb{Z}_{(p)} = \left\{ \frac{a}{b} : a, b \in \mathbb{Z}, p \nmid b \right
 $$k[[x]] = \left\{ \displaystyle\sum_{i=0}^{\infty} a_i x^i : a_i \in k \right\}$$
 
 **Properties**:
-- Commutative ✓
-- Local ring ✓ (maximal ideal $\langle x \rangle$)
-- Integral domain ✓ (if $k$ is)
-- Noetherian ✓
-
+- Commutative - Local ring  (maximal ideal $\langle x \rangle$)
+- Integral domain  (if $k$ is)
+- Noetherian 
 **Units**: $f \in U(k[[x]])$ $\Leftrightarrow$ $a_0 \neq 0$
 
 자세한 내용은 [[Formal Power Series]] 참조
@@ -415,8 +380,7 @@ $$C(X) = \{f : X \to \mathbb{R} \text{ continuous}\}$$
 **Operations**: Pointwise addition and multiplication
 
 **Properties**:
-- Commutative ✓
-- Unity: constant function $1$
+- Commutative - Unity: constant function $1$
 
 **Ideals**: 
 - Maximal ideals $\leftrightarrow$ points of $X$
@@ -427,8 +391,7 @@ $$C(X) = \{f : X \to \mathbb{R} \text{ continuous}\}$$
 ## Example 11: $\mathbb{Z} \times \mathbb{Z}$ (Direct Product)
 
 **Properties**:
-- Commutative ✓
-- **Has zero divisors**: $(1, 0) \cdot (0, 1) = (0, 0)$
+- Commutative - **Has zero divisors**: $(1, 0) \cdot (0, 1) = (0, 0)$
 - NOT integral domain ✗
 
 **Units**: $U(\mathbb{Z} \times \mathbb{Z}) = \{1, -1\} \times \{1, -1\}$
@@ -438,8 +401,7 @@ $$C(X) = \{f : X \to \mathbb{R} \text{ continuous}\}$$
 ## Example 12: $\mathbb{Z}/6\mathbb{Z}$
 
 **Properties**:
-- Commutative ✓
-- **Has zero divisors**: $\overline{2} \cdot \overline{3} = \overline{0}$
+- Commutative - **Has zero divisors**: $\overline{2} \cdot \overline{3} = \overline{0}$
 - NOT integral domain ✗
 
 **Units**: $U(\mathbb{Z}/6\mathbb{Z}) = \{\overline{1}, \overline{5}\}$
@@ -621,8 +583,7 @@ $$\bigcap_{n=1}^{\infty} \mathfrak{m}^n = \{0\}$$
 **Ring of integers**: $\mathcal{O}_K$ in number field $K$
 
 **Properties**:
-- Commutative ✓
-- Dedekind domain
+- Commutative - Dedekind domain
 - Ideal factorization
 
 **응용**:
@@ -739,8 +700,7 @@ $n$ composite이면 zero divisors 존재
 
 ### 4. PID vs UFD
 
-**PID $\Rightarrow$ UFD** ✓
-
+**PID $\Rightarrow$ UFD** 
 **UFD $\not\Rightarrow$ PID** ✗
 
 예: $k[x, y]$ is UFD but not PID

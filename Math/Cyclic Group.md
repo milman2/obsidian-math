@@ -289,8 +289,7 @@ $$\mathbb{Z}/n\mathbb{Z} \cong \mathbb{Z}/n_1\mathbb{Z} \times \cdots \times \ma
 where $n = n_1 \cdots n_k$ and $\gcd(n_i, n_j) = 1$ for $i \neq j$
 
 **예**:
-- $C_2 \times C_3 \cong C_6$ ✓
-- $C_2 \times C_2 \not\cong C_4$ ✗ (not coprime to itself)
+- $C_2 \times C_3 \cong C_6$ - $C_2 \times C_2 \not\cong C_4$ ✗ (not coprime to itself)
 
 ### Fundamental Theorem of Finite Abelian Groups
 
@@ -435,7 +434,7 @@ $$e \to g \to g^2 \to \cdots \to g^{n-1} \to e$$
 
 **반례**: $V_4 = C_2 \times C_2$ (abelian but not cyclic)
 
-✓ Cyclic $\Rightarrow$ Abelian (always)
+ Cyclic $\Rightarrow$ Abelian (always)
 
 ### 2. All elements are generators?
 
@@ -447,7 +446,7 @@ Finite: $\phi(n)$개만 generator
 
 ✗ 항상 성립하는 것은 아님!
 
-✓ $\gcd(m,n) = 1$일 때만
+ $\gcd(m,n) = 1$일 때만
 
 **반례**: $C_2 \times C_2 \not\cong C_4$
 

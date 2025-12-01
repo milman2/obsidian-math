@@ -361,9 +361,9 @@ fₙ → f pointwise a.e.
 
 | Condition | Required? | Why? |
 |-----------|-----------|------|
-| Pointwise convergence (a.e.) | ✓ Yes | Define limit |
-| Dominating function $g$ | ✓ Yes | Control tails |
-| $\int g < \infty$ | ✓ Yes | Integrability |
+| Pointwise convergence (a.e.) |  Yes | Define limit |
+| Dominating function $g$ |  Yes | Control tails |
+| $\int g < \infty$ |  Yes | Integrability |
 | Monotonicity | ✗ No | Not needed! |
 | Uniform convergence | ✗ No | Too strong |
 | Non-negativity | ✗ No | Can be signed |

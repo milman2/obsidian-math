@@ -76,8 +76,7 @@ $$g_1'g_2' = g_1n_1g_2n_2 = g_1g_2(g_2^{-1}n_1g_2)n_2$$
 
 $N$이 normal이므로 $g_2^{-1}n_1g_2 \in N$, 따라서 $(g_2^{-1}n_1g_2)n_2 \in N$
 
-즉, $g_1'g_2' \in g_1g_2N$ ✓
-
+즉, $g_1'g_2' \in g_1g_2N$ 
 **중요**: Normal subgroup이 아니면 well-defined 안 됨!
 
 ## 군 공리

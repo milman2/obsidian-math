@@ -81,8 +81,7 @@ $$\text{ad}_{[a,b]} = [\text{ad}_a, \text{ad}_b]$$
 
 **증명**: Expand $[[a,b], c] + [[b,c], a] + [[c,a], b]$ using associativity
 
-Direct computation shows sum = 0 ✓
-
+Direct computation shows sum = 0 
 **의미**: Associative algebra → Lie algebra (자연스럽게)
 
 ## Bilinearity + Anticommutativity ≠ Jacobi
@@ -107,8 +106,7 @@ $$= abc - acb - bca + cba$$
 
 $$[[a,b], c] + [b, [a,c]] = (ab-ba)c - c(ab-ba) + b(ac-ca) - (ac-ca)b$$
 $$= abc - bac - cab + cba + bac - bca - acb + cab$$
-$$= abc - acb - bca + cba$$ ✓
-
+$$= abc - acb - bca + cba$$ 
 ### Form 3: Operator
 
 $$[\text{ad}_a, \text{ad}_b] = \text{ad}_{[a,b]}$$
@@ -131,8 +129,7 @@ $$\text{ad}_a(b) = [a, b]$$
 
 is **Lie algebra homomorphism**
 
-**증명**: Jacobi identity $\Leftrightarrow$ $\text{ad}_{[a,b]} = [\text{ad}_a, \text{ad}_b]$ ✓
-
+**증명**: Jacobi identity $\Leftrightarrow$ $\text{ad}_{[a,b]} = [\text{ad}_a, \text{ad}_b]$ 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -155,8 +152,7 @@ $$i, j, k \text{ satisfy: } [i, j] = 2k, \; [j, k] = 2i, \; [k, i] = 2j$$
 
 **Check Jacobi**:
 
-$$[[i, j], k] + [[j, k], i] + [[k, i], j] = [2k, k] + [2i, i] + [2j, j] = 0 + 0 + 0 = 0$$ ✓
-
+$$[[i, j], k] + [[j, k], i] + [[k, i], j] = [2k, k] + [2i, i] + [2j, j] = 0 + 0 + 0 = 0$$ 
 ## Example 3: Vector Fields
 
 **Lie bracket of vector fields** $X, Y$ on manifold:
@@ -201,8 +197,7 @@ $$[\mathbf{a}, \mathbf{b}] = \mathbf{a} \times \mathbf{b}$$
 
 $$\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) + \mathbf{b} \times (\mathbf{c} \times \mathbf{a}) + \mathbf{c} \times (\mathbf{a} \times \mathbf{b}) = \mathbf{0}$$
 
-**Check**: Use vector triple product formula ✓
-
+**Check**: Use vector triple product formula 
 ---
 
 # <span class="header-proof">Proof</span>
@@ -224,8 +219,7 @@ $$= cab - acb - bca + bac$$
 
 **Sum**:
 $$(abc - bac - cab + cba) + (bca - cba - abc + acb) + (cab - acb - bca + bac)$$
-$$= 0$$ ✓
-
+$$= 0$$ 
 All terms cancel!
 
 ## Proof Using Derivation Property
@@ -239,8 +233,7 @@ $$[[a,b], c] = (ab-ba)c - c(ab-ba) = abc - bac - cab + cba$$
 
 $$[b, [a,c]] = b(ac-ca) - (ac-ca)b = bac - bca - acb + cab$$
 
-**Sum**: $[[a,b], c] + [b, [a,c]] = abc - acb - bca + cba$ ✓
-
+**Sum**: $[[a,b], c] + [b, [a,c]] = abc - acb - bca + cba$ 
 ## Geometric Interpretation
 
 **Vector fields** on manifold:

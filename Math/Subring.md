@@ -56,20 +56,16 @@ $$1_R \in S \quad \text{(unital subring인 경우)}$$
 
 **증명**:
 
-**($\Rightarrow$)**: Subring이면 당연히 닫혀있음 ✓
-
+**($\Rightarrow$)**: Subring이면 당연히 닫혀있음 
 **($\Leftarrow$)**:
 1. **Additive subgroup**: 
    - $0 = a - a \in S$ (identity)
    - $-a = 0 - a \in S$ (inverse)
    - $a + b = a - (-b) \in S$ (closure)
    
-2. **Multiplicative closure**: $ab \in S$ by assumption ✓
-
-3. **Unity**: $1_R \in S$ by assumption (unital) ✓
-
-따라서 $S \leq R$ ✓
-
+2. **Multiplicative closure**: $ab \in S$ by assumption 
+3. **Unity**: $1_R \in S$ by assumption (unital) 
+따라서 $S \leq R$ 
 ### Simplified Test
 
 만약 $S$가 finite이면:
@@ -91,10 +87,7 @@ Subrings의 교집합도 subring:
 $$S_1, S_2 \leq R \quad \Rightarrow \quad S_1 \cap S_2 \leq R$$
 
 **증명**: $a, b \in S_1 \cap S_2$이면
-- $a - b \in S_1$ and $a - b \in S_2$ $\Rightarrow$ $a - b \in S_1 \cap S_2$ ✓
-- $ab \in S_1$ and $ab \in S_2$ $\Rightarrow$ $ab \in S_1 \cap S_2$ ✓
-- $1 \in S_1$ and $1 \in S_2$ $\Rightarrow$ $1 \in S_1 \cap S_2$ ✓
-
+- $a - b \in S_1$ and $a - b \in S_2$ $\Rightarrow$ $a - b \in S_1 \cap S_2$ - $ab \in S_1$ and $ab \in S_2$ $\Rightarrow$ $ab \in S_1 \cap S_2$ - $1 \in S_1$ and $1 \in S_2$ $\Rightarrow$ $1 \in S_1 \cap S_2$ 
 ### 2. Generated Subring
 
 집합 $X \subseteq R$이 주어졌을 때, $X$를 포함하는 **smallest subring**^[최소 부분환]:
@@ -117,8 +110,7 @@ $$k_1 a_1 + \cdots + k_n a_n + \sum_{i,j} a_i a_j + \cdots$$
 
 $$n \cdot 1_S = n \cdot 1_R$$
 
-따라서 characteristic 동일 ✓
-
+따라서 characteristic 동일 
 자세한 내용은 [[Characteristic]] 참조
 
 ### 4. Subring Lattice
@@ -140,7 +132,7 @@ Ring $R$의 모든 subrings는 **lattice^[격자]** 구조:
 
 | | Subring | Ideal |
 |---|---------|-------|
-| 덧셈 | Subgroup ✓ | Subgroup ✓ |
+| 덧셈 | Subgroup  | Subgroup  |
 | 곱셈 | Closed: $ab \in S$ | Absorption: $ra \in I$ for all $r \in R$ |
 | 항등원 | $1 \in S$ (unital) | $1 \notin I$ (proper ideal) |
 | 예 | $\mathbb{Z} \leq \mathbb{Q}$ | $2\mathbb{Z} \triangleleft \mathbb{Z}$ |
@@ -188,10 +180,7 @@ $$Z(R) = \{z \in R : zr = rz \text{ for all } r \in R\}$$
 **정리**: $Z(R) \leq R$ (subring)
 
 **증명**:
-- $1 \in Z(R)$ ✓
-- $z_1, z_2 \in Z(R)$이면 $z_1 - z_2 \in Z(R)$ ✓
-- $z_1, z_2 \in Z(R)$이면 $z_1 z_2 \in Z(R)$ ✓
-
+- $1 \in Z(R)$ - $z_1, z_2 \in Z(R)$이면 $z_1 - z_2 \in Z(R)$ - $z_1, z_2 \in Z(R)$이면 $z_1 z_2 \in Z(R)$ 
 자세한 내용은 [[Center]] 참조
 
 ## Subring of Field
@@ -215,12 +204,8 @@ $$Z(R) = \{z \in R : zr = rz \text{ for all } r \in R\}$$
 ## Example 1: $\mathbb{Z} \leq \mathbb{Q}$
 
 **Check**:
-- $a - b \in \mathbb{Z}$ if $a, b \in \mathbb{Z}$ ✓
-- $ab \in \mathbb{Z}$ if $a, b \in \mathbb{Z}$ ✓
-- $1 \in \mathbb{Z}$ ✓
-
-Therefore $\mathbb{Z} \leq \mathbb{Q}$ ✓
-
+- $a - b \in \mathbb{Z}$ if $a, b \in \mathbb{Z}$ - $ab \in \mathbb{Z}$ if $a, b \in \mathbb{Z}$ - $1 \in \mathbb{Z}$ 
+Therefore $\mathbb{Z} \leq \mathbb{Q}$ 
 **Chain**: $\mathbb{Z} \leq \mathbb{Q} \leq \mathbb{R} \leq \mathbb{C}$
 
 ## Example 2: Gaussian Integers
@@ -228,12 +213,8 @@ Therefore $\mathbb{Z} \leq \mathbb{Q}$ ✓
 **$\mathbb{Z}[i] = \{a + bi : a, b \in \mathbb{Z}\}$** in $\mathbb{C}$
 
 **Check**:
-- $(a + bi) - (c + di) = (a-c) + (b-d)i \in \mathbb{Z}[i]$ ✓
-- $(a + bi)(c + di) = (ac - bd) + (ad + bc)i \in \mathbb{Z}[i]$ ✓
-- $1 = 1 + 0i \in \mathbb{Z}[i]$ ✓
-
-Therefore $\mathbb{Z}[i] \leq \mathbb{C}$ ✓
-
+- $(a + bi) - (c + di) = (a-c) + (b-d)i \in \mathbb{Z}[i]$ - $(a + bi)(c + di) = (ac - bd) + (ad + bc)i \in \mathbb{Z}[i]$ - $1 = 1 + 0i \in \mathbb{Z}[i]$ 
+Therefore $\mathbb{Z}[i] \leq \mathbb{C}$ 
 **Properties**:
 - Integral domain
 - Euclidean domain
@@ -248,10 +229,7 @@ Therefore $\mathbb{Z}[i] \leq \mathbb{C}$ ✓
 Polynomials with integer coefficients form subring of polynomials with rational coefficients
 
 **Check**:
-- Subtraction preserves integer coefficients ✓
-- Multiplication preserves integer coefficients ✓
-- $1 \in \mathbb{Z}[x]$ ✓
-
+- Subtraction preserves integer coefficients - Multiplication preserves integer coefficients - $1 \in \mathbb{Z}[x]$ 
 **Chain**: $\mathbb{Z}[x] \leq \mathbb{Q}[x] \leq \mathbb{R}[x] \leq \mathbb{C}[x]$
 
 자세한 내용은 [[Polynomial Ring]] 참조
@@ -263,12 +241,8 @@ Polynomials with integer coefficients form subring of polynomials with rational 
 $$U_n(\mathbb{R}) = \left\{ \begin{pmatrix} a & b \\ 0 & d \end{pmatrix} : a, b, d \in \mathbb{R} \right\}$$
 
 **Check**:
-- Closed under subtraction ✓
-- Closed under multiplication ✓
-- Contains $I$ ✓
-
-Therefore $U_n(\mathbb{R}) \leq M_n(\mathbb{R}$ ✓
-
+- Closed under subtraction - Closed under multiplication - Contains $I$ 
+Therefore $U_n(\mathbb{R}) \leq M_n(\mathbb{R}$ 
 ## Example 5: Even Integers (NON-example)
 
 **$2\mathbb{Z}$ is NOT a unital subring of $\mathbb{Z}$**
@@ -287,10 +261,7 @@ However:
 **$\mathbb{Z}[\sqrt{2}] = \{a + b\sqrt{2} : a, b \in \mathbb{Z}\}$** in $\mathbb{R}$
 
 **Check**:
-- $(a + b\sqrt{2}) - (c + d\sqrt{2}) = (a-c) + (b-d)\sqrt{2} \in \mathbb{Z}[\sqrt{2}]$ ✓
-- $(a + b\sqrt{2})(c + d\sqrt{2}) = (ac + 2bd) + (ad + bc)\sqrt{2} \in \mathbb{Z}[\sqrt{2}]$ ✓
-- $1 \in \mathbb{Z}[\sqrt{2}]$ ✓
-
+- $(a + b\sqrt{2}) - (c + d\sqrt{2}) = (a-c) + (b-d)\sqrt{2} \in \mathbb{Z}[\sqrt{2}]$ - $(a + b\sqrt{2})(c + d\sqrt{2}) = (ac + 2bd) + (ad + bc)\sqrt{2} \in \mathbb{Z}[\sqrt{2}]$ - $1 \in \mathbb{Z}[\sqrt{2}]$ 
 **Properties**:
 - Integral domain
 - Unique factorization domain
@@ -303,12 +274,8 @@ However:
 $$Z(M_n(\mathbb{R})) = \{cI : c \in \mathbb{R}\} \cong \mathbb{R}$$
 
 **Check**:
-- $cI - dI = (c-d)I \in Z$ ✓
-- $(cI)(dI) = (cd)I \in Z$ ✓
-- $I \in Z$ ✓
-
-Therefore $Z(M_n(\mathbb{R})) \leq M_n(\mathbb{R})$ ✓
-
+- $cI - dI = (c-d)I \in Z$ - $(cI)(dI) = (cd)I \in Z$ - $I \in Z$ 
+Therefore $Z(M_n(\mathbb{R})) \leq M_n(\mathbb{R})$ 
 ## Example 8: Continuous Functions
 
 **$C^{\infty}[0,1] \leq C[0,1]$**
@@ -316,10 +283,7 @@ Therefore $Z(M_n(\mathbb{R})) \leq M_n(\mathbb{R})$ ✓
 Infinitely differentiable functions form subring of continuous functions
 
 **Check**:
-- $f - g$ is $C^{\infty}$ if $f, g$ are ✓
-- $fg$ is $C^{\infty}$ if $f, g$ are ✓
-- Constant function $1$ is $C^{\infty}$ ✓
-
+- $f - g$ is $C^{\infty}$ if $f, g$ are - $fg$ is $C^{\infty}$ if $f, g$ are - Constant function $1$ is $C^{\infty}$ 
 **Chain**: $C^{\infty}[0,1] \leq C^k[0,1] \leq C[0,1]$
 
 ## Example 9: Quaternions
@@ -339,9 +303,7 @@ Identifying $\mathbb{C}$ with $\{a + bi + 0j + 0k\}$
 **$R_1 \times \{0\} \leq R_1 \times R_2$**
 
 **Check**:
-- $(a, 0) - (b, 0) = (a-b, 0) \in R_1 \times \{0\}$ ✓
-- $(a, 0)(b, 0) = (ab, 0) \in R_1 \times \{0\}$ ✓
-- $(1, 0) \in R_1 \times \{0\}$?
+- $(a, 0) - (b, 0) = (a-b, 0) \in R_1 \times \{0\}$ - $(a, 0)(b, 0) = (ab, 0) \in R_1 \times \{0\}$ - $(1, 0) \in R_1 \times \{0\}$?
 
 **문제**: $(1, 0) \neq (1, 1) = 1_{R_1 \times R_2}$
 
@@ -361,10 +323,7 @@ $$\phi^{-1}(T) \leq R$$
 
 **증명**:
 - $a, b \in \phi^{-1}(T)$이면 $\phi(a), \phi(b) \in T$
-- $\phi(a - b) = \phi(a) - \phi(b) \in T$ $\Rightarrow$ $a - b \in \phi^{-1}(T)$ ✓
-- $\phi(ab) = \phi(a)\phi(b) \in T$ $\Rightarrow$ $ab \in \phi^{-1}(T)$ ✓
-- $\phi(1_R) = 1_S \in T$ $\Rightarrow$ $1_R \in \phi^{-1}(T)$ ✓
-
+- $\phi(a - b) = \phi(a) - \phi(b) \in T$ $\Rightarrow$ $a - b \in \phi^{-1}(T)$ - $\phi(ab) = \phi(a)\phi(b) \in T$ $\Rightarrow$ $ab \in \phi^{-1}(T)$ - $\phi(1_R) = 1_S \in T$ $\Rightarrow$ $1_R \in \phi^{-1}(T)$ 
 자세한 내용은 [[Ring Homomorphism]] 참조
 
 ## Image of Subring
@@ -480,12 +439,11 @@ Subring는 나눗셈에 닫혀있을 필요 없음!
 
 예: $\mathbb{Z} \leq \mathbb{Q}$
 
-$2, 3 \in \mathbb{Z}$ but $2/3 \notin \mathbb{Z}$ ✓ (OK)
+$2, 3 \in \mathbb{Z}$ but $2/3 \notin \mathbb{Z}$  (OK)
 
 ### 3. Intersection vs Union
 
-**Intersection**: Always subring ✓
-
+**Intersection**: Always subring 
 **Union**: Generally NOT subring!
 
 예: $\mathbb{Q} \cup (\mathbb{Q} + \sqrt{2}\mathbb{Q})$ is not a subring

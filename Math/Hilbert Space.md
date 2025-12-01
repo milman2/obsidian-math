@@ -135,7 +135,7 @@ $$\|x\|^2 = \displaystyle\sum_{i \in I} |\langle x, e_i \rangle|^2$$
 |------|----------|----------|
 | Basis | 유한 개 | 가산 무한 또는 비가산 |
 | Completeness | 자동 | 조건 필요 |
-| Closed = Compact | ✓ | ✗ |
+| Closed = Compact |  | ✗ |
 | $H \cong H^*$ | Natural^[자연스러운] | Via inner product^[내적으로] |
 
 ## Separability^[분리가능성]

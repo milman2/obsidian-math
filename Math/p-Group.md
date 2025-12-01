@@ -72,8 +72,7 @@ $$p \mid |G| = |Z(G)| + \sum_{i} [G : C_G(x_i)]$$
 
 $$p \mid |Z(G)|$$
 
-$\Rightarrow |Z(G)| \geq p > 1$ ✓
-
+$\Rightarrow |Z(G)| \geq p > 1$ 
 자세한 내용은 [[Group Action]] 참조
 
 ## Nilpotency
@@ -84,8 +83,7 @@ $\Rightarrow |Z(G)| \geq p > 1$ ✓
 
 - Base: $|G| = p$ $\Rightarrow$ abelian $\Rightarrow$ nilpotent
 - Step: $Z(G) \neq \{e\}$ $\Rightarrow$ $G/Z(G)$ smaller $p$-group $\Rightarrow$ nilpotent by induction
-- Upper central series reaches $G$ ✓
-
+- Upper central series reaches $G$ 
 자세한 내용은 [[Nilpotent Group]] 참조
 
 ## Maximal Subgroups
@@ -97,9 +95,7 @@ $$M < G \text{ maximal} \Rightarrow [G : M] = p \text{ and } M \triangleleft G$$
 **증명**:
 - $Z(G) \neq \{e\}$ $\Rightarrow$ $Z(G) \cap M$ nontrivial or $G = MZ(G)$
 - If $G = MZ(G)$: $[G : M] = [MZ(G) : M] = [Z(G) : M \cap Z(G)]$ divides $|Z(G)|$
-- Since $M$ maximal, $[G : M] = p$ ✓
-- Index $p$ $\Rightarrow$ normal ✓
-
+- Since $M$ maximal, $[G : M] = p$ - Index $p$ $\Rightarrow$ normal 
 자세한 내용은 [[Normal Subgroup]] 참조
 
 ## Normalizer Condition
@@ -112,8 +108,7 @@ $$M < G \text{ maximal} \Rightarrow [G : M] = p \text{ and } M \triangleleft G$$
 
 $\Rightarrow \exists z \in Z(G), z \notin H$
 
-$z$ centralizes $H$ $\Rightarrow z \in N_G(H) \setminus H$ ✓
-
+$z$ centralizes $H$ $\Rightarrow z \in N_G(H) \setminus H$ 
 ## Cauchy's Theorem (Automatic)
 
 **정리**: $p \mid |G|$ $\Rightarrow$ $\exists g \in G$ with $|g| = p$
@@ -220,8 +215,7 @@ $$G \cong \mathbb{Z}/p^{a_1}\mathbb{Z} \times \cdots \times \mathbb{Z}/p^{a_k}\m
 
 **증명**: 
 - Non-trivial center $\Rightarrow$ abelian (order $p^2$)
-- Fundamental theorem of finite abelian groups ✓
-
+- Fundamental theorem of finite abelian groups 
 ## Classification of Groups of Order $p^3$
 
 **정리**: Order $p^3$인 group은 5개 types (for $p$ odd):
@@ -249,8 +243,7 @@ where $\Phi(G)$ = Frattini subgroup
 
 **정리**: 모든 finite $p$-group은 solvable^[가해]
 
-**증명**: Nilpotent $\Rightarrow$ Solvable ✓
-
+**증명**: Nilpotent $\Rightarrow$ Solvable 
 자세한 내용은 [[Solvable Group]] 참조
 
 ## Sylow's First Theorem Application
@@ -316,8 +309,8 @@ Nilpotency의 가장 자연스러운 예시
 | 성질 | $p$-group | 일반 group |
 |------|-----------|------------|
 | **Center** | $\neq \{e\}$ (항상) | 임의 |
-| **Nilpotent** | ✓ 항상 | ✗ 일반적으로 |
-| **Solvable** | ✓ 항상 | ✗ 일반적으로 |
+| **Nilpotent** |  항상 | ✗ 일반적으로 |
+| **Solvable** |  항상 | ✗ 일반적으로 |
 | **Maximal subgroups** | Index $p$, normal | 임의 |
 | **Classification** | 가능 (small orders) | 매우 어려움 |
 
@@ -354,8 +347,7 @@ Nilpotency의 가장 자연스러운 예시
 - $Z(D_4) = \{e, r^2\}$ (order 2)
 - $Z(Q_8) = \{1, -1\}$ (order 2)
 
-모두 $|Z(G)| \geq 2$ ✓
-
+모두 $|Z(G)| \geq 2$ 
 ## 응용 분야
 
 **Group Theory**:

@@ -216,8 +216,7 @@ $$|G| = 12 = 2^2 \cdot 3$$
    - Invariant factors: $2 \mid 6$
    - Elementary divisors: $2, 2, 3$
 
-**확인**: $2 \times 6 = 12$ ✓
-
+**확인**: $2 \times 6 = 12$ 
 **Total**: 2개의 non-isomorphic abelian groups
 
 ## Example 3: $k[x]$-modules (Vector Spaces with Linear Operator)
@@ -256,8 +255,7 @@ $$V \cong \mathbb{Q}[x]/(x-1) \oplus \mathbb{Q}[x]/((x-1)(x-2)) \oplus \mathbb{Q
 - $d_1(x) = x - 2$
 - $d_2(x) = (x-1)^2(x-2)$
 
-**Dimensions**: $1 + 4 = 5$ ✓
-
+**Dimensions**: $1 + 4 = 5$ 
 ## Example 5: Jordan Canonical Form
 
 **특수 경우**: $k$ algebraically closed^[대수적으로 닫힌]
@@ -285,8 +283,7 @@ $$\mathbb{Z}/2\mathbb{Z} \oplus \mathbb{Z}/3\mathbb{Z} \oplus \mathbb{Z}/4\mathb
 
 $$G \cong \mathbb{Z}/2\mathbb{Z} \oplus \mathbb{Z}/12\mathbb{Z}$$
 
-**확인**: $2 \times 12 = 24$ ✓
-
+**확인**: $2 \times 12 = 24$ 
 ## Example 7: $\mathbb{Z}[i]$-modules
 
 $\mathbb{Z}[i]$ is PID (Gaussian integers)
@@ -311,7 +308,7 @@ $$M = \mathbb{Z}[x] / \langle 2, x \rangle \cong \mathbb{Z}/2\mathbb{Z}$$
 
 as $\mathbb{Z}[x]$-module은 structure theorem 형태가 아님
 
-(하지만 $\mathbb{Z}$-module로는: $\mathbb{Z}/2\mathbb{Z}$ ✓)
+(하지만 $\mathbb{Z}$-module로는: $\mathbb{Z}/2\mathbb{Z}$ )
 
 ---
 

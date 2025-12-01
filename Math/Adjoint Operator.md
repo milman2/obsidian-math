@@ -91,8 +91,7 @@ $$\phi_w(\alpha v_1 + \beta v_2) = \langle T(\alpha v_1 + \beta v_2), w \rangle$
 
 $$= \alpha \langle T(v_1), w \rangle + \beta \langle T(v_2), w \rangle$$
 
-$$= \alpha \phi_w(v_1) + \beta \phi_w(v_2)$$ ✓
-
+$$= \alpha \phi_w(v_1) + \beta \phi_w(v_2)$$ 
 **Step 3**: Riesz Representation Theorem
 
 $\exists!$ unique $u \in V$ such that:
@@ -107,8 +106,7 @@ $$T^*(w) = u$$
 
 Then:
 
-$$\langle T(v), w \rangle = \phi_w(v) = \langle v, u \rangle = \langle v, T^*(w) \rangle$$ ✓
-
+$$\langle T(v), w \rangle = \phi_w(v) = \langle v, u \rangle = \langle v, T^*(w) \rangle$$ 
 ### Proof of Uniqueness
 
 Suppose $S_1, S_2$ both satisfy adjoint property:
@@ -129,8 +127,7 @@ $$\|S_1(w) - S_2(w)\|^2 = 0$$
 
 $$S_1(w) = S_2(w)$$ for all $w$
 
-$$S_1 = S_2$$ ✓
-
+$$S_1 = S_2$$ 
 ## Infinite-Dimensional Case
 
 **정리**: $H_1, H_2$ Hilbert spaces, $T: H_1 \to H_2$ **bounded** linear operator
@@ -167,8 +164,7 @@ $$(cT)^* = \overline{c} T^*$$
 
 $$\langle (cT)(v), w \rangle = \langle cT(v), w \rangle = c \langle T(v), w \rangle$$
 
-$$= c \langle v, T^*(w) \rangle = \langle v, \overline{c} T^*(w) \rangle$$ ✓
-
+$$= c \langle v, T^*(w) \rangle = \langle v, \overline{c} T^*(w) \rangle$$ 
 ### 2. Involution
 
 $$(T^*)^* = T$$
@@ -179,8 +175,7 @@ $$(T^*)^* = T$$
 
 $$\langle T^*(w), v \rangle = \overline{\langle v, T^*(w) \rangle}$$
 
-$$= \overline{\langle T(v), w \rangle} = \langle w, T(v) \rangle$$ ✓
-
+$$= \overline{\langle T(v), w \rangle} = \langle w, T(v) \rangle$$ 
 ### 3. Composition
 
 $$(ST)^* = T^* S^*$$
@@ -193,16 +188,14 @@ $$\langle (ST)(v), w \rangle = \langle S(T(v)), w \rangle$$
 
 $$= \langle T(v), S^*(w) \rangle = \langle v, T^*(S^*(w)) \rangle$$
 
-$$= \langle v, (T^* S^*)(w) \rangle$$ ✓
-
+$$= \langle v, (T^* S^*)(w) \rangle$$ 
 ### 4. Identity
 
 $$I^* = I$$
 
 **증명**:
 
-$$\langle I(v), w \rangle = \langle v, w \rangle = \langle v, I(w) \rangle$$ ✓
-
+$$\langle I(v), w \rangle = \langle v, w \rangle = \langle v, I(w) \rangle$$ 
 ### 5. Inverse
 
 If $T$ invertible:
@@ -221,8 +214,7 @@ $$\langle v, T^*w \rangle = \langle T(T^{-1}(v)), w \rangle = \langle v, w \rang
 
 $\Rightarrow$ $T^* (T^{-1})^* = I$
 
-$\Rightarrow$ $(T^{-1})^* = (T^*)^{-1}$ ✓
-
+$\Rightarrow$ $(T^{-1})^* = (T^*)^{-1}$ 
 ## Norm and Operator Norm
 
 ### Operator Norm Equality
@@ -239,8 +231,7 @@ $$= \sup_{\|w\|=1} \sup_{\|v\|=1} |\langle w, T(v) \rangle|$$
 
 $$= \sup_{\|v\|=1} \sup_{\|w\|=1} |\langle T(v), w \rangle|$$
 
-$$= \sup_{\|v\|=1} \|T(v)\| = \|T\|$$ ✓
-
+$$= \sup_{\|v\|=1} \|T(v)\| = \|T\|$$ 
 ### Norm Identity
 
 $$\|T^* T\| = \|T\|^2$$
@@ -257,8 +248,7 @@ Also:
 
 $$\|T^*T\| \leq \|T^*\| \cdot \|T\| = \|T\|^2$$
 
-$\Rightarrow$ $\|T^*T\| = \|T\|^2$ ✓
-
+$\Rightarrow$ $\|T^*T\| = \|T\|^2$ 
 ## Kernel and Range Relationships
 
 ### 1. Kernel and Range Orthogonality
@@ -279,8 +269,7 @@ $\Leftrightarrow$ $\langle T(v), w \rangle = 0$ for all $v$
 
 $\Leftrightarrow$ $w \perp \text{range}(T)$
 
-$\Leftrightarrow$ $w \in (\text{range}(T))^\perp$ ✓
-
+$\Leftrightarrow$ $w \in (\text{range}(T))^\perp$ 
 ### 2. Range Closure
 
 If $\text{range}(T)$ is closed:
@@ -293,8 +282,7 @@ $$\text{range}(T^*) = (\ker(T))^\perp$$
 
 $$W = \text{range}(T) \oplus (\text{range}(T))^\perp$$
 
-$$= \text{range}(T) \oplus \ker(T^*)$$ ✓
-
+$$= \text{range}(T) \oplus \ker(T^*)$$ 
 ### 3. Rank Equality
 
 Finite-dimensional case:
@@ -307,8 +295,7 @@ $$\text{rank}(T) = \dim(\text{range}(T))$$
 
 $$= n - \dim(\ker(T^*))$$ (by orthogonality)
 
-$$= \dim(\text{range}(T^*)) = \text{rank}(T^*)$$ ✓
-
+$$= \dim(\text{range}(T^*)) = \text{rank}(T^*)$$ 
 ## Special Operator Classes
 
 ### Self-Adjoint Operators
@@ -388,8 +375,7 @@ $$A^* = A^T = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}$$
 
 **Verification**:
 
-$$\langle A\mathbf{x}, \mathbf{y} \rangle = (A\mathbf{x})^T \mathbf{y} = \mathbf{x}^T A^T \mathbf{y} = \langle \mathbf{x}, A^T \mathbf{y} \rangle$$ ✓
-
+$$\langle A\mathbf{x}, \mathbf{y} \rangle = (A\mathbf{x})^T \mathbf{y} = \mathbf{x}^T A^T \mathbf{y} = \langle \mathbf{x}, A^T \mathbf{y} \rangle$$ 
 ## Example 2: Matrix Adjoint (Complex)
 
 $$A = \begin{pmatrix} 1+i & 2 \\ 3i & 4-i \end{pmatrix}$$
@@ -400,8 +386,7 @@ $$A^* = \overline{A^T} = \begin{pmatrix} 1-i & -3i \\ 2 & 4+i \end{pmatrix}$$
 
 **Verification**:
 
-$$\langle A\mathbf{z}, \mathbf{w} \rangle = (A\mathbf{z})^* \mathbf{w} = \mathbf{z}^* A^* \mathbf{w} = \langle \mathbf{z}, A^* \mathbf{w} \rangle$$ ✓
-
+$$\langle A\mathbf{z}, \mathbf{w} \rangle = (A\mathbf{z})^* \mathbf{w} = \mathbf{z}^* A^* \mathbf{w} = \langle \mathbf{z}, A^* \mathbf{w} \rangle$$ 
 ## Example 3: Symmetric Matrix
 
 $$A = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix}$$
@@ -428,8 +413,7 @@ $$\langle f, g \rangle = \int_0^1 f(x) \overline{g(x)} dx$$
 
 $$\langle M_\phi f, g \rangle = \int_0^1 \phi(x) f(x) \overline{g(x)} dx$$
 
-$$= \int_0^1 f(x) \overline{\overline{\phi(x)} g(x)} dx = \langle f, M_{\overline{\phi}} g \rangle$$ ✓
-
+$$= \int_0^1 f(x) \overline{\overline{\phi(x)} g(x)} dx = \langle f, M_{\overline{\phi}} g \rangle$$ 
 **Self-adjoint**: $M_\phi^* = M_\phi$ $\Leftrightarrow$ $\phi$ is real-valued
 
 ## Example 5: Differentiation Operator
@@ -450,8 +434,7 @@ $$= [f(x)\overline{g(x)}]_0^1 - \int_0^1 f(x) \overline{g'(x)} dx$$
 
 $$= 0 - \int_0^1 f(x) \overline{g'(x)} dx$$ (boundary terms vanish)
 
-$$= \int_0^1 f(x) \overline{(-g'(x))} dx = \langle f, -g' \rangle$$ ✓
-
+$$= \int_0^1 f(x) \overline{(-g'(x))} dx = \langle f, -g' \rangle$$ 
 **Not self-adjoint**: $T^* = -T$ (skew-adjoint)
 
 ## Example 6: Shift Operator
@@ -468,8 +451,7 @@ $$\langle S\mathbf{x}, \mathbf{y} \rangle = \sum_{n=1}^{\infty} (S\mathbf{x})_n 
 
 $$= 0 \cdot \overline{y_1} + x_1 \overline{y_2} + x_2 \overline{y_3} + \cdots$$
 
-$$= \sum_{n=1}^{\infty} x_n \overline{y_{n+1}} = \langle \mathbf{x}, S^*\mathbf{y} \rangle$$ ✓
-
+$$= \sum_{n=1}^{\infty} x_n \overline{y_{n+1}} = \langle \mathbf{x}, S^*\mathbf{y} \rangle$$ 
 **Properties**:
 - $S^* S = I$ (but $S S^* \neq I$!)
 - $S$ is **isometry** but not unitary
@@ -486,8 +468,7 @@ $V = \mathbb{R}^3$, $W = \text{span}\{(1,0,0), (0,1,0)\}$ (xy-plane)
 
 **Matrix form**:
 
-$$P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix} = P^T$$ ✓
-
+$$P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix} = P^T$$ 
 ---
 
 # <span class="header-examples">Applications</span>
@@ -506,8 +487,7 @@ $$A^* A \mathbf{x} = A^* \mathbf{b}$$
 
 $$\frac{\partial}{\partial \mathbf{x}} \langle A\mathbf{x} - \mathbf{b}, A\mathbf{x} - \mathbf{b} \rangle = 0$$
 
-$$\Rightarrow A^* A \mathbf{x} = A^* \mathbf{b}$$ ✓
-
+$$\Rightarrow A^* A \mathbf{x} = A^* \mathbf{b}$$ 
 ## 2. Quantum Mechanics
 
 **Observables**: Self-adjoint operators

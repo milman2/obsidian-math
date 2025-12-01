@@ -86,9 +86,7 @@ $$(H): \{e\} \triangleleft H_1 \triangleleft H_2 \triangleleft K \triangleleft G
 **정리**: Every finite group has composition series
 
 **증명**: By induction on $|G|$
-- If $G$ simple: $\{e\} \triangleleft G$ ✓
-- If not: $\exists$ proper normal $N$ → apply induction to $G/N$ ✓
-
+- If $G$ simple: $\{e\} \triangleleft G$ - If not: $\exists$ proper normal $N$ → apply induction to $G/N$ 
 자세한 내용은 [[Simple Group]] 참조
 
 ## Uniqueness (Jordan-Hölder)
@@ -173,8 +171,7 @@ $$\frac{A(A^* \cap B)}{A(A^* \cap B^*)} \cong \frac{B(B^* \cap A)}{B(B^* \cap A^
 
 **의미**: Technical lemma for Schreier refinement
 
-**Proof**: Construct isomorphism via homomorphisms ✓
-
+**Proof**: Construct isomorphism via homomorphisms 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -274,8 +271,7 @@ $$\{e\} \triangleleft \langle r^2 \rangle \triangleleft \langle r \rangle \trian
 
 **Proof by induction** on $|G|$ and length
 
-**Base**: $G$ simple → trivial ✓
-
+**Base**: $G$ simple → trivial 
 **Step**: Suppose $G$ not simple
 
 Two composition series:
@@ -286,8 +282,7 @@ $$\{e\} \triangleleft \cdots \triangleleft H_{m-1} \triangleleft G$$
 
 **Case 1**: $G_{n-1} = H_{m-1}$
 
-Apply induction to $G_{n-1}$ ✓
-
+Apply induction to $G_{n-1}$ 
 **Case 2**: $G_{n-1} \neq H_{m-1}$
 
 **Key**: $G_{n-1} H_{m-1} = G$ (both maximal normal)
@@ -298,8 +293,7 @@ $$G / G_{n-1} \cong H_{m-1} / (G_{n-1} \cap H_{m-1})$$
 
 $$G / H_{m-1} \cong G_{n-1} / (G_{n-1} \cap H_{m-1})$$
 
-Both simple! Now apply induction to $G_{n-1} \cap H_{m-1}$ ✓
-
+Both simple! Now apply induction to $G_{n-1} \cap H_{m-1}$ 
 ## Schreier Refinement (Idea)
 
 **Given**: Two subnormal series

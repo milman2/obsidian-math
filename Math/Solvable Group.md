@@ -81,8 +81,7 @@ $G$ solvable $\Leftrightarrow$ Composition series의 모든 factors가 cyclic of
 
 **증명**: $G$ abelian $\Rightarrow G' = \{e\}$
 
-Derived series: $G \trianglerighteq \{e\}$ (길이 1) ✓
-
+Derived series: $G \trianglerighteq \{e\}$ (길이 1) 
 자세한 내용은 [[Abelian Group]] 참조
 
 ## Example 2: $S_3$
@@ -95,9 +94,7 @@ Derived series:
 **Derived length**: $d(S_3) = 2$
 
 **Normal series**: $\{e\} \triangleleft A_3 \triangleleft S_3$
-- $A_3/\{e\} \cong A_3$ (abelian) ✓
-- $S_3/A_3 \cong \mathbb{Z}/2\mathbb{Z}$ (abelian) ✓
-
+- $A_3/\{e\} \cong A_3$ (abelian) - $S_3/A_3 \cong \mathbb{Z}/2\mathbb{Z}$ (abelian) 
 **결론**: $S_3$ is solvable
 
 ## Example 3: $S_4$
@@ -178,8 +175,7 @@ $$B_n(\mathbb{F}) = \left\{ \begin{pmatrix}
 
 **Normal series**: Diagonal $\subseteq$ Upper triangular
 
-각 quotient는 abelian ✓
-
+각 quotient는 abelian 
 ---
 
 # <span class="header-properties">Properties</span>
@@ -190,14 +186,12 @@ $$B_n(\mathbb{F}) = \left\{ \begin{pmatrix}
 
 $G$ solvable, $H \leq G \Rightarrow H$ solvable
 
-**증명**: $H^{(i)} \subseteq G^{(i)}$ for all $i$ ✓
-
+**증명**: $H^{(i)} \subseteq G^{(i)}$ for all $i$ 
 ### 2. Quotients
 
 $G$ solvable, $N \triangleleft G \Rightarrow G/N$ solvable
 
-**증명**: $(G/N)^{(i)} = G^{(i)}N/N$ ✓
-
+**증명**: $(G/N)^{(i)} = G^{(i)}N/N$ 
 ### 3. Extensions
 
 $N \triangleleft G$일 때:
@@ -212,8 +206,7 @@ $$N \text{ and } G/N \text{ solvable} \Rightarrow G \text{ solvable}$$
 
 $$G, H \text{ solvable} \Rightarrow G \times H \text{ solvable}$$
 
-**증명**: $(G \times H)^{(i)} = G^{(i)} \times H^{(i)}$ ✓
-
+**증명**: $(G \times H)^{(i)} = G^{(i)} \times H^{(i)}$ 
 **Derived length**: $d(G \times H) = \max(d(G), d(H))$
 
 ## Commutator Subgroup Properties
@@ -298,8 +291,7 @@ $$|G| \text{ odd} \Rightarrow G \text{ solvable}$$
 
 **증명**:
 - ($\Rightarrow$): Normal series with abelian quotients $\Rightarrow$ refine to composition series $\Rightarrow$ simple abelian factors
-- ($\Leftarrow$): Composition factors abelian $\Rightarrow$ series with abelian quotients ✓
-
+- ($\Leftarrow$): Composition factors abelian $\Rightarrow$ series with abelian quotients 
 **Jordan-Hölder**: Composition factors 유일 (up to order and isomorphism)
 
 ## Galois Theory Connection
@@ -474,13 +466,13 @@ Derived length ≤ Composition length (일반적으로)
 
 ### 3. Subgroup of solvable is solvable
 
-✓ True
+ True
 
 But: Quotient of non-solvable might be solvable
 
 ### 4. $G/N, N$ solvable $\Rightarrow G$ solvable
 
-✓ True! (Extension property)
+ True! (Extension property)
 
 Powerful tool for proving solvability
 

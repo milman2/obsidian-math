@@ -49,8 +49,7 @@ $$|\det(U)| = 1$$
 
 $$1 = \det(I) = \det(U^* U) = \det(U^*) \det(U) = \overline{\det(U)} \det(U) = |\det(U)|^2$$
 
-따라서 $|\det(U)| = 1$ ✓
-
+따라서 $|\det(U)| = 1$ 
 $\det(U) = e^{i\theta}$ for some $\theta \in \mathbb{R}$
 
 ### 3. Eigenvalues
@@ -61,14 +60,12 @@ $\det(U) = e^{i\theta}$ for some $\theta \in \mathbb{R}$
 
 $$\|\mathbf{v}\|^2 = \|U\mathbf{v}\|^2 = \|\lambda \mathbf{v}\|^2 = |\lambda|^2 \|\mathbf{v}\|^2$$
 
-따라서 $|\lambda| = 1$ ✓
-
+따라서 $|\lambda| = 1$ 
 ### 4. Product
 
 $U_1, U_2$ unitary $\Rightarrow$ $U_1 U_2$ unitary
 
-$$(U_1 U_2)^* (U_1 U_2) = U_2^* U_1^* U_1 U_2 = U_2^* U_2 = I$$ ✓
-
+$$(U_1 U_2)^* (U_1 U_2) = U_2^* U_1^* U_1 U_2 = U_2^* U_2 = I$$ 
 **Group**: Unitary matrices form a **group** $U(n)$
 
 ## Geometric Properties
@@ -81,14 +78,12 @@ $$\langle U\mathbf{x}, U\mathbf{y} \rangle = \langle \mathbf{x}, \mathbf{y} \ran
 
 **증명**:
 
-$$\langle U\mathbf{x}, U\mathbf{y} \rangle = (U\mathbf{y})^* (U\mathbf{x}) = \mathbf{y}^* U^* U \mathbf{x} = \mathbf{y}^* \mathbf{x} = \langle \mathbf{x}, \mathbf{y} \rangle$$ ✓
-
+$$\langle U\mathbf{x}, U\mathbf{y} \rangle = (U\mathbf{y})^* (U\mathbf{x}) = \mathbf{y}^* U^* U \mathbf{x} = \mathbf{y}^* \mathbf{x} = \langle \mathbf{x}, \mathbf{y} \rangle$$ 
 ### Length Preservation
 
 $$\|U\mathbf{x}\| = \|\mathbf{x}\|$$
 
-**증명**: $\|U\mathbf{x}\|^2 = \langle U\mathbf{x}, U\mathbf{x} \rangle = \langle \mathbf{x}, \mathbf{x} \rangle = \|\mathbf{x}\|^2$ ✓
-
+**증명**: $\|U\mathbf{x}\|^2 = \langle U\mathbf{x}, U\mathbf{x} \rangle = \langle \mathbf{x}, \mathbf{x} \rangle = \|\mathbf{x}\|^2$ 
 **의미**: Isometry^[등거리 변환]
 
 ## Column/Row Properties
@@ -123,8 +118,7 @@ Trivially unitary
 
 $$U = \begin{pmatrix} e^{i\theta} & 0 \\ 0 & e^{i\phi} \end{pmatrix}$$
 
-**Check**: $U^* U = I$ ✓
-
+**Check**: $U^* U = I$ 
 **Geometric**: Independent phase shifts
 
 **Determinant**: $\det(U) = e^{i(\theta + \phi)}$
@@ -135,8 +129,7 @@ $$H = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
 
 **Check**:
 
-$$H^* H = \frac{1}{2} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} = I$$ ✓
-
+$$H^* H = \frac{1}{2} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix} = I$$ 
 **응용**: Quantum computing (Hadamard gate)
 
 ## Example 4: Pauli Matrices (Normalized)
@@ -153,8 +146,7 @@ $$F_n = \frac{1}{\sqrt{n}} \begin{pmatrix} 1 & 1 & 1 & \cdots \\ 1 & \omega & \o
 
 where $\omega = e^{2\pi i / n}$
 
-**Unitary**: $F_n^* F_n = I$ ✓
-
+**Unitary**: $F_n^* F_n = I$ 
 ## Example 6: Complex Rotation
 
 $$U = \begin{pmatrix} \cos\theta & -\sin\theta e^{i\phi} \\ \sin\theta e^{-i\phi} & \cos\theta \end{pmatrix}$$
@@ -224,16 +216,14 @@ where $U$ unitary, $\Lambda$ diagonal (complex)
 
 **증명**:
 - ($\Leftarrow$) Normal $\Rightarrow$ Spectral theorem
-- ($\Rightarrow$) $A = U \Lambda U^*$ $\Rightarrow$ $A^* A = U \Lambda^* \Lambda U^* = U \Lambda \Lambda^* U^* = A A^*$ ✓
-
+- ($\Rightarrow$) $A = U \Lambda U^*$ $\Rightarrow$ $A^* A = U \Lambda^* \Lambda U^* = U \Lambda \Lambda^* U^* = A A^*$ 
 ## Exponential Map
 
 **정리**: $A$ Hermitian $\Rightarrow$ $e^{iA}$ unitary
 
 **증명**:
 
-$$(e^{iA})^* e^{iA} = e^{-iA^*} e^{iA} = e^{-iA} e^{iA} = e^0 = I$$ ✓
-
+$$(e^{iA})^* e^{iA} = e^{-iA^*} e^{iA} = e^{-iA} e^{iA} = e^0 = I$$ 
 **의미**: Hermitian matrices generate unitary transformations
 
 **Stone's theorem**: 연결 (quantum mechanics)

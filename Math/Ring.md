@@ -477,7 +477,7 @@ $$\mathbb{R}[x]$$
 
 ### 2. Unit = Invertible?
 
-✓ 맞음! Unit은 곱셈 역원을 가진 원소
+ 맞음! Unit은 곱셈 역원을 가진 원소
 
 **주의**: Additive inverse는 모든 원소가 가짐
 

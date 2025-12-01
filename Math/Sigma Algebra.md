@@ -112,8 +112,7 @@ $A$를 **measurable set**^[가측 집합]이라고 함
 
 **증명**:
 - $X \in \mathcal{F}$ (by axiom 1)
-- $\emptyset = X^c \in \mathcal{F}$ (by axiom 2) ✓
-
+- $\emptyset = X^c \in \mathcal{F}$ (by axiom 2) 
 ### 2. Finite Union
 
 **정리**: $A_1, \ldots, A_n \in \mathcal{F} \Rightarrow \displaystyle\bigcup_{i=1}^{n} A_i \in \mathcal{F}$
@@ -124,8 +123,7 @@ Define $A_{n+1} = A_{n+2} = \cdots = \emptyset$
 
 $$\bigcup_{i=1}^{n} A_i = \bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$$ 
 
-(by axiom 3) ✓
-
+(by axiom 3) 
 ### 3. Countable Intersection
 
 **정리**: $A_1, A_2, A_3, \ldots \in \mathcal{F} \Rightarrow \displaystyle\bigcap_{i=1}^{\infty} A_i \in \mathcal{F}$
@@ -136,14 +134,12 @@ $$\bigcap_{i=1}^{\infty} A_i = \left( \bigcup_{i=1}^{\infty} A_i^c \right)^c$$
 
 - $A_i \in \mathcal{F} \Rightarrow A_i^c \in \mathcal{F}$ (axiom 2)
 - $\bigcup_{i=1}^{\infty} A_i^c \in \mathcal{F}$ (axiom 3)
-- $\left( \bigcup_{i=1}^{\infty} A_i^c \right)^c \in \mathcal{F}$ (axiom 2) ✓
-
+- $\left( \bigcup_{i=1}^{\infty} A_i^c \right)^c \in \mathcal{F}$ (axiom 2) 
 ### 4. Finite Intersection
 
 **정리**: $A_1, \ldots, A_n \in \mathcal{F} \Rightarrow \displaystyle\bigcap_{i=1}^{n} A_i \in \mathcal{F}$
 
-**증명**: Property 3과 동일한 방법 ✓
-
+**증명**: Property 3과 동일한 방법 
 ### 5. Set Difference
 
 **정리**: $A, B \in \mathcal{F} \Rightarrow A \setminus B \in \mathcal{F}$
@@ -153,8 +149,7 @@ $$\bigcap_{i=1}^{\infty} A_i = \left( \bigcup_{i=1}^{\infty} A_i^c \right)^c$$
 $$A \setminus B = A \cap B^c$$
 
 - $B^c \in \mathcal{F}$ (axiom 2)
-- $A \cap B^c \in \mathcal{F}$ (property 4) ✓
-
+- $A \cap B^c \in \mathcal{F}$ (property 4) 
 ### 6. Symmetric Difference
 
 **정리**: $A, B \in \mathcal{F} \Rightarrow A \triangle B \in \mathcal{F}$
@@ -164,8 +159,7 @@ $$A \setminus B = A \cap B^c$$
 $$A \triangle B = (A \setminus B) \cup (B \setminus A)$$
 
 - $A \setminus B, B \setminus A \in \mathcal{F}$ (property 5)
-- $(A \setminus B) \cup (B \setminus A) \in \mathcal{F}$ (property 2) ✓
-
+- $(A \setminus B) \cup (B \setminus A) \in \mathcal{F}$ (property 2) 
 ## Closure Properties
 
 **정리**: Sigma algebra $\mathcal{F}$는 다음 연산에 닫혀있음:
@@ -228,12 +222,9 @@ $$\lim_{n \to \infty} A_n = A \quad \Leftrightarrow \quad \liminf_{n \to \infty}
 
 Let $\mathcal{F} = \bigcap_{\alpha \in I} \mathcal{F}_\alpha$
 
-**(1)** $X \in \mathcal{F}_\alpha$ for all $\alpha$ $\Rightarrow$ $X \in \mathcal{F}$ ✓
-
-**(2)** $A \in \mathcal{F}$ $\Rightarrow$ $A \in \mathcal{F}_\alpha$ for all $\alpha$ $\Rightarrow$ $A^c \in \mathcal{F}_\alpha$ for all $\alpha$ $\Rightarrow$ $A^c \in \mathcal{F}$ ✓
-
-**(3)** Similarly for countable unions ✓
-
+**(1)** $X \in \mathcal{F}_\alpha$ for all $\alpha$ $\Rightarrow$ $X \in \mathcal{F}$ 
+**(2)** $A \in \mathcal{F}$ $\Rightarrow$ $A \in \mathcal{F}_\alpha$ for all $\alpha$ $\Rightarrow$ $A^c \in \mathcal{F}_\alpha$ for all $\alpha$ $\Rightarrow$ $A^c \in \mathcal{F}$ 
+**(3)** Similarly for countable unions 
 **중요성**: Generated sigma algebra의 existence 보장
 
 ---
@@ -247,10 +238,7 @@ $$\mathcal{F} = \mathcal{P}(X) = \{A : A \subseteq X\}$$
 **모든** 부분집합의 모임
 
 **확인**:
-- $X \in \mathcal{P}(X)$ ✓
-- $A \subseteq X \Rightarrow A^c \subseteq X$ ✓
-- $A_i \subseteq X \Rightarrow \bigcup A_i \subseteq X$ ✓
-
+- $X \in \mathcal{P}(X)$ - $A \subseteq X \Rightarrow A^c \subseteq X$ - $A_i \subseteq X \Rightarrow \bigcup A_i \subseteq X$ 
 **특징**: 가장 큰^[largest] sigma algebra
 
 **사용**: 이산^[discrete] 측도론, 유한 집합
@@ -260,10 +248,7 @@ $$\mathcal{F} = \mathcal{P}(X) = \{A : A \subseteq X\}$$
 $$\mathcal{F} = \{\emptyset, X\}$$
 
 **확인**:
-- $X \in \mathcal{F}$ ✓
-- $X^c = \emptyset \in \mathcal{F}$, $\emptyset^c = X \in \mathcal{F}$ ✓
-- $X \cup X = X$, $X \cup \emptyset = X$, $\emptyset \cup \emptyset = \emptyset$ ✓
-
+- $X \in \mathcal{F}$ - $X^c = \emptyset \in \mathcal{F}$, $\emptyset^c = X \in \mathcal{F}$ - $X \cup X = X$, $X \cup \emptyset = X$, $\emptyset \cup \emptyset = \emptyset$ 
 **특징**: 가장 작은^[smallest] sigma algebra
 
 **의미**: "아무것도 측정 못함" (trivial information)
@@ -274,8 +259,7 @@ $x \in X$에 대해
 
 $$\mathcal{F} = \{\emptyset, \{x\}, \{x\}^c, X\}$$
 
-**확인**: Closure properties 확인 가능 ✓
-
+**확인**: Closure properties 확인 가능 
 **특징**: $\{x\}$를 "구별"하는 가장 작은 sigma algebra
 
 ## Example 4: Borel Sigma Algebra
@@ -311,8 +295,7 @@ $$\mathcal{F} = \sigma(\{(a, b) : a < b\})$$
 
 **증명**:
 - $(\subseteq)$: Every open interval is open set $\Rightarrow$ $\mathcal{F} \subseteq \mathcal{B}(\mathbb{R})$
-- $(\supseteq)$: Every open set is countable union of open intervals $\Rightarrow$ $\mathcal{B}(\mathbb{R}) \subseteq \mathcal{F}$ ✓
-
+- $(\supseteq)$: Every open set is countable union of open intervals $\Rightarrow$ $\mathcal{B}(\mathbb{R}) \subseteq \mathcal{F}$ 
 ## Example 6: Finite Set
 
 $X = \{a, b, c\}$
@@ -334,9 +317,7 @@ For $|X| = n$: number of sigma algebras는 복잡한 공식
 **시도**: $\mathcal{F} = \{A : A \text{ finite or } A^c \text{ finite}\}$
 
 **확인**:
-- $X \in \mathcal{F}$ (if $X$ finite) or $X^c = \emptyset$ finite ✓
-- $A \in \mathcal{F} \Rightarrow A^c \in \mathcal{F}$ ✓
-- Countable union? ✗
+- $X \in \mathcal{F}$ (if $X$ finite) or $X^c = \emptyset$ finite - $A \in \mathcal{F} \Rightarrow A^c \in \mathcal{F}$ - Countable union? ✗
 
 **반례** ($X = \mathbb{N}$):
 
@@ -346,8 +327,7 @@ But:
 
 $$\bigcup_{n=1}^{\infty} \{n\} = \mathbb{N}$$
 
-$\mathbb{N}$도 $\mathbb{N}^c = \emptyset$도... 실제로 $\mathbb{N}^c = \emptyset$는 finite! ✓
-
+$\mathbb{N}$도 $\mathbb{N}^c = \emptyset$도... 실제로 $\mathbb{N}^c = \emptyset$는 finite! 
 다시 생각... 이 경우는 OK!
 
 **실제 반례** ($X = \mathbb{R}$):
@@ -365,21 +345,15 @@ $X$ uncountable이면
 $$\mathcal{F} = \{A : A \text{ countable or } A^c \text{ countable}\}$$
 
 **확인**:
-- $X$ uncountable $\Rightarrow$ $X^c = \emptyset$ countable $\Rightarrow$ $X \in \mathcal{F}$ ✓
-- $A$ countable $\Rightarrow$ $A^c$ cocountable ✓, vice versa ✓
-- $A_i$ countable $\Rightarrow$ $\bigcup A_i$ countable ✓
-- $A_i$ cocountable (at least one) $\Rightarrow$ $\bigcup A_i$ cocountable ✓
-
-**결론**: Sigma algebra! ✓
-
+- $X$ uncountable $\Rightarrow$ $X^c = \emptyset$ countable $\Rightarrow$ $X \in \mathcal{F}$ - $A$ countable $\Rightarrow$ $A^c$ cocountable , vice versa - $A_i$ countable $\Rightarrow$ $\bigcup A_i$ countable - $A_i$ cocountable (at least one) $\Rightarrow$ $\bigcup A_i$ cocountable 
+**결론**: Sigma algebra! 
 ## Example 9: From Partition
 
 $\{B_1, B_2, \ldots, B_n\}$이 $X$의 partition이면
 
 $$\mathcal{F} = \left\{ \bigcup_{i \in I} B_i : I \subseteq \{1, 2, \ldots, n\} \right\}$$
 
-**확인**: Sigma algebra ✓
-
+**확인**: Sigma algebra 
 **크기**: $|\mathcal{F}| = 2^n$
 
 **의미**: Partition에 의해 정의된 "가장 fine한" information
@@ -423,10 +397,8 @@ $\mathcal{E}$를 포함하는 **가장 작은^[smallest]** sigma algebra
 **존재성**: 
 - $\mathcal{P}(X)$는 sigma algebra이고 $\mathcal{E} \subseteq \mathcal{P}(X)$
 - Sigma algebras의 교집합은 sigma algebra (Property 참조)
-- Therefore $\sigma(\mathcal{E})$ 존재 ✓
-
-**유일성**: Definition에 의해 유일 ✓
-
+- Therefore $\sigma(\mathcal{E})$ 존재 
+**유일성**: Definition에 의해 유일 
 ## Properties of Generated Sigma Algebra
 
 ### 1. Minimality
@@ -449,8 +421,7 @@ $$\mathcal{E}_1 \subseteq \mathcal{E}_2 \quad \Rightarrow \quad \sigma(\mathcal{
 
 $$\sigma(\sigma(\mathcal{E})) = \sigma(\mathcal{E})$$
 
-**증명**: $\sigma(\mathcal{E})$는 이미 sigma algebra ✓
-
+**증명**: $\sigma(\mathcal{E})$는 이미 sigma algebra 
 ### 5. Extension
 
 $\mathcal{E}$가 algebra이면 $\sigma(\mathcal{E})$는 가장 작은 sigma algebra extending $\mathcal{E}$

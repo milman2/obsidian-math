@@ -184,8 +184,7 @@ $E_\lambda = \ker(T - \lambda I)$는 subspace
 
 **증명**:
 - $T(v_1) = \lambda v_1$, $T(v_2) = \lambda v_2$이면
-- $T(av_1 + bv_2) = aT(v_1) + bT(v_2) = a\lambda v_1 + b\lambda v_2 = \lambda(av_1 + bv_2)$ ✓
-
+- $T(av_1 + bv_2) = aT(v_1) + bT(v_2) = a\lambda v_1 + b\lambda v_2 = \lambda(av_1 + bv_2)$ 
 ### 4. Linear Independence
 
 **정리**: 서로 다른 eigenvalues에 대응하는 eigenvectors는 **linearly independent**
@@ -193,8 +192,7 @@ $E_\lambda = \ker(T - \lambda I)$는 subspace
 **증명** (Induction):
 - $v_1, \ldots, v_k$가 eigenvalues $\lambda_1, \ldots, \lambda_k$에 대응 ($\lambda_i \neq \lambda_j$)
 - Suppose $c_1 v_1 + \cdots + c_k v_k = 0$
-- Apply $T$ and manipulate to get $c_i = 0$ ✓
-
+- Apply $T$ and manipulate to get $c_i = 0$ 
 **계**: 서로 다른 $n$개의 eigenvalues $\Rightarrow$ $n$개의 linearly independent eigenvectors
 
 ### 5. Dimension Bound
@@ -217,16 +215,14 @@ Characteristic polynomial:
 
 $$p_A(\lambda) = \det(\lambda I - A) = \lambda^n - (\text{tr}(A))\lambda^{n-1} + \cdots + (-1)^n \det(A)$$
 
-Vieta's formulas ✓
-
+Vieta's formulas 
 ### 7. Invariant Under Similarity
 
 **정리**: $A \sim B$ (similar matrices) $\Rightarrow$ same eigenvalues
 
 **증명**: $B = P^{-1}AP$이면
 
-$$\det(B - \lambda I) = \det(P^{-1}(A - \lambda I)P) = \det(A - \lambda I)$$ ✓
-
+$$\det(B - \lambda I) = \det(P^{-1}(A - \lambda I)P) = \det(A - \lambda I)$$ 
 **주의**: Eigenvectors는 다름! ($v_B = P^{-1}v_A$)
 
 ## Diagonalization
@@ -267,8 +263,7 @@ where $D^k = \text{diag}(\lambda_1^k, \ldots, \lambda_n^k)$ (easy!)
 
 **정리**: $A$가 $n$개의 **distinct** eigenvalues를 가지면 diagonalizable
 
-**증명**: Distinct eigenvalues $\Rightarrow$ $n$ linearly independent eigenvectors ✓
-
+**증명**: Distinct eigenvalues $\Rightarrow$ $n$ linearly independent eigenvectors 
 **주의**: Converse는 false! 
 - 예: $I$ has eigenvalue 1 with multiplicity $n$, but diagonalizable
 
@@ -377,10 +372,8 @@ $$v_2 = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$$
 
 **검증**:
 
-$$A\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} = 3\begin{pmatrix} 1 \\ 0 \end{pmatrix}$$ ✓
-
-$$A\begin{pmatrix} 1 \\ -1 \end{pmatrix} = \begin{pmatrix} 2 \\ -2 \end{pmatrix} = 2\begin{pmatrix} 1 \\ -1 \end{pmatrix}$$ ✓
-
+$$A\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} 3 \\ 0 \end{pmatrix} = 3\begin{pmatrix} 1 \\ 0 \end{pmatrix}$$ 
+$$A\begin{pmatrix} 1 \\ -1 \end{pmatrix} = \begin{pmatrix} 2 \\ -2 \end{pmatrix} = 2\begin{pmatrix} 1 \\ -1 \end{pmatrix}$$ 
 ## Example 2: Diagonal Matrix
 
 $$D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 5 \end{pmatrix}$$
@@ -391,8 +384,7 @@ $$D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 5 \end{pmatrix}$$
 
 $$v_1 = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \quad v_2 = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}, \quad v_3 = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$$
 
-**Rule**: Diagonal matrix의 eigenvalues = diagonal entries ✓
-
+**Rule**: Diagonal matrix의 eigenvalues = diagonal entries 
 ## Example 3: Identity Matrix
 
 $$I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
@@ -451,8 +443,7 @@ $$v_2 = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$$
 
 **관찰**: $v_1 \perp v_2$ (orthogonal!)
 
-**일반**: Symmetric matrices have real eigenvalues and orthogonal eigenvectors ✓
-
+**일반**: Symmetric matrices have real eigenvalues and orthogonal eigenvectors 
 ## Example 6: Projection Matrix
 
 $$P = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$$
@@ -501,8 +492,7 @@ $$(A - 2I)v = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}v
 
 $$E_2 = \text{span}\left\{\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}, \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}\right\}$$
 
-$\dim(E_2) = 2 = m_a(2)$ ✓
-
+$\dim(E_2) = 2 = m_a(2)$ 
 **결론**: Diagonalizable! (이미 diagonal이지만)
 
 ## Example 9: Shear Matrix
@@ -834,16 +824,14 @@ If $\lambda = a + bi$ is eigenvalue, then $\overline{\lambda} = a - bi$ also
 
 **Fundamental Theorem of Algebra**: Every polynomial has roots in $\mathbb{C}$
 
-**결론**: Every $n \times n$ matrix (over $\mathbb{C}$) has $n$ eigenvalues (counting multiplicity) ✓
-
+**결론**: Every $n \times n$ matrix (over $\mathbb{C}$) has $n$ eigenvalues (counting multiplicity) 
 ### Symmetric/Hermitian
 
 **Real symmetric**: All eigenvalues **real**
 
 **Hermitian** ($A^* = A$): All eigenvalues **real**
 
-**Proof**: $\lambda = \frac{x^* A x}{x^* x}$ is real when $A^* = A$ ✓
-
+**Proof**: $\lambda = \frac{x^* A x}{x^* x}$ is real when $A^* = A$ 
 ## Algebraic vs Geometric Multiplicity
 
 ### Relationship
@@ -860,8 +848,7 @@ $A$ diagonalizable $\Leftrightarrow$ $m_g(\lambda) = m_a(\lambda)$ for all $\lam
 
 $$A = \begin{pmatrix} 2 & 0 \\ 0 & 2 \end{pmatrix}$$
 
-$\lambda = 2$: $m_a = 2$, $m_g = 2$ ✓
-
+$\lambda = 2$: $m_a = 2$, $m_g = 2$ 
 **Non-diagonalizable**:
 
 $$B = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$$

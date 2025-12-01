@@ -46,14 +46,12 @@ $$M \subsetneq I \triangleleft R \quad \Rightarrow \quad I = R$$
 - $\Rightarrow$ $1 = m + sr$ for some $m \in M$, $s \in R$
 - In $R/M$: $\overline{1} = \overline{s} \cdot \overline{r}$
 - 따라서 $\overline{r}$는 unit in $R/M$
-- 모든 nonzero element가 unit $\Rightarrow$ $R/M$ is field ✓
-
+- 모든 nonzero element가 unit $\Rightarrow$ $R/M$ is field 
 ($\Leftarrow$) $R/M$ field이고 $M \subseteq I \triangleleft R$이면
 - $I/M \triangleleft R/M$ (correspondence theorem)
 - Field는 $\{0\}$과 자기자신만을 ideal로 가짐
 - $\Rightarrow$ $I/M = \{0\}$ or $I/M = R/M$
-- $\Rightarrow$ $I = M$ or $I = R$ ✓
-
+- $\Rightarrow$ $I = M$ or $I = R$ 
 ## Maximal Spectrum
 
 Ring $R$의 **maximal spectrum**^[극대 스펙트럼]:
@@ -72,8 +70,7 @@ $$\text{MaxSpec}(R) = \{\text{all maximal ideals of } R\}$$
 
 **정리**: Maximal ideal은 항상 proper ideal
 
-**증명**: 정의에서 $M \neq R$ ✓
-
+**증명**: 정의에서 $M \neq R$ 
 ### 2. Maximal $\Rightarrow$ Prime
 
 **정리**: Every maximal ideal is prime
@@ -81,8 +78,7 @@ $$\text{MaxSpec}(R) = \{\text{all maximal ideals of } R\}$$
 **증명**: 
 - $M$ maximal $\Rightarrow$ $R/M$ is field
 - Field는 integral domain
-- $\Rightarrow$ $M$ is prime ✓
-
+- $\Rightarrow$ $M$ is prime 
 **역 거짓**: Prime ideal이 maximal은 아님!
 
 예: $\langle 0 \rangle \triangleleft \mathbb{Z}$ is prime but not maximal
@@ -96,8 +92,7 @@ $$\text{MaxSpec}(R) = \{\text{all maximal ideals of } R\}$$
 **증명**: Zorn's Lemma
 - Proper ideals의 collection은 비어있지 않음 ($\{0\} \neq R$)
 - Chain에 대해 상한 존재 (합집합)
-- $\Rightarrow$ Maximal element 존재 ✓
-
+- $\Rightarrow$ Maximal element 존재 
 **중요**: Axiom of Choice 필요!
 
 ### 4. Units and Maximal Ideals
@@ -115,8 +110,7 @@ $$\text{MaxSpec}(R) = \{\text{all maximal ideals of } R\}$$
 - $\Rightarrow$ $\langle r \rangle = R$ (not proper)
 - $\Rightarrow$ $1 \in \langle r \rangle$
 - $\Rightarrow$ $1 = sr$ for some $s$
-- $\Rightarrow$ $r$ is unit ✓
-
+- $\Rightarrow$ $r$ is unit 
 **계**: $U(R) = R \setminus \bigcup_{M \text{ maximal}} M$
 
 ### 5. Jacobson Radical
@@ -148,8 +142,7 @@ $$J(R) = \bigcap_{M \text{ maximal}} M$$
 - $p$ prime $\Rightarrow$ $p | a$ or $p | b$
 - If $p | a$: $I = R$
 - If $p | b$: $I = P$
-- 따라서 $P$ maximal ✓
-
+- 따라서 $P$ maximal 
 **예**: $\mathbb{Z}$에서 $\langle p \rangle$ (prime $p$)
 
 자세한 내용은 [[Principal Ideal Domain]] 참조
@@ -166,8 +159,7 @@ $$J(R) = \bigcap_{M \text{ maximal}} M$$
 
 **Maximal ideals**: $\langle x_1 - a_1, \ldots, x_n - a_n \rangle$ (points!)
 
-**이유**: Quotient $\cong k$ (field) ✓
-
+**이유**: Quotient $\cong k$ (field) 
 **Nullstellensatz**: Over algebraically closed field, these are ALL maximal ideals
 
 자세한 내용은 [[Polynomial Ring]], [[Nullstellensatz]] 참조
@@ -176,8 +168,7 @@ $$J(R) = \bigcap_{M \text{ maximal}} M$$
 
 **Maximal ideals**: $\langle p \rangle$ where $p$ is prime
 
-**Quotient**: $\mathbb{Z}/p\mathbb{Z}$ is field ✓
-
+**Quotient**: $\mathbb{Z}/p\mathbb{Z}$ is field 
 **NOT maximal**: $\langle 0 \rangle$ (prime but not maximal)
 
 ### In $\mathbb{Z}/n\mathbb{Z}$
@@ -185,13 +176,9 @@ $$J(R) = \bigcap_{M \text{ maximal}} M$$
 **Maximal ideals**: $\langle p \rangle$ where $p | n$ and $p$ is prime
 
 **예 ($n = 12$)**:
-- $\langle 2 \rangle = \{0, 2, 4, 6, 8, 10\}$ ✓
-- $\langle 3 \rangle = \{0, 3, 6, 9\}$ ✓
-
+- $\langle 2 \rangle = \{0, 2, 4, 6, 8, 10\}$ - $\langle 3 \rangle = \{0, 3, 6, 9\}$ 
 **Check**: 
-- $\mathbb{Z}/12\mathbb{Z} / \langle 2 \rangle \cong \mathbb{Z}/2\mathbb{Z}$ (field) ✓
-- $\mathbb{Z}/12\mathbb{Z} / \langle 3 \rangle \cong \mathbb{Z}/3\mathbb{Z}$ (field) ✓
-
+- $\mathbb{Z}/12\mathbb{Z} / \langle 2 \rangle \cong \mathbb{Z}/2\mathbb{Z}$ (field) - $\mathbb{Z}/12\mathbb{Z} / \langle 3 \rangle \cong \mathbb{Z}/3\mathbb{Z}$ (field) 
 ### In Localization
 
 **정리**: $S^{-1}R$의 maximal ideals $\leftrightarrow$ maximal ideals of $R$ disjoint from $S$
@@ -226,14 +213,12 @@ $$M_{(a_1, \ldots, a_n)} = \langle x_1 - a_1, \ldots, x_n - a_n \rangle$$
 
 $$M + I = M \quad \text{or} \quad M + I = R$$
 
-**증명**: Maximality ✓
-
+**증명**: Maximality 
 ### Product
 
 **정리**: $M$ maximal이고 $M \supseteq IJ$이면 $M \supseteq I$ or $M \supseteq J$
 
-**증명**: $M$ is prime (maximal $\Rightarrow$ prime) ✓
-
+**증명**: $M$ is prime (maximal $\Rightarrow$ prime) 
 ### Coprime Ideals
 
 **정의**: Ideals $I, J$가 **coprime**^[서로소]이다 $\Leftrightarrow$ $I + J = R$
@@ -248,9 +233,7 @@ $$M + I = M \quad \text{or} \quad M + I = R$$
 
 **Maximal ideals**: $\langle p \rangle$ where $p$ is prime
 
-- $\langle 2 \rangle$: $\mathbb{Z}/2\mathbb{Z} \cong \mathbb{F}_2$ ✓
-- $\langle 3 \rangle$: $\mathbb{Z}/3\mathbb{Z} \cong \mathbb{F}_3$ ✓
-- $\langle 5 \rangle$, $\langle 7 \rangle$, $\langle 11 \rangle$, ...
+- $\langle 2 \rangle$: $\mathbb{Z}/2\mathbb{Z} \cong \mathbb{F}_2$ - $\langle 3 \rangle$: $\mathbb{Z}/3\mathbb{Z} \cong \mathbb{F}_3$ - $\langle 5 \rangle$, $\langle 7 \rangle$, $\langle 11 \rangle$, ...
 
 **NOT maximal**: 
 - $\langle 0 \rangle$ (prime but not maximal)
@@ -272,8 +255,7 @@ Maximality check: $\{0\} \subseteq I \triangleleft F$
 - If $I \neq \{0\}$: $\exists a \neq 0$ in $I$
 - $a$ has inverse $a^{-1}$
 - $1 = a \cdot a^{-1} \in I$
-- $\Rightarrow$ $I = F$ ✓
-
+- $\Rightarrow$ $I = F$ 
 따라서 **no maximal ideals** (no proper ideals except $\{0\}$, and $\{0\}$ is not maximal since... wait)
 
 Actually $\{0\}$ IS maximal! (only proper ideal)
@@ -289,10 +271,7 @@ Actually $\{0\}$ IS maximal! (only proper ideal)
 - Quadratic: $\langle x^2 + bx + c \rangle$ where $b^2 - 4c < 0$
 
 **Examples**:
-- $\langle x \rangle$: $\mathbb{R}[x]/\langle x \rangle \cong \mathbb{R}$ ✓
-- $\langle x - 2 \rangle$: Evaluation at $2$, quotient $\cong \mathbb{R}$ ✓
-- $\langle x^2 + 1 \rangle$: $\mathbb{R}[x]/\langle x^2 + 1 \rangle \cong \mathbb{C}$ ✓
-
+- $\langle x \rangle$: $\mathbb{R}[x]/\langle x \rangle \cong \mathbb{R}$ - $\langle x - 2 \rangle$: Evaluation at $2$, quotient $\cong \mathbb{R}$ - $\langle x^2 + 1 \rangle$: $\mathbb{R}[x]/\langle x^2 + 1 \rangle \cong \mathbb{C}$ 
 **NOT maximal**:
 - $\langle 0 \rangle$ (prime but not maximal)
 - $\langle x^2 - 1 \rangle = \langle (x-1)(x+1) \rangle$ (reducible, not even prime)
@@ -333,10 +312,7 @@ $$\mathbb{C}[x, y] / \langle x - a, y - b \rangle \cong \mathbb{C}$$
 - $f(x)$ is irreducible mod $p$
 
 **Examples**:
-- $\langle 2, x \rangle$: $\mathbb{Z}[x]/\langle 2, x \rangle \cong \mathbb{Z}/2\mathbb{Z}$ ✓
-- $\langle 3, x^2 + 1 \rangle$: Quotient $\cong \mathbb{F}_3[x]/\langle x^2 + 1 \rangle \cong \mathbb{F}_9$ ✓
-- $\langle 5, x - 2 \rangle$: Evaluation at $2$ mod $5$, quotient $\cong \mathbb{F}_5$ ✓
-
+- $\langle 2, x \rangle$: $\mathbb{Z}[x]/\langle 2, x \rangle \cong \mathbb{Z}/2\mathbb{Z}$ - $\langle 3, x^2 + 1 \rangle$: Quotient $\cong \mathbb{F}_3[x]/\langle x^2 + 1 \rangle \cong \mathbb{F}_9$ - $\langle 5, x - 2 \rangle$: Evaluation at $2$ mod $5$, quotient $\cong \mathbb{F}_5$ 
 **NOT maximal**:
 - $\langle x \rangle$: $\mathbb{Z}[x]/\langle x \rangle \cong \mathbb{Z}$ (not field)
 - $\langle 2 \rangle$: $\mathbb{Z}[x]/\langle 2 \rangle \cong \mathbb{F}_2[x]$ (not field)
@@ -363,8 +339,7 @@ $$k[[x]] = \left\{ \sum_{i=0}^{\infty} a_i x^i : a_i \in k \right\}$$
 
 **Non-units**: $f$ with $a_0 = 0$ (precisely $\langle x \rangle$)
 
-**Local ring**: ✓
-
+**Local ring**: 
 ## Example 9: $C([0,1])$ (Continuous Functions)
 
 **Maximal ideals**: $M_x = \{f : f(x) = 0\}$ for each $x \in [0,1]$
@@ -382,9 +357,7 @@ $$k[[x]] = \left\{ \sum_{i=0}^{\infty} a_i x^i : a_i \in k \right\}$$
 - $\langle 3 \rangle = \{0, 3, 6, 9\}$
 
 **Quotients**:
-- $\mathbb{Z}/12\mathbb{Z} / \langle 2 \rangle \cong \mathbb{Z}/2\mathbb{Z}$ ✓
-- $\mathbb{Z}/12\mathbb{Z} / \langle 3 \rangle \cong \mathbb{Z}/3\mathbb{Z}$ ✓
-
+- $\mathbb{Z}/12\mathbb{Z} / \langle 2 \rangle \cong \mathbb{Z}/2\mathbb{Z}$ - $\mathbb{Z}/12\mathbb{Z} / \langle 3 \rangle \cong \mathbb{Z}/3\mathbb{Z}$ 
 **Jacobson radical**: $J(\mathbb{Z}/12\mathbb{Z}) = \langle 2 \rangle \cap \langle 3 \rangle = \langle 6 \rangle$
 
 ---
@@ -395,14 +368,12 @@ $$k[[x]] = \left\{ \sum_{i=0}^{\infty} a_i x^i : a_i \in k \right\}$$
 
 **정리**: Nontrivial commutative ring $R$ (with unity)은 적어도 하나의 maximal ideal을 가짐
 
-**증명**: Zorn's Lemma on proper ideals ✓
-
+**증명**: Zorn's Lemma on proper ideals 
 ## Maximal $\Rightarrow$ Prime
 
 **정리**: Every maximal ideal is prime
 
-**증명**: $R/M$ is field $\Rightarrow$ $R/M$ is integral domain ✓
-
+**증명**: $R/M$ is field $\Rightarrow$ $R/M$ is integral domain 
 ## Chinese Remainder Theorem
 
 **정리**: $M_1, \ldots, M_n$ pairwise coprime maximal ideals이면

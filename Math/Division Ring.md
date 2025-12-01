@@ -79,8 +79,7 @@ $$\text{Field} = \text{Commutative Division Ring}$$
 
 **증명**: $ab = 0$이고 $a \neq 0$이면
 - $a$는 invertible
-- $b = a^{-1}(ab) = a^{-1} \cdot 0 = 0$ ✓
-
+- $b = a^{-1}(ab) = a^{-1} \cdot 0 = 0$ 
 따라서 $ab = 0 \Rightarrow a = 0$ or $b = 0$
 
 **계**: Division ring은 **integral domain**^[정역] (if commutative)
@@ -100,8 +99,7 @@ $$ba = ca \text{ and } a \neq 0 \quad \Rightarrow \quad b = c$$
 **증명**: 
 - $ab = ac$
 - $a^{-1}(ab) = a^{-1}(ac)$
-- $b = c$ ✓
-
+- $b = c$ 
 ### 3. No Proper Ideals
 
 **정리**: Division ring의 ideals는 $\{0\}$과 $D$뿐
@@ -110,8 +108,7 @@ $$ba = ca \text{ and } a \neq 0 \quad \Rightarrow \quad b = c$$
 - $\exists a \in I$, $a \neq 0$
 - $a$ is invertible
 - $1 = a^{-1} a \in I$ (ideal property)
-- $\Rightarrow$ $I = D$ ✓
-
+- $\Rightarrow$ $I = D$ 
 **의미**: Division rings are "simple" (no nontrivial ideals)
 
 ### 4. Field of Fractions
@@ -130,8 +127,7 @@ $$\text{char}(D) = \min\{n > 0 : n \cdot 1 = 0\}$$
 
 **정리**: Division ring의 characteristic은 0 또는 prime
 
-**증명**: Field와 동일 (no zero divisors) ✓
-
+**증명**: Field와 동일 (no zero divisors) 
 ## Units and Invertibility
 
 **정리**: Division ring에서:
@@ -172,12 +168,7 @@ $$Z(D) = \{z \in D : zd = dz \text{ for all } d \in D\}$$
 모든 **field**는 division ring입니다!
 
 **예시**:
-- $\mathbb{Q}$ (rationals) ✓
-- $\mathbb{R}$ (reals) ✓
-- $\mathbb{C}$ (complex numbers) ✓
-- $\mathbb{F}_p$ (finite fields) ✓
-- $\mathbb{Q}(\sqrt{2})$ (algebraic extensions) ✓
-
+- $\mathbb{Q}$ (rationals) - $\mathbb{R}$ (reals) - $\mathbb{C}$ (complex numbers) - $\mathbb{F}_p$ (finite fields) - $\mathbb{Q}(\sqrt{2})$ (algebraic extensions) 
 **특징**: Commutative!
 
 ## Example 2: Quaternions $\mathbb{H}$ ⭐
@@ -216,9 +207,7 @@ $$ij = k \neq -k = ji$$
 **Complex numbers**: $\mathbb{C} = \{a + bi : a, b \in \mathbb{R}\} \subseteq \mathbb{H}$
 
 **Properties**:
-- Commutative ✓
-- Division ring (field) ✓
-- Subdivision ring of $\mathbb{H}$
+- Commutative - Division ring (field) - Subdivision ring of $\mathbb{H}$
 
 **Center**: $Z(\mathbb{H}) = \mathbb{R}$ (real numbers only!)
 
@@ -246,16 +235,14 @@ $$\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} \begin{pmatrix} 0 & 0 \\ 0 & 1 \e
 
 $$F(x) = \left\{ \frac{f(x)}{g(x)} : f, g \in F[x], g \neq 0 \right\}$$
 
-**Division ring**: ✓ (actually a field, commutative)
+**Division ring**:  (actually a field, commutative)
 
 ## Example 7: $p$-adic Numbers $\mathbb{Q}_p$
 
 **$\mathbb{Q}_p$**: $p$-adic rationals
 
 **Properties**:
-- Commutative ✓
-- Division ring (field) ✓
-- Complete metric space
+- Commutative - Division ring (field) - Complete metric space
 - Characteristic 0
 
 자세한 내용은 [[p-adic Numbers]] 참조
@@ -265,9 +252,7 @@ $$F(x) = \left\{ \frac{f(x)}{g(x)} : f, g \in F[x], g \neq 0 \right\}$$
 **$F(X)$**: Function field over variety $X$
 
 **Properties**:
-- Commutative ✓
-- Division ring (field) ✓
-- Applications in algebraic geometry
+- Commutative - Division ring (field) - Applications in algebraic geometry
 
 ## Example 9: Non-Commutative Formal Series (NOT Division Ring)
 
@@ -281,8 +266,7 @@ $$F(x) = \left\{ \frac{f(x)}{g(x)} : f, g \in F[x], g \neq 0 \right\}$$
 
 **$\text{End}_k(V)$ for vector space $V$**:
 
-- If $\dim(V) = 1$: $\cong k$ (field) ✓
-- If $\dim(V) > 1$: NOT division ring (zero divisors) ✗
+- If $\dim(V) = 1$: $\cong k$ (field) - If $\dim(V) > 1$: NOT division ring (zero divisors) ✗
 
 ---
 
@@ -301,8 +285,7 @@ $$|D| < \infty \quad \Rightarrow \quad D \text{ is commutative}$$
 2. $D$는 $Z(D)$-vector space, $|D| = q^n$
 3. Class equation 사용
 4. Cyclotomic polynomials로 모순 유도
-5. $\Rightarrow$ $n = 1$, 즉 $D = Z(D)$ ✓
-
+5. $\Rightarrow$ $n = 1$, 즉 $D = Z(D)$ 
 **역사**: Wedderburn (1905)
 
 ## Frobenius Theorem
@@ -330,11 +313,8 @@ $$|D| < \infty \quad \Rightarrow \quad D \text{ is commutative}$$
 **정리**: Division ring $D$의 center $Z(D)$는 field
 
 **증명**: 
-- $Z(D)$는 commutative ring ✓
-- $z \in Z(D) \setminus \{0\}$이면 $z^{-1} \in D$
-- $z^{-1}$도 commutes with all: $z^{-1} \in Z(D)$ ✓
-- 따라서 $Z(D)$는 field ✓
-
+- $Z(D)$는 commutative ring - $z \in Z(D) \setminus \{0\}$이면 $z^{-1} \in D$
+- $z^{-1}$도 commutes with all: $z^{-1} \in Z(D)$ - 따라서 $Z(D)$는 field 
 ### Every Element Algebraic over Center
 
 **정리**: $D$ finite-dimensional division algebra over its center $k$이면

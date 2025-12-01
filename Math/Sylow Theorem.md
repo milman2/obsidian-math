@@ -126,9 +126,7 @@ $|P| = 2$
 **Count**: $n_2 = 3$
 
 **Check**:
-- $n_2 \equiv 1 \pmod{2}$? $3 \equiv 1 \pmod{2}$ ✓
-- $n_2 \mid 3$? $3 \mid 3$ ✓
-
+- $n_2 \equiv 1 \pmod{2}$? $3 \equiv 1 \pmod{2}$ - $n_2 \mid 3$? $3 \mid 3$ 
 ### Sylow 3-subgroups
 
 $|P| = 3$
@@ -138,9 +136,7 @@ $|P| = 3$
 **Count**: $n_3 = 1$
 
 **Check**:
-- $n_3 \equiv 1 \pmod{3}$? $1 \equiv 1 \pmod{3}$ ✓
-- $n_3 \mid 2$? $1 \mid 2$ ✓
-
+- $n_3 \equiv 1 \pmod{3}$? $1 \equiv 1 \pmod{3}$ - $n_3 \mid 2$? $1 \mid 2$ 
 **결론**: $A_3 \triangleleft S_3$ (유일하므로 normal)
 
 자세한 내용은 [[Symmetric Group]] 참조
@@ -198,8 +194,7 @@ $\Rightarrow n_5 \in \{1\}$ (only 1!)
 
 $$G \cong \mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/5\mathbb{Z} \cong \mathbb{Z}/15\mathbb{Z}$$
 
-**따라서**: Order 15인 group은 cyclic (up to isomorphism) ✓
-
+**따라서**: Order 15인 group은 cyclic (up to isomorphism) 
 ## Example 4: $A_5$ (Order 60)
 
 $|A_5| = 60 = 2^2 \cdot 3 \cdot 5$
@@ -284,8 +279,7 @@ $$\Rightarrow P \in \text{Syl}_p(G)$$
 
 **역**: $d \mid |G| \Rightarrow \exists H$ with $|H| = d$? (일반적으로 거짓)
 
-**Sylow**: $p^k \mid |G| \Rightarrow \exists H$ with $|H| = p^k$ ✓
-
+**Sylow**: $p^k \mid |G| \Rightarrow \exists H$ with $|H| = p^k$ 
 **제한**: Prime powers에만 성립!
 
 자세한 내용은 [[Lagrange's theorem]] 참조

@@ -77,8 +77,7 @@ $$G \cong \langle S \mid R \rangle$$
 **Proof**: 
 - Take $S = G$ (generators)
 - $R$ = all relations in $G$
-- Then $G = \langle S \mid R \rangle$ ✓
-
+- Then $G = \langle S \mid R \rangle$ 
 **문제**: This presentation might not be efficient!
 
 ## Non-uniqueness
@@ -134,11 +133,7 @@ $$G^{\text{ab}} = G / [G,G] = \langle S \mid R, [s_i, s_j] \text{ for all } i,j 
 **General case**: UNDECIDABLE! (Novikov-Boone)
 
 **Special cases**: Decidable for some classes
-- Free groups ✓
-- Finite groups ✓
-- Abelian groups ✓
-- Hyperbolic groups ✓
-
+- Free groups - Finite groups - Abelian groups - Hyperbolic groups 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -233,8 +228,7 @@ $$\exists \text{ surjective homomorphism } \langle S \mid R \rangle \twoheadrigh
 
 **정리**: For any $S$ and $R$, $\exists ! G$ (up to isomorphism) with presentation $\langle S \mid R \rangle$
 
-**Proof**: $G = F(S) / \langle\langle R \rangle\rangle$ ✓
-
+**Proof**: $G = F(S) / \langle\langle R \rangle\rangle$ 
 ## Tietze's Theorem
 
 **정리**: Two presentations give isomorphic groups $\Leftrightarrow$ 

@@ -30,10 +30,7 @@ $g, h \in G$ are **conjugate**^[켤레]if
 $$\exists x \in G : h = xgx^{-1}$$
 
 **Equivalence relation**:
-- Reflexive: $g = ege^{-1}$ ✓
-- Symmetric: $h = xgx^{-1}$ $\Rightarrow$ $g = x^{-1}hx$ ✓
-- Transitive ✓
-
+- Reflexive: $g = ege^{-1}$ - Symmetric: $h = xgx^{-1}$ $\Rightarrow$ $g = x^{-1}hx$ - Transitive 
 자세한 내용은 [[Equivalence Relation and Partitions]] 참조
 
 ## Centralizer^[중심화 부분군]
@@ -44,8 +41,7 @@ $$C_G(g) = \{x \in G : xg = gx\}$$
 
 **의미**: $g$와 commute하는 원소들
 
-**Subgroup**: $C_G(g) \leq G$ ✓
-
+**Subgroup**: $C_G(g) \leq G$ 
 자세한 내용은 [[Subgroup]] 참조
 
 ## Class Equation^[류 방정식]
@@ -112,8 +108,7 @@ $$g \in Z(G) \Leftrightarrow C_G(g) = G \Leftrightarrow |\text{cl}(g)| = 1$$
 
 $$G = \bigsqcup_{i} \text{cl}(g_i)$$
 
-**증명**: Conjugacy is equivalence relation ✓
-
+**증명**: Conjugacy is equivalence relation 
 **Size**: $|G| = \sum_i |\text{cl}(g_i)|$
 
 ## Divisibility
@@ -122,8 +117,7 @@ $$G = \bigsqcup_{i} \text{cl}(g_i)$$
 
 $$|\text{cl}(g)| \mid |G|$$
 
-**증명**: $|\text{cl}(g)| = [G : C_G(g)]$ divides $|G|$ by Lagrange ✓
-
+**증명**: $|\text{cl}(g)| = [G : C_G(g)]$ divides $|G|$ by Lagrange 
 자세한 내용은 [[Lagrange's theorem]] 참조
 
 ---
@@ -241,8 +235,7 @@ Separate central (size 1) and non-central:
 
 $$= |Z(G)| + \sum_{|\text{cl}(g_i)| > 1} |\text{cl}(g_i)|$$
 
-$$= |Z(G)| + \sum_{i} [G : C_G(g_i)]$$ ✓
-
+$$= |Z(G)| + \sum_{i} [G : C_G(g_i)]$$ 
 ## Center of p-Group is Non-trivial
 
 **정리**: If $G$ is finite $p$-group with $|G| > 1$,
@@ -256,8 +249,7 @@ $$|G| = |Z(G)| + \sum_i [G : C_G(g_i)]$$
 - $p \mid |G|$ (p-group)
 - $p \mid [G : C_G(g_i)]$ for each $i$ (divides $|G|$)
 - Therefore $p \mid |Z(G)|$
-- Since $e \in Z(G)$, we have $|Z(G)| \geq p$ ✓
-
+- Since $e \in Z(G)$, we have $|Z(G)| \geq p$ 
 자세한 내용은 [[p-Group]] 참조
 
 ## Cauchy's Theorem (via Class Equation)
@@ -284,20 +276,17 @@ Cannot all be $p$ (doesn't sum to $p^2$)
 
 Therefore $|Z(G)| = p$ or $p^2$
 
-If $|Z(G)| = p^2$, then $Z(G) = G$ (abelian) ✓
-
+If $|Z(G)| = p^2$, then $Z(G) = G$ (abelian) 
 If $|Z(G)| = p$, then $|G/Z(G)| = p$ (cyclic)
 
-$\Rightarrow$ $G$ abelian (contradiction with $|Z(G)| = p$) ✓
-
+$\Rightarrow$ $G$ abelian (contradiction with $|Z(G)| = p$) 
 자세한 내용은 [[Abelian Group]] 참조
 
 ## Conjugacy in Symmetric Groups
 
 **정리**: In $S_n$, two permutations conjugate $\Leftrightarrow$ same cycle type
 
-**증명**: Conjugation preserves cycle structure ✓
-
+**증명**: Conjugation preserves cycle structure 
 ---
 
 # <span class="header-remark">Remark</span>
@@ -410,8 +399,7 @@ Only for $g \in Z(G)$
 
 ### 2. Class size divides $|G|$
 
-By Lagrange's theorem ✓
-
+By Lagrange's theorem 
 Cannot be arbitrary!
 
 ### 3. Center always included

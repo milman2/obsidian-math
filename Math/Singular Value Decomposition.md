@@ -77,12 +77,10 @@ $$A \mathbf{v}_i = 0 \quad \text{for } i > r$$
 
 $$A^T A \in \mathbb{R}^{n \times n}$$
 
-**Symmetric**: $(A^T A)^T = A^T A$ ✓
-
+**Symmetric**: $(A^T A)^T = A^T A$ 
 **Positive semidefinite**: 
 
-$$\mathbf{x}^T (A^T A) \mathbf{x} = \|A\mathbf{x}\|^2 \geq 0$$ ✓
-
+$$\mathbf{x}^T (A^T A) \mathbf{x} = \|A\mathbf{x}\|^2 \geq 0$$ 
 ### Step 2: Spectral Theorem for $A^T A$
 
 $A^T A$ symmetric $\Rightarrow$ orthogonal diagonalization:
@@ -117,8 +115,7 @@ $$= \frac{1}{\sigma_i \sigma_j} \mathbf{v}_i^T (\sigma_j^2 \mathbf{v}_j)$$
 
 $$= \frac{\sigma_j}{\sigma_i} \delta_{ij}$$
 
-따라서 $\langle \mathbf{u}_i, \mathbf{u}_j \rangle = \delta_{ij}$ ✓
-
+따라서 $\langle \mathbf{u}_i, \mathbf{u}_j \rangle = \delta_{ij}$ 
 **For $i = r+1, \ldots, m$**: Extend to orthonormal basis (Gram-Schmidt)
 
 ### Step 5: Verify $A = U \Sigma V^T$
@@ -127,8 +124,7 @@ $$A \mathbf{v}_i = \sigma_i \mathbf{u}_i \text{ for } i \leq r$$
 
 $$A V = U \Sigma$$
 
-$$A = U \Sigma V^T$$ ✓
-
+$$A = U \Sigma V^T$$ 
 ## Uniqueness
 
 **Singular values**: Unique (up to ordering)
@@ -250,8 +246,7 @@ Frobenius norm으로:
 
 $$\|A - A_k\|_F^2 = \sum_{i=k+1}^{r} \sigma_i^2$$
 
-이것이 최소값! ✓
-
+이것이 최소값! 
 **의미**: Truncated SVD = **최적 low-rank 근사**
 
 ## Approximation Error

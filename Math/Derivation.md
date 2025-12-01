@@ -190,8 +190,7 @@ Linearity + Leibniz rule을 **모두** 만족하지 않으면 derivation이 아�
 
 $$I(f) = \int_0^1 f(x) \, dx$$
 
-**Linearity**: ✓
-$$I(\alpha f + \beta g) = \alpha I(f) + \beta I(g)$$
+**Linearity**: $$I(\alpha f + \beta g) = \alpha I(f) + \beta I(g)$$
 
 **Leibniz rule**: ✗
 $$I(fg) = \int_0^1 f(x)g(x) \, dx$$
@@ -211,8 +210,7 @@ $\frac{1}{3} \neq 0$ ✗
 
 $$D(f) = \frac{d^2f}{dx^2}$$
 
-**Linearity**: ✓
-$$\frac{d^2(\alpha f + \beta g)}{dx^2} = \alpha \frac{d^2f}{dx^2} + \beta \frac{d^2g}{dx^2}$$
+**Linearity**: $$\frac{d^2(\alpha f + \beta g)}{dx^2} = \alpha \frac{d^2f}{dx^2} + \beta \frac{d^2g}{dx^2}$$
 
 **Leibniz rule**: ✗
 
@@ -231,8 +229,7 @@ $$f''(0) \cdot g(0) + f(0) \cdot g''(0)$$
 $p \neq q$일 때:
 $$E_q(f) = f(q)$$
 
-**Linearity**: ✓
-**Leibniz rule**: ✗
+**Linearity**: **Leibniz rule**: ✗
 
 $$E_q(fg) = f(q)g(q)$$
 
@@ -247,8 +244,7 @@ $$E_q(f) \cdot g(p) + f(p) \cdot E_q(g) = f(q)g(p) + f(p)g(q)$$
 
 $$A(f) = \frac{1}{2\epsilon} \int_{p-\epsilon}^{p+\epsilon} f(x) \, dx$$
 
-**Linearity**: ✓
-**Leibniz rule**: ✗ (global information 사용)
+**Linearity**: **Leibniz rule**: ✗ (global information 사용)
 
 Derivation은 **local**이어야 함.
 
@@ -274,8 +270,8 @@ $\mathbb{R}^n$에서 방향 $\mathbf{v} = (v_1, \ldots, v_n)$:
 $$D_{\mathbf{v}}(f) = \sum_{i=1}^n v_i \frac{\partial f}{\partial x_i}$$
 
 **Verification**:
-- Linearity: ✓ (partial derivatives are linear)
-- Leibniz: ✓ (product rule)
+- Linearity:  (partial derivatives are linear)
+- Leibniz:  (product rule)
 
 ## 2. Time derivative along a curve^[곡선을 따른 시간 도함수]
 
@@ -284,16 +280,14 @@ Curve $\gamma: (-\epsilon, \epsilon) \rightarrow M$, $\gamma(0) = p$:
 $$D(f) = \frac{d}{dt}\bigg|_{t=0} f(\gamma(t))$$
 
 **Verification**:
-- Linearity: ✓
-- Leibniz: ✓ (chain rule + product rule)
+- Linearity: - Leibniz:  (chain rule + product rule)
 
 ## 3. Coordinate partials^[좌표 편미분]
 
 $$\frac{\partial}{\partial x^i}\bigg|_p: f \mapsto \frac{\partial f}{\partial x^i}(p)$$
 
 **Verification**:
-- Linearity: ✓
-- Leibniz: ✓ (standard product rule)
+- Linearity: - Leibniz:  (standard product rule)
 
 ## 4. Lie derivative^[리 도함수]
 
@@ -302,8 +296,7 @@ Vector field $X$를 따라:
 $$\mathcal{L}_X(f) = X(f)$$
 
 **Verification**:
-- Linearity: ✓
-- Leibniz: ✓ (by definition of vector field)
+- Linearity: - Leibniz:  (by definition of vector field)
 
 ---
 
@@ -320,8 +313,7 @@ $D_1, D_2$ derivations, $\alpha, \beta \in \mathbb{R}$:
 $$(\alpha D_1 + \beta D_2)(f) = \alpha D_1(f) + \beta D_2(f)$$
 
 **Verification**: $\alpha D_1 + \beta D_2$도 derivation.
-- Linearity: ✓
-- Leibniz: ✓ (각각 만족하므로)
+- Linearity: - Leibniz:  (각각 만족하므로)
 
 ## Derivations form a Lie algebra^[리 대수]
 
@@ -342,14 +334,11 @@ $$= D_1(D_2(f) \cdot g + f \cdot D_2(g)) - D_2(D_1(f) \cdot g + f \cdot D_1(g))$
 전개하면:
 $$= [D_1, D_2](f) \cdot g + f \cdot [D_1, D_2](g)$$
 
-✓ Leibniz rule 만족!
+ Leibniz rule 만족!
 
 ### Lie algebra properties
 
-1. **Bilinearity**: ✓
-2. **Antisymmetry**: $[D_1, D_2] = -[D_2, D_1]$ ✓
-3. **Jacobi identity**: $[D_1, [D_2, D_3]] + [D_2, [D_3, D_1]] + [D_3, [D_1, D_2]] = 0$ ✓
-
+1. **Bilinearity**: 2. **Antisymmetry**: $[D_1, D_2] = -[D_2, D_1]$ 3. **Jacobi identity**: $[D_1, [D_2, D_3]] + [D_2, [D_3, D_1]] + [D_3, [D_1, D_2]] = 0$ 
 따라서 $\text{Der}(A)$는 Lie algebra를 이룬다.
 
 ---
@@ -472,9 +461,8 @@ $$\boxed{\text{Derivations at } p \cong T_p M \cong \mathbb{R}^n}$$
 
 $$\text{Der}(A) = \{\text{Derivations on } A\}$$
 
-- **Vector space**: ✓
-- **Lie algebra**: ✓ (with bracket $[D_1, D_2]$)
-- **Module**: ✓ (over $C^\infty(M)$)
+- **Vector space**: - **Lie algebra**:  (with bracket $[D_1, D_2]$)
+- **Module**:  (over $C^\infty(M)$)
 
 ---
 

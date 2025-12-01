@@ -46,9 +46,7 @@ $$G \neq \{e\} \text{ and } G \text{ has no proper nontrivial normal subgroups}$
 $$G \text{ abelian and simple} \Leftrightarrow G \cong \mathbb{Z}/p\mathbb{Z} \text{ for some prime } p$$
 
 **증명**:
-- ($\Leftarrow$): $|\mathbb{Z}/p\mathbb{Z}| = p$ prime $\Rightarrow$ only subgroups are $\{[0]\}, G$ (Lagrange) ✓
-- ($\Rightarrow$): Abelian이므로 모든 subgroup이 normal. Simple이므로 nontrivial proper subgroup 없음 $\Rightarrow$ prime order cyclic ✓
-
+- ($\Leftarrow$): $|\mathbb{Z}/p\mathbb{Z}| = p$ prime $\Rightarrow$ only subgroups are $\{[0]\}, G$ (Lagrange) - ($\Rightarrow$): Abelian이므로 모든 subgroup이 normal. Simple이므로 nontrivial proper subgroup 없음 $\Rightarrow$ prime order cyclic 
 **결론**: Nontrivial simple groups는 대부분 non-abelian!
 
 ---
@@ -147,8 +145,7 @@ $G$ simple이고 $\phi: G \to H$ homomorphism이면:
 
 **증명**: $\ker(\phi) \triangleleft G$이고 $G$ simple
 
-$\Rightarrow$ $\ker(\phi) = \{e\}$ (injective) or $\ker(\phi) = G$ (trivial) ✓
-
+$\Rightarrow$ $\ker(\phi) = \{e\}$ (injective) or $\ker(\phi) = G$ (trivial) 
 ### 2. Image is isomorphic to $G$ or trivial
 
 $\text{im}(\phi) \cong G/\ker(\phi)$
@@ -181,8 +178,7 @@ where each $G_{i+1}/G_i$ is simple
 
 **증명**: Correspondence theorem으로
 
-$M$ maximal $\Leftrightarrow$ $G/M$이 proper nontrivial normal subgroup 없음 $\Leftrightarrow$ $G/M$ simple ✓
-
+$M$ maximal $\Leftrightarrow$ $G/M$이 proper nontrivial normal subgroup 없음 $\Leftrightarrow$ $G/M$ simple 
 ## Simplicity and Index 2
 
 **정리**: $H \triangleleft G$ with $[G : H] = 2$ $\Rightarrow$ $G$ not simple (unless $|G| = 2$)
@@ -294,8 +290,7 @@ Infinite family
 1. $A_n$은 3-cycles로 generate됨
 2. $N \triangleleft A_n$ nontrivial이면 $N$도 3-cycles 포함해야
 3. 3-cycle 하나 포함하면 conjugation으로 모든 3-cycles 포함
-4. 따라서 $N = A_n$ ✓
-
+4. 따라서 $N = A_n$ 
 **$A_4$ not simple**: $V_4 = \{e, (12)(34), (13)(24), (14)(23)\} \triangleleft A_4$
 
 ## Burnside's $p^aq^b$ Theorem

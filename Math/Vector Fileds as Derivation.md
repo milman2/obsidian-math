@@ -178,7 +178,7 @@ $$D_{\mathbf{v}}(fg) = D_{\mathbf{v}}(x^2yz) = 2xyz$$
 **Product rule**:
 $$D_{\mathbf{v}}(f) \cdot g + f \cdot D_{\mathbf{v}}(g) = 2xy \cdot z + x^2y \cdot 0 = 2xyz$$
 
-✓ 일치!
+ 일치!
 
 ## 2. Coordinate vector fields^[좌표 벡터장]
 
@@ -187,9 +187,7 @@ $$D_{\mathbf{v}}(f) \cdot g + f \cdot D_{\mathbf{v}}(g) = 2xy \cdot z + x^2y \cd
 $$\frac{\partial}{\partial x^i}: f \mapsto \frac{\partial f}{\partial x^i}$$
 
 **명백히 derivation**:
-- Linear: ✓
-- Leibniz: $\frac{\partial(fg)}{\partial x^i} = \frac{\partial f}{\partial x^i} g + f \frac{\partial g}{\partial x^i}$ ✓
-
+- Linear: - Leibniz: $\frac{\partial(fg)}{\partial x^i} = \frac{\partial f}{\partial x^i} g + f \frac{\partial g}{\partial x^i}$ 
 **Basis of tangent space**:
 $$T_p M = \text{span}\left\{\frac{\partial}{\partial x^1}\bigg|_p, \ldots, \frac{\partial}{\partial x^n}\bigg|_p\right\}$$
 
@@ -245,7 +243,7 @@ $$= X((Yf)g + f(Yg)) - Y((Xf)g + f(Xg))$$
 
 $$= [X, Y](f) \cdot g + f \cdot [X, Y](g)$$
 
-✓ Leibniz rule 만족!
+ Leibniz rule 만족!
 
 ### Lie algebra 구조
 

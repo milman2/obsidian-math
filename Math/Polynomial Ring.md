@@ -78,8 +78,7 @@ $$\deg(f) = n$$
 **증명** (3): $f, g \neq 0$이면
 - Leading coefficients: $a_n, b_m \neq 0$
 - $(fg)$의 leading coefficient = $a_n b_m \neq 0$ (no zero divisors)
-- 따라서 $\deg(fg) = n + m = \deg(f) + \deg(g)$ ✓
-
+- 따라서 $\deg(fg) = n + m = \deg(f) + \deg(g)$ 
 ## Universal Property
 
 **정리**: Polynomial ring $R[x]$는 다음 universal property를 만족:
@@ -105,22 +104,17 @@ R[x] & &
 ### Theorem: $R[x]$ is a Ring
 
 $R[x]$는 ring:
-1. **Abelian group under addition**^[덧셈에 대한 아벨군]: ✓
-   - Zero: $0$ (zero polynomial)
+1. **Abelian group under addition**^[덧셈에 대한 아벨군]:    - Zero: $0$ (zero polynomial)
    - Additive inverse: $-f(x) = \sum (-a_i) x^i$
 
-2. **Monoid under multiplication**^[곱셈에 대한 모노이드]: ✓
-   - Identity: $1$ (constant polynomial)
-   - Associativity: ✓
-
-3. **Distributivity**^[분배법칙]: ✓
-
+2. **Monoid under multiplication**^[곱셈에 대한 모노이드]:    - Identity: $1$ (constant polynomial)
+   - Associativity: 
+3. **Distributivity**^[분배법칙]: 
 ### Commutativity
 
 **정리**: $R$ commutative $\Rightarrow$ $R[x]$ commutative
 
-**증명**: Coefficient multiplication commutes ✓
-
+**증명**: Coefficient multiplication commutes 
 ## Units in Polynomial Rings
 
 ### Theorem: Units of $R[x]$
@@ -130,8 +124,7 @@ $$R[x]^\times = R^\times$$
 **증명**: $f(x)g(x) = 1$이면
 - $\deg(f) + \deg(g) = \deg(1) = 0$
 - 따라서 $\deg(f) = \deg(g) = 0$
-- $f, g$는 constant polynomials in $R^\times$ ✓
-
+- $f, g$는 constant polynomials in $R^\times$ 
 **결론**: Polynomial ring의 units = coefficient ring의 units (as constants)
 
 **예**:
@@ -150,11 +143,9 @@ $$R \text{ integral domain} \quad \Leftrightarrow \quad R[x] \text{ integral dom
 ($\Rightarrow$) $f, g \in R[x]$ nonzero이면
 - Leading coefficients $a_n, b_m \neq 0$
 - $(fg)$의 leading coefficient = $a_n b_m \neq 0$ (no zero divisors in $R$)
-- 따라서 $fg \neq 0$ ✓
-
+- 따라서 $fg \neq 0$ 
 ($\Leftarrow$) $R \subseteq R[x]$ (constant polynomials)
-- $R[x]$ integral domain $\Rightarrow$ $R$ integral domain ✓
-
+- $R[x]$ integral domain $\Rightarrow$ $R$ integral domain 
 ### Corollary
 
 Field $k$에 대해:
@@ -207,10 +198,7 @@ $$f, g \text{ primitive} \quad \Rightarrow \quad fg \text{ primitive}$$
 $$\mathbb{Z}[x] = \{a_0 + a_1 x + \cdots + a_n x^n : a_i \in \mathbb{Z}\}$$
 
 **Properties**:
-- Commutative ✓
-- Integral domain ✓
-- UFD ✓
-- **NOT PID** ✗
+- Commutative - Integral domain - UFD - **NOT PID** ✗
 
 **Units**: $\mathbb{Z}[x]^\times = \{\pm 1\}$
 
@@ -223,13 +211,8 @@ $$\mathbb{Z}[x] = \{a_0 + a_1 x + \cdots + a_n x^n : a_i \in \mathbb{Z}\}$$
 $$k[x] = \{a_0 + a_1 x + \cdots + a_n x^n : a_i \in k\}$$
 
 **Properties**:
-- Commutative ✓
-- Integral domain ✓
-- **PID** ✓ (Principal Ideal Domain)
-- **Euclidean domain** ✓
-- UFD ✓
-- Noetherian ✓
-
+- Commutative - Integral domain - **PID**  (Principal Ideal Domain)
+- **Euclidean domain** - UFD - Noetherian 
 **Units**: $k[x]^\times = k^\times = k \setminus \{0\}$ (nonzero constants)
 
 **Division algorithm**: Exists! (like $\mathbb{Z}$)
@@ -244,8 +227,7 @@ $$I = \langle f(x) \rangle$$
 
 where $f(x)$ = monic polynomial of minimal degree in $I$
 
-**증명**: Division algorithm ✓
-
+**증명**: Division algorithm 
 ### 정리: $k[x]$ is UFD
 
 Every $f \in k[x]$ factors uniquely:
@@ -290,11 +272,7 @@ $$\mathbb{R}[x], \quad \mathbb{C}[x]$$
 $$k[x, y] = k[x][y]$$
 
 **Properties**:
-- Commutative ✓
-- Integral domain ✓
-- UFD ✓
-- Noetherian ✓
-- **NOT PID** ✗
+- Commutative - Integral domain - UFD - Noetherian - **NOT PID** ✗
 
 **Non-principal ideal**: $\langle x, y \rangle$
 
@@ -311,8 +289,7 @@ $$k[x, y] = k[x][y]$$
 $$(\mathbb{Z}/6\mathbb{Z})[x] = \{\overline{a_0} + \overline{a_1} x + \cdots : a_i \in \mathbb{Z}/6\mathbb{Z}\}$$
 
 **Properties**:
-- Commutative ✓
-- **NOT integral domain** ✗
+- Commutative - **NOT integral domain** ✗
 
 **Zero divisors**: $(\overline{2}x)(\overline{3}) = \overline{0}$
 
@@ -432,8 +409,7 @@ $a \in R$에 대한 **evaluation**^[계산]:
 
 $$\text{ev}_a: R[x] \to R, \quad f(x) \mapsto f(a)$$
 
-Ring homomorphism ✓
-
+Ring homomorphism 
 **Kernel**: $\ker(\text{ev}_a) = \{f : f(a) = 0\}$
 
 자세한 내용은 [[Ring Homomorphism]] 참조

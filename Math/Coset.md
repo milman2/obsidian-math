@@ -41,9 +41,7 @@ Coset $gH$에서 $g$를 **representative**^[대표원]라 함
 $$g_1H = g_2H \Leftrightarrow g_2^{-1}g_1 \in H \Leftrightarrow g_1 \in g_2H$$
 
 **증명**:
-- ($\Rightarrow$): $g_1 \in g_1H = g_2H$ $\Rightarrow$ $g_1 = g_2h$ for some $h \in H$ $\Rightarrow$ $g_2^{-1}g_1 = h \in H$ ✓
-- ($\Leftarrow$): $g_2^{-1}g_1 = h \in H$ $\Rightarrow$ $g_1 = g_2h$ $\Rightarrow$ $g_1H = g_2hH = g_2H$ ✓
-
+- ($\Rightarrow$): $g_1 \in g_1H = g_2H$ $\Rightarrow$ $g_1 = g_2h$ for some $h \in H$ $\Rightarrow$ $g_2^{-1}g_1 = h \in H$ - ($\Leftarrow$): $g_2^{-1}g_1 = h \in H$ $\Rightarrow$ $g_1 = g_2h$ $\Rightarrow$ $g_1H = g_2hH = g_2H$ 
 ### Right Coset Equality
 
 $$Hg_1 = Hg_2 \Leftrightarrow g_1g_2^{-1} \in H \Leftrightarrow g_1 \in Hg_2$$
@@ -69,9 +67,7 @@ $$Hg_1 = Hg_2 \Leftrightarrow g_1g_2^{-1} \in H \Leftrightarrow g_1 \in Hg_2$$
 $$|gH| = |H| = |Hg| \quad \forall g \in G$$
 
 **증명**: Bijection $\phi: H \to gH$, $\phi(h) = gh$
-- **Injective**: $gh_1 = gh_2 \Rightarrow h_1 = h_2$ ✓
-- **Surjective**: By definition ✓
-
+- **Injective**: $gh_1 = gh_2 \Rightarrow h_1 = h_2$ - **Surjective**: By definition 
 ## Partition Property^[분할 성질]
 
 **정리**: Left cosets는 $G$를 partition
@@ -87,10 +83,7 @@ $$G = \bigsqcup_{i} g_iH$$
 $$g_1 \sim g_2 \Leftrightarrow g_1H = g_2H \Leftrightarrow g_2^{-1}g_1 \in H$$
 
 **확인**:
-- **Reflexive**^[반사]: $g \sim g$ (since $e \in H$) ✓
-- **Symmetric**^[대칭]: $g_1 \sim g_2 \Rightarrow g_2 \sim g_1$ ✓
-- **Transitive**^[추이]: $g_1 \sim g_2, g_2 \sim g_3 \Rightarrow g_1 \sim g_3$ ✓
-
+- **Reflexive**^[반사]: $g \sim g$ (since $e \in H$) - **Symmetric**^[대칭]: $g_1 \sim g_2 \Rightarrow g_2 \sim g_1$ - **Transitive**^[추이]: $g_1 \sim g_2, g_2 \sim g_3 \Rightarrow g_1 \sim g_3$ 
 **Equivalence classes** = Cosets
 
 자세한 내용은 [[Equivalence Relation and Partitions]] 참조
@@ -170,8 +163,7 @@ $H = A_3 = \{e, (123), (132)\}$ (alternating group)
 - $A_3 = \{e, (123), (132)\}$
 - $(12)A_3 = \{(12), (12)(123), (12)(132)\} = \{(12), (23), (13)\}$
 
-**Partition**: $S_3 = A_3 \sqcup (12)A_3$ ✓
-
+**Partition**: $S_3 = A_3 \sqcup (12)A_3$ 
 **Index**: $[S_3 : A_3] = 2$
 
 **Normal**: $A_3 \triangleleft S_3$ (index 2이므로)
@@ -221,8 +213,7 @@ $G = \mathbb{Z}/12\mathbb{Z}$, $H = \langle [3] \rangle = \{[0], [3], [6], [9]\}
 
 **Index**: $[\mathbb{Z}/12\mathbb{Z} : H] = 3$
 
-**Check**: $|G|/|H| = 12/4 = 3$ ✓
-
+**Check**: $|G|/|H| = 12/4 = 3$ 
 ---
 
 # <span class="header-theorem">Theorem</span>

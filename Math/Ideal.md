@@ -74,8 +74,7 @@ $$I \neq R$$
 
 **증명**:
 - ($\Rightarrow$): $1 \in I$이면 모든 $r \in R$에 대해 $r = r \cdot 1 \in I$, 즉 $I = R$ ✗
-- ($\Leftarrow$): $1 \notin I$이면 $I \neq R$ ✓
-
+- ($\Leftarrow$): $1 \notin I$이면 $I \neq R$ 
 **따라서**: Proper ideal은 절대 unital subring이 아님!
 
 ## Trivial Ideal
@@ -318,8 +317,8 @@ $$I = n\mathbb{Z} = \{nk : k \in \mathbb{Z}\}$$
 **Maximal ideals**: $\langle 2 \rangle$, $\langle 3 \rangle$
 
 **Quotients**:
-- $\mathbb{Z}/6\mathbb{Z} / \langle 2 \rangle \cong \mathbb{Z}/2\mathbb{Z}$ ✓ (field)
-- $\mathbb{Z}/6\mathbb{Z} / \langle 3 \rangle \cong \mathbb{Z}/3\mathbb{Z}$ ✓ (field)
+- $\mathbb{Z}/6\mathbb{Z} / \langle 2 \rangle \cong \mathbb{Z}/2\mathbb{Z}$  (field)
+- $\mathbb{Z}/6\mathbb{Z} / \langle 3 \rangle \cong \mathbb{Z}/3\mathbb{Z}$  (field)
 
 ## Example 3: Polynomial Ring $\mathbb{R}[x]$
 
@@ -333,7 +332,7 @@ $$\mathbb{R}[x] / \langle x^2 + 1 \rangle \cong \mathbb{C}$$
 
 **이유**: $x^2 + 1 = 0$ 관계식 부과 $\Rightarrow$ $x$ acts like $i$
 
-**Maximal ideal**: $\langle x^2 + 1 \rangle$ ✓ (quotient is field!)
+**Maximal ideal**: $\langle x^2 + 1 \rangle$  (quotient is field!)
 
 ## Example 4: Matrix Ring $M_2(\mathbb{R})$
 
@@ -343,8 +342,7 @@ $$I = \left\{ \begin{pmatrix} a & b \\ 0 & 0 \end{pmatrix} : a, b \in \mathbb{R}
 
 **Check (left ideal)**:
 
-$$\begin{pmatrix} r & s \\ t & u \end{pmatrix} \begin{pmatrix} a & b \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} ra & rb \\ 0 & 0 \end{pmatrix} \in I$$ ✓
-
+$$\begin{pmatrix} r & s \\ t & u \end{pmatrix} \begin{pmatrix} a & b \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} ra & rb \\ 0 & 0 \end{pmatrix} \in I$$ 
 **Not two-sided**: 
 
 $$\begin{pmatrix} a & b \\ 0 & 0 \end{pmatrix} \begin{pmatrix} r & s \\ t & u \end{pmatrix} = \begin{pmatrix} * & * \\ 0 & 0 \end{pmatrix}$$ 
@@ -378,11 +376,8 @@ $$I_a = \{f \in C[0,1] : f(a) = 0\}$$
 for fixed $a \in [0,1]$
 
 **Check**:
-- $f - g$ vanishes at $a$ if $f, g$ do ✓
-- $(rf)(a) = r(a) \cdot f(a) = r(a) \cdot 0 = 0$ ✓
-
-**Maximal ideal**: $I_a$ ✓
-
+- $f - g$ vanishes at $a$ if $f, g$ do - $(rf)(a) = r(a) \cdot f(a) = r(a) \cdot 0 = 0$ 
+**Maximal ideal**: $I_a$ 
 **Quotient**: $C[0,1] / I_a \cong \mathbb{R}$ (evaluation at $a$)
 
 ## Example 7: Nilradical Example
@@ -391,8 +386,7 @@ for fixed $a \in [0,1]$
 
 **Nilpotent elements**: $\overline{0}, \overline{6}$
 
-Check: $\overline{6}^2 = \overline{36} = \overline{0}$ ✓
-
+Check: $\overline{6}^2 = \overline{36} = \overline{0}$ 
 **Nilradical**: $\text{Nil}(R) = \langle 6 \rangle = \{0, 6\}$
 
 ## Example 8: Principal Ideal Domain
@@ -405,8 +399,7 @@ $$I = \langle a + bi \rangle$$
 
 **예**: $\langle 1 + i \rangle = \{(1+i)(a + bi) : a, b \in \mathbb{Z}\}$
 
-**성질**: PID (Principal Ideal Domain) ✓
-
+**성질**: PID (Principal Ideal Domain) 
 자세한 내용은 [[Principal Ideal Domain]] 참조
 
 ## Example 9: Non-Principal Ideal
@@ -425,8 +418,7 @@ $$I = \langle 2, x \rangle = \{2p(x) + xq(x) : p, q \in \mathbb{Z}[x]\}$$
 
 **In $\mathbb{Z}[x]$**:
 
-**Maximal ideal**: $\langle 2, x \rangle$ ✓
-
+**Maximal ideal**: $\langle 2, x \rangle$ 
 **Quotient**: $\mathbb{Z}[x] / \langle 2, x \rangle \cong \mathbb{Z}/2\mathbb{Z}$ (field!)
 
 **Prime but not maximal**: $\langle x \rangle$
@@ -672,8 +664,7 @@ Generally: $IJ \subsetneq I \cap J$ (proper!)
 **예**: $I = J = 2\mathbb{Z}$
 - $IJ = 4\mathbb{Z}$
 - $I \cap J = 2\mathbb{Z}$
-- $4\mathbb{Z} \subsetneq 2\mathbb{Z}$ ✓
-
+- $4\mathbb{Z} \subsetneq 2\mathbb{Z}$ 
 **등호**: Coprime ideals에서만 ($I + J = R$)
 
 ### 3. Left $\neq$ Right (Non-commutative)

@@ -126,16 +126,13 @@ $$a \sim_N b \Leftrightarrow a^{-1}b \in N$$
 
 **1. Reflexive^[반사적]**: $a \sim_N a$
 
-$$aa^{-1} = e \in N$$ ✓
-
+$$aa^{-1} = e \in N$$ 
 **2. Symmetric^[대칭적]**: $a \sim_N b \Rightarrow b \sim_N a$
 
-$$ab^{-1} \in N \Rightarrow (ab^{-1})^{-1} = ba^{-1} \in N$$ ✓
-
+$$ab^{-1} \in N \Rightarrow (ab^{-1})^{-1} = ba^{-1} \in N$$ 
 **3. Transitive^[추이적]**: $a \sim_N b, b \sim_N c \Rightarrow a \sim_N c$
 
-$$ab^{-1} \in N, bc^{-1} \in N \Rightarrow (ab^{-1})(bc^{-1}) = ac^{-1} \in N$$ ✓
-
+$$ab^{-1} \in N, bc^{-1} \in N \Rightarrow (ab^{-1})(bc^{-1}) = ac^{-1} \in N$$ 
 ### Equivalence Classes^[동치류]
 
 원소 $a \in G$의 equivalence class:
@@ -621,8 +618,7 @@ $$\text{Characteristic} \Rightarrow \text{Normal} \Rightarrow \text{Subgroup}$$
 
 ✓ **일반적으로 아니오!**
 
-**But**: $K \text{ char } H \triangleleft G \Rightarrow K \triangleleft G$ ✓
-
+**But**: $K \text{ char } H \triangleleft G \Rightarrow K \triangleleft G$ 
 ### 2. All subgroups are normal?
 
 ✗ Only in abelian groups!
@@ -631,11 +627,11 @@ Non-abelian groups have many non-normal subgroups
 
 ### 3. $gNg^{-1} \subseteq N$ is enough?
 
-✓ Yes! Equality $gNg^{-1} = N$ follows automatically
+ Yes! Equality $gNg^{-1} = N$ follows automatically
 
 ### 4. Kernel = Normal?
 
-✓ Yes! Every kernel is normal
+ Yes! Every kernel is normal
 
 **Converse**: Every normal subgroup is kernel (of canonical projection)
 
@@ -643,7 +639,7 @@ Non-abelian groups have many non-normal subgroups
 
 $H \leq G \Rightarrow G/H$ exists?
 
-✓ Only if $H \triangleleft G$!
+ Only if $H \triangleleft G$!
 
 Otherwise $G/H$ is just a set (not a group)
 

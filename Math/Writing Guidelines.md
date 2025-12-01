@@ -17,8 +17,8 @@ term^[한글 번역]
 마우스 커서를 올리면 한글 번역이 팝업으로 표시됩니다.
 
 ### Examples
-- ✓ `linear mapping^[선형 사상]`
-- ✓ `**kernel**^[핵]` ← footnote는 볼드 밖에
+-  `linear mapping^[선형 사상]`
+-  `**kernel**^[핵]` ← footnote는 볼드 밖에
 - ✗ `**kernel^[핵]**` ← 볼드 안에 footnote를 넣으면 렌더링 오류
 - ✗ `선형 사상 (linear mapping)`
 - ✗ `linear mapping (선형 사상)` ← 구식 방법
@@ -112,8 +112,7 @@ term^[한글 번역]
 
 # Style Guide (스타일 가이드)
 
-## DO ✓
-- 간결하고 명확한 문장
+## DO - 간결하고 명확한 문장
 - 핵심 내용 위주 정리
 - 관련 노트 링크 적극 활용
 - 직관적인 설명 추가 (Remark에)

@@ -442,7 +442,7 @@ Inner product는 다음을 제공:
 $$\|x\|_p = \left(\displaystyle\sum_i |x_i|^p\right)^{1/p}$$
 
 **Test**: Parallelogram law 확인
-- $p = 2$: ✓ (comes from inner product)
+- $p = 2$:  (comes from inner product)
 - $p \neq 2$: ✗ (no inner product)
 
 ## Finite vs infinite dimensional

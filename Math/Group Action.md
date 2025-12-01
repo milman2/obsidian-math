@@ -64,9 +64,7 @@ where $\text{Sym}(X)$ = 모든 bijections $X \to X$의 group
 **대응**: $\phi(g)(x) = g \cdot x$
 
 **확인**:
-- Identity: $\phi(e) = \text{id}_X$ ✓
-- Compatibility: $\phi(g_1 g_2) = \phi(g_1) \circ \phi(g_2)$ ✓
-
+- Identity: $\phi(e) = \text{id}_X$ - Compatibility: $\phi(g_1 g_2) = \phi(g_1) \circ \phi(g_2)$ 
 ## Faithful Action^[충실한 작용]
 
 Action이 **faithful**^[충실]하다 $\Leftrightarrow$ 대응하는 homomorphism이 injective
@@ -117,14 +115,9 @@ $G$ acts on itself by left multiplication:
 $$g \cdot h = gh$$
 
 **확인**:
-- Identity: $e \cdot h = h$ ✓
-- Compatibility: $(g_1 g_2) \cdot h = g_1 \cdot (g_2 \cdot h)$ ✓
-
+- Identity: $e \cdot h = h$ - Compatibility: $(g_1 g_2) \cdot h = g_1 \cdot (g_2 \cdot h)$ 
 **성질**:
-- **Faithful**: $g \cdot h = h$ for all $h \Rightarrow g = e$ ✓
-- **Transitive**: $\forall h_1, h_2 : h_1^{-1}h_2 \cdot h_1 = h_2$ ✓
-- **Free**: $g \cdot h = h \Rightarrow g = e$ ✓
-
+- **Faithful**: $g \cdot h = h$ for all $h \Rightarrow g = e$ - **Transitive**: $\forall h_1, h_2 : h_1^{-1}h_2 \cdot h_1 = h_2$ - **Free**: $g \cdot h = h \Rightarrow g = e$ 
 **Cayley's Theorem**: 모든 group은 자기 자신의 permutation group에 embedding
 
 ## Example 3: Conjugation Action
@@ -151,8 +144,7 @@ $H \leq G$, $G$ acts on left cosets $G/H = \{gH : g \in G\}$:
 
 $$g \cdot (xH) = (gx)H$$
 
-**확인**: Well-defined, satisfies axioms ✓
-
+**확인**: Well-defined, satisfies axioms 
 **성질**:
 - Always transitive
 - Kernel = $\bigcap_{x \in G} xHx^{-1}$ (largest normal subgroup in $H$)
@@ -169,9 +161,7 @@ $$S_n \text{ acts on } \{1,2,\ldots,n\}$$
 $$\sigma \cdot i = \sigma(i)$$
 
 **성질**:
-- Faithful ✓
-- Transitive ✓
-- Not free (unless $n = 1$): $\text{id}$ fixes all
+- Faithful - Transitive - Not free (unless $n = 1$): $\text{id}$ fixes all
 
 **정의에 의한** action
 
@@ -184,8 +174,7 @@ $$\text{GL}_n(\mathbb{R}) \text{ acts on } \mathbb{R}^n$$
 $$A \cdot v = Av \quad \text{(matrix multiplication)}$$
 
 **성질**:
-- Faithful ✓
-- Transitive on $\mathbb{R}^n \setminus \{0\}$
+- Faithful - Transitive on $\mathbb{R}^n \setminus \{0\}$
 - Not free: $I$ fixes all
 
 **일반화**: Linear representations
@@ -213,9 +202,7 @@ $$D_n \text{ acts on vertices of regular } n\text{-gon}$$
 **Reflections**: Reflection across axes
 
 **성질**:
-- Faithful ✓
-- Transitive ✓
-- Not free
+- Faithful - Transitive - Not free
 
 자세한 내용은 [[Dihedral Group]] 참조
 
@@ -264,16 +251,12 @@ $$G_x = \text{Stab}_G(x) = \{g \in G : g \cdot x = x\}$$
 1. $G_x \leq G$ (subgroup)
 
 **증명**:
-- Identity: $e \cdot x = x$ $\Rightarrow$ $e \in G_x$ ✓
-- Closure: $g_1, g_2 \in G_x$ $\Rightarrow$ $(g_1g_2) \cdot x = g_1 \cdot (g_2 \cdot x) = g_1 \cdot x = x$ ✓
-- Inverse: $g \cdot x = x$ $\Rightarrow$ $x = g^{-1} \cdot (g \cdot x) = g^{-1} \cdot x$ ✓
-
+- Identity: $e \cdot x = x$ $\Rightarrow$ $e \in G_x$ - Closure: $g_1, g_2 \in G_x$ $\Rightarrow$ $(g_1g_2) \cdot x = g_1 \cdot (g_2 \cdot x) = g_1 \cdot x = x$ - Inverse: $g \cdot x = x$ $\Rightarrow$ $x = g^{-1} \cdot (g \cdot x) = g^{-1} \cdot x$ 
 2. **Conjugate stabilizers**:
 
 $$G_{g \cdot x} = g G_x g^{-1}$$
 
-**증명**: $h \in G_{g \cdot x} \Leftrightarrow h \cdot (g \cdot x) = g \cdot x \Leftrightarrow (g^{-1}hg) \cdot x = x$ ✓
-
+**증명**: $h \in G_{g \cdot x} \Leftrightarrow h \cdot (g \cdot x) = g \cdot x \Leftrightarrow (g^{-1}hg) \cdot x = x$ 
 ## Kernel of Action
 
 $$\ker(\phi) = \{g \in G : g \cdot x = x \; \forall x \in X\} = \bigcap_{x \in X} G_x$$
@@ -320,12 +303,9 @@ $$|\mathcal{O}_x| = \frac{|G|}{|G_x|}$$
 
 $$\phi: gG_x \mapsto g \cdot x$$
 
-**Well-defined**: $gG_x = hG_x \Leftrightarrow h^{-1}g \in G_x \Leftrightarrow (h^{-1}g) \cdot x = x \Leftrightarrow g \cdot x = h \cdot x$ ✓
-
-**Injective**: $g \cdot x = h \cdot x \Rightarrow gG_x = hG_x$ ✓
-
-**Surjective**: By definition of orbit ✓
-
+**Well-defined**: $gG_x = hG_x \Leftrightarrow h^{-1}g \in G_x \Leftrightarrow (h^{-1}g) \cdot x = x \Leftrightarrow g \cdot x = h \cdot x$ 
+**Injective**: $g \cdot x = h \cdot x \Rightarrow gG_x = hG_x$ 
+**Surjective**: By definition of orbit 
 ### 따름정리
 
 1. **Orbit size divides group order** (finite $G$)
@@ -384,8 +364,7 @@ $$= \sum_{\text{orbits}} \sum_{x \in \mathcal{O}_i} |G_x| = \sum_{\text{orbits}}
 
 $$= \sum_{\text{orbits}} |\mathcal{O}_i| \cdot \frac{|G|}{|\mathcal{O}_i|} = \sum_{\text{orbits}} |G| = |G| \cdot |\text{Orbits}|$$
 
-**따라서**: $|\text{Orbits}| = \frac{1}{|G|} \sum_{g \in G} |X^g|$ ✓
-
+**따라서**: $|\text{Orbits}| = \frac{1}{|G|} \sum_{g \in G} |X^g|$ 
 ### 응용: Combinatorics
 
 **Necklace counting**: Rotating necklace로 distinct한 개수
@@ -406,12 +385,9 @@ Regular action: $G$ acts on itself
 
 $$\phi: G \to \text{Sym}(G), \quad \phi(g)(h) = gh$$
 
-**Homomorphism**: ✓
-
-**Injective**: $\phi(g) = \text{id} \Rightarrow gh = h$ for all $h \Rightarrow g = e$ ✓
-
-**따라서**: $G \cong \phi(G) \leq \text{Sym}(G)$ ✓
-
+**Homomorphism**: 
+**Injective**: $\phi(g) = \text{id} \Rightarrow gh = h$ for all $h \Rightarrow g = e$ 
+**따라서**: $G \cong \phi(G) \leq \text{Sym}(G)$ 
 ### 의미
 
 **Every finite group of order $n$** embeds in $S_n$
@@ -590,7 +566,7 @@ Average over **group elements** (not orbits or $X$)
 - **Faithful**: Different $g$ act differently
 - **Free**: No $g \neq e$ fixes any point
 
-$S_n$ on $\{1,\ldots,n\}$: Faithful ✓, Free ✗
+$S_n$ on $\{1,\ldots,n\}$: Faithful , Free ✗
 
 ### 5. Conjugation is action
 

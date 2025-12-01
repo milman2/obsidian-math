@@ -94,8 +94,7 @@ $$\text{Abelian} \subset \text{Nilpotent} \subset \text{Solvable} \subset \text{
 
 **증명**: $G$ abelian $\Rightarrow Z(G) = G$
 
-Upper central series: $\{e\} \triangleleft G$ (길이 1) ✓
-
+Upper central series: $\{e\} \triangleleft G$ (길이 1) 
 **Nilpotency class**: $c(G) = 1$
 
 자세한 내용은 [[Abelian Group]] 참조
@@ -152,8 +151,7 @@ $p$-group: $|G| = p^n$ for some prime $p$
 
 **증명**: $Z(G) \neq \{e\}$ (class equation)
 
-Induction on $|G|$로 upper central series 구성 ✓
-
+Induction on $|G|$로 upper central series 구성 
 **중요성**: Finite nilpotent groups의 핵심 예시
 
 **따름정리**: Finite nilpotent $\Leftrightarrow$ Direct product of $p$-groups
@@ -196,8 +194,7 @@ $$G, H \text{ nilpotent} \Rightarrow G \times H \text{ nilpotent}$$
 
 **Nilpotency class**: $c(G \times H) = \max(c(G), c(H))$
 
-**증명**: $Z_i(G \times H) = Z_i(G) \times Z_i(H)$ ✓
-
+**증명**: $Z_i(G \times H) = Z_i(G) \times Z_i(H)$ 
 ## Example 8: Quaternion Group $Q_8$
 
 $$Q_8 = \{\pm 1, \pm i, \pm j, \pm k\}$$
@@ -223,14 +220,12 @@ $$\{1\} \triangleleft \{1, -1\} \triangleleft Q_8$$
 
 $G$ nilpotent, $H \leq G \Rightarrow H$ nilpotent
 
-**증명**: $H \cap Z_i(G)$가 $H$의 upper central series 형성 ✓
-
+**증명**: $H \cap Z_i(G)$가 $H$의 upper central series 형성 
 ### 2. Quotients
 
 $G$ nilpotent, $N \triangleleft G \Rightarrow G/N$ nilpotent
 
-**증명**: $(Z_i(G)N)/N$이 $G/N$의 upper central series ✓
-
+**증명**: $(Z_i(G)N)/N$이 $G/N$의 upper central series 
 ### 3. Extensions (with condition!)
 
 $N \triangleleft G$일 때:
@@ -251,8 +246,7 @@ $$G, H \text{ nilpotent} \Rightarrow G \times H \text{ nilpotent}$$
 
 **정리**: $G$ nilpotent, $G \neq \{e\} \Rightarrow Z(G) \neq \{e\}$
 
-**증명**: Upper central series에서 $Z_1(G) = Z(G) \neq \{e\}$ ✓
-
+**증명**: Upper central series에서 $Z_1(G) = Z(G) \neq \{e\}$ 
 **대우**: $Z(G) = \{e\}$ and $G \neq \{e\} \Rightarrow G$ not nilpotent
 
 ### Every Maximal Subgroup is Normal
@@ -261,8 +255,7 @@ $$G, H \text{ nilpotent} \Rightarrow G \times H \text{ nilpotent}$$
 
 **증명**: $M$ maximal, $M \not\triangleleft G$ $\Rightarrow$ $N_G(M) = M$
 
-But normalizer contains $Z(G) \neq \{e\}$ $\Rightarrow$ contradiction ✓
-
+But normalizer contains $Z(G) \neq \{e\}$ $\Rightarrow$ contradiction 
 **응용**: Nilpotent groups의 구조 분석
 
 ### Normalizer Condition
@@ -281,8 +274,7 @@ But normalizer contains $Z(G) \neq \{e\}$ $\Rightarrow$ contradiction ✓
 
 $$G_i \subseteq G^{(i)} \text{ for all } i$$
 
-$G_n = \{e\} \Rightarrow G^{(n)} = \{e\}$ ✓
-
+$G_n = \{e\} \Rightarrow G^{(n)} = \{e\}$ 
 **역은 성립 안 함**: $S_3$ solvable but not nilpotent
 
 자세한 내용은 [[Solvable Group]] 참조
@@ -331,8 +323,7 @@ $G$ finite group. **TFAE** (The following are equivalent):
 
 (4) $\Leftrightarrow$ (5): Chinese remainder theorem
 
-(5) $\Rightarrow$ (1): $p$-groups nilpotent ✓
-
+(5) $\Rightarrow$ (1): $p$-groups nilpotent 
 ## $p$-groups are Nilpotent
 
 **정리**: $|G| = p^n$ ($p$ prime) $\Rightarrow G$ nilpotent
@@ -345,8 +336,7 @@ $p \mid |G| \Rightarrow p \mid |Z(G)|$ (since $p \mid [G : C_G(x)]$ for $x \noti
 
 $\Rightarrow Z(G) \neq \{e\}$
 
-Induction: $G/Z(G)$도 $p$-group $\Rightarrow$ nilpotent ✓
-
+Induction: $G/Z(G)$도 $p$-group $\Rightarrow$ nilpotent 
 **Nilpotency class**: $c(G) \leq \log_2 n + 1$ (loose bound)
 
 ## Hall-Higman Theorem
@@ -437,13 +427,13 @@ $$\text{Abelian} \subsetneq \text{Nilpotent} \subsetneq \text{Solvable}$$
 
 ## 경계 예시
 
-**$S_3$**: Solvable ✓, Nilpotent ✗
+**$S_3$**: Solvable , Nilpotent ✗
 
 **이유**: $Z(S_3) = \{e\}$
 
 **$D_3 \cong S_3$**: 동일
 
-**$Q_8$**: Nilpotent ✓ (class 2)
+**$Q_8$**: Nilpotent  (class 2)
 
 **$D_4$**: 복잡 - NOT nilpotent (일반적으로)
 
@@ -455,8 +445,7 @@ $Z(G) = \{e\}$ and $G \neq \{e\}$ $\Rightarrow$ Not nilpotent
 
 ### 2. Check if $p$-group
 
-$|G| = p^n$ $\Rightarrow$ Nilpotent ✓
-
+$|G| = p^n$ $\Rightarrow$ Nilpotent 
 ### 3. Finite Group: Sylow Subgroups
 
 All Sylow subgroups normal $\Rightarrow$ Nilpotent
@@ -532,7 +521,7 @@ Non-trivial center는 필요조건이지만 충분조건 아님
 
 ### 4. Direct product of nilpotent is nilpotent
 
-✓ True! (Unlike solvable)
+ True! (Unlike solvable)
 
 ### 5. Lower central series vs Derived series
 

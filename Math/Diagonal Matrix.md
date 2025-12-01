@@ -262,8 +262,7 @@ $$\frac{dx_i}{dt} = d_i x_i$$
 | **Diagonal matrix** | Already in diagonal form |
 | **Diagonalizable matrix** | Can be transformed to diagonal |
 
-$D$ diagonal $\Rightarrow$ $D$ diagonalizable ✓
-
+$D$ diagonal $\Rightarrow$ $D$ diagonalizable 
 (Trivially: $D = IDI$)
 
 ## Vector Space Structure

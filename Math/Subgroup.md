@@ -189,10 +189,7 @@ $S_3 = \{e, (12), (13), (23), (123), (132)\}$
 $$\text{SL}_n(\mathbb{R}) = \{A \in \text{GL}_n(\mathbb{R}) : \det(A) = 1\} \leq \text{GL}_n(\mathbb{R})$$
 
 **Verification**:
-- Closure: $\det(AB) = \det(A)\det(B) = 1 \cdot 1 = 1$ ✓
-- Identity: $\det(I) = 1$ ✓
-- Inverse: $\det(A^{-1}) = \frac{1}{\det(A)} = 1$ ✓
-
+- Closure: $\det(AB) = \det(A)\det(B) = 1 \cdot 1 = 1$ - Identity: $\det(I) = 1$ - Inverse: $\det(A^{-1}) = \frac{1}{\det(A)} = 1$ 
 **Normal**: $\text{SL}_n(\mathbb{R}) \triangleleft \text{GL}_n(\mathbb{R})$ (kernel of determinant)
 
 **Index**: $[\text{GL}_n(\mathbb{R}) : \text{SL}_n(\mathbb{R})] = \infty$
@@ -542,7 +539,7 @@ $$[G : H] = \frac{\text{"크기 of } G\text{"}}{\text{"크기 of } H\text{"}}$$
 **반례**: $\langle 2 \rangle \cup \langle 3 \rangle$ in $\mathbb{Z}$
 - $2, 3 \in H \cup K$ but $2 + 3 = 5 \notin H \cup K$
 
-✓ $H \cup K \leq G \Leftrightarrow H \subseteq K$ or $K \subseteq H$
+ $H \cup K \leq G \Leftrightarrow H \subseteq K$ or $K \subseteq H$
 
 ### 2. Converse of Lagrange
 
@@ -552,7 +549,7 @@ $$[G : H] = \frac{\text{"크기 of } G\text{"}}{\text{"크기 of } H\text{"}}$$
 
 **반례**: $A_4$ (order 12)는 order 6인 subgroup 없음
 
-✓ Cyclic groups에서는 성립
+ Cyclic groups에서는 성립
 
 ### 3. Normal = Subgroup?
 

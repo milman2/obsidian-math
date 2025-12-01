@@ -96,8 +96,7 @@ $$\exists M > 0 \text{ such that } |a_n| \leq M \text{ for all } n$$
 
 따라서 $|a_n| < |L| + 1$
 
-$M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$로 택하면 됨 ✓
-
+$M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$로 택하면 됨 
 **역은 거짓**: Bounded이어도 수렴하지 않을 수 있음 (예: $(-1)^n$)
 
 ## Algebra of Limits^[극한의 대수]
@@ -174,8 +173,7 @@ $$\lim_{n \to \infty} a_n = \inf\{a_n : n \in \mathbb{N}\}$$
 - 임의의 $\epsilon > 0$에 대해 $L - \epsilon$은 상계가 아니므로 $\exists N$ such that $a_N > L - \epsilon$
 - Monotone increasing이므로 $n \geq N$이면 $a_n \geq a_N > L - \epsilon$
 - 또한 $a_n \leq L$ (상계의 정의)
-- 따라서 $L - \epsilon < a_n \leq L < L + \epsilon$, 즉 $|a_n - L| < \epsilon$ ✓
-
+- 따라서 $L - \epsilon < a_n \leq L < L + \epsilon$, 즉 $|a_n - L| < \epsilon$ 
 **중요성**: $\mathbb{R}$의 completeness를 이용한 핵심 정리
 
 ## Cauchy Sequence^[코시 수열]
@@ -192,8 +190,7 @@ $$\Leftrightarrow \forall \epsilon > 0, \, \exists N \in \mathbb{N} \text{ such 
 
 따라서 $m, n \geq N$이면:
 
-$$d(x_m, x_n) \leq d(x_m, x) + d(x, x_n) < \epsilon/2 + \epsilon/2 = \epsilon$$ ✓
-
+$$d(x_m, x_n) \leq d(x_m, x) + d(x, x_n) < \epsilon/2 + \epsilon/2 = \epsilon$$ 
 ## Completeness^[완비성]
 
 **정의**: Metric space $(X, d)$가 **complete^[완비]**이다
@@ -209,8 +206,7 @@ $\mathbb{R}$은 complete metric space이다
 $$\text{수렴} \Leftrightarrow \text{Cauchy}$$
 
 **예**:
-- $\mathbb{R}$, $\mathbb{C}$, $\mathbb{R}^n$: Complete ✓
-- $\mathbb{Q}$: Not complete (예: $\sqrt{2}$로 수렴하는 유리수 Cauchy 수열)
+- $\mathbb{R}$, $\mathbb{C}$, $\mathbb{R}^n$: Complete - $\mathbb{Q}$: Not complete (예: $\sqrt{2}$로 수렴하는 유리수 Cauchy 수열)
 - $(0, 1)$: Not complete (예: $\frac{1}{n}$)
 
 ## Bolzano-Weierstrass Theorem^[볼차노-바이어슈트라스 정리]
@@ -227,8 +223,7 @@ $\mathbb{R}$에서 모든 bounded^[유계] 수열은 수렴하는 subsequence^[�
 3. 이를 반복하여 nested intervals^[축소구간] $[a_k, b_k]$ 구성
 4. $b_k - a_k = \frac{b-a}{2^k} \to 0$
 5. Completeness에 의해 교집합은 한 점 $L$
-6. 각 구간에서 선택한 수열의 항들이 $L$로 수렴하는 subsequence 형성 ✓
-
+6. 각 구간에서 선택한 수열의 항들이 $L$로 수렴하는 subsequence 형성 
 **연결**: Compactness와 관련 (Heine-Borel: bounded + closed = compact)
 
 ## Limit Superior and Inferior^[상극한과 하극한]
@@ -262,8 +257,7 @@ $$\lim_{n \to \infty} \frac{1}{n} = 0$$
 
 **증명**: 임의의 $\epsilon > 0$에 대해 $N > \frac{1}{\epsilon}$ (Archimedean property^[아르키메데스 성질])
 
-그러면 $n \geq N$이면 $\left|\frac{1}{n} - 0\right| = \frac{1}{n} \leq \frac{1}{N} < \epsilon$ ✓
-
+그러면 $n \geq N$이면 $\left|\frac{1}{n} - 0\right| = \frac{1}{n} \leq \frac{1}{N} < \epsilon$ 
 ## Example 2: 기하수열
 
 $$a_n = r^n \quad (r \in \mathbb{R})$$
@@ -305,8 +299,7 @@ $\displaystyle\lim_{n \to \infty} \frac{1}{n} = \lim_{n \to \infty} \left(-\frac
 
 Squeeze theorem에 의해:
 
-$$\lim_{n \to \infty} \frac{\sin n}{n} = 0$$ ✓
-
+$$\lim_{n \to \infty} \frac{\sin n}{n} = 0$$ 
 ## Example 6: Monotone Convergence
 
 $$a_n = \left(1 + \frac{1}{n}\right)^n$$
@@ -327,18 +320,15 @@ $$a_1 = 1, \quad a_2 = 1.4, \quad a_3 = 1.41, \quad a_4 = 1.414, \ldots$$
 
 ($\sqrt{2}$의 decimal expansion)
 
-- $\mathbb{Q}$에서 Cauchy ✓
-- 하지만 $\mathbb{Q}$에서 수렴하지 않음 ($\sqrt{2} \notin \mathbb{Q}$)
-- $\mathbb{R}$에서는 $\sqrt{2}$로 수렴 ✓
-
+- $\mathbb{Q}$에서 Cauchy - 하지만 $\mathbb{Q}$에서 수렴하지 않음 ($\sqrt{2} \notin \mathbb{Q}$)
+- $\mathbb{R}$에서는 $\sqrt{2}$로 수렴 
 이는 $\mathbb{Q}$가 complete하지 않음을 보여줌
 
 ## Example 8: Bolzano-Weierstrass 응용
 
 $$a_n = \sin n$$
 
-- Bounded: $-1 \leq \sin n \leq 1$ ✓
-- 수렴하지 않음 (dense한 값들)
+- Bounded: $-1 \leq \sin n \leq 1$ - 수렴하지 않음 (dense한 값들)
 
 하지만 Bolzano-Weierstrass에 의해 수렴하는 subsequence 존재!
 
@@ -465,8 +455,7 @@ Gradient descent^[경사하강법]와 같은 알고리즘의 수렴 보장
 ## Common Pitfalls^[흔한 실수]
 
 1. **$\epsilon$과 $N$의 순서 혼동**
-   - 올바름: $\forall \epsilon$ $\exists N$ ✓
-   - 잘못됨: $\exists N$ $\forall \epsilon$ ✗
+   - 올바름: $\forall \epsilon$ $\exists N$    - 잘못됨: $\exists N$ $\forall \epsilon$ ✗
 
 2. **Bounded ≠ Convergent**
    - 반례: $(-1)^n$

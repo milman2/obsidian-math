@@ -33,16 +33,12 @@ $$R^\times = \{u \in R : u \text{ is a unit}\}$$
 $(R^\times, \cdot)$는 곱셈에 대한 group:
 
 1. **Closure^[닫힘]**: $u, v \in R^\times \Rightarrow uv \in R^\times$
-   - $(uv)(v^{-1}u^{-1}) = u(vv^{-1})u^{-1} = 1$ ✓
-
+   - $(uv)(v^{-1}u^{-1}) = u(vv^{-1})u^{-1} = 1$ 
 2. **Identity^[항등원]**: $1 \in R^\times$
-   - $1 \cdot 1 = 1$ ✓
-
+   - $1 \cdot 1 = 1$ 
 3. **Inverse^[역원]**: $u \in R^\times \Rightarrow u^{-1} \in R^\times$
-   - $u^{-1}$의 역원은 $u$ ✓
-
-4. **Associativity^[결합법칙]**: Ring의 곱셈에서 상속 ✓
-
+   - $u^{-1}$의 역원은 $u$ 
+4. **Associativity^[결합법칙]**: Ring의 곱셈에서 상속 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -113,8 +109,7 @@ $$R[x]^\times = R^\times$$
 - Degree: $\deg(f) + \deg(g) = 0$
 - 따라서 $\deg(f) = \deg(g) = 0$
 - $f, g \in R$ (상수)
-- $fg = 1$ in $R$ $\Rightarrow$ $f, g \in R^\times$ ✓
-
+- $fg = 1$ in $R$ $\Rightarrow$ $f, g \in R^\times$ 
 ## Example 7: Matrix Rings^[행렬환]
 
 $$M_n(R)^\times = \text{GL}_n(R)$$
@@ -171,8 +166,7 @@ $(uv)^{-1} = v^{-1}u^{-1}$
 
 $u \in R^\times$이면 $u^{-1}$은 유일
 
-**증명**: $uv = uw = 1$이면 $v = 1v = (wu)v = w(uv) = w1 = w$ ✓
-
+**증명**: $uv = uw = 1$이면 $v = 1v = (wu)v = w(uv) = w1 = w$ 
 ## Field Characterization^[체 특징화]
 
 **정리**: Ring $R$가 field^[체] $\Leftrightarrow$ $R^\times = R \setminus \{0\}$
@@ -181,8 +175,7 @@ $u \in R^\times$이면 $u^{-1}$은 유일
 
 **증명**:
 - ($\Rightarrow$) Field의 정의
-- ($\Leftarrow$) 모든 nonzero element가 역원을 가지므로 field ✓
-
+- ($\Leftarrow$) 모든 nonzero element가 역원을 가지므로 field 
 ## Division Ring^[나눗셈환]
 
 Ring with $R^\times = R \setminus \{0\}$ but not necessarily commutative
@@ -229,8 +222,7 @@ $$a^{\phi(n)} \equiv 1 \pmod{n}$$
 
 **증명**: $(\mathbb{Z}/n\mathbb{Z})^\times$는 order $\phi(n)$인 group
 
-Lagrange's Theorem: $[a]^{\phi(n)} = [1]$ ✓
-
+Lagrange's Theorem: $[a]^{\phi(n)} = [1]$ 
 자세한 내용은 [[Euler's theorem]] 참조
 
 ## Fermat's Little Theorem^[페르마 소정리]
@@ -239,8 +231,7 @@ $p$ prime, $\gcd(a, p) = 1$:
 
 $$a^{p-1} \equiv 1 \pmod{p}$$
 
-**증명**: Euler's Theorem with $\phi(p) = p-1$ ✓
-
+**증명**: Euler's Theorem with $\phi(p) = p-1$ 
 ## Structure of $(\mathbb{Z}/p\mathbb{Z})^\times$
 
 $p$ prime:
@@ -255,8 +246,7 @@ $$(\mathbb{Z}/p\mathbb{Z})^\times \cong \mathbb{Z}/(p-1)\mathbb{Z}$$
 
 $$(R \times S)^\times = R^\times \times S^\times$$
 
-**증명**: $(r, s)$ invertible $\Leftrightarrow$ $r, s$ both invertible ✓
-
+**증명**: $(r, s)$ invertible $\Leftrightarrow$ $r, s$ both invertible 
 ---
 
 # <span class="header-remark">Remark</span>
@@ -369,8 +359,7 @@ Non-commutative: Division ring
 ### 4. $R^*$ notation
 
 $R^*$ can mean:
-- Unit group $R^\times$ ✓
-- Nonzero elements $R \setminus \{0\}$ (less common)
+- Unit group $R^\times$ - Nonzero elements $R \setminus \{0\}$ (less common)
 
 Context matters!
 

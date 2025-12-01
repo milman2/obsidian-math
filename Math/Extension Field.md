@@ -216,8 +216,7 @@ $$K(\alpha) \cong K(x) = \text{field of rational functions}$$
 
 $$a_0 + a_1\alpha + \cdots + a_n\alpha^n = 0$$
 
-즉, $\alpha$는 algebraic ✓
-
+즉, $\alpha$는 algebraic 
 **주의**: 역은 성립하지 않음! Algebraic이어도 infinite extension 가능
 
 **반례**: $\overline{\mathbb{Q}}/\mathbb{Q}$ (algebraic closure는 algebraic이지만 infinite)
@@ -265,8 +264,7 @@ Minimal polynomial의 계수들은 $E$에 속하고, 각각 algebraic over $K$
 
 Tower law 적용하여 $[K(\alpha) : K] < \infty$
 
-따라서 $\alpha$는 algebraic over $K$ ✓
-
+따라서 $\alpha$는 algebraic over $K$ 
 ## Existence of Splitting Fields^[분해체의 존재성]
 
 **정리**: 모든 non-constant polynomial $p(x) \in K[x]$는 splitting field를 가진다
@@ -632,7 +630,7 @@ Field extension 표기법일 뿐
 
 ### 2. $K[\alpha] \neq K(\alpha)$ (일반적으로)
 
-✓ $\alpha$ algebraic: $K[\alpha] = K(\alpha)$
+ $\alpha$ algebraic: $K[\alpha] = K(\alpha)$
 
 ✗ $\alpha$ transcendental: $K[\alpha] \subsetneq K(\alpha)$
 
@@ -640,7 +638,7 @@ Field extension 표기법일 뿐
 
 ✗ Algebraic $\not\Rightarrow$ Finite
 
-✓ Finite $\Rightarrow$ Algebraic
+ Finite $\Rightarrow$ Algebraic
 
 ### 4. $[F : K] = |F|/|K|$?
 
@@ -655,7 +653,7 @@ $$|\mathbb{F}_{p^n}| = p^n = |\mathbb{F}_p|^{[\mathbb{F}_{p^n} : \mathbb{F}_p]}$
 
 ✗ $[F : K] = [E : K][F : E]$ (wrong order!)
 
-✓ $[F : K] = [F : E][E : K]$ (correct order!)
+ $[F : K] = [F : E][E : K]$ (correct order!)
 
 "위에서 중간" × "중간에서 아래"
 

@@ -31,10 +31,7 @@ Ring $R$의 원소 $e \in R$이 **idempotent^[멱등원]**이다 $\Leftrightarro
 $$e^2 = e$$
 
 **예**: 
-- $0^2 = 0$ ✓
-- $1^2 = 1$ ✓
-- In $\mathbb{Z}/6\mathbb{Z}$: $\overline{3}^2 = \overline{3}$ ✓
-
+- $0^2 = 0$ - $1^2 = 1$ - In $\mathbb{Z}/6\mathbb{Z}$: $\overline{3}^2 = \overline{3}$ 
 **Boolean ring**: 모든 원소가 idempotent!
 
 ## Boolean Algebra^[불 대수]
@@ -80,8 +77,7 @@ $\Rightarrow$ $2a = 0$ for all $a$
 
 Therefore $-ba = ba$, so:
 
-$$ab = ba$$ ✓
-
+$$ab = ba$$ 
 **의미**: Idempotency automatically implies commutativity!
 
 ## Characteristic 2
@@ -92,8 +88,7 @@ $$ab = ba$$ ✓
 
 $$2a = a + a = (a + a)^2 = a^2 + 2a^2 + a^2 = 4a$$
 
-$$2a = 4a \Rightarrow 2a = 0$$ ✓
-
+$$2a = 4a \Rightarrow 2a = 0$$ 
 **의미**: $a + a = 0$ for all $a$ (every element is its own additive inverse)
 
 ## No Nilpotent Elements (except 0)
@@ -104,16 +99,14 @@ $$2a = 4a \Rightarrow 2a = 0$$ ✓
 
 By induction: $a^n = a$ for all $n \geq 1$
 
-If $a^n = 0$, then $a = 0$ ✓
-
+If $a^n = 0$, then $a = 0$ 
 ## Subtraction = Addition
 
 **정리**: $a - b = a + b$ in Boolean ring
 
 **증명**: $-b = b$ (since $2b = 0$)
 
-Therefore $a - b = a + (-b) = a + b$ ✓
-
+Therefore $a - b = a + (-b) = a + b$ 
 **의미**: Addition and subtraction are same operation!
 
 ## Prime Ideals are Maximal
@@ -126,8 +119,7 @@ $\Rightarrow$ $B/P$ has no zero divisors and idempotent
 
 $\Rightarrow$ $B/P \cong \mathbb{Z}/2\mathbb{Z}$ (field!)
 
-$\Rightarrow$ $P$ maximal ✓
-
+$\Rightarrow$ $P$ maximal 
 자세한 내용은 [[Ring]] 참조 (Prime and Maximal Ideals)
 
 ## Units
@@ -140,8 +132,7 @@ From $u^2 = u$: $u(u-1) = 0$
 
 If $u \neq 0$, then $u - 1 = 0$ (no zero divisors in field)
 
-Therefore $u = 1$ ✓
-
+Therefore $u = 1$ 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -154,8 +145,7 @@ $$\mathbb{Z}/2\mathbb{Z} = \{0, 1\}$$
 - $0 + 0 = 0$, $0 + 1 = 1 + 0 = 1$, $1 + 1 = 0$
 - $0 \cdot 0 = 0$, $0 \cdot 1 = 1 \cdot 0 = 0$, $1 \cdot 1 = 1$
 
-**Check**: $0^2 = 0$ ✓, $1^2 = 1$ ✓
-
+**Check**: $0^2 = 0$ , $1^2 = 1$ 
 **Simplest non-trivial Boolean ring**
 
 자세한 내용은 [[Field]] 참조
@@ -169,11 +159,10 @@ $$\mathbb{Z}/2\mathbb{Z} = \{0, 1\}$$
 - Multiplication: $A \cdot B = A \cap B$ (intersection)
 
 **Check**: 
-- $(A \cap B) \cap (A \cap B) = A \cap B$ ✓ (idempotent)
+- $(A \cap B) \cap (A \cap B) = A \cap B$  (idempotent)
 - Identity: $X$ (for multiplication), $\emptyset$ (for addition)
 
-**Boolean ring**: Yes ✓
-
+**Boolean ring**: Yes 
 ## Example 3: Direct Product
 
 $$R = \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z} \times \cdots \times \mathbb{Z}/2\mathbb{Z}$$
@@ -182,20 +171,16 @@ $$R = \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z} \times \cdots \times 
 
 $$(a_1, \ldots, a_n) \cdot (b_1, \ldots, b_n) = (a_1b_1, \ldots, a_nb_n)$$
 
-**Check**: $(a_i)^2 = a_i$ for each component ✓
-
-**Boolean ring**: Yes ✓
-
+**Check**: $(a_i)^2 = a_i$ for each component 
+**Boolean ring**: Yes 
 ## Example 4: Continuous Functions
 
 $$C(X, \mathbb{Z}/2\mathbb{Z}) = \{f: X \to \mathbb{Z}/2\mathbb{Z} \mid f \text{ continuous}\}$$
 
 **Pointwise operations**: $(f \cdot g)(x) = f(x) \cdot g(x)$
 
-**Check**: $(f^2)(x) = f(x)^2 = f(x)$ for all $x$ ✓
-
-**Boolean ring**: Yes ✓
-
+**Check**: $(f^2)(x) = f(x)^2 = f(x)$ for all $x$ 
+**Boolean ring**: Yes 
 ## Example 5: Finite Boolean Ring
 
 **Order $2^n$**: Every finite Boolean ring has order $2^n$
@@ -211,10 +196,8 @@ $$B \cong \mathbb{Z}/2\mathbb{Z} \times \cdots \times \mathbb{Z}/2\mathbb{Z} \qu
 $$R = \left\{ \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix} : a, b \in \mathbb{Z}/2\mathbb{Z} \right\}$$
 
 **Check**: 
-$$\begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}^2 = \begin{pmatrix} a^2 & 0 \\ 0 & b^2 \end{pmatrix} = \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$$ ✓
-
-**Boolean ring**: Yes ✓
-
+$$\begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}^2 = \begin{pmatrix} a^2 & 0 \\ 0 & b^2 \end{pmatrix} = \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$$ 
+**Boolean ring**: Yes 
 ---
 
 # <span class="header-theorem">Theorem</span>
@@ -239,8 +222,7 @@ $$B \cong \underbrace{\mathbb{Z}/2\mathbb{Z} \times \cdots \times \mathbb{Z}/2\m
 
 **증명**: Boolean ring $\Rightarrow$ characteristic 2 $\Rightarrow$ vector space over $\mathbb{F}_2$
 
-Idempotency determines unique structure ✓
-
+Idempotency determines unique structure 
 ## Spectrum of Boolean Ring
 
 **정리**: Spectrum Spec$(B)$ of Boolean ring is totally disconnected
@@ -257,8 +239,7 @@ $$\forall a \in B, \; \exists x \in B : a = axa$$
 
 **증명**: Take $x = a$:
 
-$$axa = a \cdot a \cdot a = a^3 = a$$ ✓
-
+$$axa = a \cdot a \cdot a = a^3 = a$$ 
 (using $a^2 = a$)
 
 ## Ideals in Boolean Rings
@@ -293,8 +274,7 @@ $$axa = a \cdot a \cdot a = a^3 = a$$ ✓
 
 **덧셈**: Symmetric difference $\triangle$
 
-**Idempotency**: $A \cap A = A$ ✓
-
+**Idempotency**: $A \cap A = A$ 
 ### 메타포: 논리
 
 **원소**: Propositions (true/false)

@@ -61,8 +61,7 @@ $x = a$를 대입:
 
 $$f(a) = (a - a) q(a) + r = 0 + r = r$$
 
-따라서 $r = f(a)$ ✓
-
+따라서 $r = f(a)$ 
 **관계**: Factor Theorem은 Remainder Theorem의 특수한 경우 ($r = 0$)
 
 ## Multiple Roots
@@ -120,8 +119,7 @@ $x = a$를 대입:
 
 $$f(a) = (a - a) q(a) = 0 \cdot q(a) = 0$$
 
-따라서 $f(a) = 0$ ✓
-
+따라서 $f(a) = 0$ 
 ### ($\Leftarrow$) If $f(a) = 0$, then $(x - a) \mid f(x)$
 
 **가정**: $f(a) = 0$
@@ -140,16 +138,14 @@ $$r = f(a) = 0$$
 
 $$f(x) = (x - a) q(x)$$
 
-즉, $(x - a) \mid f(x)$ ✓
-
+즉, $(x - a) \mid f(x)$ 
 ## Uniqueness of Factorization
 
 **정리**: Root의 multiplicity는 유일하게 결정됨
 
 **증명**: $F[x]$는 **unique factorization domain**^[유일 인수분해 정역]이므로
 
-$(x - a)^m$의 exponent $m$은 유일 ✓
-
+$(x - a)^m$의 exponent $m$은 유일 
 자세한 내용은 [[Unique Factorization Domain]] 참조
 
 ---
@@ -174,8 +170,7 @@ Degree comparison:
 
 $$n = \deg(f) = m_1 + \cdots + m_k + \deg(g) \geq m_1 + \cdots + m_k$$
 
-**Counting multiplicities**: Total number of roots $\leq n$ ✓
-
+**Counting multiplicities**: Total number of roots $\leq n$ 
 **주의**: 
 - In $\mathbb{C}$: exactly $n$ roots (Fundamental Theorem of Algebra)
 - In $\mathbb{R}$: at most $n$ roots (some may be complex)
@@ -189,8 +184,7 @@ $$(x - a_1)(x - a_2) \cdots (x - a_k) \mid f(x)$$
 
 **증명** (Induction):
 
-**Base**: $k = 1$: Factor Theorem ✓
-
+**Base**: $k = 1$: Factor Theorem 
 **Step**: $f(a_1) = 0 \Rightarrow f(x) = (x - a_1) g(x)$
 
 $f(a_2) = 0 \Rightarrow (a_2 - a_1) g(a_2) = 0$
@@ -199,8 +193,7 @@ $a_2 \neq a_1$ (distinct) $\Rightarrow g(a_2) = 0$
 
 By induction: $(x - a_2) \cdots (x - a_k) \mid g(x)$
 
-따라서: $(x - a_1)(x - a_2) \cdots (x - a_k) \mid f(x)$ ✓
-
+따라서: $(x - a_1)(x - a_2) \cdots (x - a_k) \mid f(x)$ 
 ### 3. Polynomial Equality
 
 **정리**: $f, g \in F[x]$가 degree $\leq n$이고 $n+1$개의 점에서 같으면 $f = g$
@@ -213,8 +206,7 @@ $h(x)$는 $n+1$개의 roots를 가짐
 
 But $\deg(h) \leq n$
 
-따라서 $h(x) = 0$ (zero polynomial) ✓
-
+따라서 $h(x) = 0$ (zero polynomial) 
 **응용**: Polynomial interpolation의 uniqueness
 
 ### 4. Derivative Criterion for Multiple Roots
@@ -235,8 +227,7 @@ $$= (x - a)^{m-1} [m q(x) + (x - a) q'(x)]$$
 
 $$f'(a) = (a - a)^{m-1} \cdot [\ldots] = 0$$
 
-**Conversely**: $f(a) = f'(a) = 0 \Rightarrow (x-a)^2 \mid f(x)$ ✓
-
+**Conversely**: $f(a) = f'(a) = 0 \Rightarrow (x-a)^2 \mid f(x)$ 
 **일반화**: $a$가 multiplicity $m$인 root $\Leftrightarrow$
 
 $$f(a) = f'(a) = f''(a) = \cdots = f^{(m-1)}(a) = 0$$
@@ -311,8 +302,7 @@ $f(x) = x^2 - 5x + 6$
 
 Try $x = 2$:
 
-$$f(2) = 4 - 10 + 6 = 0$$ ✓
-
+$$f(2) = 4 - 10 + 6 = 0$$ 
 By Factor Theorem: $(x - 2) \mid f(x)$
 
 **Division**:
@@ -383,8 +373,7 @@ $$f(-1) = -2 - 1 + 4 + 2 = 3 \neq 0$$
 
 $$f(2) = 16 - 4 - 8 + 2 = 6 \neq 0$$
 
-$$f\left(\frac{1}{2}\right) = \frac{2}{8} - \frac{1}{4} - 2 + 2 = \frac{1}{4} - \frac{1}{4} = 0$$ ✓
-
+$$f\left(\frac{1}{2}\right) = \frac{2}{8} - \frac{1}{4} - 2 + 2 = \frac{1}{4} - \frac{1}{4} = 0$$ 
 **Factor out**:
 
 $$f(x) = \left(x - \frac{1}{2}\right)(2x^2 - 4)$$
@@ -539,10 +528,8 @@ $$a_n p^n = -q(a_{n-1} p^{n-1} + \cdots + a_0 q^{n-1})$$
 
 $$\Rightarrow q \mid a_n p^n$$
 
-$\gcd(p, q) = 1 \Rightarrow q \mid a_n$ ✓
-
-Similarly: $p \mid a_0$ ✓
-
+$\gcd(p, q) = 1 \Rightarrow q \mid a_n$ 
+Similarly: $p \mid a_0$ 
 **응용**: Find rational roots systematically!
 
 ## Eisenstein's Criterion
@@ -559,10 +546,7 @@ Then $f(x)$ is irreducible over $\mathbb{Q}$
 **예시**: $f(x) = x^3 + 2x^2 + 2x + 2$
 
 Take $p = 2$:
-- $2 \nmid 1$ ✓
-- $2 \mid 2$ ✓
-- $2^2 = 4 \nmid 2$ ✓
-
+- $2 \nmid 1$ - $2 \mid 2$ - $2^2 = 4 \nmid 2$ 
 따라서 $f(x)$ is irreducible over $\mathbb{Q}$ (no rational roots!)
 
 자세한 내용은 [[Eisenstein Criterion]] 참조
@@ -868,9 +852,7 @@ $ax^4 + bx^3 + cx^2 + dx + e = 0$
 ### 5. Irreducibility Depends on Field
 
 $x^2 + 1$ is:
-- Irreducible over $\mathbb{R}$ ✓
-- Reducible over $\mathbb{C}$: $(x-i)(x+i)$ ✓
-
+- Irreducible over $\mathbb{R}$ - Reducible over $\mathbb{C}$: $(x-i)(x+i)$ 
 **교훈**: Always specify "irreducible over ___"
 
 ## Applications

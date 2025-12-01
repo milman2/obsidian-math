@@ -55,18 +55,14 @@ $$\text{ev}_{s, \phi}\left(\sum_{i=0}^{n} a_i x^i\right) = \sum_{i=0}^{n} \phi(a
 
 ### 1. Preserves Addition^[덧셈 보존]
 
-$$\text{ev}_a(f + g) = (f + g)(a) = f(a) + g(a) = \text{ev}_a(f) + \text{ev}_a(g)$$ ✓
-
+$$\text{ev}_a(f + g) = (f + g)(a) = f(a) + g(a) = \text{ev}_a(f) + \text{ev}_a(g)$$ 
 ### 2. Preserves Multiplication^[곱셈 보존]
 
-$$\text{ev}_a(f \cdot g) = (f \cdot g)(a) = f(a) \cdot g(a) = \text{ev}_a(f) \cdot \text{ev}_a(g)$$ ✓
-
+$$\text{ev}_a(f \cdot g) = (f \cdot g)(a) = f(a) \cdot g(a) = \text{ev}_a(f) \cdot \text{ev}_a(g)$$ 
 ### 3. Preserves Identity^[항등원 보존]
 
-$$\text{ev}_a(1) = 1(a) = 1$$ ✓
-
-따라서 $\text{ev}_a$는 ring homomorphism ✓
-
+$$\text{ev}_a(1) = 1(a) = 1$$ 
+따라서 $\text{ev}_a$는 ring homomorphism 
 ## Kernel of Evaluation Homomorphism
 
 **정리**: Integral domain^[정역] $R$에서:
@@ -79,15 +75,13 @@ $$\ker(\text{ev}_a) = (x - a)$$
 
 **($\supseteq$)**: $(x-a) \subseteq \ker(\text{ev}_a)$
 - $(x-a)f(x) \in (x-a)$에 대해
-- $\text{ev}_a((x-a)f(x)) = (a-a)f(a) = 0 \cdot f(a) = 0$ ✓
-
+- $\text{ev}_a((x-a)f(x)) = (a-a)f(a) = 0 \cdot f(a) = 0$ 
 **($\subseteq$)**: $\ker(\text{ev}_a) \subseteq (x-a)$
 - $f(x) \in \ker(\text{ev}_a)$이면 $f(a) = 0$
 - Division algorithm: $f(x) = (x-a)q(x) + r$ where $\deg(r) < 1$
 - $r$는 constant: $r \in R$
 - $0 = f(a) = (a-a)q(a) + r = r$
-- 따라서 $f(x) = (x-a)q(x) \in (x-a)$ ✓
-
+- 따라서 $f(x) = (x-a)q(x) \in (x-a)$ 
 ### 표기법 주의
 
 **$(x-a)$의 의미**:
@@ -114,10 +108,8 @@ $$(x-a) = \langle x-a \rangle = \{(x-a)f(x) : f(x) \in R[x]\}$$
 
 **증명**: 임의의 $r \in R$에 대해, constant polynomial $f(x) = r$은:
 
-$$\text{ev}_a(r) = r$$ ✓
-
-따라서 $\text{im}(\text{ev}_a) = R$ ✓
-
+$$\text{ev}_a(r) = r$$ 
+따라서 $\text{im}(\text{ev}_a) = R$ 
 ## First Isomorphism Theorem Applied
 
 **정리**: 
@@ -128,8 +120,7 @@ $$R[x]/(x-a) \cong R$$
 
 $$R[x]/\ker(\text{ev}_a) \cong \text{im}(\text{ev}_a)$$
 
-$$R[x]/(x-a) \cong R$$ ✓
-
+$$R[x]/(x-a) \cong R$$ 
 **Isomorphism**: $\bar{f}(x) + (x-a) \mapsto f(a)$
 
 ## Universal Property of Polynomial Rings
@@ -175,7 +166,7 @@ $$f(x) = a_0 + a_1x + \cdots + a_nx^n \mapsto a_0$$
 
 **Kernel**: $\ker(\text{ev}_0) = (x)$ = polynomials with zero constant term
 
-**Image**: $\mathbb{R}$ ✓ (surjective)
+**Image**: $\mathbb{R}$  (surjective)
 
 **Interpretation**: "상수항 추출"
 
@@ -199,10 +190,8 @@ $$f(x) = a_0 + a_1x + \cdots + a_nx^n \mapsto a_0 + a_1i + a_2(-1) + a_3(-i) + \
 
 **Kernel**: $\ker(\text{ev}_i) = (x^2 + 1)$ in $\mathbb{R}[x]$
 
-**Image**: $\mathbb{C}$ ✓
-
-**예**: $x^2 + 1 \mapsto i^2 + 1 = -1 + 1 = 0$ ✓
-
+**Image**: $\mathbb{C}$ 
+**예**: $x^2 + 1 \mapsto i^2 + 1 = -1 + 1 = 0$ 
 ## Example 4: Evaluation at Matrix
 
 $$\text{ev}_A: \mathbb{R}[x] \to M_n(\mathbb{R})$$
@@ -237,8 +226,7 @@ $$f(x) \mapsto f(y)$$
 
 **의미**: "변수 이름 바꾸기"
 
-**Isomorphism**: $R[x] \cong R[y]$ ✓
-
+**Isomorphism**: $R[x] \cong R[y]$ 
 ## Example 7: Composition of Polynomials
 
 $g(x) \in R[x]$ 고정, evaluation at $g(x)$:
@@ -293,8 +281,7 @@ $$f(a) = 0 \quad \Leftrightarrow \quad (x-a) \mid f(x)$$
 
 **증명**:
 - ($\Rightarrow$): $f(a) = 0$ $\Rightarrow$ $f \in \ker(\text{ev}_a) = (x-a)$
-- ($\Leftarrow$): $(x-a) \mid f$ $\Rightarrow$ $f = (x-a)g$ $\Rightarrow$ $f(a) = 0$ ✓
-
+- ($\Leftarrow$): $(x-a) \mid f$ $\Rightarrow$ $f = (x-a)g$ $\Rightarrow$ $f(a) = 0$ 
 자세한 내용은 [[Factor Theorem]] 참조
 
 ## Number of Roots Bound

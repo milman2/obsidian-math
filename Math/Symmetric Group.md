@@ -106,8 +106,7 @@ $$\sigma \tau: \quad (\sigma \tau)(x) = \sigma(\tau(x))$$
 | $[3, 1]$ | $(123)$ | 8 | 3 |
 | $[4]$ | $(1234)$ | 6 | 4 |
 
-**Total**: $1 + 6 + 3 + 8 + 6 = 24$ ✓
-
+**Total**: $1 + 6 + 3 + 8 + 6 = 24$ 
 ### Notable Subgroups
 
 **$V_4$ (Klein four-group)**:
@@ -155,8 +154,7 @@ One transposition + one $n$-cycle
 
 **[4]**: $(1234)$ (size 6)
 
-**Total**: $1 + 6 + 3 + 8 + 6 = 24$ ✓
-
+**Total**: $1 + 6 + 3 + 8 + 6 = 24$ 
 ## Example 5: Dihedral Group in $S_n$
 
 정 $n$각형의 대칭군 $D_n \leq S_n$:
@@ -395,7 +393,7 @@ $S_3$ is smallest non-abelian group
 
 ### 4. Cycle type = conjugacy class?
 
-✓ In $S_n$: YES!
+ In $S_n$: YES!
 
 ✗ In subgroups: Not always
 
@@ -403,7 +401,7 @@ $S_3$ is smallest non-abelian group
 
 ✗ $A_4$ is NOT simple
 
-✓ $A_n$ is simple for $n \geq 5$
+ $A_n$ is simple for $n \geq 5$
 
 ## 응용
 

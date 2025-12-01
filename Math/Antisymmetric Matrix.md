@@ -52,9 +52,7 @@ $$A = \begin{pmatrix} 0 & a_{12} & a_{13} & \cdots \\ -a_{12} & 0 & a_{23} & \cd
 
 $A, B$ antisymmetric, $c \in \mathbb{R}$:
 
-- $A + B$ antisymmetric: $(A + B)^T = A^T + B^T = -A - B = -(A+B)$ ✓
-- $cA$ antisymmetric: $(cA)^T = cA^T = -cA$ ✓
-
+- $A + B$ antisymmetric: $(A + B)^T = A^T + B^T = -A - B = -(A+B)$ - $cA$ antisymmetric: $(cA)^T = cA^T = -cA$ 
 **Vector space**: Antisymmetric matrices form a vector space
 
 **Dimension**: $\dim = \frac{n(n-1)}{2}$
@@ -79,8 +77,7 @@ $$\det(A) = \det(A^T) = \det(-A) = (-1)^n \det(A)$$
 
 $n$ odd $\Rightarrow$ $(-1)^n = -1$:
 
-$$\det(A) = -\det(A) \Rightarrow 2\det(A) = 0 \Rightarrow \det(A) = 0$$ ✓
-
+$$\det(A) = -\det(A) \Rightarrow 2\det(A) = 0 \Rightarrow \det(A) = 0$$ 
 따라서 **not invertible**!
 
 ## Spectral Properties
@@ -109,8 +106,7 @@ Actually for real $A$:
 
 $$\lambda \|\mathbf{v}\|^2 = \mathbf{v}^* A \mathbf{v} = \mathbf{v}^* A^T \overline{\mathbf{v}} = -\mathbf{v}^* A \overline{\mathbf{v}} = -\overline{\lambda} \|\mathbf{v}\|^2$$
 
-따라서 $\lambda = -\overline{\lambda}$ $\Rightarrow$ $\lambda$ purely imaginary ✓
-
+따라서 $\lambda = -\overline{\lambda}$ $\Rightarrow$ $\lambda$ purely imaginary 
 ### Eigenvalues Come in Pairs
 
 Real antisymmetric matrix: eigenvalues $\pm i\omega$ ($\omega \in \mathbb{R}$)
@@ -131,7 +127,7 @@ $$A = \begin{pmatrix} 0 & a \\ -a & 0 \end{pmatrix}$$
 
 $$\det(A - \lambda I) = \lambda^2 + a^2 = 0$$
 
-$$\lambda = \pm ia$$ (purely imaginary! ✓)
+$$\lambda = \pm ia$$ (purely imaginary! )
 
 **Geometric**: Rotation by $90°$ scaled by $a$
 
@@ -139,10 +135,8 @@ $$\lambda = \pm ia$$ (purely imaginary! ✓)
 
 $$A = \begin{pmatrix} 0 & 1 & 2 \\ -1 & 0 & 3 \\ -2 & -3 & 0 \end{pmatrix}$$
 
-**Check**: $A^T = -A$ ✓
-
-**Determinant**: $\det(A) = 0$ (odd dimension!) ✓
-
+**Check**: $A^T = -A$ 
+**Determinant**: $\det(A) = 0$ (odd dimension!) 
 **Eigenvalues**: $0, \pm i\sqrt{14}$
 
 ## Example 3: Cross Product Matrix
@@ -153,8 +147,7 @@ $$A = \begin{pmatrix} 0 & -a_3 & a_2 \\ a_3 & 0 & -a_1 \\ -a_2 & a_1 & 0 \end{pm
 
 **Property**: $A\mathbf{x} = \mathbf{a} \times \mathbf{x}$ (cross product!)
 
-**Antisymmetric**: $A^T = -A$ ✓
-
+**Antisymmetric**: $A^T = -A$ 
 ## Example 4: Infinitesimal Rotation
 
 $$\Omega = \begin{pmatrix} 0 & -\omega \\ \omega & 0 \end{pmatrix}$$
@@ -175,8 +168,7 @@ Rotation matrix! Antisymmetric $\to$ Rotation
 
 **증명**:
 
-$$(e^A)^T e^A = e^{A^T} e^A = e^{-A} e^A = e^{-A+A} = e^0 = I$$ ✓
-
+$$(e^A)^T e^A = e^{A^T} e^A = e^{-A} e^A = e^{-A+A} = e^0 = I$$ 
 **의미**: Antisymmetric matrices generate rotations!
 
 ## Normal Operator
@@ -186,8 +178,7 @@ Antisymmetric matrix는 **normal**:
 $$A^T A = (-A)A = -A^2$$
 $$A A^T = A(-A) = -A^2$$
 
-따라서 $A^T A = A A^T$ ✓
-
+따라서 $A^T A = A A^T$ 
 자세한 내용은 [[Normal Operator]] 참조
 
 ## Decomposition
@@ -259,8 +250,7 @@ $$M_n(\mathbb{R}) = \text{Sym}_n(\mathbb{R}) \oplus \text{Antisym}_n(\mathbb{R})
 
 **Direct sum**: Every matrix = symmetric + antisymmetric
 
-$$\dim = \frac{n(n+1)}{2} + \frac{n(n-1)}{2} = n^2$$ ✓
-
+$$\dim = \frac{n(n+1)}{2} + \frac{n(n-1)}{2} = n^2$$ 
 ## 관련 개념
 
 - [[Symmetric Matrix]]: Opposite sign

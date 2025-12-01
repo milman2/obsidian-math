@@ -58,8 +58,7 @@ Euclidean domain $R$, ideal $I \triangleleft R$ (nonzero)
   - Division algorithm: $a = qb + r$ where $N(r) < N(b)$ 또는 $r = 0$
   - $r = a - qb \in I$ (since $a, b \in I$)
   - $N(b)$의 최소성: $r \neq 0$이면 모순
-  - 따라서 $r = 0$, 즉 $a = qb \in \langle b \rangle$ ✓
-
+  - 따라서 $r = 0$, 즉 $a = qb \in \langle b \rangle$ 
 **따름정리**:
 - $\mathbb{Z}$ is PID (Euclidean with $N(a) = |a|$)
 - $k[x]$ is PID (Euclidean with $N(f) = \deg(f)$)
@@ -85,8 +84,7 @@ implies eventually constant
 - $I = \bigcup_{n=1}^{\infty} \langle a_n \rangle$ is ideal
 - PID이므로 $I = \langle a \rangle$
 - $a \in \langle a_N \rangle$ for some $N$
-- 따라서 $\langle a_N \rangle = \langle a_{N+1} \rangle = \cdots$ ✓
-
+- 따라서 $\langle a_N \rangle = \langle a_{N+1} \rangle = \cdots$ 
 **Factorization exists**: ACCP로부터 귀납적으로 증명
 
 ### Part 2: Irreducible ⇒ Prime (in PID)
@@ -102,17 +100,14 @@ implies eventually constant
 **Case 1**: $d$ unit이면 $\langle d \rangle = R$
 - $1 = rp + sa$ for some $r, s \in R$ (Bezout)
 - $b = rpb + sab$
-- $p \mid ab$이므로 $p \mid b$ ✓
-
+- $p \mid ab$이므로 $p \mid b$ 
 **Case 2**: $c$ unit이면 $d \sim p$
 - $\langle d \rangle = \langle p \rangle$
 - $a \in \langle p \rangle$
-- 즉 $p \mid a$ ✓
-
+- 즉 $p \mid a$ 
 ### Part 3: Uniqueness
 
-Prime factorization의 uniqueness는 표준 논증 ✓
-
+Prime factorization의 uniqueness는 표준 논증 
 자세한 내용은 [[Unique Factorization Domain]] 참조
 
 ## Hierarchy of Domains^[정역의 계층]
@@ -146,9 +141,7 @@ $$\exists r, s \in R: \quad d = ra + sb$$
 **증명**:
 - $\langle a, b \rangle = \{ra + sb : r, s \in R\}$ is ideal
 - PID: $\langle a, b \rangle = \langle d \rangle$ for some $d$
-- $d \in \langle a, b \rangle$이므로 $d = ra + sb$ ✓
-- $a, b \in \langle d \rangle$이므로 $d \mid a$ and $d \mid b$ ✓
-
+- $d \in \langle a, b \rangle$이므로 $d = ra + sb$ - $a, b \in \langle d \rangle$이므로 $d \mid a$ and $d \mid b$ 
 **중요성**: GCD를 linear combination으로 표현!
 
 ## Structure Theorem for Finitely Generated Modules
@@ -184,8 +177,7 @@ $(\Rightarrow)$ Prime $\Rightarrow$ Maximal:
 - $p = ab$: $a$ unit 또는 $b$ unit
 - $a$ unit: $\langle a \rangle = R$ (모순)
 - $b$ unit: $\langle a \rangle = \langle p \rangle = P$
-- 따라서 $P$ is maximal ✓
-
+- 따라서 $P$ is maximal 
 $(\Leftarrow)$ Maximal $\Rightarrow$ Prime: 일반적으로 성립 (commutative ring)
 
 ---
@@ -194,8 +186,7 @@ $(\Leftarrow)$ Maximal $\Rightarrow$ Prime: 일반적으로 성립 (commutative 
 
 ## Example 1: $\mathbb{Z}$ (Integers)
 
-**PID**: Yes ✓
-
+**PID**: Yes 
 **모든 ideal**: $n\mathbb{Z} = \langle n \rangle$
 
 **Proof**: Division algorithm
@@ -204,8 +195,7 @@ $(\Leftarrow)$ Maximal $\Rightarrow$ Prime: 일반적으로 성립 (commutative 
 - For any $m \in I$: $m = qn + r$ where $0 \leq r < n$
 - $r = m - qn \in I$
 - Minimality of $n$: $r = 0$
-- 따라서 $I = n\mathbb{Z}$ ✓
-
+- 따라서 $I = n\mathbb{Z}$ 
 **GCD**: $\gcd(a, b) = d$ where $\langle a, b \rangle = \langle d \rangle$
 
 **Bezout**: $d = ra + sb$ (Extended Euclidean algorithm)
@@ -214,8 +204,7 @@ $(\Leftarrow)$ Maximal $\Rightarrow$ Prime: 일반적으로 성립 (commutative 
 
 Field $k$에 대해:
 
-**PID**: Yes ✓
-
+**PID**: Yes 
 **모든 ideal**: $\langle f(x) \rangle$ where $f$ monic of minimal degree
 
 **Proof**: Polynomial division algorithm
@@ -232,7 +221,7 @@ Field $k$에 대해:
 
 $$\mathbb{Z}[i] = \{a + bi : a, b \in \mathbb{Z}\}$$
 
-**PID**: Yes ✓ (Euclidean domain)
+**PID**: Yes  (Euclidean domain)
 
 **Norm**: $N(a + bi) = a^2 + b^2$
 
@@ -265,7 +254,7 @@ $$\mathbb{Z}[i] = \{a + bi : a, b \in \mathbb{Z}\}$$
 - $f = \pm 2$: $x \notin \langle 2 \rangle$ (모순)
 - 따라서 $I$ is not principal ✗
 
-**But**: $\mathbb{Z}[x]$ is UFD ✓ (by Gauss's Lemma)
+**But**: $\mathbb{Z}[x]$ is UFD  (by Gauss's Lemma)
 
 ## Example 5: $k[x, y]$ (Multivariate Polynomials)
 
@@ -277,13 +266,12 @@ Field $k$에 대해:
 
 **Proof**: Similar to $\mathbb{Z}[x]$
 
-**But**: $k[x, y]$ is UFD ✓
-
+**But**: $k[x, y]$ is UFD 
 ## Example 6: $\mathbb{Z}[\sqrt{2}]$
 
 $$\mathbb{Z}[\sqrt{2}] = \{a + b\sqrt{2} : a, b \in \mathbb{Z}\}$$
 
-**PID**: Yes ✓ (Euclidean domain)
+**PID**: Yes  (Euclidean domain)
 
 **Norm**: $N(a + b\sqrt{2}) = |a^2 - 2b^2|$
 
@@ -305,7 +293,7 @@ $$\mathbb{Z}[\sqrt{-5}] = \{a + b\sqrt{-5} : a, b \in \mathbb{Z}\}$$
 
 ## Example 8: $\mathbb{Z}/n\mathbb{Z}$
 
-**PIR**: Yes ✓ (all ideals are principal)
+**PIR**: Yes  (all ideals are principal)
 
 **PID**: No ✗ (has zero divisors if $n$ not prime)
 
@@ -339,10 +327,7 @@ $$\mathbb{Z}[\sqrt{-5}] = \{a + b\sqrt{-5} : a, b \in \mathbb{Z}\}$$
 **정리**: PID는 Dedekind domain^[데데킨트 정역]
 
 **Dedekind domain 조건**:
-1. Noetherian ✓
-2. Integrally closed ✓
-3. Every nonzero prime ideal is maximal ✓
-
+1. Noetherian 2. Integrally closed 3. Every nonzero prime ideal is maximal 
 **역은 거짓**: Dedekind domain $\not\Rightarrow$ PID
 
 **예**: $\mathbb{Z}[\sqrt{-5}]$ is Dedekind but not PID
@@ -403,13 +388,13 @@ $$R/\langle a_1 \cdots a_n \rangle \cong R/\langle a_1 \rangle \times \cdots \ti
 
 | Property | Field | Euclidean | PID | UFD | Domain |
 |----------|-------|-----------|-----|-----|--------|
-| No zero divisors | ✓ | ✓ | ✓ | ✓ | ✓ |
-| All invertible (except 0) | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Division algorithm | ✓ | ✓ | ? | ✗ | ✗ |
-| All ideals principal | ✓ | ✓ | ✓ | ✗ | ✗ |
-| Unique factorization | ✓ | ✓ | ✓ | ✓ | ✗ |
-| Bezout identity | ✓ | ✓ | ✓ | ✗ | ✗ |
-| Prime = Maximal (nonzero) | N/A | ✓ | ✓ | ✗ | ✗ |
+| No zero divisors |  |  |  |  |  |
+| All invertible (except 0) |  | ✗ | ✗ | ✗ | ✗ |
+| Division algorithm |  |  | ? | ✗ | ✗ |
+| All ideals principal |  |  |  | ✗ | ✗ |
+| Unique factorization |  |  |  |  | ✗ |
+| Bezout identity |  |  |  | ✗ | ✗ |
+| Prime = Maximal (nonzero) | N/A |  |  | ✗ | ✗ |
 
 ## 응용 분야
 
@@ -503,7 +488,7 @@ PID $\Rightarrow$ Nonzero prime ideal = Maximal
 
 ✗ PID = PIR?
 
-✓ PID = PIR + Integral domain
+ PID = PIR + Integral domain
 
 **반례**: $\mathbb{Z}/4\mathbb{Z}$ is PIR but not PID
 
@@ -511,13 +496,13 @@ PID $\Rightarrow$ Nonzero prime ideal = Maximal
 
 ✗ Principal ideal = generated by prime?
 
-✓ Principal = generated by one element (any)
+ Principal = generated by one element (any)
 
 ### 3. UFD ≠ PID
 
 ✗ UFD이면 PID?
 
-✓ 역: PID $\Rightarrow$ UFD
+ 역: PID $\Rightarrow$ UFD
 
 **반례**: $\mathbb{Z}[x]$, $k[x,y]$ are UFD but not PID
 
@@ -525,7 +510,7 @@ PID $\Rightarrow$ Nonzero prime ideal = Maximal
 
 ✗ Division algorithm exists $\Rightarrow$ PID?
 
-✓ **Euclidean** division algorithm $\Rightarrow$ PID
+ **Euclidean** division algorithm $\Rightarrow$ PID
 
 Division algorithm 자체만으로는 부족!
 
@@ -533,13 +518,13 @@ Division algorithm 자체만으로는 부족!
 
 ✗ Generator는 유일?
 
-✓ Up to units! $\langle a \rangle = \langle b \rangle \Leftrightarrow a = ub$ (unit $u$)
+ Up to units! $\langle a \rangle = \langle b \rangle \Leftrightarrow a = ub$ (unit $u$)
 
 ### 6. Polynomial Rings
 
 ✗ $R$ PID $\Rightarrow$ $R[x]$ PID?
 
-✓ 일반적으로 거짓!
+ 일반적으로 거짓!
 
 **반례**: $\mathbb{Z}$ is PID but $\mathbb{Z}[x]$ is not
 

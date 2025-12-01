@@ -39,8 +39,7 @@ $$e \cdot a = a \cdot e = a \quad \text{for all } a \in M$$
 
 **증명**: If $e, e'$ both identity,
 
-$$e = e \cdot e' = e'$$ ✓
-
+$$e = e \cdot e' = e'$$ 
 ## Monoid Homomorphism^[모노이드 준동형]
 
 **Homomorphism**^[준동형] $f: M \to N$ between monoids:
@@ -67,8 +66,7 @@ well-defined regardless of bracketing
 
 **정리**: Identity element is unique
 
-**증명**: 위 참조 ✓
-
+**증명**: 위 참조 
 ## Powers
 
 **Positive powers**: $a^n = \underbrace{a \cdot a \cdots a}_{n \text{ times}}$
@@ -115,8 +113,7 @@ $$(\mathbb{N}, +, 0)$$
 
 **Identity**: $0$
 
-**Monoid**: Yes ✓
-
+**Monoid**: Yes 
 **Group**: No ✗ (no negatives)
 
 ## Example 2: Positive Integers (Multiplication)
@@ -127,8 +124,7 @@ $$(\mathbb{N}^+, \times, 1)$$
 
 **Identity**: $1$
 
-**Monoid**: Yes ✓
-
+**Monoid**: Yes 
 **Group**: No ✗ (no reciprocals except for $1$)
 
 **Units**: $M^{\times} = \{1\}$
@@ -141,7 +137,7 @@ $$(\mathbb{N}^+, \times, 1)$$
 
 **Identity**: Empty string $\varepsilon$
 
-**Monoid**: Yes ✓ (free monoid)
+**Monoid**: Yes  (free monoid)
 
 **예**:
 - $\Sigma = \{a, b\}$
@@ -156,8 +152,7 @@ $$(\mathbb{N}^+, \times, 1)$$
 
 **Identity**: $\text{id}_X$
 
-**Monoid**: Yes ✓
-
+**Monoid**: Yes 
 **Units**: $M^{\times} = \text{Bij}(X)$ (bijections = group)
 
 ## Example 5: Matrices
@@ -168,8 +163,7 @@ $$(\mathbb{N}^+, \times, 1)$$
 
 **Identity**: Identity matrix $I_n$
 
-**Monoid**: Yes ✓
-
+**Monoid**: Yes 
 **Units**: $M^{\times} = \text{GL}_n(\mathbb{R})$ (invertible matrices)
 
 ## Example 6: Lists
@@ -180,8 +174,7 @@ $$(\mathbb{N}^+, \times, 1)$$
 
 **Identity**: Empty list $[]$
 
-**Monoid**: Yes ✓
-
+**Monoid**: Yes 
 **응용**: Functional programming
 
 ## Example 7: Boolean AND/OR
@@ -204,7 +197,7 @@ Both are monoids!
 
 **Identity**: $e$
 
-**Monoid**: Yes ✓ (also a group!)
+**Monoid**: Yes  (also a group!)
 
 ---
 
@@ -243,11 +236,7 @@ via left multiplication: $a \mapsto (x \mapsto a \cdot x)$
 **정리**: $M^{\times}$ forms a group
 
 **증명**: 
-- Identity: $e \in M^{\times}$ ✓
-- Closure: $a, b$ invertible $\Rightarrow$ $ab$ invertible (inverse $b^{-1}a^{-1}$) ✓
-- Inverses: By definition ✓
-- Associativity: Inherited ✓
-
+- Identity: $e \in M^{\times}$ - Closure: $a, b$ invertible $\Rightarrow$ $ab$ invertible (inverse $b^{-1}a^{-1}$) - Inverses: By definition - Associativity: Inherited 
 ## Monoid Isomorphism
 
 **정리**: Monoids $M, N$ isomorphic $\Leftrightarrow$
@@ -332,9 +321,9 @@ $$\exists \text{ bijection } f: M \to N \text{ preserving operation and identity
 
 | | **Monoid** | **Group** |
 |---|---|---|
-| **Associativity** | Yes ✓ | Yes ✓ |
-| **Identity** | Yes ✓ | Yes ✓ |
-| **Inverses** | No ✗ | Yes ✓ |
+| **Associativity** | Yes  | Yes  |
+| **Identity** | Yes  | Yes  |
+| **Inverses** | No ✗ | Yes  |
 | **예** | $(\mathbb{N}, +)$ | $(\mathbb{Z}, +)$ |
 | **예** | Strings | Permutations |
 | **Cancellation** | Not always | Always |
@@ -347,8 +336,8 @@ $$\exists \text{ bijection } f: M \to N \text{ preserving operation and identity
 
 | | **Semigroup** | **Monoid** |
 |---|---|---|
-| **Associativity** | Yes ✓ | Yes ✓ |
-| **Identity** | No ✗ | Yes ✓ |
+| **Associativity** | Yes  | Yes  |
+| **Identity** | No ✗ | Yes  |
 | **Inverses** | No ✗ | No ✗ |
 
 **관계**: Monoid = Semigroup with identity

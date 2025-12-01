@@ -19,9 +19,9 @@ Ring $R$의 원소 $e \in R$이 **idempotent^[멱등원]**이다 $\Leftrightarro
 $$e^2 = e$$
 
 **예**:
-- $0^2 = 0$ ✓ (trivial idempotent)
-- $1^2 = 1$ ✓ (trivial idempotent)
-- In $\mathbb{Z}/6\mathbb{Z}$: $\overline{3}^2 = \overline{3}$ ✓ (nontrivial)
+- $0^2 = 0$  (trivial idempotent)
+- $1^2 = 1$  (trivial idempotent)
+- In $\mathbb{Z}/6\mathbb{Z}$: $\overline{3}^2 = \overline{3}$  (nontrivial)
 
 자세한 내용은 [[Boolean Ring]] 참조
 
@@ -67,18 +67,15 @@ $$R = aR \times (1-a)R$$
 
 **Step 1**: $(1-a)$도 멱등원
 
-$$(1-a)^2 = 1 - 2a + a^2 = 1 - 2a + a = 1 - a$$ ✓
-
+$$(1-a)^2 = 1 - 2a + a^2 = 1 - 2a + a = 1 - a$$ 
 **Step 2**: 직교성 (Orthogonality)
 
 $$a(1-a) = a - a^2 = a - a = 0$$
 
-$$(1-a)a = a - a^2 = 0$$ ✓
-
+$$(1-a)a = a - a^2 = 0$$ 
 **Step 3**: 완전성 (Completeness)
 
-$$a + (1-a) = 1$$ ✓
-
+$$a + (1-a) = 1$$ 
 **Step 4**: 직합 분해
 
 임의의 $r \in R$에 대해:
@@ -93,24 +90,21 @@ where $ra \in aR$ and $r(1-a) \in (1-a)R$
 
 양변에 $(1-a)$를 곱하면: $r(1-a)^2 = r(1-a) = 0$
 
-따라서 $R = aR \oplus (1-a)R$ ✓
-
+따라서 $R = aR \oplus (1-a)R$ 
 **Step 5**: Ring 구조
 
 - $aR$의 항등원: $a$ (since $a \cdot a = a^2 = a$)
 - $(1-a)R$의 항등원: $(1-a)$
 - 직교성: $(aR) \cdot ((1-a)R) = 0$
 
-따라서 $R \cong aR \times (1-a)R$ (ring direct product) ✓
-
+따라서 $R \cong aR \times (1-a)R$ (ring direct product) 
 ## General Pierce Decomposition
 
 **정리**: Complete set of orthogonal idempotents $\{e_1, \ldots, e_n\}$에 대해:
 
 $$R = e_1 R \times e_2 R \times \cdots \times e_n R$$
 
-**증명**: Induction on $n$ using single idempotent case ✓
-
+**증명**: Induction on $n$ using single idempotent case 
 ### As Rings
 
 Each $e_i R$ is a ring with identity $e_i$:
@@ -153,14 +147,11 @@ $$\forall a \in B: \quad B = aB \times (1-a)B$$
 
 **Idempotent**: $a = \overline{3}$
 
-Check: $\overline{3}^2 = \overline{9} = \overline{3}$ ✓
-
+Check: $\overline{3}^2 = \overline{9} = \overline{3}$ 
 **Complement**: $1 - a = \overline{1} - \overline{3} = \overline{-2} = \overline{4}$
 
-Check: $\overline{4}^2 = \overline{16} = \overline{4}$ ✓
-
-**Orthogonality**: $\overline{3} \cdot \overline{4} = \overline{12} = \overline{0}$ ✓
-
+Check: $\overline{4}^2 = \overline{16} = \overline{4}$ 
+**Orthogonality**: $\overline{3} \cdot \overline{4} = \overline{12} = \overline{0}$ 
 **Decomposition**:
 
 $$\mathbb{Z}/6\mathbb{Z} = \overline{3}\mathbb{Z}/6\mathbb{Z} \times \overline{4}\mathbb{Z}/6\mathbb{Z}$$
@@ -179,8 +170,7 @@ $$\cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z}$$
 
 $$e = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$$
 
-Check: $e^2 = e$ ✓
-
+Check: $e^2 = e$ 
 **Complement**:
 
 $$1 - e = \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$$
@@ -199,8 +189,7 @@ $$M_2(\mathbb{R}) = eR \times (1-e)R$$
 
 **Idempotent**: $a = (1, 0)$
 
-$$a^2 = (1,0) \cdot (1,0) = (1,0) = a$$ ✓
-
+$$a^2 = (1,0) \cdot (1,0) = (1,0) = a$$ 
 **Decomposition**:
 
 $$B = aB \times (1-a)B$$
@@ -218,10 +207,7 @@ $$\cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$$
 - $e_2 = (0, 1)$
 
 **Properties**:
-- $e_1^2 = e_1$, $e_2^2 = e_2$ ✓
-- $e_1 e_2 = 0$ ✓
-- $e_1 + e_2 = (1, 1) = 1$ ✓
-
+- $e_1^2 = e_1$, $e_2^2 = e_2$ - $e_1 e_2 = 0$ - $e_1 + e_2 = (1, 1) = 1$ 
 **Decomposition**:
 
 $$R = e_1 R \times e_2 R = R_1 \times R_2$$
@@ -235,8 +221,7 @@ $$R = e_1 R \times e_2 R = R_1 \times R_2$$
 - $e_2 = \overline{10}$ (corresponds to $\mathbb{Z}/3\mathbb{Z}$)
 - $e_3 = \overline{6}$ (corresponds to $\mathbb{Z}/5\mathbb{Z}$)
 
-Check: $e_1 + e_2 + e_3 = \overline{15 + 10 + 6} = \overline{31} = \overline{1}$ ✓
-
+Check: $e_1 + e_2 + e_3 = \overline{15 + 10 + 6} = \overline{31} = \overline{1}$ 
 **Decomposition**:
 
 $$\mathbb{Z}/30\mathbb{Z} \cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/5\mathbb{Z}$$
@@ -283,8 +268,7 @@ $$r \mapsto er$$
 
 **Proof**: 
 - $e$ central $\Rightarrow$ $re = er$ for all $r$
-- $\Rightarrow$ $r(eR) = (re)R = (er)R \subseteq eR$ ✓
-
+- $\Rightarrow$ $r(eR) = (re)R = (er)R \subseteq eR$ 
 ## Direct Product Characterization
 
 **정리**: $R \cong R_1 \times R_2$ $\Leftrightarrow$ $\exists$ central idempotent $e$ with
@@ -419,8 +403,7 @@ For two-sided ideal: need $e$ central
 
 Don't forget to verify $(1-e)^2 = 1-e$!
 
-Automatic in any ring ✓
-
+Automatic in any ring 
 ### 4. Orthogonality is symmetric
 
 $ef = 0$ $\Rightarrow$ $fe = 0$ (in commutative ring)

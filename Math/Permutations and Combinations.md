@@ -357,10 +357,10 @@ $$P(\text{full house}) = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}
 
 | Type | Formula | Order matters? | Repetition? |
 |------|---------|----------------|-------------|
-| Permutation^[순열] | $\frac{n!}{(n-r)!}$ | ✓ Yes | ✗ No |
+| Permutation^[순열] | $\frac{n!}{(n-r)!}$ |  Yes | ✗ No |
 | Combination^[조합] | $\frac{n!}{r!(n-r)!}$ | ✗ No | ✗ No |
-| Permutation with repetition^[중복 순열] | $n^r$ | ✓ Yes | ✓ Yes |
-| Combination with repetition^[중복 조합] | $\binom{n+r-1}{r}$ | ✗ No | ✓ Yes |
+| Permutation with repetition^[중복 순열] | $n^r$ |  Yes |  Yes |
+| Combination with repetition^[중복 조합] | $\binom{n+r-1}{r}$ | ✗ No |  Yes |
 
 ## Decision tree for choosing formula^[공식 선택 결정 트리]
 

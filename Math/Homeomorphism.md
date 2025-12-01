@@ -58,10 +58,7 @@ $$(0, 1) \cong \mathbb{R}$$
 또는: $f(x) = \frac{2x - 1}{x(1-x)}$
 
 **증명**:
-- $f$는 bijective ✓
-- $f$는 continuous ✓
-- $f^{-1}$도 continuous ✓
-
+- $f$는 bijective - $f$는 continuous - $f^{-1}$도 continuous 
 **의미**: 유계 구간과 전체 실수선이 위상적으로 같음!
 
 ## Example 2: Any Two Open Intervals
@@ -169,8 +166,7 @@ $$f \text{ is homeomorphism}$$
 
 **증명**: Continuous bijection from compact to Hausdorff is closed map
 
-따라서 $f$는 closed map이고 bijective $\Rightarrow$ $f^{-1}$ continuous ✓
-
+따라서 $f$는 closed map이고 bijective $\Rightarrow$ $f^{-1}$ continuous 
 **중요성**: Compact Hausdorff 공간에서는 inverse의 continuity 자동!
 
 ## Open Mapping Theorem (General Topology)
@@ -179,8 +175,7 @@ $$f \text{ is homeomorphism}$$
 
 $$f \text{ is homeomorphism}$$
 
-**증명**: Open bijection $\Rightarrow$ $f^{-1}$ continuous ✓
-
+**증명**: Open bijection $\Rightarrow$ $f^{-1}$ continuous 
 **Dually**: Closed map + bijection $\Rightarrow$ homeomorphism
 
 ## Local Homeomorphism^[국소 위상동형사상]
@@ -208,9 +203,7 @@ $$\forall x \in X, \exists U \ni x \text{ (open)}, \exists V \subseteq Y \text{ 
 **함수**: $f: [0, 1) \to S^1$, $f(t) = e^{2\pi i t}$
 
 **Check**:
-- $f$ is bijective ✓
-- $f$ is continuous ✓
-- $f^{-1}$ is **NOT continuous** ✗
+- $f$ is bijective - $f$ is continuous - $f^{-1}$ is **NOT continuous** ✗
 
 **이유**: $f^{-1}([0, 1/2))$ is not open in $[0, 1)$
 
@@ -273,8 +266,7 @@ $$g \circ f: X \to Z \text{ is homeomorphism}$$
 
 **증명**:
 - $(g \circ f)^{-1} = f^{-1} \circ g^{-1}$ (bijection)
-- Composition of continuous maps is continuous ✓
-
+- Composition of continuous maps is continuous 
 ## Restriction to Subspaces
 
 **정리**: $f: X \to Y$ homeomorphism, $A \subseteq X$이면:
@@ -308,8 +300,7 @@ Then: $X/\sim \; \cong Y/\sim'$
 **Homeomorphism**: "위상을 보존하는 변형"
 
 **메타포**: "고무 시트 변형" (rubber sheet geometry)
-- 늘리기, 구부리기, 비틀기 허용 ✓
-- 찢기, 붙이기, 구멍 뚫기 금지 ✗
+- 늘리기, 구부리기, 비틀기 허용 - 찢기, 붙이기, 구멍 뚫기 금지 ✗
 
 **핵심 아이디어**: "Shape는 바뀌어도 topological properties는 보존"
 
@@ -317,11 +308,11 @@ Then: $X/\sim \; \cong Y/\sim'$
 
 | Concept | Structure | Bijection? | Preserves? |
 |---------|-----------|------------|------------|
-| **Homeomorphism** | Topology | ✓ | Topological properties |
-| **Isomorphism** (algebra) | Group/Ring/Field | ✓ | Algebraic structure |
-| **Isometry** | Metric space | ✓ | Distance |
-| **Diffeomorphism** | Smooth manifold | ✓ | Smooth structure |
-| **Linear isomorphism** | Vector space | ✓ | Linear structure |
+| **Homeomorphism** | Topology |  | Topological properties |
+| **Isomorphism** (algebra) | Group/Ring/Field |  | Algebraic structure |
+| **Isometry** | Metric space |  | Distance |
+| **Diffeomorphism** | Smooth manifold |  | Smooth structure |
+| **Linear isomorphism** | Vector space |  | Linear structure |
 | **Continuous map** | Topology | ✗ | Preimage of open sets |
 
 **계층**:

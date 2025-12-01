@@ -341,9 +341,9 @@ f = lim fₙ = sup fₙ
 
 | Condition | Required? | Why? |
 |-----------|-----------|------|
-| Non-negativity | ✓ Yes | Prevent $\infty - \infty$ |
-| Monotonicity | ✓ Yes | Enable limit exchange |
-| Pointwise convergence | ✓ Yes | Define limit function |
+| Non-negativity |  Yes | Prevent $\infty - \infty$ |
+| Monotonicity |  Yes | Enable limit exchange |
+| Pointwise convergence |  Yes | Define limit function |
 | Uniform convergence | ✗ No | Too strong! |
 | Domination | ✗ No | Not needed (monotone) |
 

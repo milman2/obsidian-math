@@ -59,7 +59,7 @@ $$\forall a \in A, \; aRa$$
 모든 원소가 자기 자신과 관계됨
 
 **예**: 
-- $\leq$ on $\mathbb{R}$: reflexive ✓ ($x \leq x$)
+- $\leq$ on $\mathbb{R}$: reflexive  ($x \leq x$)
 - $<$ on $\mathbb{R}$: not reflexive ✗ ($x \not< x$)
 
 ## Irreflexivity^[비반사성]
@@ -81,8 +81,7 @@ $$\forall a, b \in A, \; aRb \Rightarrow bRa$$
 관계의 방향을 바꿀 수 있음
 
 **예**:
-- $=$ on $\mathbb{R}$: symmetric ✓
-- $\leq$ on $\mathbb{R}$: not symmetric ✗
+- $=$ on $\mathbb{R}$: symmetric - $\leq$ on $\mathbb{R}$: not symmetric ✗
 
 ## Antisymmetry^[반대칭성]
 
@@ -92,7 +91,7 @@ $$\forall a, b \in A, \; aRb \land bRa \Rightarrow a = b$$
 
 양방향 관계는 같은 원소만 가능
 
-**예**: $\leq$ on $\mathbb{R}$ (antisymmetric ✓)
+**예**: $\leq$ on $\mathbb{R}$ (antisymmetric )
 
 **주의**: Antisymmetric $\neq$ Not symmetric!
 
@@ -117,8 +116,7 @@ $$\forall a, b, c \in A, \; aRb \land bRc \Rightarrow aRc$$
 관계가 "전달"됨
 
 **예**:
-- $\leq$ on $\mathbb{R}$: transitive ✓
-- "부모-자식" relation: not transitive ✗
+- $\leq$ on $\mathbb{R}$: transitive - "부모-자식" relation: not transitive ✗
 
 ## Totality^[전체성]
 
@@ -129,8 +127,7 @@ $$\forall a, b \in A, \; aRb \lor bRa$$
 모든 원소 쌍이 비교 가능
 
 **예**:
-- $\leq$ on $\mathbb{R}$: total ✓
-- $\subseteq$ on $2^X$: not total ✗ (incomparable sets exist)
+- $\leq$ on $\mathbb{R}$: total - $\subseteq$ on $2^X$: not total ✗ (incomparable sets exist)
 
 ---
 
@@ -168,8 +165,7 @@ $\Leftrightarrow$ Partial order + Total
 즉: Reflexive + Antisymmetric + Transitive + Total
 
 **예**:
-- $\leq$ on $\mathbb{R}$ ✓
-- $\subseteq$ on $2^X$ ✗ (partial but not total)
+- $\leq$ on $\mathbb{R}$ - $\subseteq$ on $2^X$ ✗ (partial but not total)
 
 ## Strict Order^[엄격 순서]
 
@@ -258,18 +254,18 @@ $$R^+ = \bigcup_{n=1}^{\infty} R^n$$
 
 | Relation | Reflexive | Symmetric | Transitive | Type |
 |----------|-----------|-----------|------------|------|
-| $=$ | ✓ | ✓ | ✓ | Equivalence |
-| $\leq$ | ✓ | ✗ | ✓ | Total order |
-| $<$ | ✗ | ✗ | ✓ | Strict total order |
-| $\neq$ | ✗ | ✓ | ✗ | Symmetric only |
+| $=$ |  |  |  | Equivalence |
+| $\leq$ |  | ✗ |  | Total order |
+| $<$ | ✗ | ✗ |  | Strict total order |
+| $\neq$ | ✗ |  | ✗ | Symmetric only |
 
 ## Example 2: Divisibility
 
 $\mathbb{N}$ 위에서 $a \mid b$ (divides):
 
-- Reflexive: ✓ ($a \mid a$)
-- Antisymmetric: ✓ ($a \mid b \land b \mid a \Rightarrow a = b$ for $\mathbb{N}$)
-- Transitive: ✓ ($a \mid b \land b \mid c \Rightarrow a \mid c$)
+- Reflexive:  ($a \mid a$)
+- Antisymmetric:  ($a \mid b \land b \mid a \Rightarrow a = b$ for $\mathbb{N}$)
+- Transitive:  ($a \mid b \land b \mid c \Rightarrow a \mid c$)
 - Total: ✗ (예: $2 \nmid 3$, $3 \nmid 2$)
 
 **Type**: Partial order
@@ -278,10 +274,7 @@ $\mathbb{N}$ 위에서 $a \mid b$ (divides):
 
 $2^X$ (power set) 위에서 $\subseteq$:
 
-- Reflexive: ✓
-- Antisymmetric: ✓
-- Transitive: ✓
-- Total: ✗ (incomparable sets)
+- Reflexive: - Antisymmetric: - Transitive: - Total: ✗ (incomparable sets)
 
 **Type**: Partial order (not total)
 
@@ -308,10 +301,7 @@ Directed graph $G = (V, E)$: $E \subseteq V \times V$ (relation!)
 
 $\mathbb{Z}$ 위에서 $a \equiv b \pmod{n}$:
 
-- Reflexive: ✓
-- Symmetric: ✓
-- Transitive: ✓
-
+- Reflexive: - Symmetric: - Transitive: 
 **Type**: Equivalence relation
 
 자세한 내용은 [[Equivalence Relation and Partitions]] 참조
@@ -360,10 +350,10 @@ $$M_{ij} = \begin{cases} 1 & (a_i, a_j) \in R \\ 0 & \text{otherwise} \end{cases
 
 | Reflexive | Symmetric | Transitive | Type |
 |-----------|-----------|------------|------|
-| ✓ | ✓ | ✓ | Equivalence relation |
-| ✓ | ✗ (antisym) | ✓ | Partial order |
-| ✗ | ✗ | ✓ | Strict partial order |
-| ✓ | ✗ | ✓ | Preorder |
+|  |  |  | Equivalence relation |
+|  | ✗ (antisym) |  | Partial order |
+| ✗ | ✗ |  | Strict partial order |
+|  | ✗ |  | Preorder |
 
 ---
 

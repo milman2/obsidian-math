@@ -194,7 +194,7 @@ $$\mu(A) = 0 \text{ and } B \subseteq A \Rightarrow B \in \mathcal{F}$$
 즉, measure zero sets^[측도 0 집합]의 모든 부분집합도 measurable
 
 **예시**:
-- Lebesgue measure (completed) ✓ complete
+- Lebesgue measure (completed)  complete
 - Borel measure ✗ not complete
 
 ### Completion^[완비화]

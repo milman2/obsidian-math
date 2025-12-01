@@ -52,8 +52,7 @@ $A_n = \ker(\text{sgn})$
 
 $[S_n : A_n] = |S_n|/|A_n| = 2$
 
-따라서 $|A_n| = n!/2$ ✓
-
+따라서 $|A_n| = n!/2$ 
 ---
 
 # <span class="header-properties">Properties</span>
@@ -109,8 +108,7 @@ $$S_n / A_n \cong \mathbb{Z}/2\mathbb{Z}$$
 
 **Kernel**: $\ker(\text{sgn}) = A_n$
 
-**First Isomorphism Theorem**: $S_n/A_n \cong \text{im}(\text{sgn}) = \{1, -1\}$ ✓
-
+**First Isomorphism Theorem**: $S_n/A_n \cong \text{im}(\text{sgn}) = \{1, -1\}$ 
 자세한 내용은 [[Isomorphism]] 참조
 
 ## Conjugacy Classes
@@ -195,8 +193,7 @@ $$A_4 \subseteq S_4$$
 - 8 3-cycles
 - 3 double transpositions
 
-**Total**: 12 = $4!/2$ ✓
-
+**Total**: 12 = $4!/2$ 
 ---
 
 # <span class="header-theorem">Theorem</span>
@@ -210,8 +207,7 @@ $$A_4 \subseteq S_4$$
 1. **3-cycles generate**: $A_n = \langle 3\text{-cycles} \rangle$
 2. **Normal subgroup contains 3-cycle**: $N \triangleleft A_n$, $N \neq \{e\}$ $\Rightarrow$ $N$ contains a 3-cycle
 3. **All 3-cycles conjugate**: One 3-cycle $\Rightarrow$ all 3-cycles (in $N$)
-4. **Therefore**: $N = A_n$ ✓
-
+4. **Therefore**: $N = A_n$ 
 ## Galois Theory Application
 
 **정리**: 일반 5차 방정식은 근의 공식이 없음
@@ -220,8 +216,7 @@ $$A_4 \subseteq S_4$$
 - 일반 5차 방정식의 Galois group = $S_5$ (또는 $A_5$)
 - $S_5$는 solvable이 아님 ($A_5$ simple)
 - Solvable by radicals $\Leftrightarrow$ Galois group solvable
-- 따라서 근의 공식 없음 ✓
-
+- 따라서 근의 공식 없음 
 자세한 내용은 [[Galois Theory]] 참조
 
 ## Isomorphisms
@@ -333,8 +328,7 @@ $\text{sgn}(123) = 1$ (3-cycle, even)
 
 $\text{sgn}(45) = -1$ (transposition)
 
-$\text{sgn}((123)(45)) = 1 \cdot (-1) = -1$ ✓
-
+$\text{sgn}((123)(45)) = 1 \cdot (-1) = -1$ 
 **결론**: $(123)(45) \notin A_5$
 
 ## 응용 분야
