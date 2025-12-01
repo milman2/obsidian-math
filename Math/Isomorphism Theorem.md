@@ -436,6 +436,8 @@ Field extensions $\leftrightarrow$ Subgroups of Galois group
 
 **Ideal quotients**: $R/I$
 
+자세한 내용은 아래 "Ring Isomorphism Theorems" 참조
+
 ### Universal Algebra^[보편 대수학]
 
 모든 algebraic structures에 일반화 가능
@@ -464,4 +466,320 @@ Field extensions $\leftrightarrow$ Subgroups of Galois group
 - Jordan-Hölder Theorem
 - Schreier Refinement Theorem
 - Category theory perspective (universal properties)
+
+---
+
+# <span class="header-theorem">Ring Isomorphism Theorems</span>
+
+## Comparison: Groups vs Rings
+
+| Aspect | Groups | Rings |
+|--------|--------|-------|
+| Structure | $(G, \cdot)$ | $(R, +, \cdot)$ |
+| Homomorphism | $\phi(ab) = \phi(a)\phi(b)$ | $\phi(a+b) = \phi(a)+\phi(b)$, $\phi(ab) = \phi(a)\phi(b)$ |
+| Kernel | Normal subgroup | Two-sided ideal |
+| Quotient | $G/N$ ($N \triangleleft G$) | $R/I$ ($I$ two-sided ideal) |
+| Image | Subgroup | Subring |
+
+**핵심 차이점**:
+- Ring homomorphism은 **두 연산** 모두 보존
+- Kernel은 **ideal** (단순 subring이 아님!)
+- Quotient 가능 조건: **Two-sided ideal** 필요
+
+## First Isomorphism Theorem (Rings)
+
+### Statement
+
+Ring homomorphism^[환 준동형사상] $\phi: R \to S$에 대해:
+
+$$R/\ker(\phi) \cong \text{im}(\phi)$$
+
+**Natural isomorphism**:
+
+$$\bar{\phi}: R/\ker(\phi) \to \text{im}(\phi), \quad \bar{\phi}(r + \ker(\phi)) = \phi(r)$$
+
+### Key Points
+
+1. $\ker(\phi) = \{r \in R : \phi(r) = 0\}$ is **two-sided ideal**^[양측 아이디얼]
+2. $\text{im}(\phi)$ is **subring** of $S$
+3. $\bar{\phi}$ is **ring isomorphism** (preserves both $+$ and $\cdot$)
+
+### Examples
+
+#### Example 1: Evaluation Homomorphism
+
+$\phi: \mathbb{Z}[x] \to \mathbb{Z}$, $\phi(f(x)) = f(0)$
+
+- **Kernel**: $\ker(\phi) = \langle x \rangle$ (polynomials with constant term 0)
+- **Image**: $\mathbb{Z}$
+
+**First Isomorphism Theorem**:
+
+$$\mathbb{Z}[x]/\langle x \rangle \cong \mathbb{Z}$$
+
+#### Example 2: Reduction Modulo $n$
+
+$\phi: \mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$, $\phi(a) = [a]_n$
+
+- **Kernel**: $n\mathbb{Z}$
+- **Image**: $\mathbb{Z}/n\mathbb{Z}$
+
+**First Isomorphism Theorem**:
+
+$$\mathbb{Z}/n\mathbb{Z} \cong \mathbb{Z}/n\mathbb{Z}$$
+
+#### Example 3: Complex Numbers
+
+$\phi: \mathbb{R}[x] \to \mathbb{C}$, $\phi(f(x)) = f(i)$
+
+- **Kernel**: $\langle x^2 + 1 \rangle$
+- **Image**: $\mathbb{C}$
+
+**First Isomorphism Theorem**:
+
+$$\mathbb{R}[x]/\langle x^2 + 1 \rangle \cong \mathbb{C}$$
+
+자세한 내용은 [[Evaluation Homomorphism]] 참조
+
+## Second Isomorphism Theorem (Rings)
+
+### Statement
+
+$S$ subring of $R$, $I$ two-sided ideal of $R$:
+
+$$S/(S \cap I) \cong (S + I)/I$$
+
+where $S + I = \{s + a : s \in S, a \in I\}$
+
+### Comparison with Groups
+
+| Groups | Rings |
+|--------|-------|
+| $H$ subgroup | $S$ subring |
+| $N$ normal subgroup | $I$ ideal |
+| $HN$ | $S + I$ |
+| $H \cap N$ | $S \cap I$ |
+
+**주의**: Ring에서는 $S + I$가 subring (곱셈에서 닫혀있지 않을 수 있음)
+
+### Example
+
+$R = \mathbb{Z}$, $S = 2\mathbb{Z}$, $I = 3\mathbb{Z}$
+
+- $S \cap I = 6\mathbb{Z}$
+- $S + I = \mathbb{Z}$ (gcd(2,3) = 1이므로)
+
+$$2\mathbb{Z}/6\mathbb{Z} \cong \mathbb{Z}/3\mathbb{Z}$$
+
+## Third Isomorphism Theorem (Rings)
+
+### Statement
+
+$I, J$ two-sided ideals of $R$, $I \subseteq J$:
+
+$$(R/I)/(J/I) \cong R/J$$
+
+### Interpretation
+
+**"몫의 몫은 전체의 몫"** (Groups와 동일)
+
+### Example
+
+$R = \mathbb{Z}$, $I = 12\mathbb{Z}$, $J = 4\mathbb{Z}$
+
+$I \subseteq J$ (since $12\mathbb{Z} \subseteq 4\mathbb{Z}$)
+
+$$(\mathbb{Z}/12\mathbb{Z})/(4\mathbb{Z}/12\mathbb{Z}) \cong \mathbb{Z}/4\mathbb{Z}$$
+
+확인:
+- $|\mathbb{Z}/12\mathbb{Z}| = 12$
+- $|4\mathbb{Z}/12\mathbb{Z}| = 3$ (원소: $\{0, 4, 8\} + 12\mathbb{Z}$)
+- $|(\mathbb{Z}/12\mathbb{Z})/(4\mathbb{Z}/12\mathbb{Z})| = 12/3 = 4$
+
+## Fourth Isomorphism Theorem (Rings)
+
+### Statement
+
+$I$ two-sided ideal of $R$, 다음 사이에 **일대일 대응**:
+
+$$\{\text{Ideals } J : I \subseteq J \subseteq R\} \leftrightarrow \{\text{Ideals } \bar{J} : \bar{J} \triangleleft R/I\}$$
+
+**Correspondence**:
+
+$$J \mapsto J/I$$
+
+### Properties Preserved
+
+1. **Inclusion**: $J_1 \subseteq J_2 \Leftrightarrow J_1/I \subseteq J_2/I$
+2. **Prime ideals**: $P$ prime $\Leftrightarrow$ $P/I$ prime (if $I \subseteq P$)
+3. **Maximal ideals**: $M$ maximal $\Leftrightarrow$ $M/I$ maximal (if $I \subseteq M$)
+
+### Example
+
+$R = \mathbb{Z}$, $I = 60\mathbb{Z}$
+
+**Ideals of $\mathbb{Z}/60\mathbb{Z}$**:
+- $\langle 1 \rangle = \mathbb{Z}/60\mathbb{Z}$ ↔ $\mathbb{Z}$
+- $\langle 2 \rangle$ ↔ $2\mathbb{Z}$
+- $\langle 3 \rangle$ ↔ $3\mathbb{Z}$
+- $\langle 4 \rangle$ ↔ $4\mathbb{Z}$
+- $\langle 5 \rangle$ ↔ $5\mathbb{Z}$
+- $\langle 6 \rangle$ ↔ $6\mathbb{Z}$
+- ...
+- $\langle 60 \rangle = \{0\}$ ↔ $60\mathbb{Z}$
+
+모두 $60\mathbb{Z}$를 포함하는 $\mathbb{Z}$의 ideals
+
+## Key Differences: Groups vs Rings
+
+### 1. Kernel Structure
+
+**Groups**:
+- $\ker(\phi)$ is **normal subgroup**
+- Normality: $gNg^{-1} = N$
+
+**Rings**:
+- $\ker(\phi)$ is **two-sided ideal**
+- $rIr' \subseteq I$ for all $r, r' \in R$
+- Much stronger condition!
+
+### 2. Quotient Construction
+
+**Groups**:
+- $G/N$ requires $N \triangleleft G$
+- Cosets: $gN$
+
+**Rings**:
+- $R/I$ requires $I$ two-sided ideal
+- Cosets: $r + I$
+- Additive cosets (not multiplicative!)
+
+### 3. Homomorphism Conditions
+
+**Groups**:
+- $\phi(ab) = \phi(a)\phi(b)$
+- One operation
+
+**Rings**:
+- $\phi(a + b) = \phi(a) + \phi(b)$
+- $\phi(ab) = \phi(a)\phi(b)$
+- Two operations!
+- Often also: $\phi(1) = 1$ (unital rings)
+
+### 4. Image Properties
+
+**Groups**:
+- $\text{im}(\phi)$ is **subgroup** of $H$
+
+**Rings**:
+- $\text{im}(\phi)$ is **subring** of $S$
+- NOT necessarily an ideal!
+
+### 5. Important: Not Every Subring is Quotient
+
+**Groups**: Every subgroup of $G/N$ corresponds to some $H \supseteq N$
+
+**Rings**: Not every subring of $R/I$ comes from quotient!
+
+**Example**: $\mathbb{Z}/6\mathbb{Z}$ has subring $\{0, 2, 4\}$ (under addition)
+- But this is NOT of the form $J/6\mathbb{Z}$ for any ideal $J$ of $\mathbb{Z}$!
+- Because $\{0, 2, 4\}$ is not an ideal of $\mathbb{Z}/6\mathbb{Z}$ (not closed under multiplication by units)
+
+## Applications in Ring Theory
+
+### 1. Field Extensions
+
+$K[x]/(f(x)) \cong K(\alpha)$ where $f(\alpha) = 0$
+
+**Example**: $\mathbb{Q}[x]/(x^2 - 2) \cong \mathbb{Q}(\sqrt{2})$
+
+자세한 내용은 [[Extension Field]], [[Kronecker Theorem]] 참조
+
+### 2. Chinese Remainder Theorem
+
+$\gcd(m, n) = 1$이면:
+
+$$\mathbb{Z}/mn\mathbb{Z} \cong \mathbb{Z}/m\mathbb{Z} \times \mathbb{Z}/n\mathbb{Z}$$
+
+Isomorphism theorems의 응용!
+
+자세한 내용은 [[Chinese Remainder Theorem]] 참조
+
+### 3. Quotient Rings in Algebraic Geometry
+
+Coordinate ring: $k[x_1, \ldots, x_n]/I$
+
+**Variety** = Zero set of $I$
+
+Isomorphism theorems로 geometric properties 분석
+
+### 4. Maximal and Prime Ideals
+
+**정리**: $M$ maximal ideal $\Leftrightarrow$ $R/M$ is field
+
+**정리**: $P$ prime ideal $\Leftrightarrow$ $R/P$ is integral domain
+
+Fourth Isomorphism Theorem로 ideal hierarchy 분석
+
+자세한 내용은 [[Maximal Ideal]], [[Prime Ideal]] 참조
+
+## Common Pitfalls: Groups vs Rings
+
+### 1. Kernel ≠ Subring
+
+✗ "Kernel은 subring이다"?
+
+✓ Kernel은 **ideal** (특별한 subring)
+- Subring: $1 \in S$, 곱셈/덧셈 닫힘
+- Ideal: 모든 $r \in R$에 대해 $rI, Ir \subseteq I$
+
+### 2. Every Subring ≠ Kernel
+
+✗ "모든 subring이 어떤 homomorphism의 kernel"?
+
+✓ **Ideal만** kernel이 될 수 있음!
+
+**반례**: $\mathbb{Z} \subseteq \mathbb{Q}$ is subring but not ideal
+
+### 3. Quotient ≠ Subring
+
+✗ "$R/I$는 $R$의 subring"?
+
+✓ $R/I$는 **새로운 ring** (not subring of $R$)
+
+### 4. Ideal in Quotient
+
+✗ "$R/I$의 모든 ideal이 $J/I$ 형태"?
+
+✓ Fourth Isomorphism Theorem이 이를 보장!
+
+### 5. One-sided Ideals
+
+✗ "One-sided ideal로 quotient 가능"?
+
+✓ **Two-sided ideal** 필요!
+
+**Non-commutative rings**: Left ideal ≠ right ideal ≠ two-sided ideal
+
+## Summary Table
+
+| Theorem | Groups | Rings |
+|---------|--------|-------|
+| **First** | $G/\ker(\phi) \cong \text{im}(\phi)$ | $R/\ker(\phi) \cong \text{im}(\phi)$ |
+| **Second** | $H/(H \cap N) \cong HN/N$ | $S/(S \cap I) \cong (S+I)/I$ |
+| **Third** | $(G/K)/(N/K) \cong G/N$ | $(R/I)/(J/I) \cong R/J$ |
+| **Fourth** | Subgroups ↔ Subgroups | Ideals ↔ Ideals |
+| **Kernel** | Normal subgroup | Two-sided ideal |
+| **Quotient** | $gN$ | $r + I$ |
+| **Operations** | 1 (multiplication) | 2 (addition, multiplication) |
+
+## Related Ring Theorems
+
+- [[Ring]]: Basic definitions
+- [[Ideal]]: Kernel structure
+- [[Quotient Ring]]: Quotient construction
+- [[Prime Ideal]]: Prime ideal characterization
+- [[Maximal Ideal]]: Maximal ideal characterization
+- [[Homomorphism]]: Ring homomorphisms
+- [[Chinese Remainder Theorem]]: Product decomposition
 
