@@ -728,7 +728,9 @@ $$f(x) = a_n (x - r_1) \cdots (x - r_n)$$
 
 **Different behavior**:
 
-$$x^p - x = x(x-1)(x-2) \cdots (x-(p-1))$$ over $\mathbb{F}_p$ (Fermat's Little Theorem!)
+$$x^p - x = x(x-1)(x-2) \cdots (x-(p-1))$$
+
+over $\mathbb{F}_p$ (Fermat's Little Theorem!)
 
 **Every element is a root!**
 
