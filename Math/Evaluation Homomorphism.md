@@ -88,6 +88,26 @@ $$\ker(\text{ev}_a) = (x - a)$$
 - $0 = f(a) = (a-a)q(a) + r = r$
 - 따라서 $f(x) = (x-a)q(x) \in (x-a)$ ✓
 
+### 표기법 주의
+
+**$(x-a)$의 의미**:
+
+1. **$x-a$**: 원소 하나 (polynomial in $R[x]$)
+2. **$(x-a)$ 또는 $\langle x-a \rangle$**: Principal ideal^[주 아이디얼] (집합)
+
+$$(x-a) = \langle x-a \rangle = \{(x-a)f(x) : f(x) \in R[x]\}$$
+
+**의미**: $(x-a)$를 **인수로 갖는** 모든 다항식들의 집합
+
+**예**: $\mathbb{R}[x]$에서 $(x-2)$의 원소들:
+- $(x-2) \cdot 1 = x-2$
+- $(x-2) \cdot x = x^2-2x$
+- $(x-2) \cdot (x+3) = x^2+x-6$
+
+**공통점**: 모두 $x=2$에서 0이 됨
+
+**관습**: Ring theory에서 $(x-a)$는 관습적으로 ideal을 의미하지만, 더 명확하게 하려면 $\langle x-a \rangle$ 표기를 사용할 수도 있음
+
 ## Image of Evaluation Homomorphism
 
 **정리**: $\text{ev}_a: R[x] \to R$는 **surjective^[전사]**
