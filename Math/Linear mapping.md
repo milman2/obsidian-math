@@ -25,11 +25,11 @@ $$\forall u, v \in V, \, \forall \alpha, \beta \in \mathbb{F}, \quad T(\alpha u 
 
 **Alternative definition** (두 조건으로 분리):
 
-**(1) Additivity^[가법성]**:
+**(1) Additivity**^[가법성]:
 
 $$T(u + v) = T(u) + T(v) \quad \forall u, v \in V$$
 
-**(2) Homogeneity^[동차성]**:
+**(2) Homogeneity**^[동차성]:
 
 $$T(\alpha v) = \alpha T(v) \quad \forall \alpha \in \mathbb{F}, v \in V$$
 
@@ -278,11 +278,11 @@ $$T \text{ is isomorphism} \quad \Leftrightarrow \quad \ker(T) = \{0\} \text{ an
 
 ### Definitions
 
-**Rank^[계수]**:
+**Rank**^[계수]:
 
 $$\text{rank}(T) = \dim(\text{Im}(T))$$
 
-**Nullity^[퇴화차수]**:
+**Nullity**^[퇴화차수]:
 
 $$\text{nullity}(T) = \dim(\ker(T))$$
 
@@ -900,7 +900,7 @@ $V$가 infinite-dimensional이면:
 - Matrix가 "infinite × infinite" 크기 → well-defined 아님
 - 대신 **함수 형태**로 표현
 
-**예시 1: Differential Operator^[미분 연산자]**
+**예시 1: Differential Operator**^[미분 연산자]
 
 $$D: C^\infty(\mathbb{R}) \to C^\infty(\mathbb{R})$$
 
@@ -937,7 +937,7 @@ $$[D] = \begin{pmatrix} 0 & 1 & 0 & 0 & 0 & \cdots \\ 0 & 0 & 2 & 0 & 0 & \cdots
 
 $$D(3x^2 + 5x + 2) = 6x + 5$$
 
-**예시 2: Integration Operator^[적분 연산자]**
+**예시 2: Integration Operator**^[적분 연산자]
 
 $$I: C([0, 1]) \to C([0, 1])$$
 
@@ -964,7 +964,7 @@ $C([0, 1])$는 infinite-dimensional이고, basis가 **uncountable**!
 
 $$I(\sin(\pi x))(x) = \int_0^x \sin(\pi t) \, dt = \frac{1 - \cos(\pi x)}{\pi}$$
 
-**예시 3: Multiplication Operator^[곱셈 연산자]**
+**예시 3: Multiplication Operator**^[곱셈 연산자]
 
 $$M_x: \mathcal{P}(\mathbb{R}) \to \mathcal{P}(\mathbb{R})$$
 
@@ -989,7 +989,7 @@ $$[M_x] = \begin{pmatrix} 0 & 0 & 0 & 0 & \cdots \\ 1 & 0 & 0 & 0 & \cdots \\ 0 
 
 Again, formal notation only!
 
-**예시 4: Shift Operator^[이동 연산자]**
+**예시 4: Shift Operator**^[이동 연산자]
 
 $$S: \ell^2 \to \ell^2$$
 
@@ -1072,7 +1072,7 @@ Infinite-dimensional linear mappings를 엄밀하게 연구
 
 **핵심 개념들**:
 
-**(1) Bounded Operator^[유계 연산자]**:
+**(1) Bounded Operator**^[유계 연산자]:
 
 $$\|T(v)\| \leq C \|v\| \quad \text{for some } C > 0, \forall v$$
 
@@ -1082,7 +1082,7 @@ $$\|T(v)\| \leq C \|v\| \quad \text{for some } C > 0, \forall v$$
 - $S: \ell^2 \to \ell^2$ shift operator: bounded ($C = 1$)
 - $D: L^2 \to L^2$ differentiation: **unbounded**!
 
-**(2) Compact Operator^[콤팩트 연산자]**:
+**(2) Compact Operator**^[콤팩트 연산자]:
 
 Bounded sets를 relatively compact sets로 보냄
 
@@ -1102,7 +1102,7 @@ Bounded sets를 relatively compact sets로 보냄
 
 **예시**: Differentiation $D$ on $C^\infty$ with pointwise convergence: NOT continuous!
 
-**(4) Spectrum^[스펙트럼]**:
+**(4) Spectrum**^[스펙트럼]:
 
 Finite-dimensional: Eigenvalues $\{\lambda_1, \ldots, \lambda_n\}$ (discrete, finite)
 

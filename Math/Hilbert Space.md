@@ -12,21 +12,21 @@
 
 ## Hilbert space
 
-**Hilbert space**^[힐베르트 공간] $H$는 **complete^[완비] inner product space^[내적 공간]**이다.
+**Hilbert space**^[힐베르트 공간] $H$는 **complete**^[완비] inner product space^[내적 공간]이다.
 
 즉, 다음 조건을 만족:
 1. Inner product^[내적] $\langle \cdot, \cdot \rangle : H \times H \rightarrow \mathbb{F}$ (여기서 $\mathbb{F} = \mathbb{R}$ 또는 $\mathbb{C}$)
 2. Induced norm^[유도 노름]: $\|x\| = \sqrt{\langle x, x \rangle}$
-3. **Completeness^[완비성]**: 모든 Cauchy sequence^[코시 수열]가 $H$에서 수렴
+3. **Completeness**^[완비성]: 모든 Cauchy sequence^[코시 수열]가 $H$에서 수렴
 
 ### Inner product의 성질
 
 $x, y, z \in H$, $\alpha, \beta \in \mathbb{F}$에 대해:
 
-1. **Conjugate symmetry^[켤레 대칭]**: $\langle x, y \rangle = \overline{\langle y, x \rangle}$
-2. **Linearity in first argument^[첫 번째 인수에 대한 선형성]**: 
+1. **Conjugate symmetry**^[켤레 대칭]: $\langle x, y \rangle = \overline{\langle y, x \rangle}$
+2. **Linearity in first argument**^[첫 번째 인수에 대한 선형성]: 
    $$\langle \alpha x + \beta y, z \rangle = \alpha \langle x, z \rangle + \beta \langle y, z \rangle$$
-3. **Positive definiteness^[양의 정부호성]**: $\langle x, x \rangle \geq 0$, 등호는 $x = 0$일 때만
+3. **Positive definiteness**^[양의 정부호성]: $\langle x, x \rangle \geq 0$, 등호는 $x = 0$일 때만
 
 ---
 
@@ -59,7 +59,7 @@ $$\langle x, y \rangle = \frac{1}{4}\displaystyle\sum_{k=0}^{3} i^k \|x + i^k y\
 
 $x \perp y$ (직교) $\Leftrightarrow$ $\langle x, y \rangle = 0$
 
-**Pythagorean theorem^[피타고라스 정리]**: $x \perp y$이면
+**Pythagorean theorem**^[피타고라스 정리]: $x \perp y$이면
 $$\|x + y\|^2 = \|x\|^2 + \|y\|^2$$
 
 ---
@@ -122,7 +122,7 @@ $H$의 orthonormal basis^[정규직교 기저] $\{e_i\}_{i \in I}$에 대해:
 
 $$x = \displaystyle\sum_{i \in I} \langle x, e_i \rangle e_i$$
 
-**Parseval's identity^[파르스발 항등식]**:
+**Parseval's identity**^[파르스발 항등식]:
 $$\|x\|^2 = \displaystyle\sum_{i \in I} |\langle x, e_i \rangle|^2$$
 
 ---
@@ -140,7 +140,7 @@ $$\|x\|^2 = \displaystyle\sum_{i \in I} |\langle x, e_i \rangle|^2$$
 
 ## Separability^[분리가능성]
 
-Hilbert space $H$가 **separable^[분리가능]** $\Leftrightarrow$ countable^[가산] dense subset 존재
+Hilbert space $H$가 **separable**^[분리가능] $\Leftrightarrow$ countable^[가산] dense subset 존재
 
 예시:
 - $\ell^2$: separable (rational 좌표 수열들)
@@ -176,9 +176,9 @@ Hilbert space의 특별한 점:
 
 ## 관련 개념
 
-- **Bounded operators^[유계 연산자]**: $T: H \rightarrow H$
-- **Compact operators^[컴팩트 연산자]**: Generalization of finite-rank
-- **Spectral theorem^[스펙트럼 정리]**: Self-adjoint operators의 대각화
+- **Bounded operators**^[유계 연산자]: $T: H \rightarrow H$
+- **Compact operators**^[컴팩트 연산자]: Generalization of finite-rank
+- **Spectral theorem**^[스펙트럼 정리]: Self-adjoint operators의 대각화
 - **Reproducing kernel Hilbert space (RKHS)**: Machine learning에서 중요
 
 ---
