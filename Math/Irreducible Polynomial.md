@@ -17,19 +17,19 @@
 
 ## Irreducible Polynomial^[기약 다항식]
 
-Integral domain^[정역] $R$, polynomial^[다항식] $f(x) \in R[x]$ (nonzero, non-unit)가 **irreducible^[기약]**이다 $\Leftrightarrow$
+Integral domain^[정역] $R$, polynomial^[다항식] $f(x) \in R[x]$ (nonzero, non-unit)가 **irreducible**^[기약]이다 $\Leftrightarrow$
 
 $$f(x) = g(x) h(x) \quad \Rightarrow \quad g(x) \in R[x]^\times \text{ or } h(x) \in R[x]^\times$$
 
 **의미**: Nontrivial factorization^[비자명한 인수분해]이 불가능
 
-**단위원^[Units]**: $R[x]^\times$ = units in $R[x]$
+**단위원**^[Units]: $R[x]^\times$ = units in $R[x]$
 - Field $k$에서: $k[x]^\times = k \setminus \{0\}$ (nonzero constants)
 - $\mathbb{Z}[x]$에서: $\mathbb{Z}[x]^\times = \{\pm 1\}$
 
 ### Reducible Polynomial^[가약 다항식]
 
-$f(x) \in R[x]$가 **reducible^[가약]**이다 $\Leftrightarrow$ irreducible이 **아니다**
+$f(x) \in R[x]$가 **reducible**^[가약]이다 $\Leftrightarrow$ irreducible이 **아니다**
 
 $$\exists g, h \in R[x] \text{ (both non-units)}: \quad f(x) = g(x) h(x)$$
 
@@ -59,7 +59,7 @@ $$f(x) = ax + b \quad (a \neq 0)$$
 
 ## Prime Polynomial^[소 다항식]
 
-UFD $R$에서 polynomial $p(x) \in R[x]$가 **prime^[소]**이다 $\Leftrightarrow$
+UFD $R$에서 polynomial $p(x) \in R[x]$가 **prime**^[소]이다 $\Leftrightarrow$
 
 $$p(x) \mid f(x) g(x) \quad \Rightarrow \quad p(x) \mid f(x) \text{ or } p(x) \mid g(x)$$
 
@@ -75,7 +75,7 @@ $$p(x) \text{ is irreducible} \quad \Leftrightarrow \quad p(x) \text{ is prime}$
 
 ## Fundamental Theorem
 
-**정리**: Field $k$에 대해, $k[x]$는 **UFD^[유일 인수분해 정역]**
+**정리**: Field $k$에 대해, $k[x]$는 **UFD**^[유일 인수분해 정역]
 
 **결과**: 모든 nonconstant polynomial은 irreducible polynomials의 곱으로 유일하게 분해
 
@@ -382,7 +382,7 @@ $$p(x) \text{ irreducible} \quad \Leftrightarrow \quad \langle p(x) \rangle \tex
 
 **정의**: Field extension $F/K$, $\alpha \in F$ algebraic^[대수적]
 
-**Minimal polynomial^[최소 다항식]** of $\alpha$ over $K$:
+**Minimal polynomial**^[최소 다항식] of $\alpha$ over $K$:
 - Monic^[최고차 계수가 1]
 - $f(\alpha) = 0$
 - **Irreducible over $K$**
@@ -427,7 +427,7 @@ $$\Rightarrow \quad f(x) \text{ is reducible}$$
 Composite → Reducible 
 ## Associates
 
-**정의**: $f, g \in k[x]$ are **associates^[동반]** $\Leftrightarrow$
+**정의**: $f, g \in k[x]$ are **associates**^[동반] $\Leftrightarrow$
 
 $$f(x) = c \cdot g(x)$$ 
 

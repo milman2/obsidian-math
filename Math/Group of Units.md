@@ -14,15 +14,15 @@
 
 ## Unit^[단원]
 
-Ring^[환] $R$에서 원소 $u \in R$가 **unit^[단원]** (또는 **invertible element^[가역원]**)이다 $\Leftrightarrow$
+Ring^[환] $R$에서 원소 $u \in R$가 **unit**^[단원] (또는 **invertible element**^[가역원])이다 $\Leftrightarrow$
 
 $$\exists v \in R : uv = vu = 1$$
 
-여기서 $v$를 $u$의 **multiplicative inverse^[곱셈 역원]**라 하고 $u^{-1}$로 표기
+여기서 $v$를 $u$의 **multiplicative inverse**^[곱셈 역원]라 하고 $u^{-1}$로 표기
 
 ## Group of Units^[단원군]
 
-Ring $R$의 **group of units^[단원군]** (또는 **unit group^[단원군]**)는:
+Ring $R$의 **group of units**^[단원군] (또는 **unit group**^[단원군])는:
 
 $$R^\times = \{u \in R : u \text{ is a unit}\}$$
 
@@ -32,13 +32,13 @@ $$R^\times = \{u \in R : u \text{ is a unit}\}$$
 
 $(R^\times, \cdot)$는 곱셈에 대한 group:
 
-1. **Closure^[닫힘]**: $u, v \in R^\times \Rightarrow uv \in R^\times$
+1. **Closure**^[닫힘]: $u, v \in R^\times \Rightarrow uv \in R^\times$
    - $(uv)(v^{-1}u^{-1}) = u(vv^{-1})u^{-1} = 1$ 
-2. **Identity^[항등원]**: $1 \in R^\times$
+2. **Identity**^[항등원]: $1 \in R^\times$
    - $1 \cdot 1 = 1$ 
-3. **Inverse^[역원]**: $u \in R^\times \Rightarrow u^{-1} \in R^\times$
+3. **Inverse**^[역원]: $u \in R^\times \Rightarrow u^{-1} \in R^\times$
    - $u^{-1}$의 역원은 $u$ 
-4. **Associativity^[결합법칙]**: Ring의 곱셈에서 상속 
+4. **Associativity**^[결합법칙]: Ring의 곱셈에서 상속 
 ---
 
 # <span class="header-examples">Examples</span>
@@ -240,7 +240,7 @@ $$(\mathbb{Z}/p\mathbb{Z})^\times \cong \mathbb{Z}/(p-1)\mathbb{Z}$$
 
 **의미**: Cyclic group of order $p-1$
 
-**Primitive root^[원시근]**: Generator of this cyclic group
+**Primitive root**^[원시근]: Generator of this cyclic group
 
 ## Units in Product Rings
 

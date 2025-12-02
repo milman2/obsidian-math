@@ -24,12 +24,12 @@ $$M \cong R^r \oplus R/(d_1) \oplus R/(d_2) \oplus \cdots \oplus R/(d_n)$$
 where $d_1 \mid d_2 \mid \cdots \mid d_n$ (divisibility chain)
 
 **구성 요소**:
-1. **Free part^[자유 부분]**: $R^r$ (rank $r \geq 0$)
-2. **Torsion part^[비틀림 부분]**: $R/(d_1) \oplus \cdots \oplus R/(d_n)$
+1. **Free part**^[자유 부분]: $R^r$ (rank $r \geq 0$)
+2. **Torsion part**^[비틀림 부분]: $R/(d_1) \oplus \cdots \oplus R/(d_n)$
 
-**불변량^[Invariants]**:
+**불변량**^[Invariants]:
 - **Rank**: $r$ (uniquely determined)
-- **Invariant factors^[불변 인자]**: $d_1, d_2, \ldots, d_n$ (unique up to units)
+- **Invariant factors**^[불변 인자]: $d_1, d_2, \ldots, d_n$ (unique up to units)
 
 ### Invariant Factor Form^[불변 인자 형태]
 
@@ -69,7 +69,7 @@ where $d_1 \mid d_2 \mid \cdots \mid d_n$
 1. **Free part**: $\mathbb{Z}^r$ (rank $r$)
 2. **Torsion part**: $T(G) = \mathbb{Z}/(d_1) \oplus \cdots \oplus \mathbb{Z}/(d_n)$ (finite)
 
-**Primary decomposition^[소인수 분해]**:
+**Primary decomposition**^[소인수 분해]:
 
 $$G \cong \mathbb{Z}^r \oplus \bigoplus_{p \text{ prime}} G_p$$
 

@@ -13,7 +13,7 @@
 
 ## Orthogonal Matrix^[직교 행렬]
 
-**Real matrix** $Q \in M_n(\mathbb{R})$가 **orthogonal^[직교]**이다 $\Leftrightarrow$
+**Real matrix** $Q \in M_n(\mathbb{R})$가 **orthogonal**^[직교]이다 $\Leftrightarrow$
 
 $$Q^T Q = I$$
 
@@ -81,7 +81,7 @@ $$\cos\theta = \frac{\langle \mathbf{x}, \mathbf{y} \rangle}{\|\mathbf{x}\| \|\m
 
 $Q$ preserves inner products and lengths $\Rightarrow$ preserves angles
 
-**의미**: **Rigid motion^[강체 운동]** (rotation + reflection)
+**의미**: **Rigid motion**^[강체 운동] (rotation + reflection)
 
 ## Column/Row Properties
 
@@ -228,7 +228,7 @@ $$Q^T Q = I = Q Q^T$$
 
 ## 기하학적 해석
 
-Orthogonal transformations = **Rigid motions^[강체 운동]**
+Orthogonal transformations = **Rigid motions**^[강체 운동]
 
 **$\det(Q) = 1$**: Rotation (orientation-preserving)
 

@@ -252,10 +252,10 @@ $$\sum_{i \in \mathbb{N}} x_i, \quad \bigcup_{U \in \mathcal{B}} U$$
 
 ### 분야별 관례
 
-- **Physics^[물리학]**: 벡터는 주로 bold ($\mathbf{v}$) 또는 arrow ($\vec{v}$)
-- **Algebra^[대수학]**: Ideals은 fraktur ($\mathfrak{a}$), 체는 blackboard bold ($\mathbb{F}$)
-- **Category Theory^[범주론]**: Categories는 calligraphic ($\mathcal{C}$) 또는 sans-serif ($\mathsf{Cat}$)
-- **Analysis^[해석학]**: Function spaces는 calligraphic ($\mathcal{L}^p$), 수는 blackboard bold ($\mathbb{R}$)
+- **Physics**^[물리학]: 벡터는 주로 bold ($\mathbf{v}$) 또는 arrow ($\vec{v}$)
+- **Algebra**^[대수학]: Ideals은 fraktur ($\mathfrak{a}$), 체는 blackboard bold ($\mathbb{F}$)
+- **Category Theory**^[범주론]: Categories는 calligraphic ($\mathcal{C}$) 또는 sans-serif ($\mathsf{Cat}$)
+- **Analysis**^[해석학]: Function spaces는 calligraphic ($\mathcal{L}^p$), 수는 blackboard bold ($\mathbb{R}$)
 
 ### Common Conventions Summary
 

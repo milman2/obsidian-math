@@ -10,7 +10,7 @@
 
 ## Law of total probability^[전확률 공식]
 
-**Statement^[진술]**: Probability space^[확률 공간] $(\Omega, \mathcal{F}, P)$에서, $\{B_i\}_{i \in I}$가 $\Omega$의 **partition^[분할]**이면 (즉, $B_i \cap B_j = \emptyset$ for $i \neq j$이고 $\displaystyle\bigcup_{i \in I} B_i = \Omega$), 임의의 event $A \in \mathcal{F}$에 대해:
+**Statement**^[진술]: Probability space^[확률 공간] $(\Omega, \mathcal{F}, P)$에서, $\{B_i\}_{i \in I}$가 $\Omega$의 **partition**^[분할]이면 (즉, $B_i \cap B_j = \emptyset$ for $i \neq j$이고 $\displaystyle\bigcup_{i \in I} B_i = \Omega$), 임의의 event $A \in \mathcal{F}$에 대해:
 
 $$P(A) = \displaystyle\sum_{i \in I} P(A | B_i) \cdot P(B_i)$$
 
@@ -156,7 +156,7 @@ $$E[X] = \displaystyle\sum_i E[X | B_i] \cdot P(B_i)$$
 Continuous case:
 $$E[X] = \int E[X | Y = y] \cdot f_Y(y) \, dy$$
 
-이는 **Tower property^[탑 성질]** $E[X] = E[E[X | Y]]$의 특수 경우.
+이는 **Tower property**^[탑 성질] $E[X] = E[E[X | Y]]$의 특수 경우.
 
 **상세한 내용**: [[Expected Value]] 참조
 
@@ -182,10 +182,10 @@ $$P(B_i | A) = \frac{P(A | B_i) \cdot P(B_i)}{P(A)} = \frac{P(A | B_i) \cdot P(B
 ## Choice of partition^[분할 선택]
 
 효과적인 partition의 조건:
-- **Exhaustive^[완전]**: $\displaystyle\bigcup_i B_i = \Omega$
-- **Mutually exclusive^[상호 배타적]**: $B_i \cap B_j = \emptyset$
-- **Natural^[자연스러움]**: 조건부 확률 $P(A | B_i)$가 쉽게 계산됨
-- **Not too fine^[너무 세밀하지 않음]**: 계산 복잡도 고려
+- **Exhaustive**^[완전]: $\displaystyle\bigcup_i B_i = \Omega$
+- **Mutually exclusive**^[상호 배타적]: $B_i \cap B_j = \emptyset$
+- **Natural**^[자연스러움]: 조건부 확률 $P(A | B_i)$가 쉽게 계산됨
+- **Not too fine**^[너무 세밀하지 않음]: 계산 복잡도 고려
 
 ### Good partitions
 - 원인별 분할 (공장, 질병 유형 등)

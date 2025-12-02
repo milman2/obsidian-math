@@ -15,7 +15,7 @@
 
 # <span class="header-definition">Overview</span>
 
-**Spectral Theorem^[스펙트럼 정리]**는 선형대수학과 함수해석학에서 가장 중요한 정리 중 하나로, 특정 종류의 operator를 **eigenvalue와 eigenvector로 완전히 분해**할 수 있음을 보장한다.
+**Spectral Theorem**^[스펙트럼 정리]는 선형대수학과 함수해석학에서 가장 중요한 정리 중 하나로, 특정 종류의 operator를 **eigenvalue와 eigenvector로 완전히 분해**할 수 있음을 보장한다.
 
 **핵심 아이디어**:
 

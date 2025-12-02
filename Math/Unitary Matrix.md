@@ -15,7 +15,7 @@
 
 ## Unitary Matrix^[유니타리 행렬]
 
-**Complex matrix** $U \in M_n(\mathbb{C})$가 **unitary^[유니타리]**이다 $\Leftrightarrow$
+**Complex matrix** $U \in M_n(\mathbb{C})$가 **unitary**^[유니타리]이다 $\Leftrightarrow$
 
 $$U^* U = I$$
 

@@ -13,13 +13,13 @@
 
 ## Commutative Ring^[가환환]
 
-Ring $R$이 **commutative^[가환]**이다 $\Leftrightarrow$
+Ring $R$이 **commutative**^[가환]이다 $\Leftrightarrow$
 
 $$\forall a, b \in R: \quad ab = ba$$
 
 **의미**: 곱셈의 순서가 중요하지 않음
 
-**표준 가정**: 특별한 언급이 없으면 commutative ring은 **multiplicative identity^[곱셈 항등원]** $1$을 가진다고 가정
+**표준 가정**: 특별한 언급이 없으면 commutative ring은 **multiplicative identity**^[곱셈 항등원] $1$을 가진다고 가정
 
 ## Commutative Ring with Unity
 
@@ -60,7 +60,7 @@ $$\text{left ideal} = \text{right ideal} = \text{two-sided ideal}$$
 
 ### 2. Principal Ideals
 
-Commutative ring $R$에서 원소 $a$에 의한 **principal ideal^[주 아이디얼]**:
+Commutative ring $R$에서 원소 $a$에 의한 **principal ideal**^[주 아이디얼]:
 
 $$\langle a \rangle = aR = Ra = \{ra : r \in R\}$$
 
@@ -78,7 +78,7 @@ $$f(x) \cdot g(x) = g(x) \cdot f(x)$$
 
 ### 4. Localization
 
-**정리**: Commutative ring $R$과 multiplicative set $S$에 대해 **localization^[국소화]** $S^{-1}R$ 정의 가능
+**정리**: Commutative ring $R$과 multiplicative set $S$에 대해 **localization**^[국소화] $S^{-1}R$ 정의 가능
 
 $$S^{-1}R = \left\{ \frac{r}{s} : r \in R, s \in S \right\}$$
 
@@ -90,7 +90,7 @@ $$S^{-1}R = \left\{ \frac{r}{s} : r \in R, s \in S \right\}$$
 
 ### 5. Spectrum
 
-Commutative ring $R$의 **spectrum^[스펙트럼]**:
+Commutative ring $R$의 **spectrum**^[스펙트럼]:
 
 $$\text{Spec}(R) = \{\text{prime ideals of } R\}$$
 
@@ -141,7 +141,7 @@ $$I \cap J = J \cap I$$
 
 $$U(R) = \{u \in R : \exists v \in R, uv = 1\}$$
 
-**Group structure**: $(U(R), \cdot)$는 **abelian group^[아벨군]**
+**Group structure**: $(U(R), \cdot)$는 **abelian group**^[아벨군]
 
 **증명**: $uv = vu = 1$ (commutativity) 
 자세한 내용은 [[Units]] 참조
@@ -216,7 +216,7 @@ $$\forall I \triangleleft R: \quad \exists a \in R, \quad I = \langle a \rangle$
 
 ### Noetherian Ring^[뇌터 환]
 
-**정의**: Ring satisfying **ascending chain condition^[상승 사슬 조건]** on ideals
+**정의**: Ring satisfying **ascending chain condition**^[상승 사슬 조건] on ideals
 
 $$I_1 \subseteq I_2 \subseteq I_3 \subseteq \cdots \quad \Rightarrow \quad \exists n: I_n = I_{n+1} = \cdots$$
 
@@ -230,7 +230,7 @@ $$I_1 \subseteq I_2 \subseteq I_3 \subseteq \cdots \quad \Rightarrow \quad \exis
 
 ### Artinian Ring^[아르틴 환]
 
-**정의**: Ring satisfying **descending chain condition^[하강 사슬 조건]** on ideals
+**정의**: Ring satisfying **descending chain condition**^[하강 사슬 조건] on ideals
 
 $$I_1 \supseteq I_2 \supseteq I_3 \supseteq \cdots \quad \Rightarrow \quad \exists n: I_n = I_{n+1} = \cdots$$
 

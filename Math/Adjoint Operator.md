@@ -14,7 +14,7 @@
 
 # <span class="header-definition">Definition</span>
 
-**Adjoint Operator^[수반 연산자]** (또는 **Adjoint^[수반]**)는 내적 공간에서 정의되는 특별한 연산자로, transpose의 일반화이다.
+**Adjoint Operator**^[수반 연산자] (또는 **Adjoint**^[수반])는 내적 공간에서 정의되는 특별한 연산자로, transpose의 일반화이다.
 
 ## Inner Product Space Definition
 

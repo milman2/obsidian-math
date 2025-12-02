@@ -18,7 +18,7 @@
 
 **Alternative names**: Lattice Isomorphism Theorem, Fourth Isomorphism Theorem
 
-$N \triangleleft G$ (normal subgroup)에 대해, 다음 두 집합 사이에 **bijection^[일대일 대응]**이 존재:
+$N \triangleleft G$ (normal subgroup)에 대해, 다음 두 집합 사이에 **bijection**^[일대일 대응]이 존재:
 
 $$\{H : N \subseteq H \subseteq G\} \longleftrightarrow \{\bar{H} : \bar{H} \leq G/N\}$$
 

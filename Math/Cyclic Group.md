@@ -13,11 +13,11 @@
 
 ## Cyclic Group^[순환군]
 
-Group $G$가 **cyclic^[순환]**이다 $\Leftrightarrow$ 단일 원소로 생성됨
+Group $G$가 **cyclic**^[순환]이다 $\Leftrightarrow$ 단일 원소로 생성됨
 
 $$\exists g \in G, \quad G = \langle g \rangle = \{g^n : n \in \mathbb{Z}\}$$
 
-원소 $g$를 $G$의 **generator^[생성원]**라 함
+원소 $g$를 $G$의 **generator**^[생성원]라 함
 
 ### Additive Notation^[덧셈 표기]
 
@@ -107,7 +107,7 @@ $$(\mathbb{Z}/p\mathbb{Z})^\times = \{[1], [2], \ldots, [p-1]\}$$
 
 **Order**: $p-1$
 
-**Generator**: **Primitive root modulo $p$^[원시근]**
+**Generator**: **Primitive root modulo $p$**^[원시근]
 
 **예**: $(\mathbb{Z}/7\mathbb{Z})^\times$
 - Order 6

@@ -18,7 +18,7 @@
 
 ## Algebraic Conjugate Elements^[대수적 켤레 원소]
 
-Field extension^[체 확대] $F/K$에서, $\alpha, \beta \in F$가 **algebraic conjugates^[대수적 켤레]** over $K$이다 $\Leftrightarrow$
+Field extension^[체 확대] $F/K$에서, $\alpha, \beta \in F$가 **algebraic conjugates**^[대수적 켤레] over $K$이다 $\Leftrightarrow$
 
 $$\alpha \text{ and } \beta \text{ have the same minimal polynomial over } K$$
 
@@ -34,7 +34,7 @@ $$\exists K\text{-isomorphism } \sigma: K(\alpha) \to K(\beta) \text{ with } \si
 
 ## Galois Conjugates^[갈루아 켤레]
 
-Galois extension^[갈루아 확대] $F/K$에서, $\alpha \in F$의 **Galois conjugates^[갈루아 켤레]**:
+Galois extension^[갈루아 확대] $F/K$에서, $\alpha \in F$의 **Galois conjugates**^[갈루아 켤레]:
 
 $$\{\sigma(\alpha) : \sigma \in \text{Gal}(F/K)\}$$
 
@@ -48,7 +48,7 @@ Galois group^[갈루아 군]의 모든 원소에 의한 $\alpha$의 image들
 
 ## Conjugate Fields^[켤레 체]
 
-Field extensions $E_1, E_2$ over $K$가 **conjugate over $K$^[K 위에서 켤레]**이다 $\Leftrightarrow$
+Field extensions $E_1, E_2$ over $K$가 **conjugate over $K$**^[K 위에서 켤레]이다 $\Leftrightarrow$
 
 $$\exists K\text{-isomorphism } \sigma: E_1 \to E_2$$
 
@@ -285,7 +285,7 @@ $\Leftrightarrow$ $K(\alpha)/K$ is Galois
 
 $$\exists \alpha \in F: F = K(\alpha)$$
 
-Such $\alpha$ is called **primitive element^[원시 원소]**
+Such $\alpha$ is called **primitive element**^[원시 원소]
 
 **결과**: $F$의 모든 원소는 $\alpha$의 polynomial로 표현 가능
 
@@ -295,7 +295,7 @@ Such $\alpha$ is called **primitive element^[원시 원소]**
 
 **정리**: $\alpha_1, \ldots, \alpha_n$이 $\alpha$의 모든 conjugates
 
-**Discriminant^[판별식]**:
+**Discriminant**^[판별식]:
 
 $$\Delta = \prod_{i < j} (\alpha_i - \alpha_j)^2 \in K$$
 
@@ -307,10 +307,10 @@ $$\Delta = \prod_{i < j} (\alpha_i - \alpha_j)^2 \in K$$
 
 **정리**: $\alpha \in F$, $F/K$ finite separable, degree $n$
 
-**Norm^[노름]**:
+**Norm**^[노름]:
 $$N_{F/K}(\alpha) = \prod_{\sigma \in \text{Gal}(\overline{K}/K)} \sigma(\alpha) = \prod_{i=1}^{n/[K(\alpha):K]} \alpha_i^{[K(\alpha):K]}$$
 
-**Trace^[대각합]**:
+**Trace**^[대각합]:
 $$\text{Tr}_{F/K}(\alpha) = \sum_{\sigma \in \text{Gal}(\overline{K}/K)} \sigma(\alpha) = \frac{n}{[K(\alpha):K]} \sum_{i=1}^{n/[K(\alpha):K]} \alpha_i$$
 
 where $\alpha_1, \ldots, \alpha_m$ are distinct conjugates

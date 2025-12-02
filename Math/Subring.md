@@ -12,9 +12,9 @@
 
 ## Subring^[부분환]
 
-Ring $R$의 부분집합 $S$가 **subring^[부분환]**이다 $\Leftrightarrow$
+Ring $R$의 부분집합 $S$가 **subring**^[부분환]이다 $\Leftrightarrow$
 
-1. $S$가 $R$의 덧셈에 대해 **subgroup^[부분군]**
+1. $S$가 $R$의 덧셈에 대해 **subgroup**^[부분군]
 2. $S$가 $R$의 곱셈에 대해 **닫혀있음** (closed)
 3. (선택적) $S$가 $R$의 곱셈 항등원 $1_R$을 포함 (unital subring)
 
@@ -94,7 +94,7 @@ $$S_1, S_2 \leq R \quad \Rightarrow \quad S_1 \cap S_2 \leq R$$
 
 $$\langle X \rangle = \bigcap_{X \subseteq S \leq R} S$$
 
-**의미**: $X$로 **generated^[생성]**된 subring
+**의미**: $X$로 **generated**^[생성]된 subring
 
 **원소**: 모든 $a_1, \ldots, a_n \in X$와 정수 $k_1, \ldots, k_n$에 대한
 
@@ -115,7 +115,7 @@ $$n \cdot 1_S = n \cdot 1_R$$
 
 ### 4. Subring Lattice
 
-Ring $R$의 모든 subrings는 **lattice^[격자]** 구조:
+Ring $R$의 모든 subrings는 **lattice**^[격자] 구조:
 
 **Join**: $S_1 \vee S_2 = \langle S_1 \cup S_2 \rangle$ (smallest subring containing both)
 
@@ -146,7 +146,7 @@ Ring $R$의 모든 subrings는 **lattice^[격자]** 구조:
 
 ## Prime Subring
 
-**정의**: Ring $R$의 **prime subring^[소 부분환]** = 모든 subrings의 교집합
+**정의**: Ring $R$의 **prime subring**^[소 부분환] = 모든 subrings의 교집합
 
 $$\text{Prime}(R) = \bigcap_{S \leq R} S$$
 
@@ -173,7 +173,7 @@ $$\text{Prime}(R) = \{n \cdot 1 : n \in \mathbb{Z}\} = \langle 1 \rangle$$
 
 ## Center as Subring
 
-Ring $R$의 **center^[중심]**:
+Ring $R$의 **center**^[중심]:
 
 $$Z(R) = \{z \in R : zr = rz \text{ for all } r \in R\}$$
 

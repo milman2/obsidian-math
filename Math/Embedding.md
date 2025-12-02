@@ -15,7 +15,7 @@
 
 ## General Concept^[일반 개념]
 
-**Embedding^[매장/포함 사상]**은 한 수학적 구조를 다른 구조 안에 **구조를 보존하며** 포함시키는 사상이다.
+**Embedding**^[매장/포함 사상]은 한 수학적 구조를 다른 구조 안에 **구조를 보존하며** 포함시키는 사상이다.
 
 **핵심**: Embedding은 항상 injective^[단사]이지만, 단순한 injection보다 **더 강한 조건**을 만족한다.
 
@@ -41,9 +41,9 @@ f: X \to f(X) \text{ is a homeomorphism}
 
 ### Open/Closed Embedding
 
-**Open embedding^[열린 매장]**: Topological embedding이고 $f(X)$가 $Y$에서 open^[열린]
+**Open embedding**^[열린 매장]: Topological embedding이고 $f(X)$가 $Y$에서 open^[열린]
 
-**Closed embedding^[닫힌 매장]**: Topological embedding이고 $f(X)$가 $Y$에서 closed^[닫힌]
+**Closed embedding**^[닫힌 매장]: Topological embedding이고 $f(X)$가 $Y$에서 closed^[닫힌]
 
 ---
 
@@ -51,7 +51,7 @@ f: X \to f(X) \text{ is a homeomorphism}
 
 ### Ring/Field Embedding
 
-**Ring embedding**: Injective ring homomorphism^[환 준동형사상]
+**Ring embedding**: Injective ring homomorphism**^[환 준동형사상]
 
 Ring $R$에서 $S$로의 함수 $\phi: R \to S$가 ring embedding이다:
 
@@ -79,7 +79,7 @@ f \text{ is injective} \\
 f(g_1 g_2) = f(g_1)f(g_2) \text{ for all } g_1, g_2 \in G
 \end{cases}$$
 
-**의미**: $G$를 $H$의 subgroup과 isomorphic^[동형]하게 만든다
+**의미**: $G$를 $H$의 subgroup과 isomorphic**^[동형]하게 만든다
 
 ---
 
@@ -96,14 +96,14 @@ f: M \to f(M) \text{ is a homeomorphism}
 \end{cases}$$
 
 **Immersion vs Embedding**:
-- **Immersion^[몰입]**: $df_p$ injective everywhere (tangent map injective)
+- **Immersion**^[몰입]: $df_p$ injective everywhere (tangent map injective)
 - **Embedding**: Immersion + topological embedding
 
 ---
 
 ## Metric Embedding^[거리 매장]
 
-Metric space^[거리 공간] $(X, d_X)$에서 $(Y, d_Y)$로의 함수 $f: X \to Y$가 **isometric embedding^[등거리 매장]**이다:
+Metric space^[거리 공간] $(X, d_X)$에서 $(Y, d_Y)$로의 함수 $f: X \to Y$가 **isometric embedding**^[등거리 매장]이다:
 
 $$\Leftrightarrow d_Y(f(x_1), f(x_2)) = d_X(x_1, x_2) \text{ for all } x_1, x_2 \in X$$
 
@@ -119,7 +119,7 @@ $$c \cdot d_X(x_1, x_2) \leq d_Y(f(x_1), f(x_2)) \leq C \cdot d_X(x_1, x_2)$$
 
 ### Composition
 
-**정리**: Embedding의 composition^[합성]은 embedding이다
+**정리**: Embedding의 composition**^[합성]은 embedding이다
 
 $f: X \hookrightarrow Y$, $g: Y \hookrightarrow Z$가 embedding이면 $g \circ f: X \hookrightarrow Z$도 embedding ✓
 
@@ -139,7 +139,7 @@ $$U \subset X \text{ is open in } X \Leftrightarrow f(U) \text{ is open in } f(X
 
 ### Compactness 보존
 
-**정리**: $f: X \hookrightarrow Y$가 embedding이고 $X$가 compact^[옹골]이면 $f(X)$도 compact
+**정리**: $f: X \hookrightarrow Y$가 embedding이고 $X$가 compact**^[옹골]이면 $f(X)$도 compact
 
 또한 $Y$가 Hausdorff^[하우스도르프]이면 $f(X)$는 closed in $Y$
 
@@ -153,7 +153,7 @@ $$U \subset X \text{ is open in } X \Leftrightarrow f(U) \text{ is open in } f(X
 
 ### Extension
 
-**정리** (Field embedding): $\phi: F \hookrightarrow K$가 field embedding이면 $\phi(F) \cong F$는 $K$의 subfield^[부분체]
+**정리** (Field embedding): $\phi: F \hookrightarrow K$가 field embedding이면 $\phi(F) \cong F$는 $K$의 subfield**^[부분체]
 
 ---
 
@@ -281,7 +281,7 @@ $$\phi: G \hookrightarrow S_G, \quad g \mapsto (x \mapsto gx)$$
 
 ## Importance in Category Theory
 
-**Categorical view**: Embedding은 monomorphism^[단사 사상]의 특수한 경우
+**Categorical view**: Embedding은 monomorphism**^[단사 사상]의 특수한 경우
 
 **Universal property**: "가장 자연스러운" inclusion
 

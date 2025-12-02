@@ -14,7 +14,7 @@
 
 ## Dihedral Group $D_n$^[이면체군]
 
-정 $n$각형 (regular $n$-gon)의 모든 **symmetries^[대칭]**의 group
+정 $n$각형 (regular $n$-gon)의 모든 **symmetries**^[대칭]의 group
 
 $$D_n = \text{symmetries of regular } n\text{-gon}$$
 

@@ -16,7 +16,7 @@
 
 ## Homology^[호모로지]
 
-**Homology^[호모로지]**: 위상공간 \(X\)에 **abelian groups^[아벨군]** \(H_n(X)\)를 대응시키는 functor^[함자]
+**Homology**^[호모로지]: 위상공간 \(X\)에 **abelian groups**^[아벨군] \(H_n(X)\)를 대응시키는 functor^[함자]
 
 $$H_n: \mathbf{Top} \to \mathbf{Ab}, \quad X \mapsto H_n(X)$$
 
@@ -34,7 +34,7 @@ $$H_n: \mathbf{Top} \to \mathbf{Ab}, \quad X \mapsto H_n(X)$$
 
 ### Singular Simplex^[특이 단체]
 
-**Standard \(n\)-simplex^[표준 n-단체]**:
+**Standard \(n\)-simplex**^[표준 n-단체]:
 
 $$\Delta^n = \{(t_0, \ldots, t_n) \in \mathbb{R}^{n+1} : t_i \geq 0, \sum_{i=0}^n t_i = 1\}$$
 
@@ -584,9 +584,9 @@ $$H_k(S^n) = \begin{cases} \mathbb{Z} & k = 0, n \\ 0 & \text{otherwise} \end{ca
 
 ## Cycle vs Boundary
 
-**Cycle^[순환]**: "Closed" chain (\(\partial c = 0\))
+**Cycle**^[순환]: "Closed" chain (\(\partial c = 0\))
 
-**Boundary^[경계]**: "Bounding" chain (\(c = \partial d\))
+**Boundary**^[경계]: "Bounding" chain (\(c = \partial d\))
 
 **Homology**: Cycles that are NOT boundaries
 

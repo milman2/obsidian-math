@@ -17,11 +17,11 @@
 
 ## Exact Sequence^[완전 수열]
 
-**Exact sequence^[완전 수열]**는 abelian groups (또는 modules)와 homomorphisms의 sequence:
+**Exact sequence**^[완전 수열]는 abelian groups (또는 modules)와 homomorphisms의 sequence:
 
 $$\cdots \to A_{n+1} \xrightarrow{f_{n+1}} A_n \xrightarrow{f_n} A_{n-1} \to \cdots$$
 
-where **exactness condition^[완전성 조건]**:
+where **exactness condition**^[완전성 조건]:
 
 $$\text{im}(f_{n+1}) = \ker(f_n) \quad \text{for all } n$$
 
@@ -33,7 +33,7 @@ $$\text{im}(f_{n+1}) = \ker(f_n) \quad \text{for all } n$$
 
 ## Short Exact Sequence^[짧은 완전 수열]
 
-**Short exact sequence (SES)^[짧은 완전 수열]**:
+**Short exact sequence (SES)**^[짧은 완전 수열]:
 
 $$0 \to A \xrightarrow{f} B \xrightarrow{g} C \to 0$$
 
@@ -54,7 +54,7 @@ $$0 \to A \xrightarrow{f} B \xrightarrow{g} C \to 0$$
 
 ## Long Exact Sequence^[긴 완전 수열]
 
-**Long exact sequence (LES)^[긴 완전 수열]**: Infinite (or semi-infinite) exact sequence
+**Long exact sequence (LES)**^[긴 완전 수열]: Infinite (or semi-infinite) exact sequence
 
 **Example** (homology):
 
@@ -69,7 +69,7 @@ $$\cdots \to H_n(A) \to H_n(X) \to H_n(X, A) \xrightarrow{\partial} H_{n-1}(A) \
 
 ## Split Exact Sequence^[분해 완전 수열]
 
-Short exact sequence $0 \to A \xrightarrow{f} B \xrightarrow{g} C \to 0$ **splits^[분해]** if:
+Short exact sequence $0 \to A \xrightarrow{f} B \xrightarrow{g} C \to 0$ **splits**^[분해] if:
 
 **Left split**: $\exists$ homomorphism $s: B \to A$ such that $s \circ f = \text{id}_A$
 
@@ -81,7 +81,7 @@ $$C \xrightarrow{t} B \xrightarrow{g} C$$
 
 **정리**: For abelian groups, left split $\Leftrightarrow$ right split
 
-**결과**: If SES splits, then $B \cong A \oplus C$ (direct sum^[직합])
+**결과**: If SES splits, then $B \cong A \oplus C$ (direct sum**^[직합])
 
 ---
 
@@ -142,19 +142,19 @@ For SES $0 \to A \xrightarrow{f} B \xrightarrow{g} C \to 0$, TFAE:
 
 ### Functors Preserve Exactness
 
-**Left exact functor^[좌완전 함자]**: Preserves exactness of
+**Left exact functor**^[좌완전 함자]: Preserves exactness of
 
 $$0 \to A \to B \to C$$
 
 **Example**: $\text{Hom}(X, -)$ is left exact
 
-**Right exact functor^[우완전 함자]**: Preserves exactness of
+**Right exact functor**^[우완전 함자]: Preserves exactness of
 
 $$A \to B \to C \to 0$$
 
 **Example**: $- \otimes N$ is right exact
 
-**Exact functor^[완전 함자]**: Preserves all exact sequences
+**Exact functor**^[완전 함자]: Preserves all exact sequences
 
 **Example**: Free abelian group functor
 

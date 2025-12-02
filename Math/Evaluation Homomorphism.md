@@ -16,7 +16,7 @@
 
 ## Evaluation Homomorphism^[평가 준동형사상]
 
-Ring $R$과 원소 $a \in R$에 대해, **evaluation homomorphism^[평가 준동형사상]** (또는 **substitution homomorphism^[대입 준동형사상]**)은:
+Ring $R$과 원소 $a \in R$에 대해, **evaluation homomorphism**^[평가 준동형사상] (또는 **substitution homomorphism**^[대입 준동형사상])은:
 
 $$\text{ev}_a: R[x] \to R$$
 
@@ -104,7 +104,7 @@ $$(x-a) = \langle x-a \rangle = \{(x-a)f(x) : f(x) \in R[x]\}$$
 
 ## Image of Evaluation Homomorphism
 
-**정리**: $\text{ev}_a: R[x] \to R$는 **surjective^[전사]**
+**정리**: $\text{ev}_a: R[x] \to R$는 **surjective**^[전사]
 
 **증명**: 임의의 $r \in R$에 대해, constant polynomial $f(x) = r$은:
 

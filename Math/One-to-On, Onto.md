@@ -14,7 +14,7 @@
 
 ## Injective^[단사] (One-to-One)
 
-$f$가 **injective^[단사]** (또는 **one-to-one^[일대일]**)이다 $\Leftrightarrow$ 서로 다른 입력은 서로 다른 출력을 가짐:
+$f$가 **injective**^[단사] (또는 **one-to-one**^[일대일])이다 $\Leftrightarrow$ 서로 다른 입력은 서로 다른 출력을 가짐:
 
 $$\forall x_1, x_2 \in X, \; x_1 \neq x_2 \Rightarrow f(x_1) \neq f(x_2)$$
 
@@ -26,7 +26,7 @@ $$\forall x_1, x_2 \in X, \; f(x_1) = f(x_2) \Rightarrow x_1 = x_2$$
 
 ## Surjective^[전사] (Onto)
 
-$f$가 **surjective^[전사]** (또는 **onto^[위로]**)이다 $\Leftrightarrow$ 모든 출력값이 실제로 달성됨:
+$f$가 **surjective**^[전사] (또는 **onto**^[위로])이다 $\Leftrightarrow$ 모든 출력값이 실제로 달성됨:
 
 $$\forall y \in Y, \; \exists x \in X \text{ such that } f(x) = y$$
 
@@ -40,7 +40,7 @@ $$f(X) = Y$$
 
 ## Bijective^[전단사] (One-to-One Correspondence)
 
-$f$가 **bijective^[전단사]**이다 $\Leftrightarrow$ $f$가 injective이면서 surjective
+$f$가 **bijective**^[전단사]이다 $\Leftrightarrow$ $f$가 injective이면서 surjective
 
 $$f \text{ is bijective} \Leftrightarrow f \text{ is injective and surjective}$$
 
@@ -310,7 +310,7 @@ $f(x) = x^2$:
 
 ### 위상수학^[Topology]에서
 
-**Homeomorphism^[위상동형사상]** = continuous bijection with continuous inverse
+**Homeomorphism**^[위상동형사상] = continuous bijection with continuous inverse
 
 Bijection만으로는 부족 - 연속성도 필요!
 
@@ -318,24 +318,24 @@ Bijection만으로는 부족 - 연속성도 필요!
 
 ### 측도론^[Measure Theory]에서
 
-**Measurable function^[가측 함수]**: Bijection일 필요 없음
+**Measurable function**^[가측 함수]: Bijection일 필요 없음
 - Preimage of measurable sets must be measurable
 - 함수의 injective/surjective 여부는 measurability와 독립적
 
 ### 응용
 
-**암호학^[Cryptography]**:
+**암호학**^[Cryptography]:
 - Encryption function은 bijective여야 복호화 가능
 
 **컴퓨터 과학**:
 - Hash function: 일반적으로 not injective (collision)
 - Database keys: Injective mapping to records
 
-**통계학^[Statistics]**:
+**통계학**^[Statistics]:
 - Probability transformations
 - Change of variables (bijection 필요)
 
-**집합론^[Set Theory]**:
+**집합론**^[Set Theory]:
 - Cardinality 비교
 - Countable vs uncountable sets
 

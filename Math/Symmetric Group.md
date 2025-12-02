@@ -282,7 +282,7 @@ $$\phi: G \to S_G, \quad \phi(g)(x) = gx$$
 
 ### Transitive Subgroups
 
-$G \leq S_n$이 **transitive^[추이적]**이다 $\Leftrightarrow$
+$G \leq S_n$이 **transitive**^[추이적]이다 $\Leftrightarrow$
 
 $$\forall i, j \in \{1, \ldots, n\}, \; \exists \sigma \in G, \; \sigma(i) = j$$
 
@@ -290,13 +290,13 @@ $$\forall i, j \in \{1, \ldots, n\}, \; \exists \sigma \in G, \; \sigma(i) = j$$
 
 ### Primitive vs Imprimitive
 
-**Primitive group^[원시군]**: No non-trivial block system
+**Primitive group**^[원시군]: No non-trivial block system
 
-**Imprimitive group^[비원시군]**: Has block system
+**Imprimitive group**^[비원시군]: Has block system
 
 ## Representation Theory
 
-$S_n$의 **irreducible representations^[기약 표현]**: Young tableaux^[영 타블로]로 분류
+$S_n$의 **irreducible representations**^[기약 표현]: Young tableaux^[영 타블로]로 분류
 
 **Dimension formula**: Hook length formula
 

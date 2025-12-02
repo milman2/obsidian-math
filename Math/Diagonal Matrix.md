@@ -12,7 +12,7 @@
 
 ## Diagonal Matrix^[대각 행렬]
 
-**Matrix** $D \in M_n(\mathbb{F})$가 **diagonal^[대각]**이다 $\Leftrightarrow$
+**Matrix** $D \in M_n(\mathbb{F})$가 **diagonal**^[대각]이다 $\Leftrightarrow$
 
 $$D_{ij} = 0 \quad \text{for all } i \neq j$$
 
@@ -94,7 +94,7 @@ $$D\mathbf{e}_i = d_i \mathbf{e}_i$$
 
 ## Geometric Interpretation
 
-Diagonal matrix는 **축 방향 scaling^[축 스케일링]**:
+Diagonal matrix는 **축 방향 scaling**^[축 스케일링]:
 
 $$D\begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{pmatrix} = \begin{pmatrix} d_1 x_1 \\ d_2 x_2 \\ \vdots \\ d_n x_n \end{pmatrix}$$
 
@@ -145,7 +145,7 @@ Special diagonal matrix (all zeros)
 
 ## Diagonalization
 
-**정리**: Matrix $A$가 **diagonalizable^[대각화 가능]** $\Leftrightarrow$
+**정리**: Matrix $A$가 **diagonalizable**^[대각화 가능] $\Leftrightarrow$
 
 $$A = PDP^{-1}$$
 

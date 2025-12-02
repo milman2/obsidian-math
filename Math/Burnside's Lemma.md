@@ -14,13 +14,13 @@
 
 ## Burnside's Lemma
 
-(Also known as **Cauchy-Frobenius Lemma^[코시-프로베니우스 보조정리]** or **Orbit-Counting Theorem^[궤도 계수 정리]**)
+(Also known as **Cauchy-Frobenius Lemma**^[코시-프로베니우스 보조정리] or **Orbit-Counting Theorem**^[궤도 계수 정리])
 
 Group $G$가 finite set^[유한 집합] $X$에 작용할 때, **orbit^[궤도]의 개수**는:
 
 $$|\text{Orbits}| = \frac{1}{|G|} \sum_{g \in G} |X^g|$$
 
-여기서 $X^g = \{x \in X : g \cdot x = x\}$는 $g$의 **fixed points^[고정점]**
+여기서 $X^g = \{x \in X : g \cdot x = x\}$는 $g$의 **fixed points**^[고정점]
 
 ### 다른 표현
 
@@ -62,7 +62,7 @@ $X$를 orbit들로 분할: $X = \bigsqcup_{i=1}^{k} \mathcal{O}_i$
 
 $$\sum_{x \in X} |G_x| = \sum_{i=1}^{k} \sum_{x \in \mathcal{O}_i} |G_x|$$
 
-**Orbit-Stabilizer Theorem^[궤도-안정화군 정리]**에 의해: $|\mathcal{O}_i| = \frac{|G|}{|G_{x_i}|}$
+**Orbit-Stabilizer Theorem**^[궤도-안정화군 정리]에 의해: $|\mathcal{O}_i| = \frac{|G|}{|G_{x_i}|}$
 
 같은 orbit의 모든 점은 conjugate stabilizer를 가지므로 같은 크기:
 
@@ -195,7 +195,7 @@ $$g \cdot x = gxg^{-1}$$
 
 $$|\text{Conjugacy Classes}| = \frac{1}{|G|} \sum_{g \in G} |C_G(g)|$$
 
-이것이 바로 **Class Equation^[류 방정식]**의 다른 형태!
+이것이 바로 **Class Equation**^[류 방정식]의 다른 형태!
 
 ## Example 5: Graph Automorphisms
 

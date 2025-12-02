@@ -13,7 +13,7 @@
 
 ## Symmetric Matrix^[대칭 행렬]
 
-**Real matrix** $A \in M_n(\mathbb{R})$가 **symmetric^[대칭]**이다 $\Leftrightarrow$
+**Real matrix** $A \in M_n(\mathbb{R})$가 **symmetric**^[대칭]이다 $\Leftrightarrow$
 
 $$A^T = A$$
 
@@ -25,7 +25,7 @@ $$A^T = A$$
 
 **Complex matrix** $A \in M_n(\mathbb{C})$:
 
-**Hermitian^[에르미트]** (복소수의 symmetric 일반화):
+**Hermitian**^[에르미트] (복소수의 symmetric 일반화):
 
 $$A^* = A$$
 
@@ -90,7 +90,7 @@ $$\mathbf{v}^* A \mathbf{v} = (A\mathbf{v})^* \mathbf{v} = (\lambda \mathbf{v})^
 따라서 $\lambda = \overline{\lambda}$ $\Rightarrow$ $\lambda \in \mathbb{R}$ 
 ### Theorem: Orthogonal Eigenvectors
 
-**정리**: 서로 다른 eigenvalue의 eigenvector는 **orthogonal^[직교]**
+**정리**: 서로 다른 eigenvalue의 eigenvector는 **orthogonal**^[직교]
 
 **증명**: $A\mathbf{v}_1 = \lambda_1 \mathbf{v}_1$, $A\mathbf{v}_2 = \lambda_2 \mathbf{v}_2$, $\lambda_1 \neq \lambda_2$
 
@@ -103,7 +103,7 @@ $\lambda_1 \neq \lambda_2$ $\Rightarrow$ $\langle \mathbf{v}_1, \mathbf{v}_2 \ra
 
 **정리** (**Spectral Theorem for Symmetric Matrices**):
 
-$A$ symmetric $\Rightarrow$ $A$는 **orthogonally diagonalizable^[직교 대각화 가능]**
+$A$ symmetric $\Rightarrow$ $A$는 **orthogonally diagonalizable**^[직교 대각화 가능]
 
 $$A = Q \Lambda Q^T$$
 

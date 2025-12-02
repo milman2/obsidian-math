@@ -14,7 +14,7 @@ Topological space^[위상공간] $(X, \tau)$와 부분집합 $A \subseteq X$에 
 
 ## Interior^[내부]
 
-$A$의 **interior^[내부]** $\text{int}(A)$ (또는 $A^\circ$)는 $A$에 포함되는 모든 open set^[열린 집합]의 합집합:
+$A$의 **interior**^[내부] $\text{int}(A)$ (또는 $A^\circ$)는 $A$에 포함되는 모든 open set^[열린 집합]의 합집합:
 
 $$\text{int}(A) = \bigcup \{U \in \tau : U \subseteq A\}$$
 
@@ -24,7 +24,7 @@ $\text{int}(A) = \{x \in A : \exists U \in \tau \text{ s.t. } x \in U \subseteq 
 
 ## Closure^[폐포]
 
-$A$의 **closure^[폐포]** $\overline{A}$ (또는 $\text{cl}(A)$)는 $A$를 포함하는 모든 closed set^[닫힌 집합]의 교집합:
+$A$의 **closure**^[폐포] $\overline{A}$ (또는 $\text{cl}(A)$)는 $A$를 포함하는 모든 closed set^[닫힌 집합]의 교집합:
 
 $$\overline{A} = \bigcap \{F \subseteq X : F \text{ is closed and } A \subseteq F\}$$
 
@@ -34,7 +34,7 @@ $$\overline{A} = \bigcap \{F \subseteq X : F \text{ is closed and } A \subseteq 
 
 ## Boundary^[경계]
 
-$A$의 **boundary^[경계]** $\partial A$ (또는 $\text{bd}(A)$, $\text{Fr}(A)$)는:
+$A$의 **boundary**^[경계] $\partial A$ (또는 $\text{bd}(A)$, $\text{Fr}(A)$)는:
 
 $$\partial A = \overline{A} \setminus \text{int}(A)$$
 
@@ -42,7 +42,7 @@ $$\partial A = \overline{A} \setminus \text{int}(A)$$
 
 ## Exterior^[외부]
 
-$A$의 **exterior^[외부]** $\text{ext}(A)$는:
+$A$의 **exterior**^[외부] $\text{ext}(A)$는:
 
 $$\text{ext}(A) = \text{int}(X \setminus A)$$
 
@@ -102,7 +102,7 @@ $$X = \text{int}(A) \cup \partial A \cup \text{ext}(A)$$
 
 ### Limit Points^[극한점]
 
-점 $x \in X$가 $A$의 **limit point^[극한점]** (또는 accumulation point^[축적점]) $\Leftrightarrow$ 모든 open set $U \ni x$에 대해 $(U \setminus \{x\}) \cap A \neq \emptyset$
+점 $x \in X$가 $A$의 **limit point**^[극한점] (또는 accumulation point^[축적점]) $\Leftrightarrow$ 모든 open set $U \ni x$에 대해 $(U \setminus \{x\}) \cap A \neq \emptyset$
 
 $A' = \{x : x \text{ is a limit point of } A\}$로 표기하면:
 
@@ -200,7 +200,7 @@ $(X, \{\emptyset, X\})$에서 $\emptyset \neq A \neq X$:
 
 ### Dense Set^[조밀 집합]
 
-$A$가 **dense^[조밀]** in $X$ $\Leftrightarrow$ $\overline{A} = X$
+$A$가 **dense**^[조밀] in $X$ $\Leftrightarrow$ $\overline{A} = X$
 
 동등 조건:
 - $\text{int}(X \setminus A) = \emptyset$
@@ -210,7 +210,7 @@ $A$가 **dense^[조밀]** in $X$ $\Leftrightarrow$ $\overline{A} = X$
 
 ### Nowhere Dense^[처처 조밀하지 않음]
 
-$A$가 **nowhere dense^[처처 조밀하지 않음]** $\Leftrightarrow$ $\text{int}(\overline{A}) = \emptyset$
+$A$가 **nowhere dense**^[처처 조밀하지 않음] $\Leftrightarrow$ $\text{int}(\overline{A}) = \emptyset$
 
 즉, $A$의 closure가 interior point를 갖지 않음
 

@@ -17,7 +17,7 @@
 
 ## Module^[가군]
 
-**Left $R$-module^[왼쪽 $R$-가군]**: 
+**Left $R$-module**^[왼쪽 $R$-가군]: 
 
 Given a ring^[환] $R$ with identity, a **left $R$-module** is an abelian group $(M, +)$ with scalar multiplication^[스칼라 곱셈]:
 
@@ -25,9 +25,9 @@ $$R \times M \to M, \quad (r, m) \mapsto rm$$
 
 satisfying:
 
-1. **Associativity^[결합법칙]**: $r(sm) = (rs)m$ for all $r, s \in R, m \in M$
-2. **Identity^[항등원]**: $1_R \cdot m = m$ for all $m \in M$
-3. **Distributivity^[분배법칙]** (over $M$): $r(m_1 + m_2) = rm_1 + rm_2$
+1. **Associativity**^[결합법칙]: $r(sm) = (rs)m$ for all $r, s \in R, m \in M$
+2. **Identity**^[항등원]: $1_R \cdot m = m$ for all $m \in M$
+3. **Distributivity**^[분배법칙] (over $M$): $r(m_1 + m_2) = rm_1 + rm_2$
 4. **Distributivity** (over $R$): $(r + s)m = rm + sm$
 
 **표기**: $M$ is an $R$-module, or $_R M$
@@ -62,7 +62,7 @@ with compatibility: $(rm)s = r(ms)$ for all $r \in R, m \in M, s \in S$
 
 ## Submodule^[부분가군]
 
-**Submodule^[부분가군]**: Subset $N \subseteq M$ that is:
+**Submodule**^[부분가군]: Subset $N \subseteq M$ that is:
 1. Subgroup of $(M, +)$
 2. Closed under scalar multiplication: $r \in R, n \in N \Rightarrow rn \in N$
 
@@ -74,18 +74,18 @@ with compatibility: $(rm)s = r(ms)$ for all $r \in R, m \in M, s \in S$
 
 ## Module Homomorphism^[가군 준동형사상]
 
-**$R$-module homomorphism^[가군 준동형사상]**: Function $f: M \to N$ between $R$-modules such that:
+**$R$-module homomorphism**^[가군 준동형사상]: Function $f: M \to N$ between $R$-modules such that:
 
 1. **Additive**: $f(m_1 + m_2) = f(m_1) + f(m_2)$
 2. **$R$-linear**: $f(rm) = rf(m)$ for all $r \in R, m \in M$
 
 **표기**: $f \in \text{Hom}_R(M, N)$
 
-**Kernel^[핵]**: $\ker(f) = \{m \in M : f(m) = 0\}$ (submodule of $M$)
+**Kernel**^[핵]: $\ker(f) = \{m \in M : f(m) = 0\}$ (submodule of $M$)
 
-**Image^[상]**: $\text{im}(f) = \{f(m) : m \in M\}$ (submodule of $N$)
+**Image**^[상]: $\text{im}(f) = \{f(m) : m \in M\}$ (submodule of $N$)
 
-**Isomorphism^[동형사상]**: Bijective homomorphism (invertible)
+**Isomorphism**^[동형사상]: Bijective homomorphism (invertible)
 
 **표기**: $M \cong N$ (as $R$-modules)
 
@@ -95,7 +95,7 @@ with compatibility: $(rm)s = r(ms)$ for all $r \in R, m \in M, s \in S$
 
 For submodule $N \leq M$:
 
-**Quotient module^[몫가군]**: $M/N = \{m + N : m \in M\}$
+**Quotient module**^[몫가군]: $M/N = \{m + N : m \in M\}$
 
 **Operations**:
 - Addition: $(m_1 + N) + (m_2 + N) = (m_1 + m_2) + N$
@@ -111,7 +111,7 @@ for any homomorphism $f: M \to N$
 
 ## Free Module^[자유 가군]
 
-**Free module^[자유 가군]**: $R$-module $F$ with **basis^[기저]** $\{b_i\}_{i \in I}$
+**Free module**^[자유 가군]: $R$-module $F$ with **basis**^[기저] $\{b_i\}_{i \in I}$
 
 Every element uniquely written as:
 
@@ -119,7 +119,7 @@ $$m = \sum_{i \in I} r_i b_i \quad (r_i \in R, \text{ finitely many non-zero})$$
 
 **표기**: $F \cong \bigoplus_{i \in I} R$ or $F \cong R^{(I)}$
 
-**Rank^[계수]**: Cardinality of basis (if well-defined)
+**Rank**^[계수]: Cardinality of basis (if well-defined)
 
 **주의**: Unlike vector spaces, not all modules have bases!
 
@@ -127,11 +127,11 @@ $$m = \sum_{i \in I} r_i b_i \quad (r_i \in R, \text{ finitely many non-zero})$$
 
 ## Finitely Generated Module^[유한생성 가군]
 
-**Finitely generated^[유한생성]**: $\exists$ finite set $\{m_1, \ldots, m_n\}$ such that
+**Finitely generated**^[유한생성]: $\exists$ finite set $\{m_1, \ldots, m_n\}$ such that
 
 $$M = Rm_1 + Rm_2 + \cdots + Rm_n = \left\{\sum_{i=1}^n r_i m_i : r_i \in R\right\}$$
 
-**Generators^[생성원]**: $\{m_1, \ldots, m_n\}$
+**Generators**^[생성원]: $\{m_1, \ldots, m_n\}$
 
 **Example**: Every finite-dimensional vector space is finitely generated
 
@@ -143,15 +143,15 @@ $$M = Rm_1 + Rm_2 + \cdots + Rm_n = \left\{\sum_{i=1}^n r_i m_i : r_i \in R\righ
 
 For $R$ an integral domain:
 
-**Torsion element^[비틀림 원소]**: $m \in M$ such that $\exists r \in R \setminus \{0\}$ with $rm = 0$
+**Torsion element**^[비틀림 원소]: $m \in M$ such that $\exists r \in R \setminus \{0\}$ with $rm = 0$
 
-**Torsion submodule^[비틀림 부분가군]**:
+**Torsion submodule**^[비틀림 부분가군]:
 
 $$\text{Tor}(M) = \{m \in M : \exists r \neq 0, \, rm = 0\}$$
 
-**Torsion-free^[비틀림 없는]**: $\text{Tor}(M) = \{0\}$
+**Torsion-free**^[비틀림 없는]: $\text{Tor}(M) = \{0\}$
 
-**Torsion module^[비틀림 가군]**: $\text{Tor}(M) = M$
+**Torsion module**^[비틀림 가군]: $\text{Tor}(M) = M$
 
 ---
 
@@ -223,7 +223,7 @@ $$\prod_{i \in I} M_i = \{(m_i) : m_i \in M_i\}$$
 
 For $R$-modules $M, N$:
 
-**Tensor product^[텐서곱]**: $M \otimes_R N$
+**Tensor product**^[텐서곱]: $M \otimes_R N$
 
 **Universal property**: Bilinear maps $M \times N \to P$ correspond to linear maps $M \otimes_R N \to P$
 
@@ -234,7 +234,7 @@ For $R$-modules $M, N$:
 
 ## Flatness^[평탄성]
 
-**Flat module^[평탄 가군]**: $R$-module $M$ such that $- \otimes_R M$ is exact functor
+**Flat module**^[평탄 가군]: $R$-module $M$ such that $- \otimes_R M$ is exact functor
 
 **정리**: Following are flat over any ring:
 - Free modules
@@ -247,7 +247,7 @@ For $R$-modules $M, N$:
 
 ### Projective Module^[사영 가군]
 
-**Projective^[사영]**: $P$ satisfies lifting property
+**Projective**^[사영]: $P$ satisfies lifting property
 
 For every surjective $g: M \to N$ and $f: P \to N$, $\exists h: P \to M$ with $g \circ h = f$
 
@@ -258,7 +258,7 @@ For every surjective $g: M \to N$ and $f: P \to N$, $\exists h: P \to M$ with $g
 
 ### Injective Module^[단사 가군]
 
-**Injective^[단사]**: $I$ satisfies extension property
+**Injective**^[단사]: $I$ satisfies extension property
 
 For every injective $g: M \to N$ and $f: M \to I$, $\exists h: N \to I$ with $h \circ g = f$
 
@@ -310,7 +310,7 @@ $$M/(I_1 \cap \cdots \cap I_n)M \cong M/I_1M \oplus \cdots \oplus M/I_nM$$
 
 ## Hilbert Basis Theorem^[힐베르트 기저 정리]
 
-**정리**: If $R$ is Noetherian^[뇌터] ring, then $R[x]$ is Noetherian
+**정리**: If $R$ is Noetherian**^[뇌터] ring, then $R[x]$ is Noetherian
 
 **의미**: Polynomial ring over Noetherian ring is Noetherian
 
@@ -493,7 +493,7 @@ Vector spaces are too restrictive - modules allow richer theory
 
 ### Noetherian Module
 
-**Noetherian^[뇌터]**: Ascending chain condition (ACC)
+**Noetherian**^[뇌터]: Ascending chain condition (ACC)
 
 Every ascending chain of submodules stabilizes:
 
@@ -503,7 +503,7 @@ $$M_1 \subseteq M_2 \subseteq M_3 \subseteq \cdots \Rightarrow \exists N: M_N = 
 
 ### Artinian Module
 
-**Artinian^[아르틴]**: Descending chain condition (DCC)
+**Artinian**^[아르틴]: Descending chain condition (DCC)
 
 Every descending chain stabilizes
 
@@ -515,7 +515,7 @@ Every descending chain stabilizes
 
 ### Simple Module^[단순 가군]
 
-**Simple^[단순]** (or **irreducible^[기약]**): No proper non-zero submodules
+**Simple**^[단순] (or **irreducible**^[기약]): No proper non-zero submodules
 
 **Only submodules**: $\{0\}$ and $M$ itself
 
@@ -523,7 +523,7 @@ Every descending chain stabilizes
 
 ### Semisimple Module^[반단순 가군]
 
-**Semisimple^[반단순]**: Direct sum of simple modules
+**Semisimple**^[반단순]: Direct sum of simple modules
 
 $$M = \bigoplus_{i \in I} S_i \quad \text{where each } S_i \text{ is simple}$$
 
@@ -533,13 +533,13 @@ $$M = \bigoplus_{i \in I} S_i \quad \text{where each } S_i \text{ is simple}$$
 
 ## Length of Module^[가군의 길이]
 
-**Composition series^[합성 열]**: Chain of submodules
+**Composition series**^[합성 열]: Chain of submodules
 
 $$0 = M_0 \subsetneq M_1 \subsetneq \cdots \subsetneq M_n = M$$
 
 where each $M_i/M_{i-1}$ is simple
 
-**Length^[길이]**: $\ell(M) = n$ if composition series exists
+**Length**^[길이]: $\ell(M) = n$ if composition series exists
 
 **Jordan-Hölder Theorem**: Length is well-defined (independent of series)
 

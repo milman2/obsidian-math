@@ -14,7 +14,7 @@
 
 ## Permutation^[순열]
 
-Set $X$의 **permutation^[순열]**: $X$에서 $X$로의 bijection^[전단사 함수]
+Set $X$의 **permutation**^[순열]: $X$에서 $X$로의 bijection^[전단사 함수]
 
 $$\sigma: X \to X \text{ bijective}$$
 
@@ -54,7 +54,7 @@ $$S_n = \text{Sym}(\{1, 2, \ldots, n\})$$
 
 ### Cycle^[순환]
 
-Permutation $\sigma$가 **$k$-cycle^[k-순환]** (or **cycle of length $k$^[길이 k의 순환]**)이다 $\Leftrightarrow$
+Permutation $\sigma$가 **$k$-cycle**^[k-순환] (or **cycle of length $k$**^[길이 k의 순환])이다 $\Leftrightarrow$
 
 $$\exists a_1, \ldots, a_k \text{ distinct}, \quad \sigma(a_i) = a_{i+1}, \sigma(a_k) = a_1$$
 
@@ -78,7 +78,7 @@ $$\exists a_1, \ldots, a_k \text{ distinct}, \quad \sigma(a_i) = a_{i+1}, \sigma
 
 ### Disjoint Cycles^[서로소 순환]
 
-Two cycles $(a_1 \; \cdots \; a_k)$와 $(b_1 \; \cdots \; b_m)$이 **disjoint^[서로소]**이다 $\Leftrightarrow$
+Two cycles $(a_1 \; \cdots \; a_k)$와 $(b_1 \; \cdots \; b_m)$이 **disjoint**^[서로소]이다 $\Leftrightarrow$
 
 $$\{a_1, \ldots, a_k\} \cap \{b_1, \ldots, b_m\} = \emptyset$$
 
@@ -88,7 +88,7 @@ $$(a_1 \; \cdots \; a_k)(b_1 \; \cdots \; b_m) = (b_1 \; \cdots \; b_m)(a_1 \; \
 
 ## Transposition^[호환]
 
-**Transposition^[호환]**: 2-cycle $(i \; j)$
+**Transposition**^[호환]: 2-cycle $(i \; j)$
 
 두 원소를 교환하는 permutation
 
@@ -106,13 +106,13 @@ $$\text{sgn}(\sigma) = \begin{cases} +1 & \text{if } \sigma \text{ is even} \\ -
 
 ### Even Permutation^[짝순열]
 
-Permutation $\sigma$가 **even^[짝]**이다 $\Leftrightarrow$ 짝수 개의 transpositions의 곱
+Permutation $\sigma$가 **even**^[짝]이다 $\Leftrightarrow$ 짝수 개의 transpositions의 곱
 
 $$\text{sgn}(\sigma) = +1$$
 
 ### Odd Permutation^[홀순열]
 
-Permutation $\sigma$가 **odd^[홀]**이다 $\Leftrightarrow$ 홀수 개의 transpositions의 곱
+Permutation $\sigma$가 **odd**^[홀]이다 $\Leftrightarrow$ 홀수 개의 transpositions의 곱
 
 $$\text{sgn}(\sigma) = -1$$
 

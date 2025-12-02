@@ -38,7 +38,7 @@ $X$가 값 $x$를 가지고 **동시에** $Y$가 값 $y$를 가질 확률.
 
 $$p_{X,Y}(x, y) = P(X = x, Y = y)$$
 
-**Properties^[성질]**:
+**Properties**^[성질]:
 1. $p_{X,Y}(x, y) \geq 0$ for all $(x, y)$
 2. $\displaystyle\sum_x \displaystyle\sum_y p_{X,Y}(x, y) = 1$
 
@@ -54,7 +54,7 @@ $$p_{X_1,\ldots,X_n}(x_1, \ldots, x_n) = P(X_1 = x_1, \ldots, X_n = x_n)$$
 
 $$f_{X,Y}(x, y)$$
 
-**Properties^[성질]**:
+**Properties**^[성질]:
 1. $f_{X,Y}(x, y) \geq 0$ for all $(x, y)$
 2. $\displaystyle\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{X,Y}(x, y) \, dx \, dy = 1$
 
@@ -80,7 +80,7 @@ $$F_{X,Y}(x, y) = P(X \leq x, Y \leq y)$$
 2. **Limits**: 
    - $F(-\infty, y) = F(x, -\infty) = 0$
    - $F(\infty, \infty) = 1$
-3. **Right-continuous^[우연속]** in each argument
+3. **Right-continuous**^[우연속] in each argument
 
 ### Relation to PDF
 

@@ -16,7 +16,7 @@
 
 ## Irreducible Element^[기약 원소]
 
-Integral domain^[정역] $R$에서 원소 $a \in R$ (nonzero, non-unit)가 **irreducible^[기약]**이다 $\Leftrightarrow$
+Integral domain^[정역] $R$에서 원소 $a \in R$ (nonzero, non-unit)가 **irreducible**^[기약]이다 $\Leftrightarrow$
 
 $$a = bc \quad \Rightarrow \quad b \in R^\times \text{ or } c \in R^\times$$
 
@@ -26,7 +26,7 @@ $$a = bc \quad \Rightarrow \quad b \in R^\times \text{ or } c \in R^\times$$
 
 ## Prime Element^[소 원소]
 
-Integral domain $R$에서 원소 $p \in R$ (nonzero, non-unit)가 **prime^[소]**이다 $\Leftrightarrow$
+Integral domain $R$에서 원소 $p \in R$ (nonzero, non-unit)가 **prime**^[소]이다 $\Leftrightarrow$
 
 $$p \mid ab \quad \Rightarrow \quad p \mid a \text{ or } p \mid b$$
 
@@ -36,7 +36,7 @@ $$p \mid ab \quad \Rightarrow \quad p \mid a \text{ or } p \mid b$$
 
 ## Associates^[동반 원소]
 
-원소 $a, b \in R$이 **associate^[동반]**이다 $\Leftrightarrow$
+원소 $a, b \in R$이 **associate**^[동반]이다 $\Leftrightarrow$
 
 $$\exists u \in R^\times: \quad a = ub$$
 
@@ -48,7 +48,7 @@ $$\exists u \in R^\times: \quad a = ub$$
 
 ## Unique Factorization Domain^[유일 인수분해 정역]
 
-Integral domain $R$이 **UFD** (또는 **factorial domain^[인수분해 정역]**)이다 $\Leftrightarrow$ 다음 두 조건을 만족:
+Integral domain $R$이 **UFD** (또는 **factorial domain**^[인수분해 정역])이다 $\Leftrightarrow$ 다음 두 조건을 만족:
 
 ### 1. Existence of Factorization^[인수분해의 존재성]
 
@@ -126,10 +126,10 @@ $$k \text{ is field} \quad \Rightarrow \quad k[x_1, \ldots, x_n] \text{ is UFD}$
 
 UFD $R$에서 $f(x) = a_0 + a_1x + \cdots + a_nx^n \in R[x]$:
 
-**Content^[용량]**: 
+**Content**^[용량]: 
 $$\text{cont}(f) = \gcd(a_0, a_1, \ldots, a_n)$$
 
-**Primitive^[원시]**: $\text{cont}(f) \sim 1$
+**Primitive**^[원시]: $\text{cont}(f) \sim 1$
 
 **Gauss's Lemma**: Primitive polynomials의 곱은 primitive
 
@@ -148,7 +148,7 @@ $$\text{Field} \subsetneq \text{Euclidean Domain} \subsetneq \text{PID} \subsetn
 
 ## GCD in UFD^[최대공약수]
 
-**정리**: UFD $R$에서 임의의 $a, b \in R$ (not both zero)는 **greatest common divisor^[최대공약수]** $d$를 가짐:
+**정리**: UFD $R$에서 임의의 $a, b \in R$ (not both zero)는 **greatest common divisor**^[최대공약수] $d$를 가짐:
 
 $$d = \gcd(a, b)$$
 

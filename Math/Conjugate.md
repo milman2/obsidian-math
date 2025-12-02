@@ -16,7 +16,7 @@
 
 ### Conjugation of Elements^[원소의 켤레]
 
-Group $G$에서 원소 $a, b \in G$에 대해, $b$가 $a$의 **conjugate^[켤레]**이다 $\Leftrightarrow$
+Group $G$에서 원소 $a, b \in G$에 대해, $b$가 $a$의 **conjugate**^[켤레]이다 $\Leftrightarrow$
 
 $$\exists g \in G : b = gag^{-1}$$
 

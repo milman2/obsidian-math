@@ -14,7 +14,7 @@
 
 ## Idempotent Element^[멱등원]
 
-Ring $R$의 원소 $e \in R$이 **idempotent^[멱등원]**이다 $\Leftrightarrow$
+Ring $R$의 원소 $e \in R$이 **idempotent**^[멱등원]이다 $\Leftrightarrow$
 
 $$e^2 = e$$
 
@@ -27,7 +27,7 @@ $$e^2 = e$$
 
 ## Orthogonal Idempotents^[직교 멱등원]
 
-Idempotents $e, f \in R$가 **orthogonal^[직교]**이다 $\Leftrightarrow$
+Idempotents $e, f \in R$가 **orthogonal**^[직교]이다 $\Leftrightarrow$
 
 $$ef = fe = 0$$
 

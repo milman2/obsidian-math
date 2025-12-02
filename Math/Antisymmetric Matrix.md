@@ -12,9 +12,9 @@
 
 ## Antisymmetric Matrix^[반대칭 행렬]
 
-(Also known as **Skew-Symmetric Matrix^[비대칭 행렬]**)
+(Also known as **Skew-Symmetric Matrix**^[비대칭 행렬])
 
-**Real matrix** $A \in M_n(\mathbb{R})$가 **antisymmetric^[반대칭]**이다 $\Leftrightarrow$
+**Real matrix** $A \in M_n(\mathbb{R})$가 **antisymmetric**^[반대칭]이다 $\Leftrightarrow$
 
 $$A^T = -A$$
 
@@ -24,7 +24,7 @@ $$A^T = -A$$
 
 ## Complex Extension
 
-**Skew-Hermitian^[비에르미트]** (복소수의 antisymmetric 일반화):
+**Skew-Hermitian**^[비에르미트] (복소수의 antisymmetric 일반화):
 
 $$A^* = -A$$
 

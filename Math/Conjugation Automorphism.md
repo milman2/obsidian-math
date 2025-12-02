@@ -17,7 +17,7 @@
 
 ## Conjugation Automorphism^[켤레 자기동형사상]
 
-Group $G$와 원소 $g \in G$에 대해, **conjugation automorphism^[켤레 자기동형사상]** (또는 **inner automorphism^[내부 자기동형사상]**)은:
+Group $G$와 원소 $g \in G$에 대해, **conjugation automorphism**^[켤레 자기동형사상] (또는 **inner automorphism**^[내부 자기동형사상])은:
 
 $$\phi_g: G \to G, \quad \phi_g(h) = ghg^{-1}$$
 
@@ -297,7 +297,7 @@ $$N \triangleleft G \Leftrightarrow gNg^{-1} = N \; \forall g \Leftrightarrow \p
 
 ## Characteristic Subgroups
 
-**정의**: $H \leq G$가 **characteristic^[특성]**이다 $\Leftrightarrow$
+**정의**: $H \leq G$가 **characteristic**^[특성]이다 $\Leftrightarrow$
 
 $$\phi(H) = H \quad \forall \phi \in \text{Aut}(G)$$
 

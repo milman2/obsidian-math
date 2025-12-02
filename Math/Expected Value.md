@@ -49,7 +49,7 @@ $$E[X] = \int_\Omega X \, dP$$
 
 ## Linearity^[선형성]
 
-Expected value는 **linear operator^[선형 연산자]**:
+Expected value는 **linear operator**^[선형 연산자]:
 
 ### 1. Additivity^[가법성]
 
@@ -83,7 +83,7 @@ $$E[c] = c$$
 
 ## Product of independent variables^[독립 변수의 곱]
 
-$X$, $Y$가 **independent^[독립]**이면:
+$X$, $Y$가 **independent**^[독립]이면:
 
 $$E[XY] = E[X] \cdot E[Y]$$
 
@@ -251,11 +251,11 @@ Variance는 "expected value로부터의 평균 편차"를 측정.
 
 ### Moments^[적률]
 
-$n$-th **moment^[n차 적률]**:
+$n$-th **moment**^[n차 적률]:
 
 $$\mu_n = E[X^n]$$
 
-$n$-th **central moment^[n차 중심 적률]**:
+$n$-th **central moment**^[n차 중심 적률]:
 
 $$\mu_n' = E[(X - E[X])^n]$$
 
@@ -266,8 +266,8 @@ $$\mu_n' = E[(X - E[X])^n]$$
 
 ### Median vs Mean^[중앙값 vs 평균]
 
-- **Mean^[평균]**: $E[X]$
-- **Median^[중앙값]**: $P(X \leq m) = P(X \geq m) = \frac{1}{2}$
+- **Mean**^[평균]: $E[X]$
+- **Median**^[중앙값]: $P(X \leq m) = P(X \geq m) = \frac{1}{2}$
 
 Mean은 outliers^[이상치]에 민감, Median은 robust^[견고].
 

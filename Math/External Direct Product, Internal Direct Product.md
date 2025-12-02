@@ -19,13 +19,13 @@
 
 ### Definition (Groups)
 
-**External direct product^[외부 직접곱]** of groups $G_1, G_2, \ldots, G_n$:
+**External direct product**^[외부 직접곱] of groups $G_1, G_2, \ldots, G_n$:
 
 $$G_1 \times G_2 \times \cdots \times G_n$$
 
 **Elements**: Ordered tuples $(g_1, g_2, \ldots, g_n)$ where $g_i \in G_i$
 
-**Operation**: Component-wise^[성분별]
+**Operation**: Component-wise**^[성분별]
 
 $$(g_1, g_2, \ldots, g_n) \cdot (h_1, h_2, \ldots, h_n) = (g_1 h_1, g_2 h_2, \ldots, g_n h_n)$$
 
@@ -49,7 +49,7 @@ $$\prod_{i \in I} G_i = \{(g_i)_{i \in I} : g_i \in G_i\}$$
 
 ### Definition
 
-Group $G$ is the **internal direct product^[내부 직접곱]** of subgroups $H_1, H_2, \ldots, H_n$ if:
+Group $G$ is the **internal direct product**^[내부 직접곱] of subgroups $H_1, H_2, \ldots, H_n$ if:
 
 1. Each $H_i \trianglelefteq G$ (normal subgroup^[정규 부분군])
 2. $G = H_1 H_2 \cdots H_n = \{h_1 h_2 \cdots h_n : h_i \in H_i\}$
@@ -87,11 +87,11 @@ $$\bigoplus_{i=1}^n G_i = \prod_{i=1}^n G_i$$
 
 ### Infinite Case
 
-**Direct sum^[직합]**: Elements with **finitely many non-zero components**
+**Direct sum**^[직합]: Elements with **finitely many non-zero components**
 
 $$\bigoplus_{i \in I} G_i = \{(g_i)_{i \in I} : g_i \in G_i, \text{ all but finitely many } g_i = e\}$$
 
-**Direct product^[직곱]**: All elements (possibly infinitely many non-zero)
+**Direct product**^[직곱]: All elements (possibly infinitely many non-zero)
 
 $$\prod_{i \in I} G_i = \{(g_i)_{i \in I} : g_i \in G_i\}$$
 
@@ -133,7 +133,7 @@ such that $\pi_i \circ f = f_i$ where $\pi_i$ is projection
 
 ### Projection Homomorphisms
 
-**Projection maps^[사영 사상]**:
+**Projection maps**^[사영 사상]:
 
 $$\pi_i: G_1 \times \cdots \times G_n \to G_i, \quad (g_1, \ldots, g_n) \mapsto g_i$$
 
@@ -142,7 +142,7 @@ $$\pi_i: G_1 \times \cdots \times G_n \to G_i, \quad (g_1, \ldots, g_n) \mapsto 
 
 ### Injection Homomorphisms
 
-**Injection maps^[포함 사상]**:
+**Injection maps**^[포함 사상]:
 
 $$\iota_i: G_i \to G_1 \times \cdots \times G_n, \quad g_i \mapsto (e_1, \ldots, e_{i-1}, g_i, e_{i+1}, \ldots, e_n)$$
 
@@ -314,7 +314,7 @@ But can write: $D_8 \cong \mathbb{Z}/4\mathbb{Z} \rtimes \mathbb{Z}/2\mathbb{Z}$
 
 $$T^2 = S^1 \times S^1$$
 
-**As groups** (fundamental group^[기본군]):
+**As groups** (fundamental group**^[기본군]):
 
 $$\pi_1(T^2) = \pi_1(S^1) \times \pi_1(S^1) \cong \mathbb{Z} \times \mathbb{Z} = \mathbb{Z}^2$$
 
@@ -394,13 +394,13 @@ Emphasizes additive notation
 
 **Product**: $\prod_{i \in I} G_i$ (universal property)
 
-**Coproduct**: $\coprod_{i \in I} G_i$ (for groups = free product^[자유곱])
+**Coproduct**: $\coprod_{i \in I} G_i$ (for groups = free product**^[자유곱])
 
 **Note**: In category of abelian groups, coproduct = direct sum
 
 ## Direct Sum vs Direct Product (Infinite)
 
-**Key difference**: Finite support^[유한 지지]
+**Key difference**: Finite support**^[유한 지지]
 
 | Property | Direct Sum $\bigoplus$ | Direct Product $\prod$ |
 |----------|------------------------|------------------------|

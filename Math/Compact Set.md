@@ -20,13 +20,13 @@ Topological space^[위상공간] $(X, \tau)$와 부분집합 $K \subseteq X$에 
 
 ### Open Cover^[열린 덮개]
 
-집합족 $\{U_\alpha\}_{\alpha \in I}$ (where $U_\alpha \in \tau$)가 $K$의 **open cover^[열린 덮개]**이다 $\Leftrightarrow$
+집합족 $\{U_\alpha\}_{\alpha \in I}$ (where $U_\alpha \in \tau$)가 $K$의 **open cover**^[열린 덮개]이다 $\Leftrightarrow$
 
 $$K \subseteq \bigcup_{\alpha \in I} U_\alpha$$
 
 ### Compact
 
-$K$가 **compact^[컴팩트]**이다 $\Leftrightarrow$ 모든 open cover가 **finite subcover^[유한 부분덮개]**를 가짐
+$K$가 **compact**^[컴팩트]이다 $\Leftrightarrow$ 모든 open cover가 **finite subcover**^[유한 부분덮개]를 가짐
 
 즉, $K$의 임의의 open cover $\{U_\alpha\}_{\alpha \in I}$에 대해 유한 개의 index $\alpha_1, \ldots, \alpha_n$이 존재하여:
 
@@ -36,7 +36,7 @@ $$K \subseteq U_{\alpha_1} \cup U_{\alpha_2} \cup \cdots \cup U_{\alpha_n}$$
 
 ## Sequentially Compact^[수열 컴팩트]
 
-Metric space^[거리공간] $(X, d)$에서 $K \subseteq X$가 **sequentially compact^[수열 컴팩트]**이다 $\Leftrightarrow$
+Metric space^[거리공간] $(X, d)$에서 $K \subseteq X$가 **sequentially compact**^[수열 컴팩트]이다 $\Leftrightarrow$
 
 $K$의 모든 수열 $(x_n) \subseteq K$가 $K$에서 수렴하는 subsequence^[부분수열]를 가짐
 
@@ -44,7 +44,7 @@ $K$의 모든 수열 $(x_n) \subseteq K$가 $K$에서 수렴하는 subsequence^[
 
 ## Limit Point Compact^[극한점 컴팩트]
 
-$K \subseteq X$가 **limit point compact^[극한점 컴팩트]**이다 $\Leftrightarrow$
+$K \subseteq X$가 **limit point compact**^[극한점 컴팩트]이다 $\Leftrightarrow$
 
 $K$의 모든 infinite subset^[무한 부분집합]이 $K$에서 limit point^[극한점]를 가짐
 
@@ -120,10 +120,10 @@ $$f: X \to Y \text{ continuous}, \quad K \subseteq X \text{ compact} \Rightarrow
 
 **따름정리**:
 
-1. **Extreme Value Theorem^[최대최소 정리]**: 
+1. **Extreme Value Theorem**^[최대최소 정리]: 
    $$f: K \to \mathbb{R} \text{ continuous}, \quad K \text{ compact} \Rightarrow f \text{ attains max and min}$$
 
-2. **Uniform Continuity^[균등 연속성]**:
+2. **Uniform Continuity**^[균등 연속성]:
    $$f: K \to \mathbb{R} \text{ continuous}, \quad K \text{ compact} \Rightarrow f \text{ uniformly continuous}$$
 
 ## Finite Intersection Property^[유한 교집합 성질]
@@ -241,7 +241,7 @@ $$S^{n-1} = \{x \in \mathbb{R}^n : \|x\| = 1\}$$
 
 ## Total Boundedness^[전체 유계성]
 
-**정의**: Metric space $(X, d)$에서 $K$가 **totally bounded^[전체 유계]**이다 $\Leftrightarrow$
+**정의**: Metric space $(X, d)$에서 $K$가 **totally bounded**^[전체 유계]이다 $\Leftrightarrow$
 
 모든 $\epsilon > 0$에 대해 유한 개의 $\epsilon$-balls로 $K$를 덮을 수 있음
 
@@ -251,7 +251,7 @@ Metric space에서: Compact $\Leftrightarrow$ Complete + Totally bounded
 
 ## Local Compactness^[국소 컴팩트성]
 
-**정의**: Topological space $X$가 **locally compact^[국소 컴팩트]**이다 $\Leftrightarrow$
+**정의**: Topological space $X$가 **locally compact**^[국소 컴팩트]이다 $\Leftrightarrow$
 
 모든 점 $x \in X$가 compact neighborhood^[컴팩트 근방]를 가짐
 

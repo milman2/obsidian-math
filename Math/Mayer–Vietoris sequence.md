@@ -15,9 +15,9 @@
 
 ## Mayer-Vietoris Sequence^[마이어-비에토리스 수열]
 
-**Setup^[설정]**: 위상공간 \(X = A \cup B\) (where \(A, B\) are open or closed subspaces)
+**Setup**^[설정]: 위상공간 \(X = A \cup B\) (where \(A, B\) are open or closed subspaces)
 
-**Mayer-Vietoris sequence^[마이어-비에토리스 수열]**는 다음과 같은 **long exact sequence^[긴 완전 수열]**:
+**Mayer-Vietoris sequence**^[마이어-비에토리스 수열]는 다음과 같은 **long exact sequence**^[긴 완전 수열]:
 
 $$\cdots \to H_n(A \cap B) \xrightarrow{\phi_n} H_n(A) \oplus H_n(B) \xrightarrow{\psi_n} H_n(X) \xrightarrow{\partial_n} H_{n-1}(A \cap B) \to \cdots$$
 
@@ -25,7 +25,7 @@ $$\cdots \to H_n(A \cap B) \xrightarrow{\phi_n} H_n(A) \oplus H_n(B) \xrightarro
 - \(H_n\): \(n\)-th homology group^[n차 호모로지군]
 - \(\phi_n\): Inclusion map^[포함 사상] induced by \(A \cap B \hookrightarrow A\), \(A \cap B \hookrightarrow B\)
 - \(\psi_n\): Sum map^[합 사상] from \(H_n(A) \oplus H_n(B) \to H_n(X)\)
-- \(\partial_n\): **Connecting homomorphism^[연결 준동형사상]** (boundary map)
+- \(\partial_n\): **Connecting homomorphism**^[연결 준동형사상] (boundary map)
 
 **핵심 아이디어**: "전체 공간의 호모로지 = 부분공간들의 호모로지로부터 복원"
 
@@ -87,7 +87,7 @@ $$\cdots \to H^k_{dR}(M) \to H^k_{dR}(U) \oplus H^k_{dR}(V) \to H^k_{dR}(U \cap 
 
 ## Exactness^[완전성]
 
-**정리**: Mayer-Vietoris sequence는 **exact^[완전]**
+**정리**: Mayer-Vietoris sequence는 **exact**^[완전]
 
 $$\text{im}(\phi_n) = \ker(\psi_n), \quad \text{im}(\psi_n) = \ker(\partial_n), \quad \text{im}(\partial_n) = \ker(\phi_{n-1})$$
 
@@ -109,7 +109,7 @@ H_n(A'∩B') → H_n(A')⊕ H_n(B') → H_n(X') → H_{n-1}(A'∩B')
 
 ## Functoriality^[함자성]
 
-Mayer-Vietoris sequence는 **functorial^[함자적]**
+Mayer-Vietoris sequence는 **functorial**^[함자적]
 
 - Maps of pairs \((X, A, B) \to (X', A', B')\) induce maps of sequences
 - Composition preserved
@@ -182,7 +182,7 @@ $$H_n(T^2) = \begin{cases} \mathbb{Z} & n = 0, 2 \\ \mathbb{Z}^2 & n = 1 \\ 0 & 
 
 ## Example 3: Homology of \(S^n\)
 
-**Induction^[귀납법]**: \(S^n = U \cup V\) (two hemispheres)
+**Induction**^[귀납법]: \(S^n = U \cup V\) (two hemispheres)
 
 - \(U, V \simeq \text{pt}\) (contractible)
 - \(U \cap V \simeq S^{n-1}\)

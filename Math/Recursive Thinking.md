@@ -22,9 +22,9 @@ $$P(\text{problem}) = f(P(\text{smaller subproblems}))$$
 
 ### Key components^[핵심 요소]
 
-1. **Base case^[기저 경우]**: 재귀 없이 직접 해결 가능한 가장 단순한 경우
-2. **Recursive case^[재귀 경우]**: 문제를 더 작은 문제로 환원
-3. **Reduction^[환원]**: 큰 문제 → 작은 문제로의 변환 규칙
+1. **Base case**^[기저 경우]: 재귀 없이 직접 해결 가능한 가장 단순한 경우
+2. **Recursive case**^[재귀 경우]: 문제를 더 작은 문제로 환원
+3. **Reduction**^[환원]: 큰 문제 → 작은 문제로의 변환 규칙
 
 ---
 
@@ -127,7 +127,7 @@ $$E = 2$$
 
 ### State-based recursive approach
 
-**States^[상태]**:
+**States**^[상태]:
 - State 0: 시작 상태 (또는 방금 T가 나옴)
 - State H: H 하나가 나온 상태
 - State HH: HH 달성 (종료)
@@ -300,7 +300,7 @@ $$a_n = c_1 a_{n-1} + c_2 a_{n-2} + \cdots + c_k a_{n-k}$$
 
 ### Solution methods
 
-1. **Characteristic equation^[특성 방정식]**:
+1. **Characteristic equation**^[특성 방정식]:
    $$r^k = c_1 r^{k-1} + c_2 r^{k-2} + \cdots + c_k$$
 
 2. **General solution**: Roots $r_1, \ldots, r_k$이면
@@ -398,7 +398,7 @@ $$Z_{n+1} = \displaystyle\sum_{i=1}^{Z_n} X_i^{(n)}$$
 
 여기서 $X_i^{(n)}$은 $i$번째 개체의 자손 수.
 
-**Extinction probability^[멸종 확률]**:
+**Extinction probability**^[멸종 확률]:
 $$q = G(q)$$
 
 여기서 $G(s) = E[s^X]$는 probability generating function.

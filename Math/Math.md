@@ -7,7 +7,7 @@ Math 분야별 주제 및 핵심 개념 정리
 ## 🔢 Algebra
 
 ### Abstract Algebra
-- **Group^[군]**, **Ring^[환]**, **Field^[체]**의 구조와 성질
+- **Group**^[군], **Ring**^[환], **Field**^[체]의 구조와 성질
 - Homomorphism^[준동형사상], Isomorphism^[동형사상]
 - Quotient structures^[몫 구조], Normal subgroups^[정규 부분군]
 

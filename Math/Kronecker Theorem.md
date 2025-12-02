@@ -48,7 +48,7 @@ $$F = K[x]/(f(x))$$
 
 **정리** (**Existence of Splitting Fields**):
 
-모든 non-constant polynomial $p(x) \in K[x]$는 **splitting field^[분해체]**를 가진다
+모든 non-constant polynomial $p(x) \in K[x]$는 **splitting field**^[분해체]를 가진다
 
 **구성**:
 1. $p(x)$의 irreducible factor $f_1(x)$ 선택
@@ -97,7 +97,7 @@ $$|m\theta_i - p_i - \alpha_i| < \epsilon \quad \text{for all } i = 1, \ldots, n
 
 **정리** (**Weyl's Equidistribution Theorem**):
 
-$\theta$가 irrational이면 수열 $(n\theta \bmod 1)_{n=1}^{\infty}$는 $[0, 1)$에서 **equidistributed^[등분포]**:
+$\theta$가 irrational이면 수열 $(n\theta \bmod 1)_{n=1}^{\infty}$는 $[0, 1)$에서 **equidistributed**^[등분포]:
 
 $$\lim_{N \to \infty} \frac{1}{N} \#\{1 \leq n \leq N : n\theta \bmod 1 \in [a, b]\} = b - a$$
 
@@ -541,7 +541,7 @@ for all $m \in \mathbb{Z}$, some $(k_1, \ldots, k_n) \neq (0, \ldots, 0)$
 
 ## Constructive Mathematics
 
-Kronecker는 **constructivist^[구성주의자]**:
+Kronecker는 **constructivist**^[구성주의자]:
 
 **철학**: "존재"는 "구성"을 의미해야 함
 

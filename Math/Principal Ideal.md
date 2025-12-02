@@ -16,7 +16,7 @@
 
 ### In Commutative Ring
 
-Commutative ring $R$에서 원소 $a \in R$로 **generated^[생성]**된 ideal:
+Commutative ring $R$에서 원소 $a \in R$로 **generated**^[생성]된 ideal:
 
 $$\langle a \rangle = aR = Ra = \{ra : r \in R\}$$
 
@@ -24,7 +24,7 @@ $$\langle a \rangle = aR = Ra = \{ra : r \in R\}$$
 
 **의미**: $a$의 모든 배수들의 집합
 
-**정의**: **Principal ideal^[주 아이디얼]** = 하나의 원소로 생성된 ideal
+**정의**: **Principal ideal**^[주 아이디얼] = 하나의 원소로 생성된 ideal
 
 ### In Non-commutative Ring
 
@@ -152,7 +152,7 @@ $$\pi(\langle a \rangle) = \langle \pi(a) \rangle$$
 
 **정리**: $\langle a \rangle$ is prime $\Leftrightarrow$ $a$ is prime element
 
-**정의**: $a$가 **prime element^[소원]**이다 $\Leftrightarrow$
+**정의**: $a$가 **prime element**^[소원]이다 $\Leftrightarrow$
 1. $a$ is non-unit, non-zero
 2. $a | bc \Rightarrow a | b$ or $a | c$
 

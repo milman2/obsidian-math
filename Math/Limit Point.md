@@ -15,7 +15,7 @@ Topological space^[위상공간] $(X, \tau)$와 부분집합 $A \subseteq X$에 
 
 ## Limit Point^[극한점]
 
-점 $x \in X$가 $A$의 **limit point^[극한점]** (또는 **accumulation point^[축적점]**, **cluster point^[집적점]**)이다 $\Leftrightarrow$ 모든 open set^[열린 집합] $U \ni x$에 대해:
+점 $x \in X$가 $A$의 **limit point**^[극한점] (또는 **accumulation point**^[축적점], **cluster point**^[집적점])이다 $\Leftrightarrow$ 모든 open set^[열린 집합] $U \ni x$에 대해:
 
 $$(U \setminus \{x\}) \cap A \neq \emptyset$$
 
@@ -25,13 +25,13 @@ $$(U \setminus \{x\}) \cap A \neq \emptyset$$
 
 ## Isolated Point^[고립점]
 
-점 $x \in A$가 $A$의 **isolated point^[고립점]**이다 $\Leftrightarrow$ $x$가 $A$의 limit point가 아니다
+점 $x \in A$가 $A$의 **isolated point**^[고립점]이다 $\Leftrightarrow$ $x$가 $A$의 limit point가 아니다
 
 즉, $\exists U \in \tau$ s.t. $x \in U$이고 $U \cap A = \{x\}$
 
 ## Adherent Point^[접촉점]
 
-점 $x \in X$가 $A$의 **adherent point^[접촉점]**이다 $\Leftrightarrow$ 모든 open set $U \ni x$에 대해:
+점 $x \in X$가 $A$의 **adherent point**^[접촉점]이다 $\Leftrightarrow$ 모든 open set $U \ni x$에 대해:
 
 $$U \cap A \neq \emptyset$$
 
@@ -190,7 +190,7 @@ Metric space에서 $x \in A'$ $\Leftrightarrow$ $A \setminus \{x\}$의 점들로
 
 ### Perfect Set^[완전 집합]
 
-$A$가 **perfect^[완전]** $\Leftrightarrow$ $A = A'$ (closed이면서 isolated point가 없음)
+$A$가 **perfect**^[완전] $\Leftrightarrow$ $A = A'$ (closed이면서 isolated point가 없음)
 
 예:
 - $[0, 1] \subseteq \mathbb{R}$는 perfect
@@ -199,7 +199,7 @@ $A$가 **perfect^[완전]** $\Leftrightarrow$ $A = A'$ (closed이면서 isolated
 
 ### Dense-in-itself^[자기조밀]
 
-$A$가 **dense-in-itself^[자기조밀]** $\Leftrightarrow$ $A \subseteq A'$ (isolated point가 없음)
+$A$가 **dense-in-itself**^[자기조밀] $\Leftrightarrow$ $A \subseteq A'$ (isolated point가 없음)
 
 Perfect set는 closed이면서 dense-in-itself인 집합
 
@@ -207,7 +207,7 @@ Perfect set는 closed이면서 dense-in-itself인 집합
 
 **$\omega$-accumulation point**: 모든 neighborhood에 $A$의 점이 무한히 많이 존재
 
-**Condensation point^[응축점]**: 모든 neighborhood에 $A$의 점이 uncountably many 존재
+**Condensation point**^[응축점]: 모든 neighborhood에 $A$의 점이 uncountably many 존재
 
 이러한 개념들은 descriptive set theory와 관련
 

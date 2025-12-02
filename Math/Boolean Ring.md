@@ -14,11 +14,11 @@
 
 ## Boolean Ring^[불 환]
 
-Ring $R$이 **Boolean ring^[불 환]**이다 $\Leftrightarrow$
+Ring $R$이 **Boolean ring**^[불 환]이다 $\Leftrightarrow$
 
 $$\forall a \in R, \quad a^2 = a$$
 
-**의미**: 모든 원소가 **idempotent^[멱등원]**
+**의미**: 모든 원소가 **idempotent**^[멱등원]
 
 **표기**: Often denoted as $B$ for Boolean ring
 
@@ -26,7 +26,7 @@ $$\forall a \in R, \quad a^2 = a$$
 
 ## Idempotent Element^[멱등원]
 
-Ring $R$의 원소 $e \in R$이 **idempotent^[멱등원]**이다 $\Leftrightarrow$
+Ring $R$의 원소 $e \in R$이 **idempotent**^[멱등원]이다 $\Leftrightarrow$
 
 $$e^2 = e$$
 
@@ -36,7 +36,7 @@ $$e^2 = e$$
 
 ## Boolean Algebra^[불 대수]
 
-**Boolean algebra^[불 대수]**: Set with operations $\land$ (AND), $\lor$ (OR), $\neg$ (NOT)
+**Boolean algebra**^[불 대수]: Set with operations $\land$ (AND), $\lor$ (OR), $\neg$ (NOT)
 
 **관계**: Boolean ring $\leftrightarrow$ Boolean algebra (isomorphic structures)
 
