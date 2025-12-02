@@ -26,7 +26,7 @@ $$\exists g \in G : b = gag^{-1}$$
 
 ### Conjugation of Subgroups^[부분군의 켤레]
 
-Subgroups $H_1, H_2 \leq G$에 대해, $H_2$가 $H_1$의 **conjugate^[켤레]**이다 $\Leftrightarrow$
+Subgroups $H_1, H_2 \leq G$에 대해, $H_2$가 $H_1$의 **conjugate**^[켤레]이다 $\Leftrightarrow$
 
 $$\exists g \in G : H_2 = gH_1g^{-1}$$
 
@@ -36,7 +36,7 @@ $$gH_1g^{-1} = \{ghg^{-1} : h \in H_1\}$$
 
 ## Conjugacy Class^[켤레류]
 
-원소 $a \in G$의 **conjugacy class^[켤레류]**:
+원소 $a \in G$의 **conjugacy class**^[켤레류]:
 
 $$\text{cl}(a) = \{gag^{-1} : g \in G\}$$
 
@@ -62,7 +62,7 @@ $$\phi: G \times G \to G, \quad (g, a) \mapsto gag^{-1}$$
 
 ## Centralizer^[중심화군]
 
-원소 $a \in G$의 **centralizer^[중심화군]**:
+원소 $a \in G$의 **centralizer**^[중심화군]:
 
 $$C_G(a) = \{g \in G : ga = ag\} = \{g \in G : gag^{-1} = a\}$$
 
@@ -80,7 +80,7 @@ $$C_G(a) = \text{Stab}_G(a) = G_a$$
 
 ## Centralizer of Subgroup
 
-Subgroup $H \leq G$의 **centralizer^[중심화군]**:
+Subgroup $H \leq G$의 **centralizer**^[중심화군]:
 
 $$C_G(H) = \{g \in G : gh = hg \; \forall h \in H\}$$
 
@@ -94,7 +94,7 @@ $$C_G(H) = \{g \in G : gh = hg \; \forall h \in H\}$$
 
 ## Normalizer^[정규화군]
 
-Subgroup $H \leq G$의 **normalizer^[정규화군]**:
+Subgroup $H \leq G$의 **normalizer**^[정규화군]:
 
 $$N_G(H) = \{g \in G : gHg^{-1} = H\}$$
 
@@ -125,7 +125,7 @@ $$H \subseteq N_G(H) \subseteq G$$
 
 ## Center^[중심]
 
-Group $G$의 **center^[중심]**:
+Group $G$의 **center**^[중심]:
 
 $$Z(G) = \{z \in G : gz = zg \; \forall g \in G\}$$
 
@@ -152,7 +152,7 @@ $$Z(G) = \{z \in G : gz = zg \; \forall g \in G\}$$
 $$a \sim b \Leftrightarrow \exists g : b = gag^{-1}$$
 
 **확인**:
-1. **Reflexivity^[반사성]**: $a = eae^{-1}$ 2. **Symmetry^[대칭성]**: $b = gag^{-1} \Rightarrow a = g^{-1}bg$ 3. **Transitivity^[추이성]**: $b = g_1ag_1^{-1}$, $c = g_2bg_2^{-1} \Rightarrow c = (g_2g_1)a(g_2g_1)^{-1}$ 
+1. **Reflexivity**^[반사성]: $a = eae^{-1}$ 2. **Symmetry**^[대칭성]: $b = gag^{-1} \Rightarrow a = g^{-1}bg$ 3. **Transitivity**^[추이성]: $b = g_1ag_1^{-1}$, $c = g_2bg_2^{-1} \Rightarrow c = (g_2g_1)a(g_2g_1)^{-1}$ 
 **Equivalence classes**: Conjugacy classes
 
 자세한 내용은 [[Equivalence Relation and Partitions]] 참조
@@ -189,7 +189,7 @@ $$|\text{cl}(a)| = [G : C_G(a)] = \frac{|G|}{|C_G(a)|}$$
 
 $b = gag^{-1}$이면:
 
-1. **Order^[위수]**: $|b| = |a|$
+1. **Order**^[위수]: $|b| = |a|$
 2. **Abelianness**: $ab = ba \Leftrightarrow gbg^{-1} \cdot gag^{-1} = gag^{-1} \cdot gbg^{-1}$
 3. **Subgroup structure**: $H \leq G \Rightarrow gHg^{-1} \leq G$
 4. **Normality**: $H \triangleleft K \Rightarrow gHg^{-1} \triangleleft gKg^{-1}$

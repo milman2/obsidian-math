@@ -37,11 +37,11 @@ $B$가 주어지면, $P(\cdot | B)$는 새로운 probability measure^[확률 측
 
 2. **Total probability**: $P(\Omega | B) = 1$
 
-3. **Complement^[여사건]**: $P(A^c | B) = 1 - P(A | B)$
+3. **Complement**^[여사건]: $P(A^c | B) = 1 - P(A | B)$
 
-4. **Monotonicity^[단조성]**: $A_1 \subseteq A_2 \Rightarrow P(A_1 | B) \leq P(A_2 | B)$
+4. **Monotonicity**^[단조성]: $A_1 \subseteq A_2 \Rightarrow P(A_1 | B) \leq P(A_2 | B)$
 
-5. **Multiplication rule^[곱셈 규칙]**: 
+5. **Multiplication rule**^[곱셈 규칙]: 
    $$P(A \cap B) = P(A | B) \cdot P(B) = P(B | A) \cdot P(A)$$
 
 ## Chain rule^[연쇄 법칙]
@@ -79,9 +79,9 @@ Partition $B_1, \ldots, B_n$에 대해:
 $$P(B_i | A) = \frac{P(A | B_i) \cdot P(B_i)}{\displaystyle\sum_{j=1}^n P(A | B_j) \cdot P(B_j)}$$
 
 **용어**:
-- $P(B_i)$: **Prior probability^[사전 확률]**
-- $P(A | B_i)$: **Likelihood^[가능도]**
-- $P(B_i | A)$: **Posterior probability^[사후 확률]**
+- $P(B_i)$: **Prior probability**^[사전 확률]
+- $P(A | B_i)$: **Likelihood**^[가능도]
+- $P(B_i | A)$: **Posterior probability**^[사후 확률]
 
 **베이지안 추론 및 응용**: [[Bayes' Rule]] 참조
 
@@ -142,7 +142,7 @@ $$P(\text{fair} | H) = \frac{\frac{1}{2} \times \frac{1}{2}}{\frac{3}{4}} = \fra
 
 ## Independence^[독립] revisited
 
-Events $A$, $B$가 **independent^[독립]** $\Leftrightarrow$ $P(A | B) = P(A)$
+Events $A$, $B$가 **independent**^[독립] $\Leftrightarrow$ $P(A | B) = P(A)$
 
 즉, $B$의 발생이 $A$의 확률에 영향을 주지 않음.
 
@@ -150,8 +150,8 @@ Events $A$, $B$가 **independent^[독립]** $\Leftrightarrow$ $P(A | B) = P(A)$
 
 ### Pairwise vs Mutual independence
 
-- **Pairwise independent^[쌍별 독립]**: 모든 쌍이 독립
-- **Mutually independent^[상호 독립]**: 모든 부분집합에 대해 독립
+- **Pairwise independent**^[쌍별 독립]: 모든 쌍이 독립
+- **Mutually independent**^[상호 독립]: 모든 부분집합에 대해 독립
 
 Mutual $\Rightarrow$ Pairwise, but not converse!
 

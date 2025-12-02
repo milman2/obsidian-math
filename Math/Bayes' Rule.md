@@ -15,10 +15,10 @@
 $$P(B | A) = \frac{P(A | B) \cdot P(B)}{P(A)}$$
 
 여기서:
-- $P(B)$: **Prior probability^[사전 확률]** (evidence 전의 belief)
-- $P(A | B)$: **Likelihood^[가능도]** (B가 참일 때 A의 확률)
-- $P(A)$: **Marginal probability^[주변 확률]** or **Evidence^[증거]**
-- $P(B | A)$: **Posterior probability^[사후 확률]** (evidence 후의 updated belief)
+- $P(B)$: **Prior probability**^[사전 확률] (evidence 전의 belief)
+- $P(A | B)$: **Likelihood**^[가능도] (B가 참일 때 A의 확률)
+- $P(A)$: **Marginal probability**^[주변 확률] or **Evidence**^[증거]
+- $P(B | A)$: **Posterior probability**^[사후 확률] (evidence 후의 updated belief)
 
 ### Extended form with partition
 
@@ -36,7 +36,7 @@ $$P(B_i | A) = \frac{P(A | B_i) \cdot P(B_i)}{\displaystyle\sum_{j} P(A | B_j) \
 
 ## Bayesian updating^[베이지안 업데이트]
 
-Bayes' theorem은 **learning mechanism^[학습 메커니즘]**:
+Bayes' theorem은 **learning mechanism**^[학습 메커니즘]:
 
 ```
 Prior belief → Observe data → Update belief → Posterior
@@ -48,11 +48,11 @@ $$P(B | A_1, A_2) = \frac{P(A_2 | B, A_1) \cdot P(B | A_1)}{P(A_2 | A_1)}$$
 
 ## Odds form^[승산 형태]
 
-**Prior odds^[사전 승산]**: $\displaystyle\frac{P(B)}{P(B^c)}$
+**Prior odds**^[사전 승산]: $\displaystyle\frac{P(B)}{P(B^c)}$
 
-**Posterior odds^[사후 승산]**: $\displaystyle\frac{P(B | A)}{P(B^c | A)}$
+**Posterior odds**^[사후 승산]: $\displaystyle\frac{P(B | A)}{P(B^c | A)}$
 
-**Bayes factor^[베이즈 인자]**: $\displaystyle\frac{P(A | B)}{P(A | B^c)}$
+**Bayes factor**^[베이즈 인자]: $\displaystyle\frac{P(A | B)}{P(A | B^c)}$
 
 관계:
 $$\frac{P(B | A)}{P(B^c | A)} = \frac{P(A | B)}{P(A | B^c)} \cdot \frac{P(B)}{P(B^c)}$$
@@ -95,7 +95,7 @@ $$P(\text{match}) \approx 1 \times \frac{1}{1,000,000} + \frac{1}{1,000,000} \ti
 
 $$P(\text{guilty} | \text{match}) \approx \frac{1}{2} = 50\%$$
 
-**Base rate fallacy^[기저율 오류]**를 보여주는 예!
+**Base rate fallacy**^[기저율 오류]를 보여주는 예!
 
 ## 3. Multiple testing^[다중 검정]
 

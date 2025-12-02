@@ -34,8 +34,8 @@ $$P_X(B) = P(\{\omega : X(\omega) \in B\}) = P(X \in B)$$
 $$F_X(x) = P(X \leq x) = P(\{\omega : X(\omega) \leq x\})$$
 
 **Properties**:
-1. **Non-decreasing^[비감소]**: $x_1 \leq x_2 \Rightarrow F_X(x_1) \leq F_X(x_2)$
-2. **Right-continuous^[우연속]**: $\displaystyle\lim_{h \to 0^+} F_X(x + h) = F_X(x)$
+1. **Non-decreasing**^[비감소]: $x_1 \leq x_2 \Rightarrow F_X(x_1) \leq F_X(x_2)$
+2. **Right-continuous**^[우연속]: $\displaystyle\lim_{h \to 0^+} F_X(x + h) = F_X(x)$
 3. **Limits**: $\displaystyle\lim_{x \to -\infty} F_X(x) = 0$, $\displaystyle\lim_{x \to \infty} F_X(x) = 1$
 
 ## Types of random variables
@@ -90,10 +90,10 @@ $$E[X] = \int_\Omega X(\omega) \, dP(\omega)$$
 
 ## Properties of expectation
 
-1. **Linearity^[선형성]**:
+1. **Linearity**^[선형성]:
    $$E[aX + bY] = aE[X] + bE[Y]$$
 
-2. **Monotonicity^[단조성]**: $X \leq Y$ a.s.^[거의 확실히] $\Rightarrow E[X] \leq E[Y]$
+2. **Monotonicity**^[단조성]: $X \leq Y$ a.s.^[거의 확실히] $\Rightarrow E[X] \leq E[Y]$
 
 3. **Law of the unconscious statistician**^[무의식적 통계학자의 법칙] (LOTUS):
    $$E[g(X)] = \begin{cases}
@@ -185,7 +185,7 @@ $$P(X = k) = (1-p)^{k-1} p, \quad k = 1, 2, 3, \ldots$$
 - $E[X] = \frac{1}{p}$
 - $\text{Var}(X) = \frac{1-p}{p^2}$
 
-**Property**: **Memoryless^[무기억성]**: $P(X > m + n | X > m) = P(X > n)$
+**Property**: **Memoryless**^[무기억성]: $P(X > m + n | X > m) = P(X > n)$
 
 ## Continuous distributions^[연속 분포]
 
@@ -317,10 +317,10 @@ $$E[X | Y = y] = \int_{-\infty}^\infty x \cdot f_{X|Y}(x | y) \, dx$$
 
 $X_1, X_2, \ldots$ i.i.d.^[독립 항등 분포], $E[X_i] = \mu$:
 
-**Weak law^[약한 법칙]** (convergence in probability^[확률 수렴]):
+**Weak law**^[약한 법칙] (convergence in probability^[확률 수렴]):
 $$\frac{1}{n}\displaystyle\sum_{i=1}^n X_i \xrightarrow{P} \mu$$
 
-**Strong law^[강한 법칙]** (convergence almost surely^[거의 확실한 수렴]):
+**Strong law**^[강한 법칙] (convergence almost surely^[거의 확실한 수렴]):
 $$P\left(\displaystyle\lim_{n \to \infty} \frac{1}{n}\displaystyle\sum_{i=1}^n X_i = \mu\right) = 1$$
 
 ### Central limit theorem^[중심극한정리]
@@ -396,9 +396,9 @@ Expected value E[X] = ∫ x f_X(x) dx
 
 ## Applications^[응용]
 
-- **Statistics^[통계학]**: Hypothesis testing^[가설 검정], estimation^[추정]
+- **Statistics**^[통계학]: Hypothesis testing^[가설 검정], estimation^[추정]
 - **Machine learning**: Probabilistic models, Bayesian inference
-- **Finance^[금융]**: Option pricing, risk management^[리스크 관리]
+- **Finance**^[금융]: Option pricing, risk management^[리스크 관리]
 - **Physics**: Statistical mechanics^[통계 역학], quantum mechanics^[양자 역학]
 - **Engineering**: Signal processing^[신호 처리], reliability theory^[신뢰성 이론]
 

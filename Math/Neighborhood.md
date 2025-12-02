@@ -14,7 +14,7 @@ Topological space^[위상공간] $(X, \tau)$와 점 $x \in X$에 대해:
 
 ## Neighborhood^[근방]
 
-집합 $N \subseteq X$가 $x$의 **neighborhood^[근방]**이다 $\Leftrightarrow$ $x \in U \subseteq N$인 open set^[열린 집합] $U \in \tau$가 존재한다.
+집합 $N \subseteq X$가 $x$의 **neighborhood**^[근방]이다 $\Leftrightarrow$ $x \in U \subseteq N$인 open set^[열린 집합] $U \in \tau$가 존재한다.
 
 즉, $N$은 $x$를 포함하는 어떤 open set을 포함한다.
 
@@ -22,17 +22,17 @@ Topological space^[위상공간] $(X, \tau)$와 점 $x \in X$에 대해:
 
 ## Open Neighborhood^[열린 근방]
 
-$x$의 neighborhood $N$이 **open neighborhood^[열린 근방]**이다 $\Leftrightarrow$ $N \in \tau$ (즉, $N$이 open set)
+$x$의 neighborhood $N$이 **open neighborhood**^[열린 근방]이다 $\Leftrightarrow$ $N \in \tau$ (즉, $N$이 open set)
 
 ## Neighborhood System^[근방계]
 
-점 $x \in X$의 모든 neighborhood의 모임을 $x$의 **neighborhood system^[근방계]** (또는 **neighborhood filter^[근방 필터]**)라 하고 $\mathcal{N}(x)$ (또는 $\mathcal{N}_x$)로 표기:
+점 $x \in X$의 모든 neighborhood의 모임을 $x$의 **neighborhood system**^[근방계] (또는 **neighborhood filter**^[근방 필터])라 하고 $\mathcal{N}(x)$ (또는 $\mathcal{N}_x$)로 표기:
 
 $$\mathcal{N}(x) = \{N \subseteq X : N \text{ is a neighborhood of } x\}$$
 
 ## Neighborhood Base^[근방 기저]
 
-집합족 $\mathcal{B}(x) \subseteq \mathcal{N}(x)$가 $x$의 **neighborhood base^[근방 기저]** (또는 **local base^[국소 기저]**)이다 $\Leftrightarrow$ 모든 $N \in \mathcal{N}(x)$에 대해 $B \in \mathcal{B}(x)$가 존재하여 $B \subseteq N$
+집합족 $\mathcal{B}(x) \subseteq \mathcal{N}(x)$가 $x$의 **neighborhood base**^[근방 기저] (또는 **local base**^[국소 기저])이다 $\Leftrightarrow$ 모든 $N \in \mathcal{N}(x)$에 대해 $B \in \mathcal{B}(x)$가 존재하여 $B \subseteq N$
 
 즉, 모든 neighborhood가 neighborhood base의 원소로 "근사"될 수 있다.
 
@@ -134,7 +134,7 @@ Metric space $(X, d)$에서 점 $x$:
 
 ### Continuity의 Neighborhood 특징화
 
-함수 $f: X \to Y$가 $x \in X$에서 **continuous^[연속]** $\Leftrightarrow$ $f(x)$의 모든 neighborhood $V$에 대해, $f^{-1}(V)$는 $x$의 neighborhood
+함수 $f: X \to Y$가 $x \in X$에서 **continuous**^[연속] $\Leftrightarrow$ $f(x)$의 모든 neighborhood $V$에 대해, $f^{-1}(V)$는 $x$의 neighborhood
 
 $$\forall V \in \mathcal{N}(f(x)), f^{-1}(V) \in \mathcal{N}(x)$$
 
@@ -143,7 +143,7 @@ $f$가 $x$에서 continuous $\Leftrightarrow$ $f(x)$의 neighborhood base $\math
 
 ### Convergence의 Neighborhood 특징화
 
-Topological space에서 net^[망] $(x_\alpha)$가 $x$로 **converge^[수렴]** $\Leftrightarrow$ 모든 $N \in \mathcal{N}(x)$에 대해, $\alpha_0$가 존재하여 $\alpha \geq \alpha_0 \Rightarrow x_\alpha \in N$
+Topological space에서 net^[망] $(x_\alpha)$가 $x$로 **converge**^[수렴] $\Leftrightarrow$ 모든 $N \in \mathcal{N}(x)$에 대해, $\alpha_0$가 존재하여 $\alpha \geq \alpha_0 \Rightarrow x_\alpha \in N$
 
 Metric space에서 수열 $(x_n)$이 $x$로 수렴 $\Leftrightarrow$ 모든 $\epsilon > 0$에 대해 $N$이 존재하여 $n \geq N \Rightarrow x_n \in B(x, \epsilon)$
 
@@ -173,7 +173,7 @@ Neighborhood는 topological space에서 "근처", "가까움"의 개념을 형�
 
 ### First-Countability^[제1 가산성]
 
-Topological space $X$가 **first-countable^[제1 가산]** $\Leftrightarrow$ 모든 점 $x \in X$가 countable neighborhood base를 가짐
+Topological space $X$가 **first-countable**^[제1 가산] $\Leftrightarrow$ 모든 점 $x \in X$가 countable neighborhood base를 가짐
 
 **예시**:
 - 모든 metric space는 first-countable
@@ -184,7 +184,7 @@ Topological space $X$가 **first-countable^[제1 가산]** $\Leftrightarrow$ 모
 
 ### Second-Countability^[제2 가산성]
 
-Topological space $X$가 **second-countable^[제2 가산]** $\Leftrightarrow$ $X$가 countable basis (for topology)를 가짐
+Topological space $X$가 **second-countable**^[제2 가산] $\Leftrightarrow$ $X$가 countable basis (for topology)를 가짐
 
 Second-countable $\Rightarrow$ First-countable (역은 거짓)
 
@@ -194,7 +194,7 @@ Second-countable $\Rightarrow$ First-countable (역은 거짓)
 
 ### Hausdorff Space와 Neighborhood
 
-Topological space $X$가 **Hausdorff^[하우스도르프]** $\Leftrightarrow$ 서로 다른 점 $x, y$에 대해 disjoint neighborhoods $N_x, N_y$가 존재:
+Topological space $X$가 **Hausdorff**^[하우스도르프] $\Leftrightarrow$ 서로 다른 점 $x, y$에 대해 disjoint neighborhoods $N_x, N_y$가 존재:
 
 $$\forall x, y \in X, x \neq y \Rightarrow \exists N_x \in \mathcal{N}(x), N_y \in \mathcal{N}(y) \text{ s.t. } N_x \cap N_y = \emptyset$$
 
@@ -202,7 +202,7 @@ Hausdorff 조건은 topology가 "점들을 충분히 구분"하는 조건
 
 ### Filter Theory와의 관계
 
-Neighborhood system $\mathcal{N}(x)$는 **filter^[필터]**의 예시:
+Neighborhood system $\mathcal{N}(x)$는 **filter**^[필터]의 예시:
 - $\emptyset \notin \mathcal{N}(x)$
 - $N_1, N_2 \in \mathcal{N}(x) \Rightarrow N_1 \cap N_2 \in \mathcal{N}(x)$
 - $N \in \mathcal{N}(x)$이고 $N \subseteq M \Rightarrow M \in \mathcal{N}(x)$

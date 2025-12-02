@@ -15,7 +15,7 @@
 
 ## Prime Ideal^[소 아이디얼]
 
-Commutative ring $R$의 proper ideal^[진 아이디얼] $P$가 **prime ideal^[소 아이디얼]**이다 $\Leftrightarrow$
+Commutative ring $R$의 proper ideal^[진 아이디얼] $P$가 **prime ideal**^[소 아이디얼]이다 $\Leftrightarrow$
 
 $$ab \in P \quad \Rightarrow \quad a \in P \text{ or } b \in P$$
 
@@ -29,9 +29,9 @@ $$ab \in P \quad \Rightarrow \quad a \in P \text{ or } b \in P$$
 
 **1. Definition**: $ab \in P \Rightarrow a \in P$ or $b \in P$
 
-**2. Quotient ring**: $R/P$가 **integral domain^[정역]**
+**2. Quotient ring**: $R/P$가 **integral domain**^[정역]
 
-**3. Complement**: $R \setminus P$가 **multiplicatively closed^[곱셈에 닫혀있음]**
+**3. Complement**: $R \setminus P$가 **multiplicatively closed**^[곱셈에 닫혀있음]
 
 $$a, b \notin P \quad \Rightarrow \quad ab \notin P$$
 
@@ -58,7 +58,7 @@ $$a, b \notin P \quad \Rightarrow \quad ab \notin P$$
 - 따라서 $J \subseteq P$ 
 ## Prime Element
 
-Ring $R$의 원소 $p$가 **prime element^[소원]**이다 $\Leftrightarrow$
+Ring $R$의 원소 $p$가 **prime element**^[소원]이다 $\Leftrightarrow$
 
 1. $p$는 non-unit, non-zero
 2. $p | ab \Rightarrow p | a$ or $p | b$
@@ -81,7 +81,7 @@ $$I \subseteq Q \subseteq P, \quad Q \text{ prime} \quad \Rightarrow \quad Q = P
 
 ## Associated Prime
 
-Noetherian ring $R$의 ideal $I$에 대한 **associated prime^[결합 소 아이디얼]**:
+Noetherian ring $R$의 ideal $I$에 대한 **associated prime**^[결합 소 아이디얼]:
 
 $$\text{Ass}(I) = \{P \text{ prime} : P = \text{ann}(r + I) \text{ for some } r \in R\}$$
 
@@ -146,13 +146,13 @@ $$I \subseteq \bigcup_{i=1}^{n} P_i \quad \Rightarrow \quad \exists i: I \subset
 
 ## Spectrum
 
-**정의**: Ring $R$의 **spectrum^[스펙트럼]**
+**정의**: Ring $R$의 **spectrum**^[스펙트럼]
 
 $$\text{Spec}(R) = \{\text{all prime ideals of } R\}$$
 
 ### Zariski Topology
 
-$\text{Spec}(R)$에 **Zariski topology^[자리스키 위상]** 부여:
+$\text{Spec}(R)$에 **Zariski topology**^[자리스키 위상] 부여:
 
 **Closed sets**: 
 
@@ -176,14 +176,14 @@ $$D(f) = \{P \in \text{Spec}(R) : f \notin P\} = \text{Spec}(R) \setminus V(\lan
 
 $$R_P = S^{-1}R = \left\{ \frac{r}{s} : r \in R, s \notin P \right\}$$
 
-**성질**: $R_P$는 **local ring^[국소환]**
+**성질**: $R_P$는 **local ring**^[국소환]
 - Unique maximal ideal: $P R_P = \{\frac{p}{s} : p \in P, s \notin P\}$
 
 자세한 내용은 [[Localization]], [[Local Ring]] 참조
 
 ## Height and Dimension
 
-**정의**: Prime ideal $P$의 **height^[높이]**
+**정의**: Prime ideal $P$의 **height**^[높이]
 
 $$\text{ht}(P) = \sup\{n : P_0 \subsetneq P_1 \subsetneq \cdots \subsetneq P_n = P\}$$
 
