@@ -14,7 +14,7 @@
 
 ## Normal Subgroup^[정규 부분군]
 
-Subgroup $N \leq G$가 **normal^[정규]**이다 (기호: $N \triangleleft G$ 또는 $N \trianglelefteq G$) $\Leftrightarrow$
+Subgroup $N \leq G$가 **normal**^[정규]이다 (기호: $N \triangleleft G$ 또는 $N \trianglelefteq G$) $\Leftrightarrow$
 
 $$\forall g \in G, \quad gNg^{-1} = N$$
 
@@ -22,7 +22,7 @@ $$\forall g \in G, \quad gNg^{-1} = N$$
 
 ### Conjugation^[켤레]
 
-원소 $g \in G$에 의한 $N$의 **conjugation^[켤레]**:
+원소 $g \in G$에 의한 $N$의 **conjugation**^[켤레]:
 
 $$gNg^{-1} = \{gng^{-1} : n \in N\}$$
 
@@ -74,7 +74,7 @@ Element-wise condition
 
 ## Simple Group^[단순군]
 
-Group $G$가 **simple^[단순]**이다 $\Leftrightarrow$
+Group $G$가 **simple**^[단순]이다 $\Leftrightarrow$
 
 $$\text{Only normal subgroups are } \{e\} \text{ and } G$$
 
@@ -88,7 +88,7 @@ Nontrivial proper normal subgroup이 없음
 
 ## Quotient Group^[몫군]
 
-$N \triangleleft G$일 때, **quotient group^[몫군]** $G/N$:
+$N \triangleleft G$일 때, **quotient group**^[몫군] $G/N$:
 
 ### Set^[집합]
 
@@ -112,7 +112,7 @@ $$(g_1N)(g_2N) = (g_1g_2)N$$
 
 ## Equivalence Relation Perspective^[동치 관계 관점]
 
-Normal subgroup $N \triangleleft G$는 $G$ 위의 **equivalence relation^[동치 관계]**를 정의:
+Normal subgroup $N \triangleleft G$는 $G$ 위의 **equivalence relation**^[동치 관계]를 정의:
 
 ### Equivalence Relation
 
@@ -124,13 +124,13 @@ $$a \sim_N b \Leftrightarrow a^{-1}b \in N$$
 
 ### Verification^[확인]
 
-**1. Reflexive^[반사적]**: $a \sim_N a$
+**1. Reflexive**^[반사적]: $a \sim_N a$
 
 $$aa^{-1} = e \in N$$ 
-**2. Symmetric^[대칭적]**: $a \sim_N b \Rightarrow b \sim_N a$
+**2. Symmetric**^[대칭적]: $a \sim_N b \Rightarrow b \sim_N a$
 
 $$ab^{-1} \in N \Rightarrow (ab^{-1})^{-1} = ba^{-1} \in N$$ 
-**3. Transitive^[추이적]**: $a \sim_N b, b \sim_N c \Rightarrow a \sim_N c$
+**3. Transitive**^[추이적]: $a \sim_N b, b \sim_N c \Rightarrow a \sim_N c$
 
 $$ab^{-1} \in N, bc^{-1} \in N \Rightarrow (ab^{-1})(bc^{-1}) = ac^{-1} \in N$$ 
 ### Equivalence Classes^[동치류]
@@ -157,7 +157,7 @@ $$N \triangleleft G \Rightarrow aN = Na \; \forall a \in G$$
 
 ### Partition^[분할]
 
-Equivalence relation $\sim_N$은 $G$의 **partition^[분할]**을 생성:
+Equivalence relation $\sim_N$은 $G$의 **partition**^[분할]을 생성:
 
 $$G = \bigsqcup_{a \in G/N} aN$$
 
@@ -178,7 +178,7 @@ $$G/N = G/\sim_N = \{[a] : a \in G\} = \{aN : a \in G\}$$
 
 ## Normal Closure^[정규 폐포]
 
-Subset $S \subseteq G$의 **normal closure^[정규 폐포]** $\langle\langle S \rangle\rangle$:
+Subset $S \subseteq G$의 **normal closure**^[정규 폐포] $\langle\langle S \rangle\rangle$:
 
 $$\langle\langle S \rangle\rangle = \bigcap_{\substack{N \triangleleft G \\ S \subseteq N}} N$$
 
@@ -252,7 +252,7 @@ $$G' = [G, G] = \langle aba^{-1}b^{-1} : a, b \in G \rangle \triangleleft G$$
 - $G' \text{ char } G$ (characteristic)
 - $G/G'$ is abelian (largest abelian quotient)
 
-**Abelianization^[아벨화]**: $G^{\text{ab}} = G/G'$
+**Abelianization**^[아벨화]: $G^{\text{ab}} = G/G'$
 
 ## Example 7: Non-normal Subgroups in $S_3$
 
@@ -344,7 +344,7 @@ $$G/\ker(\phi) \cong \text{im}(\phi)$$
 
 ## Conjugacy Classes^[켤레류]
 
-원소 $a \in G$의 **conjugacy class^[켤레류]**:
+원소 $a \in G$의 **conjugacy class**^[켤레류]:
 
 $$\text{Cl}(a) = \{gag^{-1} : g \in G\}$$
 
@@ -362,7 +362,7 @@ where $C_G(a) = \{g : ga = ag\}$ is centralizer^[중심화원]
 
 ## Characteristic Subgroups^[특성 부분군]
 
-Subgroup $H \leq G$가 **characteristic^[특성]**이다 (기호: $H \text{ char } G$) $\Leftrightarrow$
+Subgroup $H \leq G$가 **characteristic**^[특성]이다 (기호: $H \text{ char } G$) $\Leftrightarrow$
 
 $$\forall \phi \in \text{Aut}(G), \quad \phi(H) = H$$
 
@@ -410,7 +410,7 @@ Better example needed...
 
 ## Maximal Normal Subgroups^[극대 정규 부분군]
 
-$M \triangleleft G$가 **maximal normal^[극대 정규]**이다 $\Leftrightarrow$
+$M \triangleleft G$가 **maximal normal**^[극대 정규]이다 $\Leftrightarrow$
 
 $$M \triangleleft N \triangleleft G \Rightarrow N = M \text{ or } N = G$$
 
@@ -466,7 +466,7 @@ $$(G/K)/(N/K) \cong G/N$$
 
 ## Jordan-Hölder Theorem^[요르단-횔더 정리]
 
-Finite group $G \neq \{e\}$는 **composition series^[합성 열]**을 가짐:
+Finite group $G \neq \{e\}$는 **composition series**^[합성 열]을 가짐:
 
 $$\{e\} = G_0 \triangleleft G_1 \triangleleft \cdots \triangleleft G_n = G$$
 

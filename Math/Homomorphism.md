@@ -15,13 +15,13 @@
 
 ## Homomorphism^[준동형사상]
 
-**Homomorphism^[준동형사상]**: 대수 구조 사이에서 **연산을 보존하는 함수**
+**Homomorphism**^[준동형사상]: 대수 구조 사이에서 **연산을 보존하는 함수**
 
 핵심 아이디어: "구조를 존중하는 mapping"
 
 ## Group Homomorphism^[군 준동형사상]
 
-함수 $\phi: G \to H$ (where $G, H$ are groups^[군])가 **group homomorphism^[군 준동형사상]**이다 $\Leftrightarrow$
+함수 $\phi: G \to H$ (where $G, H$ are groups^[군])가 **group homomorphism**^[군 준동형사상]이다 $\Leftrightarrow$
 
 $$\forall a, b \in G, \quad \phi(a \cdot_G b) = \phi(a) \cdot_H \phi(b)$$
 
@@ -41,7 +41,7 @@ $$\phi(e_G) = \phi(e_G \cdot e_G) = \phi(e_G) \cdot \phi(e_G)$$
 
 ## Ring Homomorphism^[환 준동형사상]
 
-함수 $\phi: R \to S$ (where $R, S$ are rings^[환])가 **ring homomorphism^[환 준동형사상]**이다 $\Leftrightarrow$
+함수 $\phi: R \to S$ (where $R, S$ are rings^[환])가 **ring homomorphism**^[환 준동형사상]이다 $\Leftrightarrow$
 
 1. $\phi(a + b) = \phi(a) + \phi(b)$ (덧셈 보존)
 2. $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$ (곱셈 보존)
@@ -61,11 +61,11 @@ Ring homomorphism $\phi: R \to S$에 대해:
 
 ## Field Homomorphism^[체 준동형사상]
 
-함수 $\phi: \mathbb{F} \to \mathbb{E}$ (where $\mathbb{F}, \mathbb{E}$ are fields^[체])가 **field homomorphism^[체 준동형사상]**이다 $\Leftrightarrow$ ring homomorphism
+함수 $\phi: \mathbb{F} \to \mathbb{E}$ (where $\mathbb{F}, \mathbb{E}$ are fields^[체])가 **field homomorphism**^[체 준동형사상]이다 $\Leftrightarrow$ ring homomorphism
 
 ### 중요한 성질
 
-**정리**: 모든 field homomorphism은 **injective^[단사]**!
+**정리**: 모든 field homomorphism은 **injective**^[단사]!
 
 **증명**: $\ker(\phi)$는 ideal of $\mathbb{F}$
 - Field의 ideal은 $(0)$ 또는 $\mathbb{F}$뿐
@@ -75,7 +75,7 @@ Ring homomorphism $\phi: R \to S$에 대해:
 
 ## Vector Space Homomorphism^[벡터 공간 준동형사상]
 
-함수 $T: V \to W$ (where $V, W$ are vector spaces^[벡터 공간] over field $\mathbb{F}$)가 **linear map^[선형 사상]** (또는 **linear transformation^[선형 변환]**)이다 $\Leftrightarrow$
+함수 $T: V \to W$ (where $V, W$ are vector spaces^[벡터 공간] over field $\mathbb{F}$)가 **linear map**^[선형 사상] (또는 **linear transformation**^[선형 변환])이다 $\Leftrightarrow$
 
 1. $T(v_1 + v_2) = T(v_1) + T(v_2)$ (덧셈 보존)
 2. $T(cv) = cT(v)$ for all $c \in \mathbb{F}$ (스칼라 곱 보존)
@@ -86,7 +86,7 @@ Ring homomorphism $\phi: R \to S$에 대해:
 
 ## Kernel^[핵]
 
-Homomorphism $\phi: G \to H$의 **kernel^[핵]**:
+Homomorphism $\phi: G \to H$의 **kernel**^[핵]:
 
 $$\ker(\phi) = \{g \in G : \phi(g) = e_H\}$$
 
@@ -104,11 +104,11 @@ $$\ker(\phi) = \{g \in G : \phi(g) = e_H\}$$
 
 ## Image^[상]
 
-Homomorphism $\phi: G \to H$의 **image^[상]**:
+Homomorphism $\phi: G \to H$의 **image**^[상]:
 
 $$\text{im}(\phi) = \phi(G) = \{\phi(g) : g \in G\}$$
 
-또는 **range^[치역]**라고도 함
+또는 **range**^[치역]라고도 함
 
 ### 성질
 
@@ -124,7 +124,7 @@ $$\text{im}(\phi) = \phi(G) = \{\phi(g) : g \in G\}$$
 
 ### Monomorphism^[단사 준동형사상]
 
-Homomorphism이 **injective^[단사]**
+Homomorphism이 **injective**^[단사]
 
 $$\phi(a) = \phi(b) \Rightarrow a = b$$
 
@@ -132,7 +132,7 @@ $$\phi(a) = \phi(b) \Rightarrow a = b$$
 
 ### Epimorphism^[전사 준동형사상]
 
-Homomorphism이 **surjective^[전사]**
+Homomorphism이 **surjective**^[전사]
 
 $$\text{im}(\phi) = H$$
 
@@ -299,7 +299,7 @@ $$\phi_g(xy) = g(xy)g^{-1} = (gxg^{-1})(gyg^{-1}) = \phi_g(x)\phi_g(y)$$
 
 **Kernel**: $\ker(\phi_g) = \{x : gxg^{-1} = x\} = C_G(g)$ (centralizer^[중심화원])
 
-**Inner automorphism^[내부 자기동형사상]**
+**Inner automorphism**^[내부 자기동형사상]
 
 ## Example 12: Dual Map^[쌍대 사상]
 

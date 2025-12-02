@@ -12,13 +12,13 @@
 
 ## Relation^[관계]
 
-집합 $X$에 대한 **relation^[관계]** $R$은 $X \times X$의 부분집합
+집합 $X$에 대한 **relation**^[관계] $R$은 $X \times X$의 부분집합
 
 $(x, y) \in R$일 때 $x \sim y$ 또는 $xRy$로 표기
 
 ## Equivalence Relation^[동치 관계]
 
-집합 $X$에 대한 relation $\sim$이 **equivalence relation^[동치 관계]**이다 $\Leftrightarrow$ 다음 세 가지 성질을 만족:
+집합 $X$에 대한 relation $\sim$이 **equivalence relation**^[동치 관계]이다 $\Leftrightarrow$ 다음 세 가지 성질을 만족:
 
 ### 1. Reflexivity^[반사성]
 
@@ -40,7 +40,7 @@ $$\forall x, y, z \in X, \quad x \sim y \text{ and } y \sim z \Rightarrow x \sim
 
 ## Equivalence Class^[동치류]
 
-$x \in X$의 **equivalence class^[동치류]** $[x]$ (또는 $\bar{x}$, $\text{cl}(x)$)는:
+$x \in X$의 **equivalence class**^[동치류] $[x]$ (또는 $\bar{x}$, $\text{cl}(x)$)는:
 
 $$[x] = \{y \in X : y \sim x\}$$
 
@@ -48,13 +48,13 @@ $$[x] = \{y \in X : y \sim x\}$$
 
 ## Quotient Set^[몫집합]
 
-$X$의 모든 equivalence class의 모임을 **quotient set^[몫집합]** (또는 **quotient space^[몫공간]**)이라 하고 $X/\sim$로 표기:
+$X$의 모든 equivalence class의 모임을 **quotient set**^[몫집합] (또는 **quotient space**^[몫공간])이라 하고 $X/\sim$로 표기:
 
 $$X/\sim = \{[x] : x \in X\}$$
 
 ## Partition^[분할]
 
-집합 $X$의 **partition^[분할]** $\mathcal{P}$는 $X$의 부분집합들의 모임으로, 다음을 만족:
+집합 $X$의 **partition**^[분할] $\mathcal{P}$는 $X$의 부분집합들의 모임으로, 다음을 만족:
 
 1. $\emptyset \notin \mathcal{P}$ (공집합이 아닌 집합들)
 2. $\bigcup_{A \in \mathcal{P}} A = X$ (전체를 덮음)
@@ -203,9 +203,9 @@ $$f \sim g \Leftrightarrow f \text{ is homotopic to } g$$
 
 ### Representative^[대표원]
 
-각 equivalence class $[x]$에서 하나씩 선택한 원소를 **representative^[대표원]**이라 함
+각 equivalence class $[x]$에서 하나씩 선택한 원소를 **representative**^[대표원]이라 함
 
-모든 equivalence class의 representative들의 집합을 **complete set of representatives^[완전 대표계]**라 함
+모든 equivalence class의 representative들의 집합을 **complete set of representatives**^[완전 대표계]라 함
 
 **예**: $\mathbb{Z}/3\mathbb{Z}$의 complete set of representatives: $\{0, 1, 2\}$ (또는 $\{3, 4, 5\}$ 등)
 
@@ -215,7 +215,7 @@ $$\pi: X \to X/\sim, \quad \pi(x) = [x]$$
 
 $\pi$는 항상 surjective^[전사]
 
-**Universal property^[보편 성질]**: 함수 $f: X \to Y$가 $x \sim y \Rightarrow f(x) = f(y)$를 만족하면, 유일한 함수 $\bar{f}: X/\sim \to Y$가 존재하여 $f = \bar{f} \circ \pi$
+**Universal property**^[보편 성질]: 함수 $f: X \to Y$가 $x \sim y \Rightarrow f(x) = f(y)$를 만족하면, 유일한 함수 $\bar{f}: X/\sim \to Y$가 존재하여 $f = \bar{f} \circ \pi$
 
 ```
 X --π--> X/∼
@@ -227,7 +227,7 @@ X --π--> X/∼
 
 ### Refinement^[세분화]
 
-Partition $\mathcal{P}_1$이 $\mathcal{P}_2$의 **refinement^[세분화]**이다 $\Leftrightarrow$ 모든 $P_1 \in \mathcal{P}_1$에 대해 $P_2 \in \mathcal{P}_2$가 존재하여 $P_1 \subseteq P_2$
+Partition $\mathcal{P}_1$이 $\mathcal{P}_2$의 **refinement**^[세분화]이다 $\Leftrightarrow$ 모든 $P_1 \in \mathcal{P}_1$에 대해 $P_2 \in \mathcal{P}_2$가 존재하여 $P_1 \subseteq P_2$
 
 **동등한 조건**: $\mathcal{P}_1$에 대응하는 equivalence relation이 $\mathcal{P}_2$에 대응하는 것보다 "더 세밀"
 
@@ -282,15 +282,15 @@ $$v_1 \sim v_2 \Leftrightarrow v_1 - v_2 \in W$$
 
 ### 군론^[Group Theory]에서
 
-**Normal subgroup^[정규 부분군]** $H \triangleleft G$에 대해:
+**Normal subgroup**^[정규 부분군] $H \triangleleft G$에 대해:
 
 $$g_1 \sim g_2 \Leftrightarrow g_1 g_2^{-1} \in H$$
 
-**Quotient group^[몫군]**: $G/H$ with operation $[g_1][g_2] = [g_1 g_2]$
+**Quotient group**^[몫군]: $G/H$ with operation $[g_1][g_2] = [g_1 g_2]$
 
 ### 위상수학에서
 
-**Quotient topology^[몫 위상]**: $X/\sim$에 canonical projection $\pi: X \to X/\sim$이 continuous가 되도록 하는 finest topology
+**Quotient topology**^[몫 위상]: $X/\sim$에 canonical projection $\pi: X \to X/\sim$이 continuous가 되도록 하는 finest topology
 
 **응용**: 
 - Torus = Square with opposite edges identified

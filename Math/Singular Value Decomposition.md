@@ -17,7 +17,7 @@
 
 # <span class="header-definition">Definition</span>
 
-**Singular Value Decomposition^[특이값 분해]** (SVD)는 **모든 행렬**을 세 개의 간단한 행렬의 곱으로 분해하는 방법이다.
+**Singular Value Decomposition**^[특이값 분해] (SVD)는 **모든 행렬**을 세 개의 간단한 행렬의 곱으로 분해하는 방법이다.
 
 ## Matrix Form
 
@@ -47,15 +47,15 @@ $$\Sigma = \begin{pmatrix} \sigma_1 & & & & \\ & \ddots & & & \\ & & \sigma_r & 
 **관례**: $\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$
 
 여기서:
-- $\sigma_i$ = **singular values^[특이값]**
+- $\sigma_i$ = **singular values**^[특이값]
 - $r = \text{rank}(A)$
 - $\sigma_{r+1} = \cdots = \sigma_{\min(m,n)} = 0$
 
 ## Singular Vectors
 
-**Left singular vectors^[왼쪽 특이벡터]**: $U$의 열벡터 $\mathbf{u}_1, \ldots, \mathbf{u}_m$
+**Left singular vectors**^[왼쪽 특이벡터]: $U$의 열벡터 $\mathbf{u}_1, \ldots, \mathbf{u}_m$
 
-**Right singular vectors^[오른쪽 특이벡터]**: $V$의 열벡터 $\mathbf{v}_1, \ldots, \mathbf{v}_n$
+**Right singular vectors**^[오른쪽 특이벡터]: $V$의 열벡터 $\mathbf{v}_1, \ldots, \mathbf{v}_n$
 
 **관계식**:
 
@@ -147,19 +147,19 @@ $$\text{rank}(A) = \text{number of nonzero singular values}$$
 
 ### 2. Four Fundamental Subspaces
 
-**Column space^[열공간]**:
+**Column space**^[열공간]:
 
 $$\text{Col}(A) = \text{span}\{\mathbf{u}_1, \ldots, \mathbf{u}_r\}$$
 
-**Row space^[행공간]**:
+**Row space**^[행공간]:
 
 $$\text{Row}(A) = \text{span}\{\mathbf{v}_1, \ldots, \mathbf{v}_r\}$$
 
-**Null space^[영공간]**:
+**Null space**^[영공간]:
 
 $$\text{Null}(A) = \text{span}\{\mathbf{v}_{r+1}, \ldots, \mathbf{v}_n\}$$
 
-**Left null space^[왼쪽 영공간]**:
+**Left null space**^[왼쪽 영공간]:
 
 $$\text{Null}(A^T) = \text{span}\{\mathbf{u}_{r+1}, \ldots, \mathbf{u}_m\}$$
 
@@ -171,15 +171,15 @@ $$\mathbb{R}^m = \text{Col}(A) \oplus \text{Null}(A^T)$$
 
 ### 3. Norms
 
-**Operator norm^[작용소 노름]** (또는 spectral norm^[스펙트럼 노름]):
+**Operator norm**^[작용소 노름] (또는 spectral norm^[스펙트럼 노름]):
 
 $$\|A\|_2 = \sigma_1 = \sigma_{\max}$$
 
-**Frobenius norm^[프로베니우스 노름]**:
+**Frobenius norm**^[프로베니우스 노름]:
 
 $$\|A\|_F = \sqrt{\sum_{i,j} a_{ij}^2} = \sqrt{\sum_{i=1}^{r} \sigma_i^2}$$
 
-**Nuclear norm^[핵 노름]** (또는 trace norm^[대각합 노름]):
+**Nuclear norm**^[핵 노름] (또는 trace norm^[대각합 노름]):
 
 $$\|A\|_* = \sum_{i=1}^{r} \sigma_i$$
 
@@ -409,7 +409,7 @@ $$\sigma_1 \approx 9.5, \quad \sigma_2 \approx 0.77$$
 
 ## 1. Moore-Penrose Pseudoinverse
 
-**Pseudoinverse^[유사역행렬]** (또는 **Moore-Penrose inverse**):
+**Pseudoinverse**^[유사역행렬] (또는 **Moore-Penrose inverse**):
 
 $$A^+ = V \Sigma^+ U^T$$
 

@@ -13,7 +13,7 @@
 
 ## Field^[체]
 
-집합 $\mathbb{F}$와 두 이항 연산 $+$, $\cdot$에 대해, $(\mathbb{F}, +, \cdot)$가 **field^[체]**이다 $\Leftrightarrow$ 다음을 만족:
+집합 $\mathbb{F}$와 두 이항 연산 $+$, $\cdot$에 대해, $(\mathbb{F}, +, \cdot)$가 **field**^[체]이다 $\Leftrightarrow$ 다음을 만족:
 
 ### 1. Commutative Ring^[가환환]
 
@@ -37,7 +37,7 @@ Field $\mathbb{F}$ $\Leftrightarrow$ 다음을 만족:
 
 ## Subfield^[부분체]
 
-$K \subseteq \mathbb{F}$가 **subfield^[부분체]**이다 $\Leftrightarrow$ $K$가 $\mathbb{F}$의 연산으로 field
+$K \subseteq \mathbb{F}$가 **subfield**^[부분체]이다 $\Leftrightarrow$ $K$가 $\mathbb{F}$의 연산으로 field
 
 **표기**: $K \subseteq \mathbb{F}$ 또는 $\mathbb{F}/K$ (field extension^[체 확대])
 
@@ -50,7 +50,7 @@ $K \subseteq \mathbb{F}$ $\Leftrightarrow$ 다음을 만족:
 
 ## Prime Field^[소체]
 
-Field $\mathbb{F}$의 **prime field^[소체]**: $\mathbb{F}$의 가장 작은 subfield
+Field $\mathbb{F}$의 **prime field**^[소체]: $\mathbb{F}$의 가장 작은 subfield
 
 **정리**: 모든 field는 유일한 prime field를 포함
 
@@ -60,7 +60,7 @@ Prime field는 다음 중 하나:
 
 ## Field Extension^[체 확대]
 
-$K \subseteq \mathbb{F}$일 때, $\mathbb{F}$를 $K$의 **extension field^[확대체]**라 함
+$K \subseteq \mathbb{F}$일 때, $\mathbb{F}$를 $K$의 **extension field**^[확대체]라 함
 
 **표기**: $\mathbb{F}/K$ (field extension)
 
@@ -73,8 +73,8 @@ $$[\mathbb{F} : K] = \dim_K \mathbb{F}$$
 $\mathbb{F}$를 $K$-vector space로 볼 때의 차원
 
 **분류**:
-- **Finite extension^[유한 확대]**: $[\mathbb{F} : K] < \infty$
-- **Infinite extension^[무한 확대]**: $[\mathbb{F} : K] = \infty$
+- **Finite extension**^[유한 확대]: $[\mathbb{F} : K] < \infty$
+- **Infinite extension**^[무한 확대]: $[\mathbb{F} : K] = \infty$
 
 ### Tower Law^[탑 법칙]
 
@@ -86,7 +86,7 @@ $\mathbb{F}/K$ (field extension)와 $\alpha \in \mathbb{F}$에 대해:
 
 ### Algebraic Element^[대수적 원소]
 
-$\alpha$가 **algebraic over $K$^[K 위에서 대수적]**이다 $\Leftrightarrow$
+$\alpha$가 **algebraic over $K$**^[K 위에서 대수적]이다 $\Leftrightarrow$
 
 $$\exists p(x) \in K[x] \setminus \{0\}, \quad p(\alpha) = 0$$
 
@@ -94,7 +94,7 @@ $$\exists p(x) \in K[x] \setminus \{0\}, \quad p(\alpha) = 0$$
 
 ### Transcendental Element^[초월 원소]
 
-$\alpha$가 **transcendental over $K$^[K 위에서 초월적]**이다 $\Leftrightarrow$ $\alpha$가 algebraic이 아님
+$\alpha$가 **transcendental over $K$**^[K 위에서 초월적]이다 $\Leftrightarrow$ $\alpha$가 algebraic이 아님
 
 **예**:
 - $\sqrt{2}$ is algebraic over $\mathbb{Q}$ (근: $x^2 - 2 = 0$)
@@ -103,7 +103,7 @@ $\alpha$가 **transcendental over $K$^[K 위에서 초월적]**이다 $\Leftrigh
 
 ### Minimal Polynomial^[최소 다항식]
 
-$\alpha$가 algebraic over $K$일 때, **minimal polynomial^[최소 다항식]** $m_{\alpha, K}(x)$:
+$\alpha$가 algebraic over $K$일 때, **minimal polynomial**^[최소 다항식] $m_{\alpha, K}(x)$:
 
 - Monic^[최고 계수가 1]
 - $m_{\alpha, K}(\alpha) = 0$
@@ -114,7 +114,7 @@ $\alpha$가 algebraic over $K$일 때, **minimal polynomial^[최소 다항식]**
 
 ## Algebraic Extension^[대수 확대]
 
-Field extension $\mathbb{F}/K$가 **algebraic^[대수적]**이다 $\Leftrightarrow$
+Field extension $\mathbb{F}/K$가 **algebraic**^[대수적]이다 $\Leftrightarrow$
 
 $$\forall \alpha \in \mathbb{F}, \; \alpha \text{ is algebraic over } K$$
 
@@ -125,7 +125,7 @@ $$[\mathbb{F} : K] < \infty \Rightarrow \mathbb{F}/K \text{ is algebraic}$$
 
 ## Field Homomorphism^[체 준동형사상]
 
-함수 $\phi: \mathbb{F} \to \mathbb{E}$ (where $\mathbb{F}, \mathbb{E}$ are fields)가 **field homomorphism^[체 준동형사상]**이다 $\Leftrightarrow$ ring homomorphism
+함수 $\phi: \mathbb{F} \to \mathbb{E}$ (where $\mathbb{F}, \mathbb{E}$ are fields)가 **field homomorphism**^[체 준동형사상]이다 $\Leftrightarrow$ ring homomorphism
 
 **중요 성질**: 모든 field homomorphism은 injective^[단사]!
 
@@ -304,7 +304,7 @@ $$\exists \alpha \in \mathbb{F}, \quad \mathbb{F} = K(\alpha)$$
 
 ### Algebraic Closure^[대수적 폐포]
 
-모든 field $\mathbb{F}$는 **algebraic closure^[대수적 폐포]** $\overline{\mathbb{F}}$를 가짐:
+모든 field $\mathbb{F}$는 **algebraic closure**^[대수적 폐포] $\overline{\mathbb{F}}$를 가짐:
 - $\mathbb{F} \subseteq \overline{\mathbb{F}}$
 - $\overline{\mathbb{F}}$는 algebraically closed
 - $\overline{\mathbb{F}}/\mathbb{F}$는 algebraic extension
@@ -317,7 +317,7 @@ $$\exists \alpha \in \mathbb{F}, \quad \mathbb{F} = K(\alpha)$$
 
 ## Transcendence Degree^[초월 차수]
 
-Extension $\mathbb{F}/K$의 **transcendence degree^[초월 차수]** $\text{tr.deg}(\mathbb{F}/K)$:
+Extension $\mathbb{F}/K$의 **transcendence degree**^[초월 차수] $\text{tr.deg}(\mathbb{F}/K)$:
 
 $\mathbb{F}$에서 $K$ 위로 algebraically independent^[대수적 독립]인 원소들의 최대 개수
 

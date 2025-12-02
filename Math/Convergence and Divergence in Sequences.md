@@ -14,7 +14,7 @@
 
 ## Sequence^[수열]
 
-**Sequence^[수열]**는 자연수 집합에서 어떤 집합으로의 함수이다:
+**Sequence**^[수열]는 자연수 집합에서 어떤 집합으로의 함수이다:
 
 $$a: \mathbb{N} \to X$$
 
@@ -24,7 +24,7 @@ $$a: \mathbb{N} \to X$$
 
 ### Metric Space에서의 정의
 
-Metric space^[거리 공간] $(X, d)$에서 수열 $(x_n)$이 점 $x \in X$로 **converge^[수렴]**한다:
+Metric space^[거리 공간] $(X, d)$에서 수열 $(x_n)$이 점 $x \in X$로 **converge**^[수렴]한다:
 
 $$\lim_{n \to \infty} x_n = x$$
 
@@ -56,7 +56,7 @@ $$\Leftrightarrow \forall U \in \tau \text{ with } x \in U, \, \exists N \in \ma
 
 ## Divergence^[발산]
 
-수열 $(x_n)$이 **diverge^[발산]**한다 $\Leftrightarrow$ 수렴하지 않는다
+수열 $(x_n)$이 **diverge**^[발산]한다 $\Leftrightarrow$ 수렴하지 않는다
 
 ### Special Cases (실수 수열)
 
@@ -68,7 +68,7 @@ $$\lim_{n \to \infty} a_n = +\infty \Leftrightarrow \forall M \in \mathbb{R}, \,
 
 $$\lim_{n \to \infty} a_n = -\infty \Leftrightarrow \forall M \in \mathbb{R}, \, \exists N \in \mathbb{N} \text{ such that } \forall n \geq N: \, a_n < M$$
 
-**Oscillation^[진동]**: $+\infty$나 $-\infty$로도 발산하지 않는 경우
+**Oscillation**^[진동]: $+\infty$나 $-\infty$로도 발산하지 않는 경우
 
 ---
 
@@ -135,7 +135,7 @@ $$a \leq b$$
 
 ## Subsequence^[부분수열]
 
-**정의**: 수열 $(a_n)$의 **subsequence^[부분수열]**는 strictly increasing^[순증가] 함수 $n_k: \mathbb{N} \to \mathbb{N}$에 대해:
+**정의**: 수열 $(a_n)$의 **subsequence**^[부분수열]는 strictly increasing^[순증가] 함수 $n_k: \mathbb{N} \to \mathbb{N}$에 대해:
 
 $$(a_{n_k})_{k=1}^{\infty}$$
 
@@ -146,9 +146,9 @@ $$(a_{n_k})_{k=1}^{\infty}$$
 ## Monotone Sequences^[단조수열]
 
 **정의**:
-- **Monotone increasing^[단조증가]**: $a_n \leq a_{n+1}$ for all $n$
-- **Monotone decreasing^[단조감소]**: $a_n \geq a_{n+1}$ for all $n$
-- **Monotone^[단조]**: increasing 또는 decreasing
+- **Monotone increasing**^[단조증가]: $a_n \leq a_{n+1}$ for all $n$
+- **Monotone decreasing**^[단조감소]: $a_n \geq a_{n+1}$ for all $n$
+- **Monotone**^[단조]: increasing 또는 decreasing
 
 ---
 
@@ -178,7 +178,7 @@ $$\lim_{n \to \infty} a_n = \inf\{a_n : n \in \mathbb{N}\}$$
 
 ## Cauchy Sequence^[코시 수열]
 
-**정의**: Metric space $(X, d)$에서 수열 $(x_n)$이 **Cauchy sequence^[코시 수열]**이다:
+**정의**: Metric space $(X, d)$에서 수열 $(x_n)$이 **Cauchy sequence**^[코시 수열]이다:
 
 $$\Leftrightarrow \forall \epsilon > 0, \, \exists N \in \mathbb{N} \text{ such that } \forall m, n \geq N: \, d(x_m, x_n) < \epsilon$$
 
@@ -193,7 +193,7 @@ $$\Leftrightarrow \forall \epsilon > 0, \, \exists N \in \mathbb{N} \text{ such 
 $$d(x_m, x_n) \leq d(x_m, x) + d(x, x_n) < \epsilon/2 + \epsilon/2 = \epsilon$$ 
 ## Completeness^[완비성]
 
-**정의**: Metric space $(X, d)$가 **complete^[완비]**이다
+**정의**: Metric space $(X, d)$가 **complete**^[완비]이다
 
 $$\Leftrightarrow \text{모든 Cauchy 수열이 } X \text{에서 수렴}$$
 
@@ -381,9 +381,9 @@ $\epsilon$-$N$ 정의는 Weierstrass가 해석학을 엄밀화하면서 도입:
 
 수렴 속도를 측정하는 방법들:
 
-**Linear convergence^[선형 수렴]**: $|a_n - L| \leq C \cdot r^n$ for some $0 < r < 1$
+**Linear convergence**^[선형 수렴]: $|a_n - L| \leq C \cdot r^n$ for some $0 < r < 1$
 
-**Quadratic convergence^[이차 수렴]**: $|a_{n+1} - L| \leq C |a_n - L|^2$
+**Quadratic convergence**^[이차 수렴]: $|a_{n+1} - L| \leq C |a_n - L|^2$
 
 **예**:
 - $\frac{1}{n}$: Slow ($\frac{1}{n}$)
@@ -401,7 +401,7 @@ $\epsilon$-$N$ 정의는 Weierstrass가 해석학을 엄밀화하면서 도입:
 
 ### 2. Probability Theory^[확률론]
 
-**Law of Large Numbers^[큰 수의 법칙]**:
+**Law of Large Numbers**^[큰 수의 법칙]:
 
 $$\lim_{n \to \infty} \frac{1}{n} \sum_{i=1}^{n} X_i = \mathbb{E}[X]$$
 

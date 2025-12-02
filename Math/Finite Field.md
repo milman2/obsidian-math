@@ -18,7 +18,7 @@
 
 ## Finite Field^[유한체]
 
-Field^[체] $\mathbb{F}$가 **finite field^[유한체]** (또는 **Galois field^[갈루아체]**)이다 $\Leftrightarrow$ $|\mathbb{F}| < \infty$
+Field^[체] $\mathbb{F}$가 **finite field**^[유한체] (또는 **Galois field**^[갈루아체])이다 $\Leftrightarrow$ $|\mathbb{F}| < \infty$
 
 **표기**: $\mathbb{F}_q$ 또는 $GF(q)$ where $q = |\mathbb{F}|$
 
@@ -26,7 +26,7 @@ Field^[체] $\mathbb{F}$가 **finite field^[유한체]** (또는 **Galois field^
 
 ## Characteristic^[표수]
 
-Field $\mathbb{F}$의 **characteristic^[표수]** $\text{char}(\mathbb{F})$:
+Field $\mathbb{F}$의 **characteristic**^[표수] $\text{char}(\mathbb{F})$:
 
 $$\text{char}(\mathbb{F}) = \begin{cases}
 \min\{n > 0 : n \cdot 1 = 0\} & \text{if exists} \\
@@ -39,7 +39,7 @@ $$\text{char}(\mathbb{F}) = \begin{cases}
 
 ## Prime Subfield^[소체]
 
-Field $\mathbb{F}$의 **prime subfield^[소체]**:
+Field $\mathbb{F}$의 **prime subfield**^[소체]:
 
 모든 subfield의 교집합 = 최소 subfield
 
@@ -49,7 +49,7 @@ Field $\mathbb{F}$의 **prime subfield^[소체]**:
 
 ## Order^[위수]
 
-Finite field $\mathbb{F}$의 **order^[위수]**: $q = |\mathbb{F}|$
+Finite field $\mathbb{F}$의 **order**^[위수]: $q = |\mathbb{F}|$
 
 **정리**: $q = p^n$ where $p = \text{char}(\mathbb{F})$, $n = [\mathbb{F} : \mathbb{F}_p]$
 
@@ -61,8 +61,8 @@ Finite field $\mathbb{F}$의 **order^[위수]**: $q = |\mathbb{F}|$
 
 **정리**: Prime power $q = p^n$ (where $p$ prime, $n \geq 1$)에 대해:
 
-1. **Existence^[존재성]**: Order $q$인 finite field 존재
-2. **Uniqueness^[유일성]**: Order $q$인 모든 finite field는 isomorphic^[동형]
+1. **Existence**^[존재성]: Order $q$인 finite field 존재
+2. **Uniqueness**^[유일성]: Order $q$인 모든 finite field는 isomorphic^[동형]
 
 **표기**: Unique field (up to isomorphism) = $\mathbb{F}_q$ 또는 $\mathbb{F}_{p^n}$
 
@@ -72,7 +72,7 @@ Finite field $\mathbb{F}$의 **order^[위수]**: $q = |\mathbb{F}|$
 
 ## Structure of Multiplicative Group^[곱셈군의 구조]
 
-**정리**: $\mathbb{F}_q^\times = \mathbb{F}_q \setminus \{0\}$는 **cyclic group^[순환군]**
+**정리**: $\mathbb{F}_q^\times = \mathbb{F}_q \setminus \{0\}$는 **cyclic group**^[순환군]
 
 $$\mathbb{F}_q^\times \cong C_{q-1}$$
 
@@ -80,7 +80,7 @@ $$\mathbb{F}_q^\times \cong C_{q-1}$$
 
 ### Primitive Element^[원시 원소]
 
-$\alpha \in \mathbb{F}_q^\times$가 **primitive element^[원시 원소]** (또는 **generator^[생성원]**)이다 $\Leftrightarrow$
+$\alpha \in \mathbb{F}_q^\times$가 **primitive element**^[원시 원소] (또는 **generator**^[생성원])이다 $\Leftrightarrow$
 
 $$\mathbb{F}_q^\times = \langle \alpha \rangle = \{1, \alpha, \alpha^2, \ldots, \alpha^{q-2}\}$$
 
@@ -96,7 +96,7 @@ $$\text{Frob}: \mathbb{F}_q \to \mathbb{F}_q, \quad \text{Frob}(x) = x^p$$
 
 **성질**:
 
-1. **Field homomorphism^[체 준동형사상]**:
+1. **Field homomorphism**^[체 준동형사상]:
    - $(x + y)^p = x^p + y^p$ (characteristic $p$에서 binomial expansion)
    - $(xy)^p = x^p y^p$
 
@@ -132,11 +132,11 @@ Divisors of 12: $\{1, 2, 3, 4, 6, 12\}$ → 6개 subfields
 
 **정리**: $\mathbb{F}_{p^n} \cong \mathbb{F}_p[x]/(f(x))$ 
 
-where $f(x) \in \mathbb{F}_p[x]$ is **irreducible^[기약]** polynomial of degree $n$
+where $f(x) \in \mathbb{F}_p[x]$ is **irreducible**^[기약] polynomial of degree $n$
 
 ### Primitive Polynomial Definition
 
-$f(x) \in \mathbb{F}_p[x]$ (degree $n$)가 **primitive^[원시]**이다 $\Leftrightarrow$
+$f(x) \in \mathbb{F}_p[x]$ (degree $n$)가 **primitive**^[원시]이다 $\Leftrightarrow$
 
 1. $f(x)$ is irreducible
 2. 어떤 root $\alpha$가 $\mathbb{F}_{p^n}^\times$의 generator
@@ -348,7 +348,7 @@ $$N: \mathbb{F}_{p^n} \to \mathbb{F}_p, \quad N(x) = x \cdot x^p \cdot x^{p^2} \
 
 ## Quadratic Residues^[이차잉여]
 
-$a \in \mathbb{F}_q^\times$가 **quadratic residue^[이차잉여]**이다 $\Leftrightarrow$ $\exists x \in \mathbb{F}_q: x^2 = a$
+$a \in \mathbb{F}_q^\times$가 **quadratic residue**^[이차잉여]이다 $\Leftrightarrow$ $\exists x \in \mathbb{F}_q: x^2 = a$
 
 **개수**: 
 - $q$ odd: $(q-1)/2$개

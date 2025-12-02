@@ -16,9 +16,9 @@
 
 ## Isomorphism^[동형사상]
 
-**Isomorphism^[동형사상]**: **Bijective^[전단사]** homomorphism^[준동형사상]
+**Isomorphism**^[동형사상]: **Bijective**^[전단사] homomorphism^[준동형사상]
 
-함수 $\phi: G \to H$가 **isomorphism^[동형사상]**이다 $\Leftrightarrow$
+함수 $\phi: G \to H$가 **isomorphism**^[동형사상]이다 $\Leftrightarrow$
 
 1. $\phi$는 homomorphism (구조 보존)
 2. $\phi$는 bijective (일대일 대응)
@@ -36,7 +36,7 @@ Homomorphism $\phi: G \to H$에 대해 다음은 동등:
 
 ## Isomorphic Structures^[동형 구조]
 
-두 대수 구조 $G$와 $H$가 **isomorphic^[동형]**이다 (기호: $G \cong H$) $\Leftrightarrow$
+두 대수 구조 $G$와 $H$가 **isomorphic**^[동형]이다 (기호: $G \cong H$) $\Leftrightarrow$
 
 $$\exists \text{ isomorphism } \phi: G \to H$$
 
@@ -116,7 +116,7 @@ $g \in G$에 대해:
 
 $$\phi_g: G \to G, \quad \phi_g(x) = gxg^{-1}$$
 
-**Conjugation^[켤레]**에 의한 automorphism
+**Conjugation**^[켤레]에 의한 automorphism
 
 **집합**: 
 $$\text{Inn}(G) = \{\phi_g : g \in G\} \leq \text{Aut}(G)$$
@@ -129,7 +129,7 @@ $$\text{Inn}(G) = \{\phi_g : g \in G\} \leq \text{Aut}(G)$$
 
 Inner automorphism이 아닌 automorphism
 
-**Outer automorphism group^[외부 자기동형군]**:
+**Outer automorphism group**^[외부 자기동형군]:
 
 $$\text{Out}(G) = \text{Aut}(G) / \text{Inn}(G)$$
 
@@ -367,10 +367,10 @@ $$\text{Inn}(G) \cong G/Z(G)$$
 
 ### Examples
 
-1. **Splitting field^[분해체]**: $p(x) \in K[x]$의 splitting field는 $\cong$ up to isomorphism
-2. **Algebraic closure^[대수적 폐포]**: $\overline{K}$는 $\cong$ up to isomorphism
-3. **Free group^[자유군]**: Rank $n$인 free group은 $F_n$ unique up to $\cong$
-4. **Finite fields^[유한체]**: Order $p^n$인 field는 $\mathbb{F}_{p^n}$ unique up to $\cong$
+1. **Splitting field**^[분해체]: $p(x) \in K[x]$의 splitting field는 $\cong$ up to isomorphism
+2. **Algebraic closure**^[대수적 폐포]: $\overline{K}$는 $\cong$ up to isomorphism
+3. **Free group**^[자유군]: Rank $n$인 free group은 $F_n$ unique up to $\cong$
+4. **Finite fields**^[유한체]: Order $p^n$인 field는 $\mathbb{F}_{p^n}$ unique up to $\cong$
 
 **의미**: "본질적으로 하나만 존재"
 
@@ -426,13 +426,13 @@ $$\phi: G \to S_G, \quad \phi(g)(x) = gx$$
 
 ### Two Standard Forms
 
-**1. Invariant Factor Form^[불변 인자 형태]**:
+**1. Invariant Factor Form**^[불변 인자 형태]:
 
 $$G \cong C_{n_1} \times C_{n_2} \times \cdots \times C_{n_k}$$
 
 where $n_i \mid n_{i+1}$ ($n_i$가 $n_{i+1}$을 나눔)
 
-**2. Primary Decomposition Form^[소인수 분해 형태]**:
+**2. Primary Decomposition Form**^[소인수 분해 형태]:
 
 $$G \cong C_{p_1^{a_1}} \times C_{p_2^{a_2}} \times \cdots \times C_{p_r^{a_r}}$$
 
@@ -452,11 +452,11 @@ where:
 
 ### Components
 
-**Free part^[자유 부분]**: $\mathbb{Z}^r$ (torsion-free)
+**Free part**^[자유 부분]: $\mathbb{Z}^r$ (torsion-free)
 - $r$개의 independent generators
 - Rank $r$는 invariant (well-defined)
 
-**Torsion part^[비틀림 부분]**: $T(G)$ (finite abelian group)
+**Torsion part**^[비틀림 부분]: $T(G)$ (finite abelian group)
 - Fundamental Theorem으로 분해:
 $$T(G) \cong C_{p_1^{a_1}} \times C_{p_2^{a_2}} \times \cdots \times C_{p_k^{a_k}}$$
 
