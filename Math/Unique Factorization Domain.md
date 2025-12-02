@@ -14,7 +14,7 @@
 
 # <span class="header-definition">Definition</span>
 
-## Irreducible Element^[기약 원소]
+## Irreducible Element^[기약 원소, 기약원]
 
 Integral domain^[정역] $R$에서 원소 $a \in R$ (nonzero, non-unit)가 **irreducible**^[기약]이다 $\Leftrightarrow$
 
@@ -24,7 +24,7 @@ $$a = bc \quad \Rightarrow \quad b \in R^\times \text{ or } c \in R^\times$$
 
 **동등 조건**: $a$가 unit들의 곱을 제외하고는 더 이상 분해되지 않음
 
-## Prime Element^[소 원소]
+## Prime Element^[소 원소, 소원]
 
 Integral domain $R$에서 원소 $p \in R$ (nonzero, non-unit)가 **prime**^[소]이다 $\Leftrightarrow$
 
