@@ -12,7 +12,7 @@
 
 **Sample space**^[표본 공간] (또는 outcome space) $\Omega$는 random experiment^[확률 실험]의 가능한 모든 결과들의 집합이다.
 
-$\Omega$의 각 원소 $\omega \in \Omega$를 **outcome^[결과]** 또는 **sample point^[표본점]**이라 한다.
+$\Omega$의 각 원소 $\omega \in \Omega$를 **outcome**^[결과] 또는 **sample point**^[표본점]이라 한다.
 
 ## Event^[사건]
 
@@ -23,10 +23,10 @@ $$E \in \mathcal{F} \subseteq \mathcal{P}(\Omega)$$
 
 ### Event의 종류
 
-- **Elementary event^[근원사건]**: 단일 outcome $\{\omega\}$
-- **Certain event^[확실한 사건]**: $\Omega$ (항상 발생)
-- **Impossible event^[불가능 사건]**: $\emptyset$ (절대 발생 안 함)
-- **Compound event^[복합사건]**: 여러 outcomes의 합집합
+- **Elementary event**^[근원사건]: 단일 outcome $\{\omega\}$
+- **Certain event**^[확실한 사건]: $\Omega$ (항상 발생)
+- **Impossible event**^[불가능 사건]: $\emptyset$ (절대 발생 안 함)
+- **Compound event**^[복합사건]: 여러 outcomes의 합집합
 
 ## Probability space^[확률 공간]
 
@@ -40,9 +40,9 @@ $$E \in \mathcal{F} \subseteq \mathcal{P}(\Omega)$$
 
 $P$는 다음을 만족:
 
-1. **Non-negativity^[비음성]**: $P(E) \geq 0$ for all $E \in \mathcal{F}$
-2. **Normalization^[정규화]**: $P(\Omega) = 1$
-3. **Countable additivity^[가산 가법성]**: Disjoint events $E_1, E_2, \ldots$에 대해
+1. **Non-negativity**^[비음성]: $P(E) \geq 0$ for all $E \in \mathcal{F}$
+2. **Normalization**^[정규화]: $P(\Omega) = 1$
+3. **Countable additivity**^[가산 가법성]: Disjoint events $E_1, E_2, \ldots$에 대해
    $$P\left(\displaystyle\bigcup_{n=1}^\infty E_n\right) = \displaystyle\sum_{n=1}^\infty P(E_n)$$
 
 ---
@@ -53,14 +53,14 @@ $P$는 다음을 만족:
 
 1. **Empty set**: $P(\emptyset) = 0$
 
-2. **Complement^[여사건]**: $P(E^c) = 1 - P(E)$
+2. **Complement**^[여사건]: $P(E^c) = 1 - P(E)$
 
-3. **Monotonicity^[단조성]**: $E \subseteq F \Rightarrow P(E) \leq P(F)$
+3. **Monotonicity**^[단조성]: $E \subseteq F \Rightarrow P(E) \leq P(F)$
 
-4. **Union bound^[합집합 한계]** (Boole's inequality):
+4. **Union bound**^[합집합 한계] (Boole's inequality):
    $$P\left(\displaystyle\bigcup_{n=1}^\infty E_n\right) \leq \displaystyle\sum_{n=1}^\infty P(E_n)$$
 
-5. **Inclusion-exclusion principle^[포함-배제 원리]**:
+5. **Inclusion-exclusion principle**^[포함-배제 원리]:
    $$P(E_1 \cup E_2) = P(E_1) + P(E_2) - P(E_1 \cap E_2)$$
 
 ## Discrete vs Continuous sample spaces
@@ -149,7 +149,7 @@ $$P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}$$
 
 ## Independence^[독립]
 
-Events $A$, $B$가 **independent^[독립]**이다 $\Leftrightarrow$
+Events $A$, $B$가 **independent**^[독립]이다 $\Leftrightarrow$
 $$P(A \cap B) = P(A) \cdot P(B)$$
 
 이는 $P(A | B) = P(A)$ (if $P(B) > 0$)와 동치.
@@ -164,7 +164,7 @@ $$X^{-1}(B) \in \mathcal{F} \quad \forall B \in \mathcal{B}(\mathbb{R})$$
 
 ### Distribution^[분포]
 
-Random variable의 **distribution^[분포]**:
+Random variable의 **distribution**^[분포]:
 $$P_X(B) = P(\{\omega : X(\omega) \in B\}) = P(X^{-1}(B))$$
 
 이는 $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$에서의 probability measure이다.
@@ -203,10 +203,10 @@ Probability theory는 **measure theory with total measure 1**이다:
 
 $X_1, X_2, \ldots$ i.i.d.^[독립 항등 분포] random variables, $E[X_i] = \mu$:
 
-**Weak law^[약한 법칙]**:
+**Weak law**^[약한 법칙]:
 $$\frac{1}{n}\displaystyle\sum_{i=1}^n X_i \xrightarrow{P} \mu$$
 
-**Strong law^[강한 법칙]**:
+**Strong law**^[강한 법칙]:
 $$\frac{1}{n}\displaystyle\sum_{i=1}^n X_i \xrightarrow{\text{a.s.}} \mu$$
 
 ## Central limit theorem^[중심극한정리]

@@ -12,7 +12,7 @@
 
 ## Function^[함수]
 
-집합 $X$, $Y$에 대해, **function^[함수]** (또는 **mapping^[사상]**, **map^[맵]**)은 $f: X \to Y$로 표기하며, 다음을 만족하는 규칙:
+집합 $X$, $Y$에 대해, **function**^[함수] (또는 **mapping**^[사상], **map**^[맵])은 $f: X \to Y$로 표기하며, 다음을 만족하는 규칙:
 
 $$\forall x \in X, \; \exists! y \in Y \text{ such that } f(x) = y$$
 
@@ -31,7 +31,7 @@ $$\forall x \in X, \; \exists! y \in Y \text{ such that } f(x) = y$$
 
 ### Domain^[정의역]
 
-함수 $f: X \to Y$의 **domain^[정의역]**은 $X$
+함수 $f: X \to Y$의 **domain**^[정의역]은 $X$
 
 $$\text{dom}(f) = X$$
 
@@ -39,7 +39,7 @@ $$\text{dom}(f) = X$$
 
 ### Codomain^[공역]
 
-함수 $f: X \to Y$의 **codomain^[공역]**은 $Y$
+함수 $f: X \to Y$의 **codomain**^[공역]은 $Y$
 
 $$\text{codom}(f) = Y$$
 
@@ -47,7 +47,7 @@ $$\text{codom}(f) = Y$$
 
 ### Range/Image^[치역/상]
 
-함수 $f: X \to Y$의 **range^[치역]** (또는 **image^[상]**)는:
+함수 $f: X \to Y$의 **range**^[치역] (또는 **image**^[상])는:
 
 $$\text{im}(f) = f(X) = \{f(x) : x \in X\} = \{y \in Y : \exists x \in X, f(x) = y\}$$
 
@@ -57,13 +57,13 @@ $$\text{im}(f) = f(X) = \{f(x) : x \in X\} = \{y \in Y : \exists x \in X, f(x) =
 
 ### Graph^[그래프]
 
-함수 $f: X \to Y$의 **graph^[그래프]**는:
+함수 $f: X \to Y$의 **graph**^[그래프]는:
 
 $$\text{graph}(f) = \{(x, f(x)) : x \in X\} \subseteq X \times Y$$
 
 ## Preimage^[역상]
 
-$f: X \to Y$와 $B \subseteq Y$에 대해, $B$의 **preimage^[역상]** (또는 **inverse image^[역상]**)는:
+$f: X \to Y$와 $B \subseteq Y$에 대해, $B$의 **preimage**^[역상] (또는 **inverse image**^[역상])는:
 
 $$f^{-1}(B) = \{x \in X : f(x) \in B\}$$
 
@@ -121,7 +121,7 @@ $B, B_1, B_2 \subseteq Y$일 때:
 
 ## Definition^[정의]
 
-함수 $f: X \to Y$와 $g: Y \to Z$에 대해, **composition^[합성]** $g \circ f: X \to Z$는:
+함수 $f: X \to Y$와 $g: Y \to Z$에 대해, **composition**^[합성] $g \circ f: X \to Z$는:
 
 $$(g \circ f)(x) = g(f(x))$$
 
@@ -135,8 +135,8 @@ X --f--> Y --g--> Z
 
 ## Properties
 
-1. **Associativity^[결합법칙]**: $(h \circ g) \circ f = h \circ (g \circ f)$
-2. **Identity^[항등원]**: $f \circ \text{id}_X = f = \text{id}_Y \circ f$
+1. **Associativity**^[결합법칙]: $(h \circ g) \circ f = h \circ (g \circ f)$
+2. **Identity**^[항등원]: $f \circ \text{id}_X = f = \text{id}_Y \circ f$
 3. **일반적으로 교환법칙 성립 안 함**: $g \circ f \neq f \circ g$
 
 ## Composition과 Injectivity/Surjectivity
@@ -154,7 +154,7 @@ X --f--> Y --g--> Z
 
 ## Restriction^[제한]
 
-$f: X \to Y$와 $A \subseteq X$에 대해, **restriction^[제한]** $f|_A: A \to Y$는:
+$f: X \to Y$와 $A \subseteq X$에 대해, **restriction**^[제한] $f|_A: A \to Y$는:
 
 $$f|_A(x) = f(x) \quad \forall x \in A$$
 
@@ -162,7 +162,7 @@ $f$를 부분집합 $A$로 "제한"
 
 ## Extension^[확장]
 
-$g: A \to Y$와 $A \subseteq X$에 대해, $f: X \to Y$가 $g$의 **extension^[확장]** $\Leftrightarrow$ $f|_A = g$
+$g: A \to Y$와 $A \subseteq X$에 대해, $f: X \to Y$가 $g$의 **extension**^[확장] $\Leftrightarrow$ $f|_A = g$
 
 즉, $f(x) = g(x)$ for all $x \in A$
 
@@ -239,7 +239,7 @@ $$\chi_A: X \to \{0, 1\}, \quad \chi_A(x) = \begin{cases} 1 & x \in A \\ 0 & x \
 
 ## Inverse Function^[역함수]
 
-함수 $f: X \to Y$가 bijective이면, **inverse function^[역함수]** $f^{-1}: Y \to X$가 존재:
+함수 $f: X \to Y$가 bijective이면, **inverse function**^[역함수] $f^{-1}: Y \to X$가 존재:
 
 $$f^{-1}(y) = x \Leftrightarrow f(x) = y$$
 
@@ -255,7 +255,7 @@ $$f^{-1}(y) = x \Leftrightarrow f(x) = y$$
 
 ## Partial Function^[부분 함수]
 
-**Partial function^[부분 함수]**은 domain의 일부에서만 정의될 수 있음
+**Partial function**^[부분 함수]은 domain의 일부에서만 정의될 수 있음
 
 예: $f(x) = \frac{1}{x}$는 $x = 0$에서 정의되지 않음
 
@@ -276,7 +276,7 @@ $$f^{-1}(y) = x \Leftrightarrow f(x) = y$$
 
 예: $x^2 + y^2 = 1$
 
-**Implicit Function Theorem^[음함수 정리]**가 조건을 제시
+**Implicit Function Theorem**^[음함수 정리]가 조건을 제시
 
 ---
 
@@ -327,7 +327,7 @@ $f \neq g$ (codomain이 다름!)
 
 ## 선형대수에서
 
-**Linear map^[선형 사상]** $T: V \to W$:
+**Linear map**^[선형 사상] $T: V \to W$:
 
 $$T(av + bw) = aT(v) + bT(w)$$
 
@@ -337,7 +337,7 @@ $$T(av + bw) = aT(v) + bT(w)$$
 
 ## 해석학에서
 
-**Continuous function^[연속 함수]** $f: X \to Y$:
+**Continuous function**^[연속 함수] $f: X \to Y$:
 
 Topological 또는 metric 구조 하에서 "가까운 점을 가까운 점으로"
 
@@ -345,7 +345,7 @@ Topological 또는 metric 구조 하에서 "가까운 점을 가까운 점으로
 
 ## 측도론에서
 
-**Measurable function^[가측 함수]** $f: X \to Y$:
+**Measurable function**^[가측 함수] $f: X \to Y$:
 
 $$f^{-1}(B) \text{ is measurable for all measurable } B$$
 
@@ -355,7 +355,7 @@ Preimage가 measurable sets을 보존
 
 ## 범주론에서
 
-**Morphism^[사상]**: 범주론에서 함수의 일반화
+**Morphism**^[사상]: 범주론에서 함수의 일반화
 
 - Objects 사이의 "화살표"
 - Composition과 identity를 가짐

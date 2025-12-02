@@ -511,42 +511,42 @@ $$\hat{\theta}_{\text{MLE}} = \arg\max_\theta \prod_{i=1}^n f_X(x_i; \theta) = \
 
 ## Statistics^[통계학]
 
-- **Parameter estimation^[모수 추정]**: MLE, Method of moments
-- **Hypothesis testing^[가설 검정]**: t-test, F-test
-- **Confidence intervals^[신뢰 구간]**: Based on distribution of estimators
-- **Regression analysis^[회귀 분석]**: Error distributions
+- **Parameter estimation**^[모수 추정]: MLE, Method of moments
+- **Hypothesis testing**^[가설 검정]: t-test, F-test
+- **Confidence intervals**^[신뢰 구간]: Based on distribution of estimators
+- **Regression analysis**^[회귀 분석]: Error distributions
 
 ## Machine learning
 
-- **Generative models^[생성 모델]**: VAE, Normalizing flows
-- **Density estimation^[밀도 추정]**: KDE, mixture models
-- **Anomaly detection^[이상 탐지]**: Low-density regions
+- **Generative models**^[생성 모델]: VAE, Normalizing flows
+- **Density estimation**^[밀도 추정]: KDE, mixture models
+- **Anomaly detection**^[이상 탐지]: Low-density regions
 - **Bayesian deep learning**: Variational inference
 
 ## Signal processing^[신호 처리]
 
-- **Noise modeling^[잡음 모델링]**: Gaussian noise
-- **Filter design^[필터 설계]**: Based on signal distributions
-- **Detection theory^[탐지 이론]**: Likelihood ratios
+- **Noise modeling**^[잡음 모델링]: Gaussian noise
+- **Filter design**^[필터 설계]: Based on signal distributions
+- **Detection theory**^[탐지 이론]: Likelihood ratios
 
 ## Finance^[금융]
 
-- **Asset returns^[자산 수익률]**: Log-normal, Student's t
-- **Option pricing^[옵션 가격 결정]**: Black-Scholes (normal)
-- **Risk modeling^[위험 모델링]**: Heavy-tailed distributions
+- **Asset returns**^[자산 수익률]: Log-normal, Student's t
+- **Option pricing**^[옵션 가격 결정]: Black-Scholes (normal)
+- **Risk modeling**^[위험 모델링]: Heavy-tailed distributions
 - **Value at Risk (VaR)**: Quantile estimation
 
 ## Physics^[물리학]
 
-- **Statistical mechanics^[통계 역학]**: Maxwell-Boltzmann distribution
-- **Quantum mechanics^[양자 역학]**: Wave function squared = probability density
-- **Measurement errors^[측정 오차]**: Normal distribution
+- **Statistical mechanics**^[통계 역학]: Maxwell-Boltzmann distribution
+- **Quantum mechanics**^[양자 역학]: Wave function squared = probability density
+- **Measurement errors**^[측정 오차]: Normal distribution
 
 ## Engineering^[공학]
 
-- **Reliability analysis^[신뢰성 분석]**: Weibull, exponential
-- **Quality control^[품질 관리]**: Process variation modeling
-- **Communications^[통신]**: Channel noise modeling
+- **Reliability analysis**^[신뢰성 분석]: Weibull, exponential
+- **Quality control**^[품질 관리]: Process variation modeling
+- **Communications**^[통신]: Channel noise modeling
 
 ---
 

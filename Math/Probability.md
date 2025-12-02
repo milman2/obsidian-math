@@ -22,8 +22,8 @@ Formally, probability는 **probability measure**^[확률 측도] $P: \mathcal{F}
 Probability를 다루기 위한 수학적 프레임워크:
 
 1. **[[Sample Spaces]]** $\Omega$: 가능한 모든 결과들의 집합
-2. **Event space^[사건 공간]** $\mathcal{F}$: Sigma algebra of events
-3. **Probability measure^[확률 측도]** $P$: $[0, 1]$ 값을 할당
+2. **Event space**^[사건 공간] $\mathcal{F}$: Sigma algebra of events
+3. **Probability measure**^[확률 측도] $P$: $[0, 1]$ 값을 할당
 
 Triple $(\Omega, \mathcal{F}, P)$를 **probability space**^[확률 공간]이라 한다.
 
@@ -35,7 +35,7 @@ Triple $(\Omega, \mathcal{F}, P)$를 **probability space**^[확률 공간]이라
 
 ## Classical interpretation^[고전적 해석]
 
-**Equally likely outcomes^[동등하게 가능한 결과]** 가정:
+**Equally likely outcomes**^[동등하게 가능한 결과] 가정:
 
 $$P(E) = \frac{\text{number of favorable outcomes}}{\text{total number of outcomes}} = \frac{|E|}{|\Omega|}$$
 
@@ -49,7 +49,7 @@ $$P(\text{even number}) = \frac{3}{6} = \frac{1}{2}$$
 
 ## Frequentist interpretation^[빈도주의 해석]
 
-Probability는 **장기적 빈도^[long-run frequency]**:
+Probability는 **장기적 빈도**^[long-run frequency]:
 
 $$P(E) = \lim_{n \to \infty} \frac{\text{number of times } E \text{ occurs}}{n}$$
 
@@ -70,7 +70,7 @@ $$\frac{\text{# heads}}{n} \xrightarrow{n \to \infty} P(\text{heads}) = 0.5$$
 
 ## Bayesian interpretation^[베이지안 해석]
 
-Probability는 **subjective belief^[주관적 믿음]**의 정도:
+Probability는 **subjective belief**^[주관적 믿음]의 정도:
 
 $$P(E) = \text{degree of belief that } E \text{ will occur}$$
 
@@ -90,7 +90,7 @@ $$P(\text{hypothesis} | \text{evidence}) = \frac{P(\text{evidence} | \text{hypot
 
 ## Propensity interpretation^[성향 해석]
 
-Probability는 물리적 시스템의 **고유한 성향^[inherent propensity]**:
+Probability는 물리적 시스템의 **고유한 성향**^[inherent propensity]:
 
 양자역학에서 입자의 위치 측정 확률은 시스템의 물리적 성질.
 
@@ -197,24 +197,24 @@ Probability는 통계적 추론의 이론적 기초.
 
 ## Finance and economics^[금융과 경제]
 
-- **Asset pricing^[자산 가격 결정]**: Black-Scholes model
-- **Risk management^[위험 관리]**: Value at Risk (VaR)
-- **Portfolio optimization^[포트폴리오 최적화]**: Markowitz theory
-- **Insurance^[보험]**: Actuarial science^[보험계리학]
+- **Asset pricing**^[자산 가격 결정]: Black-Scholes model
+- **Risk management**^[위험 관리]: Value at Risk (VaR)
+- **Portfolio optimization**^[포트폴리오 최적화]: Markowitz theory
+- **Insurance**^[보험]: Actuarial science^[보험계리학]
 
 ## Biology and medicine^[생물학과 의학]
 
-- **Genetics^[유전학]**: Mendelian inheritance
-- **Epidemiology^[역학]**: Disease spread models
-- **Clinical trials^[임상 시험]**: Treatment effect estimation
-- **Medical diagnosis^[의학 진단]**: [[Conditional Probability]] 예제 참조
+- **Genetics**^[유전학]: Mendelian inheritance
+- **Epidemiology**^[역학]: Disease spread models
+- **Clinical trials**^[임상 시험]: Treatment effect estimation
+- **Medical diagnosis**^[의학 진단]: [[Conditional Probability]] 예제 참조
 
 ## Engineering^[공학]
 
-- **Reliability theory^[신뢰성 이론]**: System failure probability
-- **Signal processing^[신호 처리]**: Noise modeling
-- **Control theory^[제어 이론]**: Stochastic control
-- **Telecommunications^[통신]**: Error correction codes
+- **Reliability theory**^[신뢰성 이론]: System failure probability
+- **Signal processing**^[신호 처리]: Noise modeling
+- **Control theory**^[제어 이론]: Stochastic control
+- **Telecommunications**^[통신]: Error correction codes
 
 ---
 
@@ -242,7 +242,7 @@ I.i.d. random variables $X_1, X_2, \ldots$에 대해 ($E[X_i] = \mu$, $\text{Var
 
 $$\frac{X_1 + \cdots + X_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} \mathcal{N}(0, 1)$$
 
-평균의 분포는 $n$이 크면 **정규 분포^[normal distribution]**에 가까워짐!
+평균의 분포는 $n$이 크면 **정규 분포**^[normal distribution]에 가까워짐!
 
 ### Importance^[중요성]
 - 많은 자연/사회 현상이 정규 분포를 따르는 이유 설명
@@ -307,7 +307,7 @@ $$P(A) = \displaystyle\sum_i P(A | B_i) \cdot P(B_i)$$
 
 # <span class="header-remark">Probability vs Statistics</span>
 
-| | **Probability^[확률론]** | **Statistics^[통계학]** |
+| | **Probability**^[확률론] | **Statistics**^[통계학] |
 |---|---|---|
 | **Direction** | Model → Data | Data → Model |
 | **Question** | "주어진 모델에서 어떤 데이터가 나올까?" | "주어진 데이터로부터 어떤 모델을 추론할까?" |
@@ -360,18 +360,18 @@ Prior probability $P(\text{disease})$를 고려해야 함.
 - [[Expected Value]]: 기댓값
 
 ## Advanced topics
-- **Stochastic processes^[확률 과정]**: Time-dependent random phenomena
-- **Markov chains^[마르코프 연쇄]**: Memoryless random processes
-- **Martingales^[마팅게일]**: Fair game generalization
-- **Brownian motion^[브라운 운동]**: Continuous random walk
-- **Information theory^[정보 이론]**: Entropy and information
+- **Stochastic processes**^[확률 과정]: Time-dependent random phenomena
+- **Markov chains**^[마르코프 연쇄]: Memoryless random processes
+- **Martingales**^[마팅게일]: Fair game generalization
+- **Brownian motion**^[브라운 운동]: Continuous random walk
+- **Information theory**^[정보 이론]: Entropy and information
 
 ## Applications
 - [[Bayes' Rule]]: Bayesian inference
 - [[Law of Total Probability]]: 확률 계산 전략
-- **Statistical inference^[통계적 추론]**
-- **Machine learning^[기계 학습]**
-- **Quantitative finance^[계량 금융]**
+- **Statistical inference**^[통계적 추론]
+- **Machine learning**^[기계 학습]
+- **Quantitative finance**^[계량 금융]
 
 ---
 

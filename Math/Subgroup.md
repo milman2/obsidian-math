@@ -13,7 +13,7 @@
 
 ## Subgroup^[부분군]
 
-Group $G$의 부분집합 $H \subseteq G$가 **subgroup^[부분군]**이다 (기호: $H \leq G$) $\Leftrightarrow$
+Group $G$의 부분집합 $H \subseteq G$가 **subgroup**^[부분군]이다 (기호: $H \leq G$) $\Leftrightarrow$
 
 $H$가 $G$의 연산으로 group을 이룸
 
@@ -21,10 +21,10 @@ $H$가 $G$의 연산으로 group을 이룸
 
 $H \leq G$ $\Leftrightarrow$ 다음 네 조건을 만족:
 
-1. **Closure^[닫혀있음]**: $\forall a, b \in H, \; ab \in H$
-2. **Associativity^[결합법칙]**: Inherited from $G$
-3. **Identity^[항등원]**: $e \in H$
-4. **Inverse^[역원]**: $\forall a \in H, \; a^{-1} \in H$
+1. **Closure**^[닫혀있음]: $\forall a, b \in H, \; ab \in H$
+2. **Associativity**^[결합법칙]: Inherited from $G$
+3. **Identity**^[항등원]: $e \in H$
+4. **Inverse**^[역원]: $\forall a \in H, \; a^{-1} \in H$
 
 **주의**: Associativity는 자동 상속되므로 확인 불필요
 
@@ -63,19 +63,19 @@ $$H \text{ is subgroup} \Leftrightarrow \forall a, b \in H, \; ab \in H$$
 
 ## Proper Subgroup^[진부분군]
 
-$H$가 $G$의 **proper subgroup^[진부분군]**이다 (기호: $H < G$) $\Leftrightarrow$
+$H$가 $G$의 **proper subgroup**^[진부분군]이다 (기호: $H < G$) $\Leftrightarrow$
 
 $$H \leq G \text{ and } H \neq G$$
 
-**Trivial subgroups^[자명 부분군]**:
+**Trivial subgroups**^[자명 부분군]:
 - $\{e\} \leq G$ (trivial subgroup)
 - $G \leq G$ (improper subgroup)
 
-**Nontrivial proper subgroup^[비자명 진부분군]**: $\{e\} < H < G$
+**Nontrivial proper subgroup**^[비자명 진부분군]: $\{e\} < H < G$
 
 ## Normal Subgroup^[정규 부분군]
 
-Subgroup $N \leq G$가 **normal^[정규]**이다 (기호: $N \triangleleft G$) $\Leftrightarrow$
+Subgroup $N \leq G$가 **normal**^[정규]이다 (기호: $N \triangleleft G$) $\Leftrightarrow$
 
 $$\forall g \in G, \; gNg^{-1} = N$$
 
@@ -120,7 +120,7 @@ $$Hg = \{hg : h \in H\}$$
 
 ## Index^[지표]
 
-Subgroup $H \leq G$의 **index^[지표]** $[G : H]$:
+Subgroup $H \leq G$의 **index**^[지표] $[G : H]$:
 
 $$[G : H] = \text{number of distinct left cosets of } H \text{ in } G$$
 
@@ -196,7 +196,7 @@ $$\text{SL}_n(\mathbb{R}) = \{A \in \text{GL}_n(\mathbb{R}) : \det(A) = 1\} \leq
 
 ## Example 5: Center^[중심]
 
-Group $G$의 **center^[중심]**:
+Group $G$의 **center**^[중심]:
 
 $$Z(G) = \{g \in G : gx = xg \; \forall x \in G\}$$
 
@@ -213,7 +213,7 @@ $G$의 모든 원소와 교환가능한 원소들
 
 ## Example 6: Centralizer^[중심화원]
 
-원소 $a \in G$의 **centralizer^[중심화원]**:
+원소 $a \in G$의 **centralizer**^[중심화원]:
 
 $$C_G(a) = \{g \in G : ga = ag\}$$
 
@@ -225,7 +225,7 @@ $a$와 교환가능한 원소들
 
 ## Example 7: Normalizer^[정규화원]
 
-Subgroup $H \leq G$의 **normalizer^[정규화원]**:
+Subgroup $H \leq G$의 **normalizer**^[정규화원]:
 
 $$N_G(H) = \{g \in G : gHg^{-1} = H\}$$
 
@@ -304,12 +304,12 @@ $$|G| = |H| \cdot [G : H]$$
 
 ## Subgroup Lattice^[부분군 격자]
 
-Group $G$의 모든 subgroups의 집합은 **lattice^[격자]** 구조:
+Group $G$의 모든 subgroups의 집합은 **lattice**^[격자] 구조:
 
 ### Operations
 
-- **Join^[결합]**: $H \vee K = \langle H \cup K \rangle$ (smallest subgroup containing both)
-- **Meet^[교]**: $H \wedge K = H \cap K$ (largest subgroup in both)
+- **Join**^[결합]: $H \vee K = \langle H \cup K \rangle$ (smallest subgroup containing both)
+- **Meet**^[교]: $H \wedge K = H \cap K$ (largest subgroup in both)
 
 ### Properties
 
@@ -367,7 +367,7 @@ $$\exists g \in G, \; \text{ord}(g) = p$$
 
 ## Maximal Subgroup^[극대 부분군]
 
-Proper subgroup $M < G$가 **maximal^[극대]**이다 $\Leftrightarrow$
+Proper subgroup $M < G$가 **maximal**^[극대]이다 $\Leftrightarrow$
 
 $$M < H \leq G \Rightarrow H = G$$
 
@@ -381,7 +381,7 @@ $M$보다 큰 proper subgroup이 없음
 
 ## Minimal Subgroup^[최소 부분군]
 
-Nontrivial subgroup $m \neq \{e\}$가 **minimal^[최소]**이다 $\Leftrightarrow$
+Nontrivial subgroup $m \neq \{e\}$가 **minimal**^[최소]이다 $\Leftrightarrow$
 
 $$\{e\} < H \leq m \Rightarrow H = m$$
 
@@ -391,7 +391,7 @@ $m$보다 작은 nontrivial subgroup이 없음
 
 ## Characteristic Subgroup^[특성 부분군]
 
-Subgroup $H \leq G$가 **characteristic^[특성]**이다 (기호: $H \text{ char } G$) $\Leftrightarrow$
+Subgroup $H \leq G$가 **characteristic**^[특성]이다 (기호: $H \text{ char } G$) $\Leftrightarrow$
 
 $$\forall \phi \in \text{Aut}(G), \; \phi(H) = H$$
 
@@ -421,7 +421,7 @@ Finite group $G$, $|G| = p^n m$ where $p$ prime, $\gcd(p, m) = 1$
 
 Order $p^k$ ($k \leq n$)인 subgroup 존재
 
-특히 order $p^n$인 **Sylow $p$-subgroup^[실로우 p-부분군]** 존재
+특히 order $p^n$인 **Sylow $p$-subgroup**^[실로우 p-부분군] 존재
 
 ### Second Sylow Theorem
 

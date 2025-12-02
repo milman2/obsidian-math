@@ -14,7 +14,7 @@
 
 $$n! = n \times (n-1) \times (n-2) \times \cdots \times 2 \times 1$$
 
-**Convention^[관례]**:
+**Convention**^[관례]:
 - $0! = 1$ (정의)
 - $1! = 1$
 
@@ -44,7 +44,7 @@ $n$개의 서로 다른 원소를 모두 배열하는 경우의 수:
 
 $$P(n) = n!$$
 
-**Reasoning^[이유]**:
+**Reasoning**^[이유]:
 - 첫 번째 자리: $n$가지 선택
 - 두 번째 자리: $n-1$가지 선택
 - 세 번째 자리: $n-2$가지 선택
@@ -59,7 +59,7 @@ $n$개의 서로 다른 원소 중 $r$개를 **순서를 고려하여** 선택:
 
 $$P(n, r) = \frac{n!}{(n-r)!} = n \times (n-1) \times \cdots \times (n-r+1)$$
 
-**Notation^[표기법]**:
+**Notation**^[표기법]:
 - $P(n, r)$, $_nP_r$, $P_r^n$, $A_n^r$ (다양한 표기법 존재)
 
 **Example**: 10명 중 회장, 부회장, 총무 선출
@@ -114,10 +114,10 @@ $n$개의 서로 다른 원소 중 $r$개를 선택 (순서 무관):
 
 $$C(n, r) = \binom{n}{r} = \frac{n!}{r!(n-r)!}$$
 
-**Notation^[표기법]**:
+**Notation**^[표기법]:
 - $C(n, r)$, $_nC_r$, $\binom{n}{r}$ (binomial coefficient^[이항 계수])
 
-**Relation to permutation^[순열과의 관계]**:
+**Relation to permutation**^[순열과의 관계]:
 $$C(n, r) = \frac{P(n, r)}{r!}$$
 
 선택한 $r$개를 배열하는 $r!$가지를 하나로 봄.
@@ -139,7 +139,7 @@ $$\binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r}$$
 
 특정 원소를 포함하는 경우 + 포함하지 않는 경우
 
-**Pascal's triangle^[파스칼의 삼각형]**:
+**Pascal's triangle**^[파스칼의 삼각형]:
 ```
              1
            1   1
@@ -165,7 +165,7 @@ $$H(n, r) = \binom{n+r-1}{r} = \binom{n+r-1}{n-1}$$
 
 **Notation**: $H(n, r)$, $_nH_r$
 
-**Stars and bars method^[칸막이 방법]**: $r$개의 별과 $(n-1)$개의 칸막이 배열
+**Stars and bars method**^[칸막이 방법]: $r$개의 별과 $(n-1)$개의 칸막이 배열
 
 **Example**: 3종류 과일을 5개 선택
 $$H(3, 5) = \binom{3+5-1}{5} = \binom{7}{5} = 21$$
@@ -253,7 +253,7 @@ $$(1 + y)^n = \displaystyle\sum_{r=0}^n \binom{n}{r} y^r$$
 
 $$(x_1 + x_2 + \cdots + x_k)^n = \displaystyle\sum_{\substack{r_1 + r_2 + \cdots + r_k = n \\ r_i \geq 0}} \binom{n}{r_1, r_2, \ldots, r_k} x_1^{r_1} x_2^{r_2} \cdots x_k^{r_k}$$
 
-여기서 **multinomial coefficient^[다항 계수]**:
+여기서 **multinomial coefficient**^[다항 계수]:
 
 $$\binom{n}{r_1, r_2, \ldots, r_k} = \frac{n!}{r_1! r_2! \cdots r_k!}$$
 
@@ -279,7 +279,7 @@ $$D_n = n! \left(1 - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} + \cdots + (-1)^
 
 $n+1$개 이상의 물체를 $n$개 상자에 넣으면, 적어도 하나의 상자에는 2개 이상 들어감.
 
-**Generalized^[일반화]**: $kn+1$개 물체를 $n$개 상자에 넣으면, 적어도 하나의 상자에는 $k+1$개 이상.
+**Generalized**^[일반화]: $kn+1$개 물체를 $n$개 상자에 넣으면, 적어도 하나의 상자에는 $k+1$개 이상.
 
 ### Applications
 - Birthday problem^[생일 문제]: 23명 중 같은 생일 확률 > 50%
@@ -308,7 +308,7 @@ $S(n, k)$: $n$개 원소를 $k$개 non-empty subsets로 분할.
 
 $$S(n, k) = \frac{1}{k!} \displaystyle\sum_{j=0}^k (-1)^{k-j} \binom{k}{j} j^n$$
 
-**Bell number^[벨 수]**: $B_n = \displaystyle\sum_{k=0}^n S(n, k)$ (모든 분할 방법)
+**Bell number**^[벨 수]: $B_n = \displaystyle\sum_{k=0}^n S(n, k)$ (모든 분할 방법)
 
 ---
 
@@ -328,16 +328,16 @@ $$P(\text{full house}) = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}
 
 ## Computer science^[컴퓨터 과학]
 
-- **Algorithm analysis^[알고리즘 분석]**: Time/space complexity
-- **Data structures^[자료 구조]**: Hash tables, trees
-- **Cryptography^[암호학]**: Key space size
-- **Coding theory^[코딩 이론]**: Error correction
+- **Algorithm analysis**^[알고리즘 분석]: Time/space complexity
+- **Data structures**^[자료 구조]: Hash tables, trees
+- **Cryptography**^[암호학]: Key space size
+- **Coding theory**^[코딩 이론]: Error correction
 
 ## Statistics^[통계학]
 
-- **Sampling^[표본 추출]**: Sample size calculation
-- **Experimental design^[실험 설계]**: Treatment combinations
-- **Hypothesis testing^[가설 검정]**: Permutation tests
+- **Sampling**^[표본 추출]: Sample size calculation
+- **Experimental design**^[실험 설계]: Treatment combinations
+- **Hypothesis testing**^[가설 검정]: Permutation tests
 
 ## Genetics^[유전학]
 
@@ -347,9 +347,9 @@ $$P(\text{full house}) = \frac{\binom{13}{1} \cdot \binom{4}{3} \cdot \binom{12}
 
 ## Operations research^[운영 과학]
 
-- **Scheduling^[스케줄링]**: Job assignments
-- **Network optimization^[네트워크 최적화]**: Routing
-- **Inventory management^[재고 관리]**: Stock levels
+- **Scheduling**^[스케줄링]: Job assignments
+- **Network optimization**^[네트워크 최적화]: Routing
+- **Inventory management**^[재고 관리]: Stock levels
 
 ---
 

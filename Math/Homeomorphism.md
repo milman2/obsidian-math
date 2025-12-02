@@ -16,17 +16,17 @@
 
 ## Homeomorphism^[위상동형사상]
 
-Topological spaces^[위상공간] $(X, \tau_X)$, $(Y, \tau_Y)$ 사이의 함수 $f: X \to Y$가 **homeomorphism^[위상동형사상]**이다 $\Leftrightarrow$
+Topological spaces^[위상공간] $(X, \tau_X)$, $(Y, \tau_Y)$ 사이의 함수 $f: X \to Y$가 **homeomorphism**^[위상동형사상]이다 $\Leftrightarrow$
 
-1. $f$는 **bijective^[전단사]** (injective + surjective)
-2. $f$는 **continuous^[연속]**
-3. $f^{-1}: Y \to X$도 **continuous^[연속]**
+1. $f$는 **bijective**^[전단사] (injective + surjective)
+2. $f$는 **continuous**^[연속]
+3. $f^{-1}: Y \to X$도 **continuous**^[연속]
 
 **표기**: $f: X \xrightarrow{\cong} Y$ 또는 $f: X \overset{\sim}{\to} Y$
 
 ## Homeomorphic Spaces^[위상동형 공간]
 
-두 topological space $X$, $Y$가 **homeomorphic^[위상동형]**이다 $\Leftrightarrow$
+두 topological space $X$, $Y$가 **homeomorphic**^[위상동형]이다 $\Leftrightarrow$
 
 $$\exists \text{ homeomorphism } f: X \to Y$$
 
@@ -135,22 +135,22 @@ $$\mathbb{R} \cong \text{Graph}(f)$$
 
 **증명**:
 
-**1. Reflexive^[반사성]**: $X \cong X$ (identity map)
+**1. Reflexive**^[반사성]: $X \cong X$ (identity map)
 
-**2. Symmetric^[대칭성]**: $X \cong Y$ $\Rightarrow$ $Y \cong X$ (inverse map)
+**2. Symmetric**^[대칭성]: $X \cong Y$ $\Rightarrow$ $Y \cong X$ (inverse map)
 
-**3. Transitive^[추이성]**: $X \cong Y$, $Y \cong Z$ $\Rightarrow$ $X \cong Z$ (composition)
+**3. Transitive**^[추이성]: $X \cong Y$, $Y \cong Z$ $\Rightarrow$ $X \cong Z$ (composition)
 
 **의미**: Topological spaces를 equivalence class로 분류 가능
 
 ## Topological Invariants^[위상 불변량]
 
-**정리**: Homeomorphism은 **topological properties^[위상적 성질]**을 보존
+**정리**: Homeomorphism은 **topological properties**^[위상적 성질]을 보존
 
 $X \cong Y$이면:
 
-1. **Compactness^[컴팩트성]**: $X$ compact $\Leftrightarrow$ $Y$ compact
-2. **Connectedness^[연결성]**: $X$ connected $\Leftrightarrow$ $Y$ connected
+1. **Compactness**^[컴팩트성]: $X$ compact $\Leftrightarrow$ $Y$ compact
+2. **Connectedness**^[연결성]: $X$ connected $\Leftrightarrow$ $Y$ connected
 3. **Hausdorff**: $X$ Hausdorff $\Leftrightarrow$ $Y$ Hausdorff
 4. **Separability**: $X$ separable $\Leftrightarrow$ $Y$ separable
 5. **Second-countability**: $X$ second-countable $\Leftrightarrow$ $Y$ second-countable
@@ -171,7 +171,7 @@ $$f \text{ is homeomorphism}$$
 
 ## Open Mapping Theorem (General Topology)
 
-**정리**: $f: X \to Y$ continuous bijection이고 $f$가 **open map^[열린 사상]**이면:
+**정리**: $f: X \to Y$ continuous bijection이고 $f$가 **open map**^[열린 사상]이면:
 
 $$f \text{ is homeomorphism}$$
 
@@ -180,7 +180,7 @@ $$f \text{ is homeomorphism}$$
 
 ## Local Homeomorphism^[국소 위상동형사상]
 
-함수 $f: X \to Y$가 **local homeomorphism^[국소 위상동형사상]**이다 $\Leftrightarrow$
+함수 $f: X \to Y$가 **local homeomorphism**^[국소 위상동형사상]이다 $\Leftrightarrow$
 
 $$\forall x \in X, \exists U \ni x \text{ (open)}, \exists V \subseteq Y \text{ (open)}: f|_U: U \to V \text{ is homeomorphism}$$
 
@@ -362,11 +362,11 @@ $$\text{Isometry} \Rightarrow \text{Homeomorphism} \Rightarrow \text{Continuous}
 
 ### 1. Algebraic Topology^[대수적 위상수학]
 
-**Fundamental group^[기본군]**: $\pi_1(X)$
+**Fundamental group**^[기본군]: $\pi_1(X)$
 
 $X \cong Y$ $\Rightarrow$ $\pi_1(X) \cong \pi_1(Y)$ (as groups)
 
-**Homology groups^[호몰로지군]**: $H_n(X)$
+**Homology groups**^[호몰로지군]: $H_n(X)$
 
 Homeomorphism invariant
 
@@ -374,7 +374,7 @@ Homeomorphism invariant
 
 ### 2. Differential Topology^[미분위상수학]
 
-**Smooth manifolds^[매끄러운 다양체]**
+**Smooth manifolds**^[매끄러운 다양체]
 
 Homeomorphic $\not\Rightarrow$ Diffeomorphic
 

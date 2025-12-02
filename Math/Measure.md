@@ -11,7 +11,7 @@
 
 # <span class="header-definition">Definition</span>
 
-Measurable space^[가측 공간] $(X, \mathcal{F})$에 대해, 함수 $\mu: \mathcal{F} \to [0, \infty]$가 **measure^[측도]**이다 $\Leftrightarrow$ 다음 세 가지 조건을 만족:
+Measurable space^[가측 공간] $(X, \mathcal{F})$에 대해, 함수 $\mu: \mathcal{F} \to [0, \infty]$가 **measure**^[측도]이다 $\Leftrightarrow$ 다음 세 가지 조건을 만족:
 
 ## 1. Non-negativity^[비음성]
 
@@ -27,7 +27,7 @@ Disjoint sets^[서로소 집합] $A_1, A_2, A_3, \ldots \in \mathcal{F}$ (즉, $
 
 $$\mu\left(\bigcup_{n=1}^{\infty} A_n\right) = \sum_{n=1}^{\infty} \mu(A_n)$$
 
-삼중쌍 $(X, \mathcal{F}, \mu)$를 **measure space^[측도 공간]**이라 한다.
+삼중쌍 $(X, \mathcal{F}, \mu)$를 **measure space**^[측도 공간]이라 한다.
 
 ---
 
@@ -52,7 +52,7 @@ $$\mu\left(\bigcup_{i=1}^{n} A_i\right) = \sum_{i=1}^{n} \mu(A_i)$$
 
 $$\mu\left(\bigcup_{n=1}^{\infty} A_n\right) \leq \sum_{n=1}^{\infty} \mu(A_n)$$
 
-이를 **Boole's inequality^[부울 부등식]**이라고도 한다.
+이를 **Boole's inequality**^[부울 부등식]라고도 한다.
 
 ### Continuity from Below^[아래로부터의 연속성]
 
@@ -101,7 +101,7 @@ $$\mu(A) = \begin{cases}
 
 ## 2. Dirac Measure^[디랙 측도]
 
-점 $x_0 \in X$에 대한 **point mass^[점 질량]**:
+점 $x_0 \in X$에 대한 **point mass**^[점 질량]:
 
 $$\delta_{x_0}(A) = \begin{cases}
 1 & \text{if } x_0 \in A \\
@@ -123,9 +123,9 @@ $$\lambda^n([a_1, b_1] \times \cdots \times [a_n, b_n]) = \prod_{i=1}^{n} (b_i -
 **3차원**: $\lambda^3(V) = \text{volume}$ (부피)
 
 **주요 성질**:
-- **Translation invariance^[평행이동 불변]**: $\lambda(A + x) = \lambda(A)$
+- **Translation invariance**^[평행이동 불변]: $\lambda(A + x) = \lambda(A)$
 - **Scaling**: $\lambda(cA) = |c|^n \lambda(A)$
-- **Rotation invariance^[회전 불변]**: $\lambda(RA) = \lambda(A)$ for orthogonal $R$
+- **Rotation invariance**^[회전 불변]: $\lambda(RA) = \lambda(A)$ for orthogonal $R$
 
 ## 4. Probability Measure^[확률 측도]
 
@@ -133,7 +133,7 @@ Sample space^[표본 공간] $\Omega$와 event sigma algebra^[사건 시그마 �
 
 $$P: \mathcal{F} \to [0, 1] \quad \text{with } P(\Omega) = 1$$
 
-**Kolmogorov Axioms^[콜모고로프 공리]**:
+**Kolmogorov Axioms**^[콜모고로프 공리]:
 1. $P(A) \geq 0$ for all $A \in \mathcal{F}$
 2. $P(\Omega) = 1$
 3. Countable additivity for disjoint events
@@ -187,7 +187,7 @@ $X = \bigcup_{n=1}^{\infty} X_n$ where $\mu(X_n) < \infty$ for all $n$
 
 ## Complete Measure^[완비 측도]
 
-Measure space $(X, \mathcal{F}, \mu)$가 **complete^[완비]** $\Leftrightarrow$:
+Measure space $(X, \mathcal{F}, \mu)$가 **complete**^[완비] $\Leftrightarrow$:
 
 $$\mu(A) = 0 \text{ and } B \subseteq A \Rightarrow B \in \mathcal{F}$$
 
@@ -211,7 +211,7 @@ $\mu: \mathcal{F} \to [-\infty, \infty]$ (양수와 음수 모두 가능)
 
 단, $+\infty$와 $-\infty$를 동시에 가질 수 없음
 
-**Hahn Decomposition^[한 분해]**: $X = P \cup N$ (disjoint)로 분해 가능:
+**Hahn Decomposition**^[한 분해]: $X = P \cup N$ (disjoint)로 분해 가능:
 - $\mu(A) \geq 0$ for all $A \subseteq P$
 - $\mu(A) \leq 0$ for all $A \subseteq N$
 
@@ -239,7 +239,7 @@ $\nu$가 $\sigma$-finite measure이고 $\mu \ll \nu$ (absolutely continuous^[절
 
 $$\mu(A) = \int_A f \, d\nu \quad \forall A \in \mathcal{F}$$
 
-$f$를 **Radon-Nikodym derivative^[라돈-니코딤 도함수]**라 하고 $\frac{d\mu}{d\nu}$로 표기
+$f$를 **Radon-Nikodym derivative**^[라돈-니코딤 도함수]라 하고 $\frac{d\mu}{d\nu}$로 표기
 
 **응용**: Probability density functions의 이론적 근거
 
@@ -297,7 +297,7 @@ Measure는 집합의 **"크기"**를 일반화한 개념:
 
 Lebesgue measure에서 **모든** 부분집합이 measurable한 것은 아님!
 
-**Vitali Set^[비탈리 집합]** (Axiom of Choice 필요):
+**Vitali Set**^[비탈리 집합] (Axiom of Choice 필요):
 - $A \subseteq [0, 1]$
 - $A \notin \mathcal{L}$ (Lebesgue measurable이 아님)
 
@@ -305,25 +305,25 @@ Translation invariance와 countable additivity가 모순을 일으킴
 
 ### 응용 분야
 
-**해석학^[Analysis]**:
+**해석학**^[Analysis]:
 - Lebesgue integration^[르베스그 적분]
 - $L^p$ spaces
 - [[Dominated Convergence Theorem]], [[Monotone Convergence Theorem]]
 
-**확률론^[Probability Theory]**:
+**확률론**^[Probability Theory]:
 - Probability spaces
 - Random variables
 - [[Expected Value]], distributions
 
-**함수해석학^[Functional Analysis]**:
+**함수해석학**^[Functional Analysis]:
 - [[Hilbert Space]], $L^2$ spaces
 - Spectral theory
 
-**편미분방정식^[PDE]**:
+**편미분방정식**^[PDE]:
 - Weak solutions
 - Sobolev spaces
 
-**에르고딕 이론^[Ergodic Theory]**:
+**에르고딕 이론**^[Ergodic Theory]:
 - Measure-preserving transformations^[측도 보존 변환]
 - Invariant measures^[불변 측도]
 

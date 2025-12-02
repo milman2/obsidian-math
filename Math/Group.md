@@ -12,7 +12,7 @@
 
 ## Group^[군]
 
-집합 $G$와 binary operation^[이항 연산] $\cdot: G \times G \to G$에 대해, $(G, \cdot)$가 **group^[군]**이다 $\Leftrightarrow$ 다음 네 가지 공리를 만족:
+집합 $G$와 binary operation^[이항 연산] $\cdot: G \times G \to G$에 대해, $(G, \cdot)$가 **group**^[군]이다 $\Leftrightarrow$ 다음 네 가지 공리를 만족:
 
 ### 1. Closure^[닫혀있음]
 
@@ -34,7 +34,7 @@ $$\forall a \in G, \; \exists a^{-1} \in G, \quad a \cdot a^{-1} = a^{-1} \cdot 
 
 ## Abelian Group^[아벨군]
 
-Group $G$가 **abelian^[아벨]** (또는 **commutative^[가환]**)이다 $\Leftrightarrow$ 다음을 만족:
+Group $G$가 **abelian**^[아벨] (또는 **commutative**^[가환])이다 $\Leftrightarrow$ 다음을 만족:
 
 ### Commutativity^[교환법칙]
 
@@ -48,12 +48,12 @@ $$\forall a, b \in G, \quad a \cdot b = b \cdot a$$
 
 $$|G| = \text{cardinality of } G$$
 
-- **Finite group^[유한군]**: $|G| < \infty$
-- **Infinite group^[무한군]**: $|G| = \infty$
+- **Finite group**^[유한군]: $|G| < \infty$
+- **Infinite group**^[무한군]: $|G| = \infty$
 
 ### 원소의 위수
 
-원소 $g \in G$의 **order^[위수]** $\text{ord}(g)$:
+원소 $g \in G$의 **order**^[위수] $\text{ord}(g)$:
 
 $$\text{ord}(g) = \min\{n \in \mathbb{N} : g^n = e\}$$
 
@@ -61,7 +61,7 @@ $$\text{ord}(g) = \min\{n \in \mathbb{N} : g^n = e\}$$
 
 ## Subgroup^[부분군]
 
-$H \subseteq G$가 **subgroup^[부분군]**이다 (기호: $H \leq G$) $\Leftrightarrow$ $H$가 $G$의 연산으로 group
+$H \subseteq G$가 **subgroup**^[부분군]이다 (기호: $H \leq G$) $\Leftrightarrow$ $H$가 $G$의 연산으로 group
 
 ### Subgroup Test
 
@@ -74,7 +74,7 @@ $H \leq G$ $\Leftrightarrow$ 다음을 만족:
 
 ## Group Homomorphism^[군 준동형사상]
 
-함수 $\phi: G \to H$ (where $G, H$ are groups)가 **homomorphism^[준동형사상]**이다 $\Leftrightarrow$
+함수 $\phi: G \to H$ (where $G, H$ are groups)가 **homomorphism**^[준동형사상]이다 $\Leftrightarrow$
 
 $$\forall a, b \in G, \quad \phi(ab) = \phi(a)\phi(b)$$
 
@@ -86,10 +86,10 @@ $$\forall a, b \in G, \quad \phi(ab) = \phi(a)\phi(b)$$
 
 ### 특수한 경우
 
-- **Isomorphism^[동형사상]**: bijective^[전단사] homomorphism
+- **Isomorphism**^[동형사상]: bijective^[전단사] homomorphism
   - 기호: $G \cong H$
-- **Endomorphism^[자기준동형사상]**: $\phi: G \to G$
-- **Automorphism^[자기동형사상]**: isomorphism $\phi: G \to G$
+- **Endomorphism**^[자기준동형사상]: $\phi: G \to G$
+- **Automorphism**^[자기동형사상]: isomorphism $\phi: G \to G$
 
 ## Kernel and Image^[핵과 상]
 
@@ -113,7 +113,7 @@ $$\text{im}(\phi) = \{\phi(g) : g \in G\} = \phi(G)$$
 
 ### Torsion Element^[비틀림 원소]
 
-Abelian group $(G, +)$의 원소 $g \in G$가 **torsion element^[비틀림 원소]**이다 $\Leftrightarrow$
+Abelian group $(G, +)$의 원소 $g \in G$가 **torsion element**^[비틀림 원소]이다 $\Leftrightarrow$
 
 $$\exists n \in \mathbb{N}, n > 0 : ng = 0$$
 
@@ -123,7 +123,7 @@ $$\exists n \in \mathbb{N}, n > 0 : ng = 0$$
 
 ### Torsion Subgroup^[비틀림 부분군]
 
-Abelian group $G$의 **torsion subgroup^[비틀림 부분군]**:
+Abelian group $G$의 **torsion subgroup**^[비틀림 부분군]:
 
 $$T(G) = \{g \in G : g \text{ has finite order}\}$$
 
@@ -137,7 +137,7 @@ $$T(G) = \{g \in G : g \text{ has finite order}\}$$
 
 ### Torsion-free Group^[비틀림 없는 군]
 
-Abelian group $G$가 **torsion-free^[비틀림 없는]**이다 $\Leftrightarrow$
+Abelian group $G$가 **torsion-free**^[비틀림 없는]이다 $\Leftrightarrow$
 
 $$T(G) = \{0\}$$
 
@@ -226,7 +226,7 @@ $$C_n = \langle g \rangle = \{e, g, g^2, \ldots, g^{n-1}\}$$
 
 where $g^n = e$
 
-- **Generator^[생성원]**: $g$
+- **Generator**^[생성원]: $g$
 - **Order**: $n$
 - **Abelian**: Yes (항상)
 
@@ -391,13 +391,13 @@ Abelian group에서 주로 사용:
 
 ### 더 약한 구조
 
-- **Semigroup^[반군]**: Closure + Associativity
-- **Monoid^[모노이드]**: Semigroup + Identity
+- **Semigroup**^[반군]: Closure + Associativity
+- **Monoid**^[모노이드]: Semigroup + Identity
 
 ### 더 강한 구조
 
-- **Ring^[환]**: Group + 곱셈 구조
-- **Field^[체]**: Ring + 나눗셈
+- **Ring**^[환]: Group + 곱셈 구조
+- **Field**^[체]: Ring + 나눗셈
 
 자세한 내용은 [[Ring]], [[Field]] 참조
 

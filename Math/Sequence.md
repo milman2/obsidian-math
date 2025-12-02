@@ -15,7 +15,7 @@
 
 ## Sequence^[수열]
 
-**Sequence^[수열]**는 자연수 집합에서 어떤 집합으로의 함수이다:
+**Sequence**^[수열]는 자연수 집합에서 어떤 집합으로의 함수이다:
 
 $$a: \mathbb{N} \to X$$
 
@@ -24,8 +24,8 @@ $$a: \mathbb{N} \to X$$
 - 때로는 $\{a_n\}_{n=1}^{\infty}$ 또는 $\langle a_n \rangle$으로도 표기 (집합과 구분 필요)
 
 **용어**:
-- $a_n$: **$n$번째 항^[term]** 또는 **일반항^[general term]**
-- $n$: **Index^[지표]**
+- $a_n$: **$n$번째 항**^[term] 또는 **일반항**^[general term]
+- $n$: **Index**^[지표]
 
 **시작 지표**: 관례상 $n = 1$부터 시작하지만, $n = 0$ 또는 다른 값부터 시작할 수도 있음
 
@@ -59,23 +59,23 @@ Metric space^[거리 공간] $(X, d)$에서 $a: \mathbb{N} \to X$
 
 ### Bounded Above^[위로 유계]
 
-실수 수열 $(a_n)$이 **bounded above^[위로 유계]**이다 $\Leftrightarrow$
+실수 수열 $(a_n)$이 **bounded above**^[위로 유계]이다 $\Leftrightarrow$
 
 $$\exists M \in \mathbb{R} \text{ such that } a_n \leq M \text{ for all } n \in \mathbb{N}$$
 
-$M$을 **upper bound^[상계]**라 함
+$M$을 **upper bound**^[상계]라 함
 
 ### Bounded Below^[아래로 유계]
 
-실수 수열 $(a_n)$이 **bounded below^[아래로 유계]**이다 $\Leftrightarrow$
+실수 수열 $(a_n)$이 **bounded below**^[아래로 유계]이다 $\Leftrightarrow$
 
 $$\exists m \in \mathbb{R} \text{ such that } a_n \geq m \text{ for all } n \in \mathbb{N}$$
 
-$m$을 **lower bound^[하계]**라 함
+$m$을 **lower bound**^[하계]라 함
 
 ### Bounded^[유계]
 
-수열 $(a_n)$이 **bounded^[유계]**이다 $\Leftrightarrow$ bounded above이고 bounded below
+수열 $(a_n)$이 **bounded**^[유계]이다 $\Leftrightarrow$ bounded above이고 bounded below
 
 **동등 조건**: $\exists M > 0$ such that $|a_n| \leq M$ for all $n$
 
@@ -85,7 +85,7 @@ $m$을 **lower bound^[하계]**라 함
 
 ### Monotone Increasing^[단조증가]
 
-실수 수열 $(a_n)$이 **monotone increasing^[단조증가]** (또는 **non-decreasing^[비감소]**)이다 $\Leftrightarrow$
+실수 수열 $(a_n)$이 **monotone increasing**^[단조증가] (또는 **non-decreasing**^[비감소])이다 $\Leftrightarrow$
 
 $$a_n \leq a_{n+1} \text{ for all } n \in \mathbb{N}$$
 
@@ -95,7 +95,7 @@ $$a_n < a_{n+1} \text{ for all } n \in \mathbb{N}$$
 
 ### Monotone Decreasing^[단조감소]
 
-실수 수열 $(a_n)$이 **monotone decreasing^[단조감소]** (또는 **non-increasing^[비증가]**)이다 $\Leftrightarrow$
+실수 수열 $(a_n)$이 **monotone decreasing**^[단조감소] (또는 **non-increasing**^[비증가])이다 $\Leftrightarrow$
 
 $$a_n \geq a_{n+1} \text{ for all } n \in \mathbb{N}$$
 
@@ -105,13 +105,13 @@ $$a_n > a_{n+1} \text{ for all } n \in \mathbb{N}$$
 
 ### Monotone^[단조]
 
-수열이 **monotone^[단조]**이다 $\Leftrightarrow$ monotone increasing 또는 monotone decreasing
+수열이 **monotone**^[단조]이다 $\Leftrightarrow$ monotone increasing 또는 monotone decreasing
 
 ## Subsequence^[부분수열]
 
 ### Definition
 
-수열 $(a_n)$의 **subsequence^[부분수열]**는 strictly increasing^[순증가] 함수 $n_k: \mathbb{N} \to \mathbb{N}$에 대해:
+수열 $(a_n)$의 **subsequence**^[부분수열]는 strictly increasing^[순증가] 함수 $n_k: \mathbb{N} \to \mathbb{N}$에 대해:
 
 $$(a_{n_k})_{k=1}^{\infty} = (a_{n_1}, a_{n_2}, a_{n_3}, \ldots)$$
 
@@ -134,7 +134,7 @@ where $n_1 < n_2 < n_3 < \cdots$
 
 ## Eventually^[궁극적으로]
 
-수열 $(a_n)$이 어떤 성질 $P$를 **eventually^[궁극적으로]** 만족한다 $\Leftrightarrow$
+수열 $(a_n)$이 어떤 성질 $P$를 **eventually**^[궁극적으로] 만족한다 $\Leftrightarrow$
 
 $$\exists N \in \mathbb{N} \text{ such that } P(a_n) \text{ is true for all } n \geq N$$
 
@@ -146,7 +146,7 @@ $$\exists N \in \mathbb{N} \text{ such that } P(a_n) \text{ is true for all } n 
 
 ## Frequently^[자주]
 
-수열 $(a_n)$이 어떤 성질 $P$를 **frequently^[자주]** 만족한다 $\Leftrightarrow$
+수열 $(a_n)$이 어떤 성질 $P$를 **frequently**^[자주] 만족한다 $\Leftrightarrow$
 
 무한히 많은 $n$에 대해 $P(a_n)$이 참
 
@@ -382,10 +382,10 @@ $$\liminf_{n \to \infty} a_n = \lim_{n \to \infty} \left(\inf_{k \geq n} a_k\rig
 
 ## Sequence vs Series^[수열 vs 급수]
 
-**Sequence^[수열]**: $(a_1, a_2, a_3, \ldots)$
+**Sequence**^[수열]: $(a_1, a_2, a_3, \ldots)$
 - 개별 항들의 나열
 
-**Series^[급수]**: $\sum_{n=1}^{\infty} a_n$
+**Series**^[급수]: $\sum_{n=1}^{\infty} a_n$
 - 수열의 부분합^[partial sum]의 수열
 
 **연결**: Series $(s_n)$는 partial sum sequence

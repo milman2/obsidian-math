@@ -13,7 +13,7 @@
 
 ## Ring^[환]
 
-집합 $R$과 두 이항 연산 $+$ (addition^[덧셈]), $\cdot$ (multiplication^[곱셈])에 대해, $(R, +, \cdot)$가 **ring^[환]**이다 $\Leftrightarrow$ 다음을 만족:
+집합 $R$과 두 이항 연산 $+$ (addition^[덧셈]), $\cdot$ (multiplication^[곱셈])에 대해, $(R, +, \cdot)$가 **ring**^[환]이다 $\Leftrightarrow$ 다음을 만족:
 
 ### 1. Abelian Group under Addition^[덧셈에 대한 아벨군]
 
@@ -30,8 +30,8 @@ $(R, +)$는 abelian group^[아벨군]:
 
 ### 3. Distributive Laws^[분배법칙]
 
-- **Left distributivity^[왼쪽 분배]**: $a(b+c) = ab + ac$
-- **Right distributivity^[오른쪽 분배]**: $(a+b)c = ac + bc$
+- **Left distributivity**^[왼쪽 분배]: $a(b+c) = ab + ac$
+- **Right distributivity**^[오른쪽 분배]: $(a+b)c = ac + bc$
 
 **주의**: 곱셈의 항등원(multiplicative identity)은 필수가 아님!
 
@@ -45,7 +45,7 @@ $(R, +)$는 abelian group^[아벨군]:
 
 ## Ring with Identity^[단위원을 갖는 환]
 
-Ring $R$이 **ring with identity^[단위원을 갖는 환]** (또는 **unital ring^[단위환]**)이다 $\Leftrightarrow$
+Ring $R$이 **ring with identity**^[단위원을 갖는 환] (또는 **unital ring**^[단위환])이다 $\Leftrightarrow$
 
 $$\exists 1 \in R, \; \forall a \in R, \quad 1 \cdot a = a \cdot 1 = a$$
 
@@ -55,13 +55,13 @@ $$\exists 1 \in R, \; \forall a \in R, \quad 1 \cdot a = a \cdot 1 = a$$
 
 ## Commutative Ring^[가환환]
 
-Ring $R$이 **commutative^[가환]**이다 $\Leftrightarrow$
+Ring $R$이 **commutative**^[가환]이다 $\Leftrightarrow$
 
 $$\forall a, b \in R, \quad ab = ba$$
 
 ## Division Ring^[나눗셈환]
 
-Ring $R$ (with identity $1 \neq 0$)이 **division ring^[나눗셈환]** (또는 **skew field^[비가환체]**)이다 $\Leftrightarrow$
+Ring $R$ (with identity $1 \neq 0$)이 **division ring**^[나눗셈환] (또는 **skew field**^[비가환체])이다 $\Leftrightarrow$
 
 $$\forall a \in R \setminus \{0\}, \; \exists a^{-1} \in R, \quad aa^{-1} = a^{-1}a = 1$$
 
@@ -71,7 +71,7 @@ $$\forall a \in R \setminus \{0\}, \; \exists a^{-1} \in R, \quad aa^{-1} = a^{-
 
 ## Unit^[단원]
 
-Ring $R$ (with identity)의 원소 $u \in R$이 **unit^[단원]**이다 $\Leftrightarrow$
+Ring $R$ (with identity)의 원소 $u \in R$이 **unit**^[단원]이다 $\Leftrightarrow$
 
 $$\exists v \in R, \quad uv = vu = 1$$
 
@@ -79,7 +79,7 @@ $$\exists v \in R, \quad uv = vu = 1$$
 
 ## Zero Divisor^[영인자]
 
-Commutative ring $R$의 nonzero 원소 $a \in R \setminus \{0\}$가 **zero divisor^[영인자]**이다 $\Leftrightarrow$
+Commutative ring $R$의 nonzero 원소 $a \in R \setminus \{0\}$가 **zero divisor**^[영인자]이다 $\Leftrightarrow$
 
 $$\exists b \in R \setminus \{0\}, \quad ab = 0$$
 
@@ -87,7 +87,7 @@ $$\exists b \in R \setminus \{0\}, \quad ab = 0$$
 
 ## Integral Domain^[정역]
 
-Commutative ring $R$ (with identity $1 \neq 0$)이 **integral domain^[정역]**이다 $\Leftrightarrow$ zero divisor가 없음
+Commutative ring $R$ (with identity $1 \neq 0$)이 **integral domain**^[정역]이다 $\Leftrightarrow$ zero divisor가 없음
 
 즉:
 
@@ -98,7 +98,7 @@ $$ab = ac \text{ and } a \neq 0 \Rightarrow b = c$$
 
 ## Ideal^[아이디얼]
 
-Ring $R$의 부분집합 $I \subseteq R$가 **ideal^[아이디얼]**이다 $\Leftrightarrow$ 다음을 만족:
+Ring $R$의 부분집합 $I \subseteq R$가 **ideal**^[아이디얼]이다 $\Leftrightarrow$ 다음을 만족:
 
 ### Left Ideal^[왼쪽 아이디얼]
 
@@ -120,7 +120,7 @@ Left ideal이면서 right ideal
 
 ## Ring Homomorphism^[환 준동형사상]
 
-함수 $\phi: R \to S$ (where $R, S$ are rings)가 **ring homomorphism^[환 준동형사상]**이다 $\Leftrightarrow$
+함수 $\phi: R \to S$ (where $R, S$ are rings)가 **ring homomorphism**^[환 준동형사상]이다 $\Leftrightarrow$
 
 1. $\phi(a + b) = \phi(a) + \phi(b)$ (덧셈 보존)
 2. $\phi(ab) = \phi(a)\phi(b)$ (곱셈 보존)
@@ -269,7 +269,7 @@ $$ab = ac \text{ and } a \neq 0 \Rightarrow b = c \quad (\text{in integral domai
 
 ## Characteristic^[표수]
 
-Ring $R$ (with identity)의 **characteristic^[표수]** $\text{char}(R)$:
+Ring $R$ (with identity)의 **characteristic**^[표수] $\text{char}(R)$:
 
 $$\text{char}(R) = \min\{n > 0 : n \cdot 1 = 0\}$$
 
@@ -292,7 +292,7 @@ Zero divisor 발생 (모순)
 
 ### Quotient Ring^[몫환]
 
-$I \triangleleft R$에 대해, **quotient ring^[몫환]** $R/I$:
+$I \triangleleft R$에 대해, **quotient ring**^[몫환] $R/I$:
 
 **집합**: $R/I = \{a + I : a \in R\}$ (cosets)
 
@@ -334,7 +334,7 @@ Commutative ring $R$ (with identity $1 \neq 0$)에 대해:
 
 ### Prime Ideal^[소 아이디얼]
 
-Ideal $P \triangleleft R$ (with $P \neq R$)이 **prime^[소]**이다 $\Leftrightarrow$
+Ideal $P \triangleleft R$ (with $P \neq R$)이 **prime**^[소]이다 $\Leftrightarrow$
 
 $$ab \in P \Rightarrow a \in P \text{ or } b \in P$$
 
@@ -342,7 +342,7 @@ $$ab \in P \Rightarrow a \in P \text{ or } b \in P$$
 
 ### Maximal Ideal^[극대 아이디얼]
 
-Ideal $M \triangleleft R$ (with $M \neq R$)이 **maximal^[극대]**이다 $\Leftrightarrow$
+Ideal $M \triangleleft R$ (with $M \neq R$)이 **maximal**^[극대]이다 $\Leftrightarrow$
 
 $$M \subsetneq I \triangleleft R \Rightarrow I = R$$
 
@@ -362,7 +362,7 @@ $$\text{Maximal ideal} \Rightarrow \text{Prime ideal}$$
 
 ## Example 1: Principal Ideals^[주 아이디얼]
 
-$a \in R$에 대해, **principal ideal^[주 아이디얼]** $(a)$:
+$a \in R$에 대해, **principal ideal**^[주 아이디얼] $(a)$:
 
 $$(a) = Ra = \{ra : r \in R\}$$
 
@@ -423,7 +423,7 @@ $$\mathbb{R}[x]$$
 
 ## Ring vs Field
 
-**Field^[체]**는 ring의 특수한 경우:
+**Field**^[체]는 ring의 특수한 경우:
 - Commutative ring
 - With identity $1 \neq 0$
 - 모든 nonzero 원소가 unit

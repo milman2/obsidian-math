@@ -397,35 +397,35 @@ $$M_X(t) = E[e^{tX}] = \displaystyle\sum_{x} e^{tx} \cdot p_X(x)$$
 
 ## Statistics^[통계학]
 
-- **Parameter estimation^[모수 추정]**: Maximum likelihood estimation (MLE)
-- **Hypothesis testing^[가설 검정]**: Chi-square goodness-of-fit test
-- **Bayesian inference^[베이지안 추론]**: Prior/posterior distributions
+- **Parameter estimation**^[모수 추정]: Maximum likelihood estimation (MLE)
+- **Hypothesis testing**^[가설 검정]: Chi-square goodness-of-fit test
+- **Bayesian inference**^[베이지안 추론]: Prior/posterior distributions
 
 ## Machine learning
 
-- **Classification^[분류]**: Categorical output distributions
+- **Classification**^[분류]: Categorical output distributions
 - **Naive Bayes**: Class-conditional PMFs
-- **Language models^[언어 모델]**: Word/token probabilities
-- **Discrete latent variables^[이산 잠재 변수]**: Mixture models
+- **Language models**^[언어 모델]: Word/token probabilities
+- **Discrete latent variables**^[이산 잠재 변수]: Mixture models
 
 ## Computer science^[컴퓨터 과학]
 
-- **Algorithm analysis^[알고리즘 분석]**: Randomized algorithms
+- **Algorithm analysis**^[알고리즘 분석]: Randomized algorithms
 - **Hashing**: Collision probabilities
-- **Data compression^[데이터 압축]**: Huffman coding (entropy)
-- **Simulation^[시뮬레이션]**: Random number generation
+- **Data compression**^[데이터 압축]: Huffman coding (entropy)
+- **Simulation**^[시뮬레이션]: Random number generation
 
 ## Operations research^[운영 과학]
 
-- **Queueing theory^[대기 행렬 이론]**: Poisson arrivals
-- **Inventory management^[재고 관리]**: Demand distributions
-- **Reliability^[신뢰성]**: Component failure counts
+- **Queueing theory**^[대기 행렬 이론]: Poisson arrivals
+- **Inventory management**^[재고 관리]: Demand distributions
+- **Reliability**^[신뢰성]: Component failure counts
 
 ## Biology and medicine^[생물학과 의학]
 
-- **Genetics^[유전학]**: Allele distributions
-- **Epidemiology^[역학]**: Disease spread (SIR models)
-- **Clinical trials^[임상 시험]**: Success/failure counts
+- **Genetics**^[유전학]: Allele distributions
+- **Epidemiology**^[역학]: Disease spread (SIR models)
+- **Clinical trials**^[임상 시험]: Success/failure counts
 
 ---
 
