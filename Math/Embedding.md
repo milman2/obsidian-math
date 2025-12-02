@@ -121,8 +121,7 @@ $$c \cdot d_X(x_1, x_2) \leq d_Y(f(x_1), f(x_2)) \leq C \cdot d_X(x_1, x_2)$$
 
 **정리**: Embedding의 composition**^[합성]은 embedding이다
 
-$f: X \hookrightarrow Y$, $g: Y \hookrightarrow Z$가 embedding이면 $g \circ f: X \hookrightarrow Z$도 embedding ✓
-
+$f: X \hookrightarrow Y$, $g: Y \hookrightarrow Z$가 embedding이면 $g \circ f: X \hookrightarrow Z$도 embedding
 ### Inverse
 
 **정리**: Embedding $f: X \hookrightarrow Y$에 대해 $f^{-1}: f(X) \to X$는 (적절한 구조에서) embedding
@@ -135,8 +134,7 @@ $f: X \hookrightarrow Y$, $g: Y \hookrightarrow Z$가 embedding이면 $g \circ f
 
 $$U \subset X \text{ is open in } X \Leftrightarrow f(U) \text{ is open in } f(X)$$
 
-**증명**: $f: X \to f(X)$가 homeomorphism이므로 open/closed sets 보존 ✓
-
+**증명**: $f: X \to f(X)$가 homeomorphism이므로 open/closed sets 보존
 ### Compactness 보존
 
 **정리**: $f: X \hookrightarrow Y$가 embedding이고 $X$가 compact**^[옹골]이면 $f(X)$도 compact
@@ -168,8 +166,7 @@ $$\mathbb{N} \hookrightarrow \mathbb{Z} \hookrightarrow \mathbb{Q} \hookrightarr
 각 단계는 field/ring embedding (또는 additive group embedding)
 
 **Example**: $\mathbb{Q} \hookrightarrow \mathbb{R}$
-- Injective ring homomorphism ✓
-- Dense in $\mathbb{R}$ (topology)
+- Injective ring homomorphism- Dense in $\mathbb{R}$ (topology)
 - 대수 구조 완벽히 보존
 
 ## Example 2: Circle in Plane
@@ -178,18 +175,12 @@ $$\mathbb{N} \hookrightarrow \mathbb{Z} \hookrightarrow \mathbb{Q} \hookrightarr
 
 $$f: S^1 \to \mathbb{R}^2, \quad f(e^{i\theta}) = (\cos\theta, \sin\theta)$$
 
-- Injective ✓
-- Continuous ✓  
-- Homeomorphism onto image ✓
-- Topological embedding ✓
-
+- Injective- Continuous- Homeomorphism onto image- Topological embedding
 ## Example 3: Non-embedding
 
 **Counterexample**: $f: [0, 2\pi) \to \mathbb{R}^2$ by $f(t) = (\cos t, \sin t)$
 
-- Injective ✓
-- Continuous ✓
-- NOT homeomorphism onto image ✗
+- Injective- Continuous- NOT homeomorphism onto image ✗
 
 **이유**: $[0, 2\pi)$에서 $2\pi$에 가까운 sequence는 수렴하지 않지만, image에서는 $(1, 0)$으로 수렴
 
@@ -201,9 +192,7 @@ $$f: S^1 \to \mathbb{R}^2, \quad f(e^{i\theta}) = (\cos\theta, \sin\theta)$$
 
 $$a + bi \mapsto \begin{pmatrix} a & -b \\ b & a \end{pmatrix}$$
 
-- Injective ring homomorphism ✓
-- Field 구조 보존 ✓
-- $\mathbb{C} \cong$ Subring of $M_2(\mathbb{R})$
+- Injective ring homomorphism- Field 구조 보존- $\mathbb{C} \cong$ Subring of $M_2(\mathbb{R})$
 
 ## Example 5: Algebraic Field Extension
 
@@ -211,8 +200,7 @@ $$a + bi \mapsto \begin{pmatrix} a & -b \\ b & a \end{pmatrix}$$
 
 $$a + b\sqrt{2} \mapsto a + b\sqrt{2} \quad (a, b \in \mathbb{Q})$$
 
-- Field embedding ✓
-- $[\mathbb{Q}(\sqrt{2}) : \mathbb{Q}] = 2$
+- Field embedding- $[\mathbb{Q}(\sqrt{2}) : \mathbb{Q}] = 2$
 - Preserves all field operations
 
 ## Example 6: Graph Embedding
@@ -236,18 +224,14 @@ $$f: [0, 1] \times [-1, 1] \to \mathbb{R}^3$$
 
 $$(t, s) \mapsto \left((2 + s\cos(\pi t))\cos(2\pi t), (2 + s\cos(\pi t))\sin(2\pi t), s\sin(\pi t)\right)$$
 
-- Smooth embedding ✓
-- Non-orientable surface in $\mathbb{R}^3$ ✓
-
+- Smooth embedding- Non-orientable surface in $\mathbb{R}^3$
 ## Example 8: Cayley's Theorem
 
 **정리** (Cayley): 모든 group $G$는 symmetric group $S_G$에 embed 가능
 
 $$\phi: G \hookrightarrow S_G, \quad g \mapsto (x \mapsto gx)$$
 
-- Injective group homomorphism ✓
-- $G \cong \text{Subgroup of } S_G$ ✓
-
+- Injective group homomorphism- $G \cong \text{Subgroup of } S_G$
 **의미**: 모든 abstract group은 permutation group으로 realized 가능
 
 ---
