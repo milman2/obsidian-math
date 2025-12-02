@@ -44,7 +44,7 @@ $$\Delta^n = \{(t_0, \ldots, t_n) \in \mathbb{R}^{n+1} : t_i \geq 0, \sum_{i=0}^
 - \(\Delta^2\): Triangle (2-simplex)
 - \(\Delta^3\): Tetrahedron (3-simplex)
 
-**Singular \(n\)-simplex^[특이 n-단체]** on \(X\):
+**Singular \(n\)-simplex**^[특이 n-단체] on \(X\):
 
 $$\sigma: \Delta^n \to X \quad \text{(continuous map)}$$
 
@@ -58,11 +58,11 @@ $$c = \sum_{i} a_i \sigma_i, \quad a_i \in \mathbb{Z}, \sigma_i: \Delta^n \to X$
 
 ### Boundary Operator^[경계 작용소]
 
-**Face maps^[면 사상]**: \(i\)-th face of \(\Delta^n\)
+**Face maps**^[면 사상]: \(i\)-th face of \(\Delta^n\)
 
 $$d_i: \Delta^{n-1} \to \Delta^n, \quad d_i(t_0, \ldots, t_{n-1}) = (t_0, \ldots, t_{i-1}, 0, t_i, \ldots, t_{n-1})$$
 
-**Boundary operator^[경계 작용소]**: \(\partial_n: C_n(X) \to C_{n-1}(X)\)
+**Boundary operator**^[경계 작용소]: \(\partial_n: C_n(X) \to C_{n-1}(X)\)
 
 $$\partial_n(\sigma) = \sum_{i=0}^n (-1)^i \sigma \circ d_i$$
 
@@ -78,13 +78,13 @@ $$\cdots \xrightarrow{\partial_{n+2}} C_{n+1}(X) \xrightarrow{\partial_{n+1}} C_
 
 ### Cycle and Boundary^[순환과 경계]
 
-**\(n\)-Cycle^[n-순환]**: 
+**\(n\)-Cycle**^[n-순환]: 
 
 $$Z_n(X) = \ker(\partial_n) = \{c \in C_n(X) : \partial_n(c) = 0\}$$
 
 "경계가 없는 chain"
 
-**\(n\)-Boundary^[n-경계]**:
+**\(n\)-Boundary**^[n-경계]:
 
 $$B_n(X) = \text{im}(\partial_{n+1}) = \{\partial_{n+1}(c) : c \in C_{n+1}(X)\}$$
 
@@ -110,7 +110,7 @@ where \(\varepsilon\): Augmentation map^[증대 사상]
 
 $$\varepsilon\left(\sum_i a_i \sigma_i\right) = \sum_i a_i$$
 
-**Reduced homology^[축약 호모로지]**:
+**Reduced homology**^[축약 호모로지]:
 
 $$\tilde{H}_n(X) = \begin{cases} \ker(\varepsilon) / \text{im}(\partial_1) & n = 0 \\ H_n(X) & n > 0 \end{cases}$$
 
@@ -124,17 +124,17 @@ $$H_0(X) \cong \tilde{H}_0(X) \oplus \mathbb{Z}$$
 
 **Setup**: Pair^[쌍] \((X, A)\) where \(A \subseteq X\)
 
-**Relative chain group^[상대 사슬군]**:
+**Relative chain group**^[상대 사슬군]:
 
 $$C_n(X, A) = C_n(X) / C_n(A)$$
 
-**Relative homology^[상대 호모로지]**:
+**Relative homology**^[상대 호모로지]:
 
 $$H_n(X, A) = H_n(C_*(X, A))$$
 
 **의미**: "\(X\)의 homology relative to \(A\)"
 
-**Long exact sequence^[긴 완전 수열]**:
+**Long exact sequence**^[긴 완전 수열]:
 
 $$\cdots \to H_n(A) \to H_n(X) \to H_n(X, A) \to H_{n-1}(A) \to \cdots$$
 
@@ -144,19 +144,19 @@ $$\cdots \to H_n(A) \to H_n(X) \to H_n(X, A) \to H_{n-1}(A) \to \cdots$$
 
 **Setup**: Simplicial complex^[단체 복체] \(K\)
 
-**\(n\)-Simplex^[n-단체]**: \([v_0, v_1, \ldots, v_n]\) (vertices \(v_i\))
+**\(n\)-Simplex**^[n-단체]: \([v_0, v_1, \ldots, v_n]\) (vertices \(v_i\))
 
-**Simplicial chain group^[단체 사슬군]**:
+**Simplicial chain group**^[단체 사슬군]:
 
 $$C_n(K) = \text{Free abelian group on } n\text{-simplices of } K$$
 
-**Boundary operator^[경계 작용소]**:
+**Boundary operator**^[경계 작용소]:
 
 $$\partial_n([v_0, \ldots, v_n]) = \sum_{i=0}^n (-1)^i [v_0, \ldots, \hat{v}_i, \ldots, v_n]$$
 
 (where \(\hat{v}_i\) means omit \(v_i\))
 
-**Simplicial homology^[단체 호모로지]**:
+**Simplicial homology**^[단체 호모로지]:
 
 $$H_n(K) = \ker(\partial_n) / \text{im}(\partial_{n+1})$$
 
@@ -166,13 +166,13 @@ $$H_n(K) = \ker(\partial_n) / \text{im}(\partial_{n+1})$$
 
 **Setup**: CW complex^[CW 복체] \(X\)
 
-**Cellular chain group^[셀룰러 사슬군]**:
+**Cellular chain group**^[셀룰러 사슬군]:
 
 $$C_n^{CW}(X) = H_n(X^n, X^{n-1})$$
 
 where \(X^n\): \(n\)-skeleton^[n-골격]
 
-**Cellular boundary map^[셀룰러 경계 사상]**: Degree of attaching map
+**Cellular boundary map**^[셀룰러 경계 사상]: Degree of attaching map
 
 **정리**: \(H_n^{CW}(X) \cong H_n(X)\) (singular homology)
 
@@ -186,7 +186,7 @@ where \(X^n\): \(n\)-skeleton^[n-골격]
 
 ## Functoriality^[함자성]
 
-**Continuous map^[연속 사상]** \(f: X \to Y\)는 homomorphism^[준동형사상]을 유도:
+**Continuous map**^[연속 사상] \(f: X \to Y\)는 homomorphism^[준동형사상]을 유도:
 
 $$f_*: H_n(X) \to H_n(Y)$$
 
@@ -224,7 +224,7 @@ $$\tilde{H}_n(\text{pt}) = 0 \quad \forall n$$
 
 ## Exactness^[완전성]
 
-**Long exact sequence of pair^[쌍의 긴 완전 수열]**:
+**Long exact sequence of pair**^[쌍의 긴 완전 수열]:
 
 $$\cdots \to H_n(A) \to H_n(X) \to H_n(X, A) \to H_{n-1}(A) \to \cdots$$
 
@@ -419,7 +419,7 @@ $$H_k(D^n) = \begin{cases}
 
 $$h: \pi_n(X) \to H_n(X)$$ 
 
-**Hurewicz homomorphism^[후레비츠 준동형사상]**
+**Hurewicz homomorphism**^[후레비츠 준동형사상]
 
 **Case 1**: \(n = 1\)
 
@@ -455,7 +455,7 @@ $$H_1(T^2) \cong H^1(T^2) \cong \mathbb{Z}^2$$
 
 ## Lefschetz Fixed Point Theorem^[레프셰츠 고정점 정리]
 
-**Lefschetz number^[레프셰츠 수]**:
+**Lefschetz number**^[레프셰츠 수]:
 
 $$L(f) = \sum_{n=0}^\infty (-1)^n \text{tr}(f_*: H_n(X) \to H_n(X))$$
 
@@ -473,7 +473,7 @@ $$b_n(X) = \text{rank}(H_n(X))$$
 
 (rank of free part)
 
-**Euler characteristic^[오일러 지표]**:
+**Euler characteristic**^[오일러 지표]:
 
 $$\chi(X) = \sum_{n=0}^\infty (-1)^n b_n(X)$$
 
@@ -532,7 +532,7 @@ $$= \sum_{i=0}^n \sum_{j=0}^{n-1} (-1)^{i+j} \sigma \circ d_i \circ d_j$$
 
 **정리**: \(f \simeq g\) \(\Rightarrow\) \(f_* = g_*\)
 
-**증명 idea**: Construct **chain homotopy^[사슬 호모토피]** \(P: C_n(X) \to C_{n+1}(Y)\)
+**증명 idea**: Construct **chain homotopy**^[사슬 호모토피] \(P: C_n(X) \to C_{n+1}(Y)\)
 
 $$\partial P + P \partial = g_\# - f_\#$$
 

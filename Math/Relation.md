@@ -12,7 +12,7 @@
 
 ## Relation^[관계]
 
-집합 $A$, $B$에 대해, **relation^[관계]** $R$은 $A \times B$의 부분집합:
+집합 $A$, $B$에 대해, **relation**^[관계] $R$은 $A \times B$의 부분집합:
 
 $$R \subseteq A \times B$$
 
@@ -22,15 +22,15 @@ $$aRb \quad \text{or} \quad a \sim b \quad \text{or} \quad a \mathrel{R} b$$
 
 ### Domain and Range
 
-**Domain^[정의역]**:
+**Domain**^[정의역]:
 $$\text{dom}(R) = \{a \in A : \exists b \in B, (a,b) \in R\}$$
 
-**Range^[치역]** (또는 Image^[상]):
+**Range**^[치역] (또는 Image^[상]):
 $$\text{ran}(R) = \text{im}(R) = \{b \in B : \exists a \in A, (a,b) \in R\}$$
 
 ## Binary Relation^[이항 관계]
 
-가장 흔한 경우: **binary relation^[이항 관계]** on $A$
+가장 흔한 경우: **binary relation**^[이항 관계] on $A$
 
 $$R \subseteq A \times A$$
 
@@ -38,7 +38,7 @@ $$R \subseteq A \times A$$
 
 ## $n$-ary Relation
 
-일반화: **$n$-ary relation^[$n$항 관계]**
+일반화: **$n$-ary relation**^[$n$항 관계]
 
 $$R \subseteq A_1 \times A_2 \times \cdots \times A_n$$
 
@@ -52,7 +52,7 @@ $$R \subseteq A_1 \times A_2 \times \cdots \times A_n$$
 
 ## Reflexivity^[반사성]
 
-$R$이 **reflexive^[반사]**이다 $\Leftrightarrow$
+$R$이 **reflexive**^[반사]이다 $\Leftrightarrow$
 
 $$\forall a \in A, \; aRa$$
 
@@ -64,7 +64,7 @@ $$\forall a \in A, \; aRa$$
 
 ## Irreflexivity^[비반사성]
 
-$R$이 **irreflexive^[비반사]**이다 $\Leftrightarrow$
+$R$이 **irreflexive**^[비반사]이다 $\Leftrightarrow$
 
 $$\forall a \in A, \; \neg(aRa)$$
 
@@ -74,7 +74,7 @@ $$\forall a \in A, \; \neg(aRa)$$
 
 ## Symmetry^[대칭성]
 
-$R$이 **symmetric^[대칭]**이다 $\Leftrightarrow$
+$R$이 **symmetric**^[대칭]이다 $\Leftrightarrow$
 
 $$\forall a, b \in A, \; aRb \Rightarrow bRa$$
 
@@ -85,7 +85,7 @@ $$\forall a, b \in A, \; aRb \Rightarrow bRa$$
 
 ## Antisymmetry^[반대칭성]
 
-$R$이 **antisymmetric^[반대칭]**이다 $\Leftrightarrow$
+$R$이 **antisymmetric**^[반대칭]이다 $\Leftrightarrow$
 
 $$\forall a, b \in A, \; aRb \land bRa \Rightarrow a = b$$
 
@@ -97,7 +97,7 @@ $$\forall a, b \in A, \; aRb \land bRa \Rightarrow a = b$$
 
 ## Asymmetry^[비대칭성]
 
-$R$이 **asymmetric^[비대칭]**이다 $\Leftrightarrow$
+$R$이 **asymmetric**^[비대칭]이다 $\Leftrightarrow$
 
 $$\forall a, b \in A, \; aRb \Rightarrow \neg(bRa)$$
 
@@ -109,7 +109,7 @@ $$\forall a, b \in A, \; aRb \Rightarrow \neg(bRa)$$
 
 ## Transitivity^[추이성]
 
-$R$이 **transitive^[추이]**이다 $\Leftrightarrow$
+$R$이 **transitive**^[추이]이다 $\Leftrightarrow$
 
 $$\forall a, b, c \in A, \; aRb \land bRc \Rightarrow aRc$$
 
@@ -120,7 +120,7 @@ $$\forall a, b, c \in A, \; aRb \land bRc \Rightarrow aRc$$
 
 ## Totality^[전체성]
 
-$R$이 **total^[전체]** (또는 **complete^[완전]**)이다 $\Leftrightarrow$
+$R$이 **total**^[전체] (또는 **complete**^[완전])이다 $\Leftrightarrow$
 
 $$\forall a, b \in A, \; aRb \lor bRa$$
 
@@ -135,7 +135,7 @@ $$\forall a, b \in A, \; aRb \lor bRa$$
 
 ## Equivalence Relation^[동치 관계]
 
-$R$이 **equivalence relation^[동치 관계]** $\Leftrightarrow$ Reflexive + Symmetric + Transitive
+$R$이 **equivalence relation**^[동치 관계] $\Leftrightarrow$ Reflexive + Symmetric + Transitive
 
 **예**: 
 - Equality $=$
@@ -146,7 +146,7 @@ $R$이 **equivalence relation^[동치 관계]** $\Leftrightarrow$ Reflexive + Sy
 
 ## Partial Order^[부분 순서]
 
-$R$이 **partial order^[부분 순서]** $\Leftrightarrow$ Reflexive + Antisymmetric + Transitive
+$R$이 **partial order**^[부분 순서] $\Leftrightarrow$ Reflexive + Antisymmetric + Transitive
 
 **표기**: 주로 $\leq$ 또는 $\preceq$
 
@@ -155,11 +155,11 @@ $R$이 **partial order^[부분 순서]** $\Leftrightarrow$ Reflexive + Antisymme
 - $\subseteq$ on $2^X$ (집합의 포함)
 - Divisibility $\mid$ on $\mathbb{N}$
 
-**(Partially) Ordered Set (Poset)^[부분 순서 집합]**: $(A, \leq)$
+**(Partially) Ordered Set (Poset)**^[부분 순서 집합]: $(A, \leq)$
 
 ## Total Order^[전순서]
 
-$R$이 **total order^[전순서]** (또는 **linear order^[선형 순서]**)
+$R$이 **total order**^[전순서] (또는 **linear order**^[선형 순서])
 $\Leftrightarrow$ Partial order + Total
 
 즉: Reflexive + Antisymmetric + Transitive + Total
@@ -171,7 +171,7 @@ $\Leftrightarrow$ Partial order + Total
 
 ### Strict Partial Order
 
-**Strict partial order^[엄격 부분 순서]** $\Leftrightarrow$ Irreflexive + Transitive
+**Strict partial order**^[엄격 부분 순서] $\Leftrightarrow$ Irreflexive + Transitive
 
 **표기**: 주로 $<$ 또는 $\prec$
 
@@ -179,13 +179,13 @@ $\Leftrightarrow$ Partial order + Total
 
 ### Strict Total Order
 
-**Strict total order^[엄격 전순서]** $\Leftrightarrow$ Strict partial order + Trichotomy
+**Strict total order**^[엄격 전순서] $\Leftrightarrow$ Strict partial order + Trichotomy
 
-**Trichotomy^[삼분법]**: $\forall a, b$, exactly one of $a < b$, $a = b$, $b < a$
+**Trichotomy**^[삼분법]: $\forall a, b$, exactly one of $a < b$, $a = b$, $b < a$
 
 ## Preorder^[전순서]
 
-$R$이 **preorder^[전순서]** (또는 **quasi-order^[준순서]**)
+$R$이 **preorder**^[전순서] (또는 **quasi-order**^[준순서])
 $\Leftrightarrow$ Reflexive + Transitive
 
 Partial order에서 antisymmetry 제거
@@ -200,7 +200,7 @@ Partial order에서 antisymmetry 제거
 
 ## Inverse Relation^[역관계]
 
-Relation $R \subseteq A \times B$의 **inverse^[역관계]** $R^{-1} \subseteq B \times A$:
+Relation $R \subseteq A \times B$의 **inverse**^[역관계] $R^{-1} \subseteq B \times A$:
 
 $$R^{-1} = \{(b, a) : (a, b) \in R\}$$
 
@@ -210,14 +210,14 @@ $$R^{-1} = \{(b, a) : (a, b) \in R\}$$
 
 ## Composition^[합성]
 
-Relations $R \subseteq A \times B$, $S \subseteq B \times C$의 **composition^[합성]** $S \circ R \subseteq A \times C$:
+Relations $R \subseteq A \times B$, $S \subseteq B \times C$의 **composition**^[합성] $S \circ R \subseteq A \times C$:
 
 $$(S \circ R) = \{(a, c) : \exists b \in B, (a,b) \in R \land (b,c) \in S\}$$
 
 **순서 주의**: $S \circ R$ = "$R$ 먼저, 그 다음 $S$"
 
 **성질**:
-1. **Associativity^[결합법칙]**: $(T \circ S) \circ R = T \circ (S \circ R)$
+1. **Associativity**^[결합법칙]: $(T \circ S) \circ R = T \circ (S \circ R)$
 2. **Identity**: $I_A \circ R = R = R \circ I_B$ (where $I_A = \{(a,a) : a \in A\}$)
 
 ## Reflexive/Symmetric/Transitive Closure
@@ -278,7 +278,7 @@ $2^X$ (power set) 위에서 $\subseteq$:
 
 **Type**: Partial order (not total)
 
-**Hasse diagram^[하세 도표]**로 시각화 가능
+**Hasse diagram**^[하세 도표]로 시각화 가능
 
 ## Example 4: Family Relations
 
@@ -312,7 +312,7 @@ $\mathbb{Z}$ 위에서 $a \equiv b \pmod{n}$:
 
 ## Relation vs Function
 
-**Function^[함수]** = special relation with additional property:
+**Function**^[함수] = special relation with additional property:
 
 $$\forall a \in A, \exists! b \in B : (a, b) \in R$$
 

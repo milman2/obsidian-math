@@ -15,10 +15,10 @@
 
 ## Galois Extension^[갈루아 확대]
 
-Field extension^[체 확대] $\mathbb{F}/K$가 **Galois extension^[갈루아 확대]**이다 $\Leftrightarrow$ 다음을 만족:
+Field extension^[체 확대] $\mathbb{F}/K$가 **Galois extension**^[갈루아 확대]이다 $\Leftrightarrow$ 다음을 만족:
 
-1. **Normal^[정규]**: 모든 irreducible polynomial^[기약 다항식] $p(x) \in K[x]$가 $\mathbb{F}$에서 한 개의 근을 가지면, 모든 근을 가짐
-2. **Separable^[분리가능]**: 모든 $\alpha \in \mathbb{F}$의 minimal polynomial^[최소 다항식]이 중근을 갖지 않음
+1. **Normal**^[정규]: 모든 irreducible polynomial^[기약 다항식] $p(x) \in K[x]$가 $\mathbb{F}$에서 한 개의 근을 가지면, 모든 근을 가짐
+2. **Separable**^[분리가능]: 모든 $\alpha \in \mathbb{F}$의 minimal polynomial^[최소 다항식]이 중근을 갖지 않음
 
 ### 동등 조건
 
@@ -33,7 +33,7 @@ Finite extension^[유한 확대] $\mathbb{F}/K$에 대해 다음은 동등:
 
 ## Galois Group^[갈루아 군]
 
-Galois extension $\mathbb{F}/K$의 **Galois group^[갈루아 군]** $\text{Gal}(\mathbb{F}/K)$:
+Galois extension $\mathbb{F}/K$의 **Galois group**^[갈루아 군] $\text{Gal}(\mathbb{F}/K)$:
 
 $$\text{Gal}(\mathbb{F}/K) = \{\sigma: \mathbb{F} \to \mathbb{F} : \sigma \text{ is automorphism}, \sigma|_K = \text{id}_K\}$$
 
@@ -47,7 +47,7 @@ $$\text{Gal}(\mathbb{F}/K) = \{\sigma: \mathbb{F} \to \mathbb{F} : \sigma \text{
 
 ## Normal Extension^[정규 확대]
 
-Field extension $\mathbb{F}/K$가 **normal^[정규]**이다 $\Leftrightarrow$ 다음 중 하나:
+Field extension $\mathbb{F}/K$가 **normal**^[정규]이다 $\Leftrightarrow$ 다음 중 하나:
 
 1. 모든 irreducible $p(x) \in K[x]$가 $\mathbb{F}$에서 한 근을 가지면, 완전히 분해됨 (splits completely)
 2. $\mathbb{F}$는 어떤 polynomial들의 집합의 splitting field
@@ -59,17 +59,17 @@ Field extension $\mathbb{F}/K$가 **normal^[정규]**이다 $\Leftrightarrow$ �
 
 ### Separable Polynomial^[분리가능 다항식]
 
-Polynomial $p(x) \in K[x]$가 **separable^[분리가능]**이다 $\Leftrightarrow$ 모든 irreducible factor가 중근을 갖지 않음
+Polynomial $p(x) \in K[x]$가 **separable**^[분리가능]이다 $\Leftrightarrow$ 모든 irreducible factor가 중근을 갖지 않음
 
 **동등 조건**: $\gcd(p(x), p'(x)) = 1$ (where $p'$ is derivative^[도함수])
 
 ### Separable Element^[분리가능 원소]
 
-$\alpha \in \mathbb{F}$가 **separable over $K$^[K 위에서 분리가능]**이다 $\Leftrightarrow$ $\alpha$의 minimal polynomial이 separable
+$\alpha \in \mathbb{F}$가 **separable over $K$**^[K 위에서 분리가능]이다 $\Leftrightarrow$ $\alpha$의 minimal polynomial이 separable
 
 ### Separable Extension^[분리가능 확대]
 
-Extension $\mathbb{F}/K$가 **separable^[분리가능]**이다 $\Leftrightarrow$ 모든 $\alpha \in \mathbb{F}$가 separable over $K$
+Extension $\mathbb{F}/K$가 **separable**^[분리가능]이다 $\Leftrightarrow$ 모든 $\alpha \in \mathbb{F}$가 separable over $K$
 
 **중요**: Characteristic 0 field (e.g., $\mathbb{Q}, \mathbb{R}, \mathbb{C}$)에서는 모든 extension이 separable
 
@@ -77,7 +77,7 @@ Extension $\mathbb{F}/K$가 **separable^[분리가능]**이다 $\Leftrightarrow$
 
 ## Splitting Field^[분해체]
 
-Polynomial $p(x) \in K[x]$의 **splitting field^[분해체]** $\mathbb{F}$:
+Polynomial $p(x) \in K[x]$의 **splitting field**^[분해체] $\mathbb{F}$:
 
 1. $p(x)$가 $\mathbb{F}$에서 완전히 linear factor로 분해
 2. $\mathbb{F} = K(\alpha_1, \ldots, \alpha_n)$ where $\alpha_i$는 $p(x)$의 모든 근
@@ -89,7 +89,7 @@ Polynomial $p(x) \in K[x]$의 **splitting field^[분해체]** $\mathbb{F}$:
 
 ## Fixed Field^[고정체]
 
-Subgroup $H \leq \text{Gal}(\mathbb{F}/K)$의 **fixed field^[고정체]** $\mathbb{F}^H$:
+Subgroup $H \leq \text{Gal}(\mathbb{F}/K)$의 **fixed field**^[고정체] $\mathbb{F}^H$:
 
 $$\mathbb{F}^H = \{\alpha \in \mathbb{F} : \sigma(\alpha) = \alpha \; \forall \sigma \in H\}$$
 
@@ -120,16 +120,16 @@ $$\{\text{Subfields } E : K \subseteq E \subseteq \mathbb{F}\} \leftrightarrow \
 
 ### Properties of Correspondence^[대응의 성질]
 
-1. **Degree formula^[차수 공식]**: 
+1. **Degree formula**^[차수 공식]: 
 $$[E : K] = [\text{Gal}(\mathbb{F}/K) : \text{Gal}(\mathbb{F}/E)] = \frac{|\text{Gal}(\mathbb{F}/K)|}{|\text{Gal}(\mathbb{F}/E)|}$$
 
-2. **Normal subextension^[정규 부분확대]**:
+2. **Normal subextension**^[정규 부분확대]:
 $$E/K \text{ is normal (Galois)} \Leftrightarrow \text{Gal}(\mathbb{F}/E) \triangleleft \text{Gal}(\mathbb{F}/K)$$
 
-3. **Quotient isomorphism^[몫 동형]**: $E/K$가 Galois이면
+3. **Quotient isomorphism**^[몫 동형]: $E/K$가 Galois이면
 $$\text{Gal}(E/K) \cong \text{Gal}(\mathbb{F}/K) / \text{Gal}(\mathbb{F}/E)$$
 
-4. **Cardinality^[크기]**:
+4. **Cardinality**^[크기]:
 $$|\text{Gal}(\mathbb{F}/K)| = [\mathbb{F} : K]$$
 
 ### Diagram^[도표]
@@ -156,7 +156,7 @@ $$\exists \alpha \in \mathbb{F}, \quad \mathbb{F} = K(\alpha)$$
 
 즉, **단일 원소**로 전체 extension을 생성 가능
 
-$\alpha$를 **primitive element^[원시 원소]**라 함
+$\alpha$를 **primitive element**^[원시 원소]라 함
 
 **중요**: Finite field 위에서는 항상 성립 (모든 extension이 separable)
 
@@ -176,13 +176,13 @@ where $\sigma$ is complex conjugation^[복소 켤레]: $\sigma(a+bi) = a-bi$
 
 ## Solvability by Radicals^[근의 공식]
 
-Polynomial $p(x) \in K[x]$가 **solvable by radicals^[근호로 풀 수 있음]**이다 $\Leftrightarrow$ 
+Polynomial $p(x) \in K[x]$가 **solvable by radicals**^[근호로 풀 수 있음]이다 $\Leftrightarrow$ 
 
 근들을 $K$의 원소들로부터 $+, -, \times, \div$와 $n$-th roots만 사용하여 표현 가능
 
 ### Galois Criterion^[갈루아 판정법]
 
-$p(x)$가 solvable by radicals $\Leftrightarrow$ splitting field의 Galois group이 **solvable group^[가해군]**
+$p(x)$가 solvable by radicals $\Leftrightarrow$ splitting field의 Galois group이 **solvable group**^[가해군]
 
 **Solvable group**: Subnormal series^[정규 부분열]
 $$\{e\} = G_0 \triangleleft G_1 \triangleleft \cdots \triangleleft G_n = G$$
@@ -234,7 +234,7 @@ C_2
 
 $$\mathbb{Q}(\zeta_n) / \mathbb{Q}$$ where $\zeta_n = e^{2\pi i/n}$
 
-**Cyclotomic polynomial^[원분 다항식]**: $\Phi_n(x) = \displaystyle\prod_{\substack{1 \leq k \leq n \\ \gcd(k,n)=1}} (x - \zeta_n^k)$
+**Cyclotomic polynomial**^[원분 다항식]: $\Phi_n(x) = \displaystyle\prod_{\substack{1 \leq k \leq n \\ \gcd(k,n)=1}} (x - \zeta_n^k)$
 
 **Degree**: $[\mathbb{Q}(\zeta_n) : \mathbb{Q}] = \phi(n)$ (Euler's totient function^[오일러 파이 함수])
 
@@ -349,7 +349,7 @@ $$K = \mathbb{F}_p(t), \quad \mathbb{F} = K(\alpha) \text{ where } \alpha^p = t$
 
 ## Galois Closure^[갈루아 폐포]
 
-모든 extension $\mathbb{F}/K$에 대해 **Galois closure^[갈루아 폐포]** $\widetilde{\mathbb{F}}$ 존재:
+모든 extension $\mathbb{F}/K$에 대해 **Galois closure**^[갈루아 폐포] $\widetilde{\mathbb{F}}$ 존재:
 - $\mathbb{F} \subseteq \widetilde{\mathbb{F}}$
 - $\widetilde{\mathbb{F}}/K$는 Galois
 - 최소성: 이 성질을 만족하는 최소 field
@@ -374,7 +374,7 @@ $\mathbb{F}/K$가 Galois인 것은 **아님** (일반적으로)
 
 ## Compositum^[합성체]
 
-Extensions $\mathbb{F}_1/K$, $\mathbb{F}_2/K$에 대해 **compositum^[합성체]** $\mathbb{F}_1 \mathbb{F}_2$:
+Extensions $\mathbb{F}_1/K$, $\mathbb{F}_2/K$에 대해 **compositum**^[합성체] $\mathbb{F}_1 \mathbb{F}_2$:
 
 $K$를 포함하는 가장 작은 field containing both $\mathbb{F}_1$ and $\mathbb{F}_2$
 
@@ -389,7 +389,7 @@ $$\text{Gal}(\mathbb{F}_1\mathbb{F}_2/K) \cong \frac{\text{Gal}(\mathbb{F}_1/K) 
 
 ## Discriminant^[판별식]
 
-Polynomial $p(x) = \displaystyle\prod_{i=1}^n (x - \alpha_i) \in K[x]$의 **discriminant^[판별식]**:
+Polynomial $p(x) = \displaystyle\prod_{i=1}^n (x - \alpha_i) \in K[x]$의 **discriminant**^[판별식]:
 
 $$\Delta(p) = \prod_{i < j} (\alpha_i - \alpha_j)^2$$
 
@@ -405,7 +405,7 @@ $$\Delta = b^2 - 4ac$$
 
 Galois group을 결정하는 도구
 
-Polynomial $p(x)$에 대해 특정 형태의 **resolvent polynomial^[분해식]** 구성
+Polynomial $p(x)$에 대해 특정 형태의 **resolvent polynomial**^[분해식] 구성
 
 **Cubic resolvent**: 4차 방정식의 Galois group 판정에 사용
 
@@ -472,7 +472,7 @@ Constructible numbers^[작도 가능 수]: $\mathbb{Q}$에서 시작하여 $+, -
 
 ### 3. 수론
 
-**Class field theory^[유체론]**: Abelian Galois extensions 분류
+**Class field theory**^[유체론]: Abelian Galois extensions 분류
 
 **Fermat's Last Theorem**: Galois representations 사용
 

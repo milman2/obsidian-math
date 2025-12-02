@@ -16,7 +16,7 @@
 
 ## Field Extension^[체 확대]
 
-Field $K$와 $F$에 대해, $K \subseteq F$일 때 $F$를 $K$의 **extension field^[확대체]** (또는 **field extension^[체 확대]**)라 한다.
+Field $K$와 $F$에 대해, $K \subseteq F$일 때 $F$를 $K$의 **extension field**^[확대체] (또는 **field extension**^[체 확대])라 한다.
 
 **표기**: 
 - $F/K$ 
@@ -25,8 +25,8 @@ Field $K$와 $F$에 대해, $K \subseteq F$일 때 $F$를 $K$의 **extension fie
 **주의**: $F/K$는 quotient가 **아님**! Extension을 나타내는 표기법
 
 **용어**:
-- $F$: **Extension field^[확대체]** (또는 **overfield^[상위체]**)
-- $K$: **Base field^[기저체]** (또는 **ground field^[바탕체]**)
+- $F$: **Extension field**^[확대체] (또는 **overfield**^[상위체])
+- $K$: **Base field**^[기저체] (또는 **ground field**^[바탕체])
 
 ## Vector Space Structure^[벡터 공간 구조]
 
@@ -43,8 +43,8 @@ $$[F : K] = \dim_K F$$
 $F$를 $K$-vector space로 볼 때의 차원^[dimension]
 
 **분류**:
-- **Finite extension^[유한 확대]**: $[F : K] < \infty$
-- **Infinite extension^[무한 확대]**: $[F : K] = \infty$
+- **Finite extension**^[유한 확대]: $[F : K] < \infty$
+- **Infinite extension**^[무한 확대]: $[F : K] = \infty$
 
 ## Simple Extension^[단순 확대]
 
@@ -58,11 +58,11 @@ $$K(\alpha) = \text{smallest subfield of } F \text{ containing } K \text{ and } 
 
 ### Simple Extension
 
-Extension $F/K$가 **simple extension^[단순 확대]**이다 $\Leftrightarrow$ 어떤 $\alpha \in F$에 대해:
+Extension $F/K$가 **simple extension**^[단순 확대]이다 $\Leftrightarrow$ 어떤 $\alpha \in F$에 대해:
 
 $$F = K(\alpha)$$
 
-$\alpha$를 **primitive element^[원시 원소]**라 함
+$\alpha$를 **primitive element**^[원시 원소]라 함
 
 ## Finitely Generated Extension^[유한 생성 확대]
 
@@ -79,7 +79,7 @@ $F/K$ (field extension)와 $\alpha \in F$에 대해:
 
 ### Algebraic
 
-$\alpha$가 **algebraic over $K$^[K 위에서 대수적]**이다 $\Leftrightarrow$
+$\alpha$가 **algebraic over $K$**^[K 위에서 대수적]이다 $\Leftrightarrow$
 
 $$\exists p(x) \in K[x] \setminus \{0\}, \quad p(\alpha) = 0$$
 
@@ -87,7 +87,7 @@ $$\exists p(x) \in K[x] \setminus \{0\}, \quad p(\alpha) = 0$$
 
 ### Transcendental
 
-$\alpha$가 **transcendental over $K$^[K 위에서 초월적]**이다 $\Leftrightarrow$ $\alpha$가 algebraic이 아님
+$\alpha$가 **transcendental over $K$**^[K 위에서 초월적]이다 $\Leftrightarrow$ $\alpha$가 algebraic이 아님
 
 **예**:
 - $\sqrt{2}$ is algebraic over $\mathbb{Q}$ (satisfies $x^2 - 2 = 0$)
@@ -96,7 +96,7 @@ $\alpha$가 **transcendental over $K$^[K 위에서 초월적]**이다 $\Leftrigh
 
 ## Minimal Polynomial^[최소 다항식]
 
-$\alpha$가 algebraic over $K$일 때, **minimal polynomial^[최소 다항식]** $m_{\alpha, K}(x) \in K[x]$:
+$\alpha$가 algebraic over $K$일 때, **minimal polynomial**^[최소 다항식] $m_{\alpha, K}(x) \in K[x]$:
 
 **유일한** monic^[최고계수가 1] irreducible polynomial^[기약 다항식] such that $m_{\alpha, K}(\alpha) = 0$
 
@@ -110,15 +110,15 @@ $\alpha$가 algebraic over $K$일 때, **minimal polynomial^[최소 다항식]**
 
 ## Algebraic Extension^[대수 확대]
 
-Extension $F/K$가 **algebraic^[대수적]**이다 $\Leftrightarrow$
+Extension $F/K$가 **algebraic**^[대수적]이다 $\Leftrightarrow$
 
 $$\forall \alpha \in F, \; \alpha \text{ is algebraic over } K$$
 
-**반대**: **Transcendental extension^[초월 확대]**
+**반대**: **Transcendental extension**^[초월 확대]
 
 ## Splitting Field^[분해체]
 
-Polynomial $p(x) \in K[x]$의 **splitting field^[분해체]** $F$:
+Polynomial $p(x) \in K[x]$의 **splitting field**^[분해체] $F$:
 
 1. $p(x)$가 $F[x]$에서 완전히 linear factor^[일차 인수]로 분해:
    $$p(x) = c(x - \alpha_1)(x - \alpha_2) \cdots (x - \alpha_n)$$
@@ -133,7 +133,7 @@ Polynomial $p(x) \in K[x]$의 **splitting field^[분해체]** $F$:
 
 ## Normal Extension^[정규 확대]
 
-Extension $F/K$가 **normal^[정규]**이다 $\Leftrightarrow$ 다음 동등 조건 중 하나:
+Extension $F/K$가 **normal**^[정규]이다 $\Leftrightarrow$ 다음 동등 조건 중 하나:
 
 1. 모든 irreducible $p(x) \in K[x]$가 $F$에서 한 근을 가지면, 완전히 분해됨
 
@@ -147,7 +147,7 @@ Extension $F/K$가 **normal^[정규]**이다 $\Leftrightarrow$ 다음 동등 조
 
 ### Separable Polynomial^[분리가능 다항식]
 
-Polynomial $p(x) \in K[x]$가 **separable^[분리가능]**이다 $\Leftrightarrow$ 모든 irreducible factor가 중근^[repeated root]을 갖지 않음
+Polynomial $p(x) \in K[x]$가 **separable**^[분리가능]이다 $\Leftrightarrow$ 모든 irreducible factor가 중근^[repeated root]을 갖지 않음
 
 **동등 조건**: $\gcd(p(x), p'(x)) = 1$ (where $p'$ is formal derivative^[형식적 도함수])
 
@@ -157,7 +157,7 @@ $\alpha \in F$가 **separable over $K$**^[K 위에서 분리가능]이다 $\Left
 
 ### Separable Extension^[분리가능 확대]
 
-Extension $F/K$가 **separable^[분리가능]**이다 $\Leftrightarrow$ 모든 $\alpha \in F$가 separable over $K$
+Extension $F/K$가 **separable**^[분리가능]이다 $\Leftrightarrow$ 모든 $\alpha \in F$가 separable over $K$
 
 **중요**: 
 - Characteristic 0 field (e.g., $\mathbb{Q}, \mathbb{R}, \mathbb{C}$): **모든 extension이 separable**
@@ -240,7 +240,7 @@ $$\exists \alpha \in F, \quad F = K(\alpha)$$
 
 ## Algebraic Closure Existence^[대수적 폐포의 존재성]
 
-**정리**: 모든 field $K$는 **algebraic closure^[대수적 폐포]** $\overline{K}$를 가진다:
+**정리**: 모든 field $K$는 **algebraic closure**^[대수적 폐포] $\overline{K}$를 가진다:
 
 1. $K \subseteq \overline{K}$
 2. $\overline{K}$는 algebraically closed^[대수적으로 닫힘]: 모든 polynomial $p(x) \in \overline{K}[x]$가 $\overline{K}$에서 근을 가짐
@@ -416,7 +416,7 @@ $$\mathbb{Q}(\sqrt{2}, \sqrt{3}) = \mathbb{Q}(\sqrt{2} + \sqrt{3})$$
 
 Extensions $F_1/K$, $F_2/K$ (in some larger field)에 대해:
 
-**Compositum^[합성체]** $F_1F_2$:
+**Compositum**^[합성체] $F_1F_2$:
 
 $$F_1F_2 = K(F_1 \cup F_2)$$
 
@@ -434,7 +434,7 @@ $F_1/K$, $F_2/K$ 모두 algebraic $\Rightarrow$ $F_1F_2/K$ algebraic
 
 ## Algebraically Independent Elements^[대수적 독립 원소]
 
-Elements $\{\alpha_1, \ldots, \alpha_n\} \subseteq F$가 **algebraically independent over $K$^[K 위에서 대수적 독립]**이다 $\Leftrightarrow$
+Elements $\{\alpha_1, \ldots, \alpha_n\} \subseteq F$가 **algebraically independent over $K$**^[K 위에서 대수적 독립]이다 $\Leftrightarrow$
 
 $$p(\alpha_1, \ldots, \alpha_n) = 0 \text{ for } p \in K[x_1, \ldots, x_n] \Rightarrow p = 0$$
 
@@ -444,7 +444,7 @@ $$p(\alpha_1, \ldots, \alpha_n) = 0 \text{ for } p \in K[x_1, \ldots, x_n] \Righ
 
 ## Transcendence Degree^[초월 차수]
 
-Extension $F/K$의 **transcendence degree^[초월 차수]** $\text{tr.deg}(F/K)$:
+Extension $F/K$의 **transcendence degree**^[초월 차수] $\text{tr.deg}(F/K)$:
 
 $$\text{tr.deg}(F/K) = \text{maximal size of algebraically independent subset}$$
 
@@ -457,7 +457,7 @@ $$\text{tr.deg}(F/K) = \text{maximal size of algebraically independent subset}$$
 
 $$K \subseteq E \subseteq F$$
 
-$E$를 **intermediate field^[중간체]**라 함
+$E$를 **intermediate field**^[중간체]라 함
 
 ### Lattice Structure^[격자 구조]
 
