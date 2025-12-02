@@ -17,14 +17,14 @@
 **직관**: 여러 대수 구조를 "독립적으로" 결합
 
 **표기**:
-- **Direct sum^[직접합]**: $G_1 \oplus G_2 \oplus \cdots \oplus G_n$ (유한합, 또는 성분이 finitely supported)
-- **Direct product^[직접곱]**: $G_1 \times G_2 \times \cdots \times G_n$ (일반적)
+- **Direct sum**^[직접합]: $G_1 \oplus G_2 \oplus \cdots \oplus G_n$ (유한합, 또는 성분이 finitely supported)
+- **Direct product**^[직접곱]: $G_1 \times G_2 \times \cdots \times G_n$ (일반적)
 
 **주의**: Finite case에서는 $\oplus$와 $\times$가 같지만, infinite case에서는 다름!
 
 ## Direct Product of Groups^[군의 직접곱]
 
-Groups $G_1, G_2, \ldots, G_n$의 **direct product^[직접곱]** $G_1 \times G_2 \times \cdots \times G_n$:
+Groups $G_1, G_2, \ldots, G_n$의 **direct product**^[직접곱] $G_1 \times G_2 \times \cdots \times G_n$:
 
 ### Set^[집합]
 
@@ -46,7 +46,7 @@ $$(g_1, g_2, \ldots, g_n) \cdot (h_1, h_2, \ldots, h_n) = (g_1h_1, g_2h_2, \ldot
 
 ## Direct Sum of Abelian Groups^[아벨군의 직접합]
 
-Abelian groups $G_1, G_2, \ldots$의 **direct sum^[직접합]**:
+Abelian groups $G_1, G_2, \ldots$의 **direct sum**^[직접합]:
 
 ### Finite Case^[유한 경우]
 
@@ -72,7 +72,7 @@ Direct sum은 direct product의 subgroup
 
 ## Direct Sum of Vector Spaces^[벡터 공간의 직접합]
 
-Vector spaces $V_1, V_2, \ldots, V_n$ over field $\mathbb{F}$의 **direct sum^[직접합]**:
+Vector spaces $V_1, V_2, \ldots, V_n$ over field $\mathbb{F}$의 **direct sum**^[직접합]:
 
 ### External Direct Sum^[외부 직접합]
 
@@ -89,7 +89,7 @@ $$\dim(V_1 \oplus \cdots \oplus V_n) = \dim(V_1) + \cdots + \dim(V_n)$$
 
 Vector space $V$와 subspaces $W_1, W_2, \ldots, W_n$에 대해:
 
-$V$가 $W_1, \ldots, W_n$의 **internal direct sum^[내부 직접합]**이다 (기호: $V = W_1 \oplus \cdots \oplus W_n$) $\Leftrightarrow$
+$V$가 $W_1, \ldots, W_n$의 **internal direct sum**^[내부 직접합]이다 (기호: $V = W_1 \oplus \cdots \oplus W_n$) $\Leftrightarrow$
 
 1. $V = W_1 + W_2 + \cdots + W_n$ (span)
 2. 표현의 유일성: 모든 $v \in V$는 유일하게 $v = w_1 + \cdots + w_n$ ($w_i \in W_i$)로 표현
@@ -130,7 +130,7 @@ $$\pi_i \circ \iota_j = 0 \text{ if } i \neq j$$
 
 ## Universal Property^[보편성질]
 
-Direct sum의 **universal property^[보편성질]**:
+Direct sum의 **universal property**^[보편성질]:
 
 Homomorphisms $\phi_i: G_i \to H$가 주어졌을 때, 유일한 homomorphism $\Phi: G_1 \oplus \cdots \oplus G_n \to H$ 존재하여:
 
@@ -313,7 +313,7 @@ $$\text{Hom}(G_1 \oplus G_2, H) \cong \text{Hom}(G_1, H) \times \text{Hom}(G_2, 
 
 ### Direct Summands
 
-$H \leq G_1 \oplus G_2$가 다음 형태면 **direct summand^[직접 성분]**:
+$H \leq G_1 \oplus G_2$가 다음 형태면 **direct summand**^[직접 성분]:
 
 $$H = H_1 \oplus H_2 \text{ where } H_i \leq G_i$$
 
@@ -341,7 +341,7 @@ Different decompositions!
 
 ### Indecomposable^[기약]
 
-Group $G$가 **indecomposable^[기약]**이다 $\Leftrightarrow$
+Group $G$가 **indecomposable**^[기약]이다 $\Leftrightarrow$
 
 $$G = H \oplus K \Rightarrow H = \{e\} \text{ or } K = \{e\}$$
 

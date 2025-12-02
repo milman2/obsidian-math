@@ -21,7 +21,7 @@ Group homomorphism^[군 준동형사상] $\phi: G \to H$에 대해:
 
 $$G/\ker(\phi) \cong \text{im}(\phi)$$
 
-**자연스러운 isomorphism^[동형사상]**:
+**자연스러운 isomorphism**^[동형사상]:
 
 $$\bar{\phi}: G/\ker(\phi) \to \text{im}(\phi), \quad \bar{\phi}(g\ker(\phi)) = \phi(g)$$
 
@@ -101,7 +101,7 @@ $\phi$ surjective $\Rightarrow$ $G/\ker(\phi) \cong H$
 
 # <span class="header-theorem">Second Isomorphism Theorem</span>
 
-(Also known as **Diamond Isomorphism Theorem^[다이아몬드 동형 정리]**)
+(Also known as **Diamond Isomorphism Theorem**^[다이아몬드 동형 정리])
 
 ## Statement
 
@@ -154,7 +154,7 @@ $$|HN| = \frac{|H| \cdot |N|}{|H \cap N|}$$
 
 # <span class="header-theorem">Third Isomorphism Theorem</span>
 
-(Also known as **Correspondence Theorem^[대응 정리]** or **Lattice Theorem^[격자 정리]**)
+(Also known as **Correspondence Theorem**^[대응 정리] or **Lattice Theorem**^[격자 정리])
 
 ## Statement
 
@@ -196,7 +196,7 @@ $$K \triangleleft N \triangleleft G \Rightarrow \text{각 단계에서 quotient}
 
 # <span class="header-theorem">Fourth Isomorphism Theorem</span>
 
-(Also known as **Correspondence Theorem^[대응 정리]**)
+(Also known as **Correspondence Theorem**^[대응 정리])
 
 ## Statement
 
@@ -216,15 +216,15 @@ $$\bar{H} = H/N \mapsto H = \pi^{-1}(\bar{H})$$
 
 이 대응은 다음을 보존:
 
-1. **Inclusion^[포함]**: $H_1 \subseteq H_2 \Leftrightarrow H_1/N \subseteq H_2/N$
+1. **Inclusion**^[포함]: $H_1 \subseteq H_2 \Leftrightarrow H_1/N \subseteq H_2/N$
 
-2. **Normality^[정규성]**: $H \triangleleft G \Leftrightarrow H/N \triangleleft G/N$
+2. **Normality**^[정규성]: $H \triangleleft G \Leftrightarrow H/N \triangleleft G/N$
 
-3. **Index^[지표]**: $[G : H] = [G/N : H/N]$
+3. **Index**^[지표]: $[G : H] = [G/N : H/N]$
 
-4. **Abelianness^[가환성]**: $H$ abelian $\Leftrightarrow$ $H/N$ abelian
+4. **Abelianness**^[가환성]: $H$ abelian $\Leftrightarrow$ $H/N$ abelian
 
-5. **Generation^[생성]**: $H = \langle S \rangle \Leftrightarrow H/N = \langle \{sN : s \in S\} \rangle$
+5. **Generation**^[생성]: $H = \langle S \rangle \Leftrightarrow H/N = \langle \{sN : s \in S\} \rangle$
 
 ## Diagram
 

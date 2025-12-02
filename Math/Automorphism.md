@@ -17,11 +17,11 @@
 
 ## Automorphism^[자기동형사상]
 
-**Automorphism^[자기동형사상]**은 algebraic structure^[대수 구조]의 **자기 자신으로의 isomorphism^[동형사상]**
+**Automorphism**^[자기동형사상]은 algebraic structure^[대수 구조]의 **자기 자신으로의 isomorphism**^[동형사상]
 
 ### General Definition
 
-Algebraic structure $A$에 대해, map $\phi: A \to A$가 **automorphism^[자기동형]**이다 $\Leftrightarrow$
+Algebraic structure $A$에 대해, map $\phi: A \to A$가 **automorphism**^[자기동형]이다 $\Leftrightarrow$
 
 1. $\phi$는 bijective^[전단사]
 2. $\phi$는 structure-preserving^[구조 보존] (homomorphism)
@@ -31,7 +31,7 @@ Algebraic structure $A$에 대해, map $\phi: A \to A$가 **automorphism^[자기
 
 ## Group Automorphism^[군 자기동형]
 
-Group $G$에 대해, $\phi: G \to G$가 **group automorphism^[군 자기동형]**이다 $\Leftrightarrow$
+Group $G$에 대해, $\phi: G \to G$가 **group automorphism**^[군 자기동형]이다 $\Leftrightarrow$
 
 $$\phi(gh) = \phi(g)\phi(h) \quad \text{and} \quad \phi \text{ is bijective}$$
 
@@ -44,7 +44,7 @@ $$\phi(gh) = \phi(g)\phi(h) \quad \text{and} \quad \phi \text{ is bijective}$$
 
 ## Ring Automorphism^[환 자기동형]
 
-Ring $R$에 대해, $\phi: R \to R$가 **ring automorphism^[환 자기동형]**이다 $\Leftrightarrow$
+Ring $R$에 대해, $\phi: R \to R$가 **ring automorphism**^[환 자기동형]이다 $\Leftrightarrow$
 
 $$\phi(a + b) = \phi(a) + \phi(b)$$
 $$\phi(ab) = \phi(a)\phi(b)$$
@@ -55,7 +55,7 @@ $$\phi \text{ is bijective}$$
 
 ## Field Automorphism^[체 자기동형]
 
-Field $\mathbb{F}$에 대해, $\phi: \mathbb{F} \to \mathbb{F}$가 **field automorphism^[체 자기동형]**이다 $\Leftrightarrow$
+Field $\mathbb{F}$에 대해, $\phi: \mathbb{F} \to \mathbb{F}$가 **field automorphism**^[체 자기동형]이다 $\Leftrightarrow$
 
 Ring automorphism조건 만족
 
@@ -63,7 +63,7 @@ Ring automorphism조건 만족
 
 ### Field Automorphism Fixing Subfield
 
-Field extension $\mathbb{F}/K$에서, $\phi: \mathbb{F} \to \mathbb{F}$가 **$K$-automorphism^[K-자기동형]**이다 $\Leftrightarrow$
+Field extension $\mathbb{F}/K$에서, $\phi: \mathbb{F} \to \mathbb{F}$가 **$K$-automorphism**^[K-자기동형]이다 $\Leftrightarrow$
 
 1. $\phi$는 field automorphism
 2. $\phi|_K = \text{id}_K$ (fixes $K$ pointwise)
@@ -76,7 +76,7 @@ $$\phi(k) = k \quad \forall k \in K$$
 
 ## Vector Space Automorphism^[벡터 공간 자기동형]
 
-Vector space $V$ over field $\mathbb{F}$에 대해, $T: V \to V$가 **vector space automorphism^[벡터 공간 자기동형]**이다 $\Leftrightarrow$
+Vector space $V$ over field $\mathbb{F}$에 대해, $T: V \to V$가 **vector space automorphism**^[벡터 공간 자기동형]이다 $\Leftrightarrow$
 
 $$T(av + w) = aT(v) + T(w)$$
 $$T \text{ is bijective}$$
@@ -89,7 +89,7 @@ $$T \text{ is bijective}$$
 
 ### For Groups
 
-Group $G$, 원소 $g \in G$에 대해, **inner automorphism^[내부 자기동형]** by $g$:
+Group $G$, 원소 $g \in G$에 대해, **inner automorphism**^[내부 자기동형] by $g$:
 
 $$\phi_g: G \to G, \quad \phi_g(h) = ghg^{-1}$$
 
@@ -110,7 +110,7 @@ $$\phi_g(h_1h_2) = g(h_1h_2)g^{-1} = (gh_1g^{-1})(gh_2g^{-1}) = \phi_g(h_1)\phi_
 
 ## Outer Automorphism^[외부 자기동형]
 
-**Outer automorphism^[외부 자기동형]**: Inner automorphism이 **아닌** automorphism
+**Outer automorphism**^[외부 자기동형]: Inner automorphism이 **아닌** automorphism
 
 **정확한 정의**: $\text{Out}(G) = \text{Aut}(G) / \text{Inn}(G)$의 nontrivial coset
 
@@ -269,7 +269,7 @@ $$T: M_n(\mathbb{F}) \to M_n(\mathbb{F}), \quad T(A) = A^T$$
 
 **Not** a ring automorphism (reverses multiplication order)
 
-**Is** a ring **anti-automorphism^[반자기동형]**
+**Is** a ring **anti-automorphism**^[반자기동형]
 
 ---
 
@@ -326,7 +326,7 @@ $$\phi \in \text{Aut}(G) \Rightarrow \phi^{-1} \in \text{Aut}(G)$$
 
 ## Characteristic Subgroups^[특성 부분군]
 
-**정의**: $H \leq G$가 **characteristic^[특성]**이다 $\Leftrightarrow$
+**정의**: $H \leq G$가 **characteristic**^[특성]이다 $\Leftrightarrow$
 
 $$\phi(H) = H \quad \forall \phi \in \text{Aut}(G)$$
 

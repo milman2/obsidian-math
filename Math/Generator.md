@@ -16,7 +16,7 @@
 
 ### Single Generator^[단일 생성원]
 
-Group $G$와 원소 $g \in G$에 대해, **$g$에 의해 생성된 subgroup^[부분군]**:
+Group $G$와 원소 $g \in G$에 대해, **$g$에 의해 생성된 subgroup**^[부분군]:
 
 $$\langle g \rangle = \{g^n : n \in \mathbb{Z}\}$$
 
@@ -46,7 +46,7 @@ $S$의 원소들과 그 역원들의 유한 곱
 
 ## Generating Set^[생성 집합]
 
-Subset $S \subseteq G$가 $G$의 **generating set^[생성 집합]**이다 $\Leftrightarrow$
+Subset $S \subseteq G$가 $G$의 **generating set**^[생성 집합]이다 $\Leftrightarrow$
 
 $$\langle S \rangle = G$$
 
@@ -54,7 +54,7 @@ $$\langle S \rangle = G$$
 
 ### Minimal Generating Set^[최소 생성 집합]
 
-Generating set $S$가 **minimal^[최소]**이다 $\Leftrightarrow$
+Generating set $S$가 **minimal**^[최소]이다 $\Leftrightarrow$
 
 $$\forall s \in S, \quad \langle S \setminus \{s\} \rangle \neq G$$
 
@@ -62,11 +62,11 @@ $$\forall s \in S, \quad \langle S \setminus \{s\} \rangle \neq G$$
 
 ## Cyclic Group^[순환군]
 
-Group $G$가 **cyclic^[순환]**이다 $\Leftrightarrow$ 단일 원소로 생성됨
+Group $G$가 **cyclic**^[순환]이다 $\Leftrightarrow$ 단일 원소로 생성됨
 
 $$\exists g \in G, \quad G = \langle g \rangle$$
 
-$g$를 $G$의 **generator^[생성원]**라 함
+$g$를 $G$의 **generator**^[생성원]라 함
 
 ### Finite Cyclic Groups
 
@@ -90,7 +90,7 @@ $$G = \langle g \rangle \text{ with } |G| = \infty$$
 
 ## Finitely Generated Group^[유한 생성 군]
 
-Group $G$가 **finitely generated^[유한 생성]**이다 $\Leftrightarrow$
+Group $G$가 **finitely generated**^[유한 생성]이다 $\Leftrightarrow$
 
 $$\exists \text{ finite set } S, \quad G = \langle S \rangle$$
 
@@ -117,7 +117,7 @@ $S$의 원소들의 모든 linear combinations^[선형 결합]
 
 ### Basis^[기저]
 
-$S$가 **basis^[기저]**이다 $\Leftrightarrow$
+$S$가 **basis**^[기저]이다 $\Leftrightarrow$
 
 1. $\text{span}(S) = V$ (generates)
 2. $S$는 linearly independent^[선형 독립]
@@ -142,7 +142,7 @@ Ring $R$과 subset $S$에 대해, **$S$에 의해 생성된 ideal**:
 
 $$(S) = \left\{\sum_{i=1}^k r_i s_i : r_i \in R, s_i \in S\right\}$$
 
-**Principal ideal^[주 아이디얼]**: 단일 원소로 생성
+**Principal ideal**^[주 아이디얼]: 단일 원소로 생성
 $$(a) = Ra = \{ra : r \in R\}$$
 
 자세한 내용은 [[Ring]] 참조
@@ -337,7 +337,7 @@ $$\langle [d] \rangle \text{ for each divisor } d \mid n$$
 
 ## Rank^[계수]
 
-Finitely generated abelian group $G$의 **rank^[계수]**:
+Finitely generated abelian group $G$의 **rank**^[계수]:
 
 $$\text{rank}(G) = \text{최소 generators 개수 (in free part)}$$
 
@@ -416,7 +416,7 @@ $$(\mathbb{Z}/n\mathbb{Z})^\times \text{ is cyclic} \Leftrightarrow n \in \{1, 2
 
 where $p$ is odd prime, $k \geq 1$
 
-**Generator**: **Primitive root modulo $n$^[원시근]**
+**Generator**: **Primitive root modulo $n$**^[원시근]
 
 **예**:
 - $(\mathbb{Z}/7\mathbb{Z})^\times = \langle [3] \rangle$ (cyclic, order 6)
@@ -483,7 +483,7 @@ $F_n$이 rank $n$ free group이고 $H \leq F_n$이면, $H$는 free group
 
 ## Presentation of Groups^[군의 표시]
 
-**Group presentation^[군 표시]**:
+**Group presentation**^[군 표시]:
 
 $$G = \langle S \mid R \rangle$$
 
