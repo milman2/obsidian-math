@@ -67,7 +67,8 @@ $$Hg_1 = Hg_2 \Leftrightarrow g_1g_2^{-1} \in H \Leftrightarrow g_1 \in Hg_2$$
 $$|gH| = |H| = |Hg| \quad \forall g \in G$$
 
 **증명**: Bijection $\phi: H \to gH$, $\phi(h) = gh$
-- **Injective**: $gh_1 = gh_2 \Rightarrow h_1 = h_2$ - **Surjective**: By definition 
+- **Injective**: $gh_1 = gh_2 \Rightarrow h_1 = h_2$
+- **Surjective**: By definition 
 ## Partition Property^[분할 성질]
 
 **정리**: Left cosets는 $G$를 partition

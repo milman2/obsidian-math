@@ -72,7 +72,8 @@ $$\rho(g)(h) = hg^{-1} \quad \forall g, h \in G$$
 $g \in G$에 대해 $\lambda(g): G \to G$
 
 **Bijection 확인**:
-- **Injective**: $\lambda(g)(h_1) = \lambda(g)(h_2) \Rightarrow gh_1 = gh_2 \Rightarrow h_1 = h_2$ - **Surjective**: $\forall h \in G, \; \lambda(g)(g^{-1}h) = h$ 
+- **Injective**: $\lambda(g)(h_1) = \lambda(g)(h_2) \Rightarrow gh_1 = gh_2 \Rightarrow h_1 = h_2$
+- **Surjective**: $\forall h \in G, \; \lambda(g)(g^{-1}h) = h$ 
 따라서 $\lambda(g) \in \text{Sym}(G)$ 
 ### Step 2: $\lambda$는 homomorphism
 

@@ -263,7 +263,9 @@ where $|g|$ = word length with respect to fixed generating set
 **일반적으로**: $H \leq G$ finitely generated $\not\Rightarrow$ $H$ finitely generated
 
 **예외**:
-- **Abelian groups**: Subgroups finitely generated - **Free groups**: Subgroups free (Nielsen-Schreier) - **Finite index**: $[G : H] < \infty$ $\Rightarrow$ $H$ finitely generated 
+- **Abelian groups**: Subgroups finitely generated
+- **Free groups**: Subgroups free (Nielsen-Schreier)
+- **Finite index**: $[G : H] < \infty$ $\Rightarrow$ $H$ finitely generated 
 ## 응용 분야
 
 **Geometric Group Theory**:

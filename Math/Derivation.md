@@ -461,8 +461,9 @@ $$\boxed{\text{Derivations at } p \cong T_p M \cong \mathbb{R}^n}$$
 
 $$\text{Der}(A) = \{\text{Derivations on } A\}$$
 
-- **Vector space**: - **Lie algebra**:  (with bracket $[D_1, D_2]$)
-- **Module**:  (over $C^\infty(M)$)
+- **Vector space**: Pointwise operations
+- **Lie algebra**: with bracket $[D_1, D_2]$
+- **Module**: over $C^\infty(M)$
 
 ---
 

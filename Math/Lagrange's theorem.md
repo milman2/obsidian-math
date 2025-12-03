@@ -59,14 +59,18 @@ $$Hg = \{hg : h \in H\}$$
 **증명**: 
 $$\phi: H \to gH, \quad h \mapsto gh$$
 
-- **Injective**: $gh_1 = gh_2 \Rightarrow h_1 = h_2$ - **Surjective**: By definition 
+- **Injective**: $gh_1 = gh_2 \Rightarrow h_1 = h_2$
+- **Surjective**: By definition
+
 따라서 $|gH| = |H|$ 
 ### Step 2: Cosets는 Partition
 
 **Equivalence relation**: $g_1 \sim g_2 \Leftrightarrow g_1H = g_2H$
 
 **확인**:
-- **Reflexive**: $gH = gH$ - **Symmetric**: $g_1H = g_2H \Rightarrow g_2H = g_1H$ - **Transitive**: $g_1H = g_2H, g_2H = g_3H \Rightarrow g_1H = g_3H$ 
+- **Reflexive**: $gH = gH$
+- **Symmetric**: $g_1H = g_2H \Rightarrow g_2H = g_1H$
+- **Transitive**: $g_1H = g_2H, g_2H = g_3H \Rightarrow g_1H = g_3H$ 
 **Partition**:
 $$G = \bigsqcup_{i=1}^k g_iH$$
 

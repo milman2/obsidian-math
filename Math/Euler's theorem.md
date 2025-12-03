@@ -53,7 +53,10 @@ $$(\mathbb{Z}/n\mathbb{Z})^\times = \{[a] : \gcd(a, n) = 1\}$$
 **연산**: 곱셈 modulo $n$
 
 **Group 확인**:
-- **Closure**: $\gcd(a,n) = \gcd(b,n) = 1 \Rightarrow \gcd(ab,n) = 1$ - **Associativity**: 곱셈은 associative - **Identity**: $[1]$ - **Inverse**: Bézout's identity로 존재 
+- **Closure**: $\gcd(a,n) = \gcd(b,n) = 1 \Rightarrow \gcd(ab,n) = 1$
+- **Associativity**: 곱셈은 associative
+- **Identity**: $[1]$
+- **Inverse**: Bézout's identity로 존재 
 **Order**: $|(\mathbb{Z}/n\mathbb{Z})^\times| = \phi(n)$
 
 ### Lagrange's Theorem 적용
